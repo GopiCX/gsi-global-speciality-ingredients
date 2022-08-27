@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="26" viewBox="0 0 39 26">
+    <defs>
+        <style>
+            .cls-1{fill:#3a3a3a}.cls-2{fill:#e37455;opacity:.5}
+        </style>
+    </defs>
+    <g id="Group_70" transform="translate(-592 -1059)">
+        <g id="diamond" transform="translate(592 1057)">
+            <g id="Group">
+                <g id="Group-2">
+                    <path id="Vector" d="M38.849 6.179l-6.5-6A.743.743 0 0 0 31.85 0H7.15a.741.741 0 0 0-.5.179l-6.5 6a.41.41 0 0 0-.09.532A.687.687 0 0 0 .65 7h37.7a.687.687 0 0 0 .589-.288.411.411 0 0 0-.09-.533zM2.038 6l5.417-5h24.09l5.416 5z" class="cls-1" transform="translate(0 2.001)"/>
+                </g>
+            </g>
+            <g id="Group-3">
+                <g id="Group-4">
+                    <path id="Vector-2" d="M38.931.278A.689.689 0 0 0 38.349 0H.65a.69.69 0 0 0-.583.278A.408.408 0 0 0 .133.8l18.85 19a.775.775 0 0 0 1.032 0l18.85-19a.408.408 0 0 0 .066-.522zM19.5 18.676L1.964 1h35.072z" class="cls-1" transform="translate(0 8)"/>
+                </g>
+            </g>
+            <g id="Group-5">
+                <g id="Group-6">
+                    <path id="Vector-3" d="M20.082.278A.689.689 0 0 0 19.5 0H8.45a.655.655 0 0 0-.62.35l-7.8 19a.463.463 0 0 0 .32.594.808.808 0 0 0 .3.056.737.737 0 0 0 .517-.2L20.016.8a.408.408 0 0 0 .066-.522zM2.39 16.921L8.926 1h9.26z" class="cls-1" transform="translate(18.85 8.001)"/>
+                </g>
+            </g>
+            <path id="Polygon_2" d="M5 0l4 5H0z" class="cls-2" transform="translate(2.005 3.077)"/>
+            <path id="Polygon_3" d="M5 0l4-5H0z" class="cls-2" transform="translate(36.995 3.077) rotate(180)"/>
+            <g id="Group-7">
+                <g id="Group-8">
+                    <path id="Vector-4" d="M13.6.308A.675.675 0 0 0 13 0H.65a.7.7 0 0 0-.563.251.4.4 0 0 0 0 .5l4.55 6A.683.683 0 0 0 5.116 7h.083a.761.761 0 0 0 .46-.146l7.8-6A.42.42 0 0 0 13.6.308zm-8.264 5.38L1.781 1h9.649z" class="cls-1" transform="translate(6.501 2)"/>
+                </g>
+            </g>
+            <g id="Group-9">
+                <g id="Group-10">
+                    <path id="Vector-5" d="M20.119 19.349l-7.8-19A.656.656 0 0 0 11.7 0H.65a.69.69 0 0 0-.583.278A.408.408 0 0 0 .133.8l18.85 19a.731.731 0 0 0 .517.2.788.788 0 0 0 .3-.057.463.463 0 0 0 .319-.594zM1.963 1h9.26l6.536 15.922z" class="cls-1" transform="translate(0.001 8)"/>
+                </g>
+            </g>
+            <g id="Group-11">
+                <g id="Group-12">
+                    <path id="Vector-6" d="M13.564.251A.7.7 0 0 0 13 0H.65a.675.675 0 0 0-.6.308.42.42 0 0 0 .141.545l7.8 6A.757.757 0 0 0 8.45 7h.084a.682.682 0 0 0 .478-.244l4.55-6a.4.4 0 0 0 .002-.505zm-5.25 5.437L2.219 1h9.649z" class="cls-1" transform="translate(18.85 2)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

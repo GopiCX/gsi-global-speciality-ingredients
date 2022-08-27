@@ -1,0 +1,119 @@
+.custom-background{
+    padding:0  30px;
+    // // background: #fff;
+    // border-radius: 10px;
+}
+.custom-table table{
+    // border-collapse: separate;
+    // border-spacing: 0 7px;
+    width: 100%;
+}
+.custom-table thead tr{
+    // border-bottom: 1px solid #dee3ea;
+    padding-bottom: 11px !important;
+    padding-top: 9px !important;
+    vertical-align: bottom;
+    background: #fff;
+    background: -moz-linear-gradient(top, #fff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #fff), color-stop(47%, #f6f6f6), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, #fff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -o-linear-gradient(top, #fff 0%, #f6f6f6 47%, #ededed 100%);
+    background: -ms-linear-gradient(top, #fff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(to bottom, #fff 0%, #f6f6f6 47%, #ededed 100%);
+}
+.custom-table tbody tr{
+//   border-radius: 5px;
+//   background-color: #FFF;
+//   box-shadow: 0 2px 20px 0 #efefef;
+//   margin-top: 20px;
+//   font-size: 15px;
+
+}
+.custom-table tbody tr:nth-child(even){
+    background: #f9f9f9;
+}
+.custom-table .thead tr {
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+.custom-table tbody > tr:hover{
+    background: #ebf3f9;
+}
+.custom-table thead > tr > td{
+    background: transparent;
+    color: #026EC1;
+    border-bottom: 0;
+    text-align: left;
+    transition: background 0.3s ease;
+    position: relative;
+    padding: 5px 16px;
+    overflow-wrap: break-word;
+    font-size: 14px;
+}
+
+.custom-table tbody > tr > td{
+    background: transparent;
+    border-bottom: 0;
+    transition: background 0.3s ease;
+    position: relative;
+    padding: 11px 16px;
+    overflow-wrap: break-word;
+    font-size: 14px;
+}
+
+.action-buttons ul{
+    padding: 0;
+    list-style: none;
+}
+.action-buttons ul li{
+    padding: 5px;
+}
+.action-buttons ul li a{
+    color: #333;
+}
+.action-buttons ul li i{
+    margin-right: 8px;
+    font-size: 16px;
+    color: #005da4;
+}
+
+.custom-card-details .action{
+    float: right;
+    padding: 2px
+}
+
+.issued .custom-card-details .custom-card-status h3{
+    color: #026EC1;
+}
+.cancelled .custom-card-details .custom-card-status h3{
+    color: #EC476E;
+}
+.paid  .custom-card-details .custom-card-status h3{
+    color: #6BBB69;
+}
+.custom-card-details .custom-card-status h3 i{
+    margin-right:8px;
+}
+.custom-card-details .custom-card-title{
+    margin-bottom: 10px;
+}
+.custom-card-otherdetails span,
+.custom-card-title span{
+    text-transform: uppercase;
+    color: #9E9E9E;
+    font-size: 12px;
+}
+.custom-card-title p{
+    font-size: 14px;
+}
+.custom-card-otherdetails h2 {
+    font-size: 16px;
+}
+.custom-card-otherdetails .ant-col-md-12:nth-child(2n+1) .details{
+    padding-right: 10px;
+    margin-bottom: 9px;
+}
+.custom-card-status .action{
+    font-size: 19px;
+}

@@ -1,0 +1,89 @@
+@import '../Style/mixin.scss';
+
+.footer{
+    padding: 40px 0;
+    background: var(--footer-color);
+    color: var(--white);
+    .quick-links{
+        h4{
+            font-weight: 600;
+        }
+        ul{
+            list-style: none;
+            padding-left: 0;
+            li{
+                position: relative;
+                padding-left: 30px;
+                margin-bottom: 8px;
+                &::before{
+                    @include beforeContent ($width: 19px, $height: 26px );
+                    background-image: url('../assets/images/icons/bullet-arrow.svg');
+                    @include backgroundNoRepeat($size: 19px);
+                }
+                a{
+                    color: var(--white);
+                }
+            }
+        }       
+    }
+    .contact-details{
+        h4{
+            font-weight: 600;
+        }
+    }
+    .contact-list{
+        padding-left: 40px;
+        margin-bottom: 14px;
+        position: relative;
+        .icon{
+            position: absolute;
+            top:0;
+            left:0;
+            width: 30px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    .copyright-text{
+        border-top: 1px solid #380327;
+        p{
+            font-size: 17px;
+            font-weight: 400;
+        }
+    }
+        
+}
+.social-media{
+    h5{
+        font-weight: 600;
+        font-size: 19px;
+    }
+    .social-media-links{
+        a{
+            display: inline-block;
+            margin-right: 10px;
+            &:last-child{
+                margin-right: 0;
+            }
+            img{
+                width: 37px;
+            }
+        }
+    }
+}
+// back to top starts
+.ant-back-top {
+    right: 26px!important;
+    bottom: 20px !important;
+}
+.back-to-top{
+    height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  background-color: var(--primary);
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+}

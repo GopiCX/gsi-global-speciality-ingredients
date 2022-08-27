@@ -1,0 +1,85 @@
+// Fonts mixins
+// Light Font
+@mixin futuraLight {
+  font-family: 'Futura';
+  font-weight: 300;
+}
+@mixin futuraLightItalic{
+  @include futuraLight;
+  font-style: italic;
+}
+@mixin futuraLightCondensed{
+  @include futuraLight;
+  font-stretch: condensed;
+}
+// Book Regular Font
+@mixin futuraBook {
+  font-family: 'Futura';
+  font-weight: 400;
+}
+@mixin futuraBookItalic{
+  @include futuraBook;
+  font-style: italic;
+}
+// Medium Font
+@mixin futuraMedium {
+  font-family: 'Futura';
+  font-weight: 500;
+}
+@mixin futuraMediumItalic{
+  @include futuraMedium;
+  font-style: italic;
+}
+@mixin futuraMediumCondensed{
+  @include futuraMedium;
+  font-stretch: condensed;
+}
+// Heavy Font
+@mixin futuraHeavy {
+  font-family: 'Futura';
+  font-weight: 600;
+}
+@mixin futuraHeavyItalic{
+  @include futuraBold;
+  font-style: italic;
+}
+// Bold Font
+@mixin futuraBold {
+  font-family: 'Futura';
+  font-weight: 800;
+}
+@mixin futuraBoldItalic{
+  @include futuraBold;
+  font-style: italic;
+}
+@mixin futuraBoldCondensed{
+  @include futuraBold;
+  font-stretch: condensed;
+}
+// Extra black Font
+@mixin futuraExtraBlack {
+  font-family: 'Futura';
+  font-weight: 900;
+}
+@mixin beforeContent ($width: 100%, $height: 100%) {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: $width;
+  height: $height;
+}
+@mixin boxShadow {
+  box-shadow: 0 2px 12px rgba(215, 215, 215, 0.50);
+}
+@mixin backgroundNoRepeat ($repeat: no-repeat, $size: cover, $position: bottom center) {
+  background-repeat: $repeat;
+  background-size: $size;
+  background-position: $position;
+}
+@mixin lightGraybg{
+  background: #eaf3f8;
+}
+@mixin veryDarkGray {
+  background-color: var(--very-dark-gray);
+}

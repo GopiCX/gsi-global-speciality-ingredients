@@ -1,0 +1,50 @@
+@import "../../../Style/mixin.scss";
+
+.archmedia-slider {
+  position: relative;
+  margin-bottom: -10px;
+
+  .slider-content {
+    display: block;
+    .slider-caption{
+      h1{
+        font-size: 60px;
+        line-height: 95%;
+        span{
+          font-size: 40px;
+        }
+      }      
+    }
+  }
+  .center-contents {
+    min-height: 500px;    
+    position: relative;
+    z-index: 1;
+  }
+
+  .slider-1 {
+    background: url('../../../assets/images/main-slider/1.jpg');
+    @include backgroundNoRepeat($position: top right);
+  }
+  .slider-2 {
+    background: url('../../../assets/images/main-slider/2.jpg');
+    @include backgroundNoRepeat($position: top right);
+  }
+  .slider-3 {
+    background: url('../../../assets/images/main-slider/3.jpg');
+    @include backgroundNoRepeat($position: top right);
+  }
+  .center-contents {
+    &::before{
+      @include beforeContent;
+      background: var(--black);
+      opacity: 0.5;
+    }    
+  }
+  .slick-prev{
+    left: 41px;
+  }
+  .slick-next{
+    right: 41px;
+  }
+}
