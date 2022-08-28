@@ -1,10 +1,11 @@
 @import "./mixin.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
   --white: #fff;
-  --primary: #C02A0D;
-  --secondary: #FAA719;
-  --black: #000;
+  --primary: #292561;
+  --secondary: #ec2027;
+  --black: #333333;
   --dark-gray: #3C393A;
   --gray: #e2e2e1;
   --success: #28a745;
@@ -12,7 +13,6 @@
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
-  --footer-color: #2B001D;
 }
 
 *,
@@ -39,8 +39,9 @@ html {
 *,
 html,
 body {
-  @include futuraMedium;
-  line-height: 162%;
+  // @include luchida;
+  font-family: 'Roboto', sans-serif;
+  line-height: 160%;
 }
 
 article,
@@ -77,29 +78,24 @@ hr {
   overflow: visible;
 }
 
-h1 {
-  @include futuraBold;
-  font-size: 40px;
+h1 {  
+  font-size: 30px;
 }
 
 h2 {
-  @include futuraBold;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 h3 {
-  @include futuraBold;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 h4,
 h5 {
-  @include futuraMedium;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 h6 {
-  @include futuraMedium;
   font-size: 20px;
 }
 
@@ -109,12 +105,15 @@ h3,
 h4,
 h5,
 h6 {
+  // @include luchidaBold;
+  font-weight: 700;
   margin-top: 0;
   margin-bottom: 0.5rem;
+  line-height: 105%;
 }
 
 p {
-  font-size: 25px;
+  font-size: 16px;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -478,7 +477,6 @@ input[type="text"]:focus {
 
 .ant-modal-title {
   font-size: 24px;
-  font-family: var(--Helvetica-Bold);
 }
 
 // center content
@@ -499,4 +497,42 @@ input[type="text"]:focus {
 
 .section-subtitle {
   font-size: 27px;
+}
+
+//custom text colors
+.text-blue{
+  color: var(--primary);
+}
+.text-red{
+  color: var(--secondary);
+}
+.border-left-3{
+  border-left: 3px solid transparent;
+}
+.border-right-3{
+  border-right: 3px solid transparent;
+}
+.border-danger{
+  border-color: var(--secondary);
+}
+.border-white{
+  border-color: var(--white);
+}
+.border-blue{
+  border-color: var(--primary);
+}
+.rounded{
+  @include borderRadius;
+}
+.bg-blue{
+  background-color: var(--primary);
+}
+.bg-red{
+  background-color: var(--secondary);
+}
+.bg-blue-gradient{
+  background-image: linear-gradient(to right, #282561, #631f6d, #9b0067, #c8004f, #e31e28);
+}
+.bg-red-gradient{
+  background-image: linear-gradient(to right, #e31e28, #c8004f, #9b0067, #631f6d, #282561);
 }

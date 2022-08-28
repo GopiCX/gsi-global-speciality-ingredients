@@ -121,11 +121,11 @@
 }
 
 .slick-dots {
-	bottom: 30px;
+	bottom: 0;
 	width: 100%;
 	margin: 0;
 	list-style: none;
-	text-align: center
+	line-height:0;
 }
 
 .slick-dots li {
@@ -188,5 +188,7 @@
 	color: var(--secondary);
 }
 
-
+.slick-slider .slick-list{
+	padding-bottom: 0;
+}
 /*# sourceMappingURL=slick-theme.min.css.map */

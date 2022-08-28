@@ -1,6 +1,6 @@
 @import "../../../Style/mixin.scss";
 
-.archmedia-slider {
+.gsi-slider {
   position: relative;
   margin-bottom: -10px;
 
@@ -8,11 +8,13 @@
     display: block;
     .slider-caption{
       h1{
+        font-size: 25px;
+        letter-spacing: 4px;
+        font-weight: normal;
+      }
+      p{
         font-size: 60px;
-        line-height: 95%;
-        span{
-          font-size: 40px;
-        }
+        line-height: 140%;
       }      
     }
   }
@@ -23,15 +25,7 @@
   }
 
   .slider-1 {
-    background: url('../../../assets/images/main-slider/1.jpg');
-    @include backgroundNoRepeat($position: top right);
-  }
-  .slider-2 {
-    background: url('../../../assets/images/main-slider/2.jpg');
-    @include backgroundNoRepeat($position: top right);
-  }
-  .slider-3 {
-    background: url('../../../assets/images/main-slider/3.jpg');
+    background: url('../../../assets/images/main-slider/main-slider.webp');
     @include backgroundNoRepeat($position: top right);
   }
   .center-contents {
