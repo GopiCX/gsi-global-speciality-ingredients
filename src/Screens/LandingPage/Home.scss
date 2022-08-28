@@ -1,1 +1,90 @@
 @import "../../Style/mixin.scss";
+.value-proposition{
+    img{
+        width: 60%;
+        @media(max-width: 500px){
+            width: 100%;
+        }
+
+    }
+}
+
+// cutting-edge-solution
+.cutting-edge-solution {
+    .card-holder{
+
+    }
+    .card-box{
+        width: 20%;
+        display: inline-block;        
+        padding: 10px;   
+        @media(max-width: 900px){
+            width: 33.3333%;
+        }
+        @media(max-width: 670px){
+            width:50%;
+        }
+        @media(max-width: 500px){
+            width: 100%;
+            display: block;
+        }
+        .details{         
+            position: relative;
+        }
+        .title{
+            padding: 10px 20px;
+            background-color: rgba(41, 37, 97, 0.68);
+            position: absolute;
+            bottom:0;
+            left:0;
+            width:100%;
+            border-bottom-right-radius: 13px;
+            border-bottom-left-radius: 13px;
+            h6{
+                color: var(--white);
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 151%;
+            }
+        }
+        img{
+            width: 100%;
+            border-radius: 13px;
+        }
+    }
+    
+}
+
+// innovation-wheel
+.innovation-wheel{
+    
+    .wheel{
+        position: relative;
+        img{
+            position: absolute;
+            width: 99%;
+            top: -202px;
+        }
+    }
+}
+
+// gsi-shared-value
+.gsi-shared-value{
+    margin-top: -48px;
+    .card{
+        @include boxShadow($color: rgba(175, 175, 175, 0.50));
+        background-color: var(--white);
+        border-radius: 16px;
+        display: flex;
+        .image{
+            img{
+                height: 133px;
+            }
+        }
+    }
+    .baker{
+        img{
+            height: 179px;
+        }
+    }
+}

@@ -3,59 +3,71 @@
 .main-hearder {
   display: block;
   padding: 16px 0;
+
   .ant-menu-item {
     margin: 10px 10px !important;
   }
+
   .top-header {
-    .left-section {
-      display: flex;
-      .logo {
-        span{
-          margin-left: 10px; 
-          font-size: 26px;
-          color: var(--black);
-          @include futuraMedium;
-        }
-        img {
-          height: 71px;
-        }
+    .logo {
+      span {
+        margin-left: 10px;
+        font-size: 26px;
+        color: var(--black);
+        // @include luchida;
+      }
+
+      img {
+        height: 64px;
       }
     }
-    .signin-signup {
-      display: inline-block;
-      button{
-        span{
-          @include futuraHeavy;
-        }
+
+    .functional-ingredient {
+      img {
+        height: 51px;
       }
     }
   }
 }
+
 // center-header starts
 .center-header {
-  width: 100%;
+  padding: 6px 20px;
+  background: var(--primary);
+  border-radius: 50px;
+  margin-top: 8px;
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: right;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
     li {
-      display: inline-block;
       padding: 0px 8px;
+
       :hover {
         color: var(--primary);
       }
+
       a {
-        @include futuraHeavy;
         display: block;
         text-align: left;
-        font-size: 19px;
-        color: var(--dark);
-        text-transform: uppercase;
-        padding: 3px 10px;
+        font-size: 16px;
+        color: var(--white);
+        padding: 3px 4px;
         letter-spacing: 1px;
       }
     }
   }
 }
+
 // center-header ends

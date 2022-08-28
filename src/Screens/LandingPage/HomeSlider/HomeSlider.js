@@ -16,13 +16,12 @@ const Mainslidersettings = {
   autoplay: true,
   autoplaySpeed: 5000,
 };
-
 class HomeSlider extends React.Component {
   render() {
     return (
       <React.Fragment>
         {/* <!--Main Slider section starts--> */}
-        <div className="archmedia-slider">
+        <div className="gsi-slider">
           <div className="slider-content ">
             {/* <!--Slider Item starts--> */}
             <Slider {...Mainslidersettings}>
@@ -30,17 +29,13 @@ class HomeSlider extends React.Component {
                 <div className="center-contents w-100">
                   <div className=" middle-content ">
                     <div className="container mx-auto slider-caption">
-                      <h1 className="text-white text-center">
-                        Sri Arch Media
-                        <span className="d-block">Film and entertainment industry.</span>
-                      </h1>
+                      <h1 className="text-white text-center mb-3">WELCOME TO GLOBAL SPECIALTY INGREDIENTS</h1>
+                      <p className="text-center text-white">Bringing Revolutionary Ideas<br/> and Solutions of Tomorrow</p>
                     </div>
                   </div>
                 </div>
               </div>
               {/* <!--Slider Item ends--> */}
-
-               
             </Slider>
           </div>
         </div>
