@@ -2,14 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import { Row, Col, Button } from 'antd';
-import './AboutUs.scss'
+import './ContactUs.scss'
 
-class AboutUs extends React.Component {
+class ContactUs extends React.Component {
     render() {
         return (
             <React.Fragment>
+                
                 <section className="gsi-about pattern-1 py-5">
-                    <div className="container mx-auto ">
+                    <div className="container mx-auto">
                         <Row gutter={[30, 20]} align="center" className="pb-3 ">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} className="center-contents" >
                                  <div class="title-section text-center mb-4">
@@ -71,4 +72,4 @@ class AboutUs extends React.Component {
         )
     }
 }
-export default withRouter(AboutUs)
+export default withRouter(ContactUs)
