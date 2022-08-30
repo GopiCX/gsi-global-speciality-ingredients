@@ -8,7 +8,7 @@ class AboutUs extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <section className="gsi-about pattern-1 py-5">
+                <section className="gsi-about py-5">
                     <div className="container mx-auto ">
                         <Row gutter={[30, 20]} align="center" className="pb-3 ">
                             <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="center-contents" >

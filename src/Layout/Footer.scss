@@ -7,6 +7,9 @@
     }
     img{
         height: 60px;
+        @media(max-width: 900px){
+            height: 37px;
+        }
     }
     .social-media{
         ul{
@@ -44,12 +47,24 @@
     font-size: 15px;
     ul{
         list-style: none;
+        @media(max-width: 600px){
+            text-align: center;
+        }
         li{
             display: inline-block;
             a{
                 color: var(--white);
-                padding: 2px 10px
+                padding: 2px 10px;
+                @media(max-width: 600px){
+                    padding: 7px 10px;
+                    line-height: 37px;
+                }
             }
+        }
+    }
+    @media(max-width:600px){
+        .text-right{
+            text-align: center !important;
         }
     }
 }
