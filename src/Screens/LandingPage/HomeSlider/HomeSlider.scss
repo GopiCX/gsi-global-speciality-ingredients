@@ -11,17 +11,32 @@
         font-size: 25px;
         letter-spacing: 4px;
         font-weight: normal;
+        @media(max-width: 575px){
+          font-size: 18px;
+          line-height: 162%;
+        }
       }
       p{
         font-size: 60px;
         line-height: 140%;
+        @media(max-width: 900px){
+          font-size: 41px;
+        }
+        @media(max-width: 600px){
+          font-size: 31px;
+        }
       }      
     }
   }
   .center-contents {
+    height: 100vh;
     min-height: 500px;    
     position: relative;
     z-index: 1;
+    @media(max-width:900px){
+      height: auto;
+      min-height: 450px;    
+    }
   }
 
   .slider-1 {

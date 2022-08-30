@@ -80,23 +80,32 @@ hr {
 
 h1 {  
   font-size: 30px;
+  @media(max-width: 700px){
+    font-size: 25px;
+  }
 }
 
 h2 {
   font-size: 25px;
+  @media(max-width: 700px){
+    font-size: 22px;
+  }
 }
 
 h3 {
   font-size: 20px;
+  @media(max-width: 700px){
+    font-size: 18px;
+  }
 }
 
 h4,
-h5 {
-  font-size: 20px;
-}
-
+h5,
 h6 {
   font-size: 20px;
+  @media(max-width: 700px){
+    font-size: 18px;
+  }
 }
 
 h1,
@@ -524,6 +533,8 @@ input[type="text"]:focus {
 .rounded{
   @include borderRadius;
 }
+
+// background color
 .bg-blue{
   background-color: var(--primary);
 }
@@ -535,4 +546,23 @@ input[type="text"]:focus {
 }
 .bg-red-gradient{
   background-image: linear-gradient(to right, #e31e28, #c8004f, #9b0067, #631f6d, #282561);
+}
+
+// Background Pattern
+.pattern-1 {
+  background-image: url('../assets/images/patterns/our-solution.jpg');
+  @include backgroundNoRepeat($size: 50%, $position: bottom left);
+}
+.pattern-2 {
+  background-image: url('../assets/images/patterns/dark-wave.jpg');
+  @include backgroundNoRepeat($size: 80%, $position: bottom center);
+}
+.shape-position{
+  width: 94% !important;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: -200px;
+  left: 0;
+  right: 0;
 }

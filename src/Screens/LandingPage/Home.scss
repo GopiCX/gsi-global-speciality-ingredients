@@ -64,6 +64,19 @@
             position: absolute;
             width: 99%;
             top: -202px;
+            @media(max-width:575px){
+                top:0;
+                position: relative;
+            }
+        }
+    }
+}
+// value-proposition
+.value-proposition{
+    position: relative;
+    .shape-position{
+        @media(max-width:900px){
+            display: none;
         }
     }
 }
@@ -85,6 +98,9 @@
     .baker{
         img{
             height: 179px;
+            @media(max-width:575px){
+                height: 77px;
+            }
         }
     }
 }
