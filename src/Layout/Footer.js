@@ -14,7 +14,7 @@ export default class Footer extends React.Component {
                 <section className="footer py-5">
                     <div className="container mx-auto">
                         <Row gutter={[12, 22]}>
-                            <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 14 }} lg={{ span: 14 }}>
+                            <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 14 }}>
                                 <div className="d-flex">
                                     <img src={mainlogo} className="pr-4 mr-4 border-right" alt="GSI - Global Specialty Ingredients | Your Innovation Our Solution" />
                                     <img src={functionalIngredients} alt="Functional Ingredients Tailored to your needs" />
@@ -29,7 +29,7 @@ export default class Footer extends React.Component {
                                     </ul>
                                 </div>
                             </Col>
-                            <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 5 }} lg={{ span: 5 }}>
+                            <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 5 }}>
                                 <h3 className="text-red">Get In Touch</h3>
                                 <div className="contact-item">
                                     <div className="icon">
@@ -50,8 +50,8 @@ export default class Footer extends React.Component {
                                     </div>
                                 </div>
                             </Col>
-                            <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 5 }} lg={{ span: 5 }}>
-                                <div className="contact-item mt-4">
+                            <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 5 }}>
+                                <div className="contact-item mt-md-3 mt-lg-4">
                                     <div className="icon">
                                         <i class="fa fa-phone" aria-hidden="true" />
                                     </div>

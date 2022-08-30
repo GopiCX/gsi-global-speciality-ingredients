@@ -7,8 +7,8 @@ import AwardsAchievements from "./AwardsAchievements/AwardsAchievements";
 import yourInnovation from "../../assets/images/your-innovation-our-solution.png";
 import developmentProduct from "../../assets/images/development-of-product-and-capability-spectrum.png";
 import researchDevelopment from "../../assets/images/01-research-development.svg";
-import projectManagement from "../../assets/images/02-project-management​.svg";
-import processDevelopment from "../../assets/images/03-process-development-improvement​.svg";
+import projectManagement from "../../assets/images/02-project-management.svg";
+import processDevelopment from "../../assets/images/03-process-development-improvement.svg";
 import confectionerySolutions from "../../assets/images/00-confectionery-solutions.png";
 import bakerySolution from "../../assets/images/01-bakery-solutions.png";
 import shelfLife from "../../assets/images/02-shelf-life-frying-solutions.png";
@@ -21,6 +21,7 @@ import customerSatisfactionSurvey from "../../assets/images/04-customer-satisfac
 import innovation from "../../assets/images/04-innovation.png"
 import productPerformance from "../../assets/images/04-product-performance.png"
 import baker from "../../assets/images/baker.svg"
+import rectangleShape from "../../assets/images/patterns/shape-1.png"
 export default class Home extends React.Component {
   render() {
     return (
@@ -48,7 +49,7 @@ export default class Home extends React.Component {
           </div>
         </section>
 
-        <section className="bg-blue pattern-1 py-5">
+        <section className="bg-blue pattern-2  py-5">
           <div className="container mx-auto py-3">
             <Row gutter={[30, 20]} align="center" className="pb-3 ">
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} >
@@ -66,7 +67,8 @@ export default class Home extends React.Component {
           </div>
         </section>
 
-        <section className="value-proposition pattern-1 py-5">
+        <section className="value-proposition py-5">
+          {/* <img src={rectangleShape} className="shape-position" alt="shape"/> */}
           <div className="container mx-auto py-3">
             <div className="title-section text-center mb-4">
               <h1 className="text-blue text-center d-inline border-right-3 border-danger  pr-3">Our Value Proposition</h1>
@@ -116,7 +118,7 @@ export default class Home extends React.Component {
         <section className="gsi-shared-value">
           <div className="container mx-auto">
             <Row gutter={[22, 20]} className="mb-3">
-              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} >
+              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
                 <div className="card">
                   <div className="image">
                     <img src={commitment} alt="Commitment" />
@@ -127,7 +129,7 @@ export default class Home extends React.Component {
                   </div>
                 </div>
               </Col>
-              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} >
+              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
                 <div className="card">
                   <div className="image">
                     <img src={innovation} alt="Innovation" />
@@ -138,7 +140,7 @@ export default class Home extends React.Component {
                   </div>
                 </div>
               </Col>
-              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} >
+              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
                 <div className="card">
                   <div className="image">
                     <img src={productPerformance} alt="Product Performance" />
@@ -149,7 +151,7 @@ export default class Home extends React.Component {
                   </div>
                 </div>
               </Col>
-              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} >
+              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
                 <div className="card">
                   <div className="image">
                     <img src={commitment} alt="Competence" />
@@ -160,7 +162,7 @@ export default class Home extends React.Component {
                   </div>
                 </div>
               </Col>
-              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 10 }} lg={{ span: 10 }} >
+              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 10 }} >
                 <div className="card">
                   <div className="image">
                     <img src={customerSatisfactionSurvey} alt="Customer Satisfaction Survey" />
@@ -173,7 +175,7 @@ export default class Home extends React.Component {
               </Col>
             </Row>
             <Row gutter={[22, 20]} >
-              <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 12 }} className="baker text-right" >
+              <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 12 }} className="baker text-left text-md-center text-lg-right" >
                 <img src={baker} alt="Baker" />
               </Col>
             </Row>
