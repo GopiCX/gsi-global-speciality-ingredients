@@ -115,11 +115,11 @@ export default class Home extends React.Component {
           </div>
         </section>
 
-        <section className="gsi-shared-value">
+        <section className="gsi-shared-value align-top">
           <div className="container mx-auto">
             <Row gutter={[22, 20]} className="mb-3">
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
-                <div className="card">
+                <div className="card d-flex">
                   <div className="image">
                     <img src={commitment} alt="Commitment" />
                   </div>
@@ -130,7 +130,7 @@ export default class Home extends React.Component {
                 </div>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
-                <div className="card">
+                <div className="card d-flex">
                   <div className="image">
                     <img src={innovation} alt="Innovation" />
                   </div>
@@ -141,7 +141,7 @@ export default class Home extends React.Component {
                 </div>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
-                <div className="card">
+                <div className="card d-flex">
                   <div className="image">
                     <img src={productPerformance} alt="Product Performance" />
                   </div>
@@ -152,7 +152,7 @@ export default class Home extends React.Component {
                 </div>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
-                <div className="card">
+                <div className="card d-flex">
                   <div className="image">
                     <img src={commitment} alt="Competence" />
                   </div>
@@ -163,7 +163,7 @@ export default class Home extends React.Component {
                 </div>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 10 }} >
-                <div className="card">
+                <div className="card d-flex">
                   <div className="image">
                     <img src={customerSatisfactionSurvey} alt="Customer Satisfaction Survey" />
                   </div>
@@ -186,7 +186,7 @@ export default class Home extends React.Component {
           <div className="container mx-auto py-3">
             <Row gutter={[30, 20]} align="center" className="text-white pb-3 ">
               <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 10 }} lg={{ span: 10 }} >
-                <h2 className="border-left-3 text-white  border-blue pl-3 mb-3">Innovation Wheel</h2>
+                <h2 className="border-left-3 border-blue text-white pl-3 mb-3">Innovation Wheel</h2>
                 <p className="mt-3">The innovation wheel is a model that helps GSI to increase innovation by implementing a systematic process approach for innovation.</p>
                 <p className="mt-3">This process helps GSI to recognize areas of potential discovery, improvement, and strength.</p>
               </Col>

@@ -51,16 +51,16 @@ export default class Header extends React.Component {
                       <Link to="/about-us">About</Link>
                     </li>
                     <li>
-                      <Link to="/team">Our Solution</Link>
+                      <Link to="">Our Solution</Link>
                     </li>
                     <li>
-                      <Link to="/movies">Responsibility</Link>
+                      <Link to="">Responsibility</Link>
                     </li>
                     <li>
-                      <Link to="#">Careers</Link>
+                      <Link to="/career">Careers</Link>
                     </li>
                     <li>
-                      <Link to="#">Contact</Link>
+                      <Link to="/contact-us">Contact</Link>
                     </li>
                   </ul>
                 </div>

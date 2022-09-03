@@ -80,21 +80,12 @@
         }
     }
 }
-
-// gsi-shared-value
+// .gsi-shared-value
 .gsi-shared-value{
-    margin-top: -48px;
-    .card{
-        @include boxShadow($color: rgba(175, 175, 175, 0.50));
-        background-color: var(--white);
-        border-radius: 16px;
-        display: flex;
-        .image{
-            img{
-                height: 133px;
-            }
-        }
+    &.align-top{
+        margin-top: -48px;
     }
+    
     .baker{
         img{
             height: 179px;
@@ -103,4 +94,4 @@
             }
         }
     }
-}
+  }

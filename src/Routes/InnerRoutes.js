@@ -5,8 +5,9 @@ import {
     Route
 } from 'react-router-dom';
 import Home from '../Screens/LandingPage/Home';
-import AboutUs from '../Screens/AboutUs/AboutUs'
-
+import AboutUs from '../Screens/AboutUs/AboutUs';
+import ContactUs from '../Screens/ContactUs/ContactUs';
+import Career from '../Screens/Career/Career';
 import Layout from '../Layout/Layout';
 class InnerRoutes extends React.Component {
     render() {
@@ -18,6 +19,8 @@ class InnerRoutes extends React.Component {
                 <Switch>
                     <Route exact path={`/`} component={Home} />                    
                     <Route path="/about-us" component={AboutUs} />
+                    <Route path="/contact-us" component={ContactUs} />
+                    <Route path="/career" component={Career} />
                 </Switch>
             </Layout>
         );

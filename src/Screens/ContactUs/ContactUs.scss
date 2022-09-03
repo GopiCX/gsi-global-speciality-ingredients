@@ -1,44 +1,48 @@
 .contact-form {
     width:700px;
     margin: 0 auto;
-}
-.input-box {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-input[type=submit] {
-    color: white;
-    font-size: 16px;
-    padding: 10px 50px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    border-radius: 50px;
+    .input-box {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
   }
-  input[type=submit]:hover {
-    letter-spacing: 1px;
-    background-image: linear-gradient(to right, #282561, #631f6d, #9b0067, #c8004f, #e31e28);
-  }
-  .map iframe {
-    width: 100%;
-    border: none;
-    height: 400px;
+  input[type=submit] {
+      color: white;
+      font-size: 16px;
+      padding: 10px 50px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      border-radius: 50px;
+    }
+    input[type=submit]:hover {
+      letter-spacing: 1px;
+      background-image: linear-gradient(to right, #282561, #631f6d, #9b0067, #c8004f, #e31e28);
+    }
+}
+
+  .map{
+    iframe {
+      width: 100%;
+      border: none;
+      min-height: 450px;
+      margin-bottom: -9px;
+    }
   }
   .address {
     padding: 50px;
-  }
-  .address ul {
-    margin: 0px;
-    padding: 0px 30px 0px 0px;
-  }
-  .address a {
-    padding: 20px;
-    background-image: linear-gradient(to right, #e31e28, #e31e28, #631f6d);
-    border: none;
-    border-radius: 50px;
+    ul {
+      margin: 0px;
+      padding: 0px 30px 0px 0px;
+    }
+    a {
+      padding: 20px;
+      background-image: linear-gradient(to right, #e31e28, #e31e28, #631f6d);
+      border: none;
+      border-radius: 50px;
+    }
   }

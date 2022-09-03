@@ -16,13 +16,34 @@
   @include luchidaBold;
   font-style: italic;
 }
-@mixin beforeContent ($width: 100%, $height: 100%) {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
+@mixin beforeContent ($content: "", $position: absolute, $top: 0, $left: 0, $right: unset, $bottom: unset, $width: 100%, $height: 100%, $opacity: 1) {
+  content: $content;
+  position: $position;
+  top: $top;
+  bottom: $bottom;  
+  right: $right;
+  left: $left;
   width: $width;
   height: $height;
+  opacity: $opacity;
+}
+@mixin beforeContentLeft($position: absolute, $top: 0, $left: 0, $right: unset, $bottom: unset, $width: 100%, $height: 100%, $background: #000, $opacity: 0.4) {
+  content: "";
+  position: $position;
+  top: $top;
+  bottom: $bottom;
+  left: $left;
+  right: $right;
+  width: $width;
+  height: $height;
+  background: $background;
+  opacity: $opacity;
+}
+@mixin bgSetup ($bg-image: unset, $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover) {
+  background: $bg-image;
+  background-repeat: $bg-repeat;
+  background-position: $bg-position;
+  background-size: $bg-size;
 }
 @mixin boxShadow($color: rgba(215, 215, 215, 0.50)){
   box-shadow: 0 2px 12px $color ;

@@ -515,6 +515,11 @@ input[type="text"]:focus {
 .text-red{
   color: var(--secondary);
 }
+.text-outline-red{
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--secondary);
+  color: transparent;
+}
 .border-left-3{
   border-left: 3px solid transparent;
 }
@@ -565,4 +570,24 @@ input[type="text"]:focus {
   top: -200px;
   left: 0;
   right: 0;
+}
+
+// card Design
+
+.card{
+  @include boxShadow($color: rgba(175, 175, 175, 0.50));
+  background-color: var(--white);
+  border-radius: 16px;  
+      img{
+          height: 133px;
+          &.left-image{
+            border-top-left-radius: 16px;
+            border-bottom-left-radius: 16px;
+          }
+          &.right-image{
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
+          }
+         
+      }
 }
