@@ -26,7 +26,7 @@ class AwardsAchievements extends React.Component {
             <React.Fragment>
 
                 <section className="awards-achievements ">
-                    <h2 className="border-left-3 text-black text-md-white text-lg-white  border-danger pl-3 mb-3">Awards & Achievements</h2>
+                    <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">Awards & Achievements</h2>
 
                     <Slider {...awardslidersettings}>
                         <div className="list">
