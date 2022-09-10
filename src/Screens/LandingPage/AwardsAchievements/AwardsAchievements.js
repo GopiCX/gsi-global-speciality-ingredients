@@ -25,17 +25,17 @@ class AwardsAchievements extends React.Component {
         return (
             <React.Fragment>
 
-                <section className="awards-achievements ">
-                    <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">Awards & Achievements</h2>
+                <section className="awards-achievements bg-blue ">
 
                     <Slider {...awardslidersettings}>
                         <div className="list">
-                            <Row align="center" className="pb-3 ">
+                            <Row align="center">
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="text-center">
                                     <img src={Award1} alt="Awards" />
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="bg-blue py-5 px-lg-5 px-2 text-white  px-lg-3 center-contents">
                                     <div className="awards px-lg-3 middle-content">
+                                        <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">Awards & Achievements</h2>
                                         <span className="d-block">2019</span>
                                         <p>Best Food Ingredients Supplier by Frost and Sullivan</p>
                                     </div>
@@ -43,12 +43,13 @@ class AwardsAchievements extends React.Component {
                             </Row>
                         </div>
                         <div className="list">
-                            <Row align="center" className="pb-3 ">
+                            <Row align="center">
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="text-center">
                                     <img src={Award2} alt="Awards" />
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="bg-blue py-5 px-lg-5 px-2 text-white  px-lg-3 center-contents">
                                     <div className="awards px-lg-3 middle-content">
+                                         <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">Awards & Achievements</h2>
                                         <span className="d-block">2018</span>
                                         <p>STAR OUTSTANDING BUSINESS AWARDS (SOBA)</p>
                                     </div>

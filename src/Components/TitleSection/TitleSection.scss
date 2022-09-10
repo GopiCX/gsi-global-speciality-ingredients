@@ -5,7 +5,7 @@
 
    
     &::after {
-        @include beforeContentLeft($background: var(--black), $opacity: 0.7 );
+        @include beforeContentLeft($background: #000, $opacity: 0.5 );
     }
 
     .caption {
@@ -14,9 +14,9 @@
         z-index: 1;
 
         h1 {
-            font-size: 51px;
+            font-size: 55px;
             letter-spacing: 4px;
-            font-weight: 400;
+            font-weight: 500;
             @media(max-width: 900px){
                 font-size: 40px;
               }
@@ -41,16 +41,16 @@
     }
 
     &.aboutus {
-        @include bgSetup($bg-image: url('../assets/images/your-innovation-our-solution.png'), $bg-repeat: no-repeat, $bg-position: bottom right, $bg-size: cover)
+        @include bgSetup($bg-image: url('../assets/images/about/about-us.jpg'), $bg-repeat: no-repeat, $bg-position: bottom right, $bg-size: cover)
     }
     &.contactus{
-        @include bgSetup($bg-image: url('../assets/images/your-innovation-our-solution.png'), $bg-repeat: no-repeat, $bg-position: bottom right, $bg-size: cover)
+        @include bgSetup($bg-image: url('../assets/images/contact/contact-us.jpg'), $bg-repeat: no-repeat, $bg-position: bottom right, $bg-size: cover)
     }
     &.solutions{
-        @include bgSetup($bg-image: url('../assets/images/your-innovation-our-solution.png'), $bg-repeat: no-repeat, $bg-position: bottom right, $bg-size: cover)
+        @include bgSetup($bg-image: url('../assets/images/our-solutions/oursolutions.jpg'), $bg-repeat: no-repeat, $bg-position: bottom right, $bg-size: cover)
     }
     &.career{
-        @include bgSetup($bg-image: url('../assets/images/your-innovation-our-solution.png'), $bg-repeat: no-repeat, $bg-position: bottom right, $bg-size: cover)
+        @include bgSetup($bg-image: url('../assets/images/career/careers01.jpg'), $bg-repeat: no-repeat, $bg-position: top left, $bg-size: cover)
     }
 
 }

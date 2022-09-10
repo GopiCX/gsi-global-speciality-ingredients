@@ -1,15 +1,9 @@
 .awards-achievements {
     position: relative;
-    h2 {
-        position: absolute;
-        top: 60px;
-        right: 24%;
-        z-index: 9;
-    }
 
     img {
         max-height: 404px;
-        width: 100%;
+        margin:0 auto;
     }
 
     .awards {
