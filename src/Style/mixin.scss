@@ -4,29 +4,34 @@
   font-family: 'Luchida';
   font-weight: 400;
 }
-@mixin luchidaItalic{
+
+@mixin luchidaItalic {
   @include luchida;
   font-style: italic;
 }
-@mixin luchidaBold{
+
+@mixin luchidaBold {
   font-family: 'Luchida';
   font-weight: 600;
 }
-@mixin luchidaBoldItalic{
+
+@mixin luchidaBoldItalic {
   @include luchidaBold;
   font-style: italic;
 }
+
 @mixin beforeContent ($content: "", $position: absolute, $top: 0, $left: 0, $right: unset, $bottom: unset, $width: 100%, $height: 100%, $opacity: 1) {
   content: $content;
   position: $position;
   top: $top;
-  bottom: $bottom;  
+  bottom: $bottom;
   right: $right;
   left: $left;
   width: $width;
   height: $height;
   opacity: $opacity;
 }
+
 @mixin beforeContentLeft($position: absolute, $top: 0, $left: 0, $right: unset, $bottom: unset, $width: 100%, $height: 100%, $background: #000, $opacity: 0.4) {
   content: "";
   position: $position;
@@ -39,26 +44,52 @@
   background: $background;
   opacity: $opacity;
 }
+
 @mixin bgSetup ($bg-image: unset, $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover) {
   background: $bg-image;
   background-repeat: $bg-repeat;
   background-position: $bg-position;
   background-size: $bg-size;
 }
-@mixin boxShadow($color: rgba(215, 215, 215, 0.50)){
+
+@mixin boxShadow($color: rgba(215, 215, 215, 0.50)) {
   box-shadow: 0 2px 12px $color ;
 }
+
 @mixin backgroundNoRepeat ($repeat: no-repeat, $size: cover, $position: bottom center) {
   background-repeat: $repeat;
   background-size: $size;
   background-position: $position;
 }
-@mixin lightGraybg{
+
+@mixin lightGraybg {
   background: #eaf3f8;
 }
+
 @mixin veryDarkGray {
   background-color: var(--very-dark-gray);
 }
-@mixin borderRadius($radius: 10px){
-  border-radius: $radius !important;
+
+@mixin borderRadius($radius: 10px) {
+  border-radius: $radius  !important;
+}
+
+@mixin fullWidthHeight($width: 100%, $height: 100%) {
+  width: $width;
+  height: $height;
+}
+
+@mixin gradientText {
+  color: #282561;
+  display: block;
+  background: -webkit-linear-gradient(#282561, #e31e28);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin redGradient{
+  background-image: linear-gradient(to right, #e31e28, #c8004f, #9b0067, #631f6d, #282561);
+}
+@mixin blueGradient{
+  background-image: linear-gradient(to right, #282561, #631f6d, #9b0067, #c8004f, #e31e28);
 }

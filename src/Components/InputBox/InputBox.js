@@ -123,7 +123,7 @@ class InputBox extends PureComponent {
         )}
         {this.props.textArea ? (
           <TextArea
-            rows={this.props.rows || 2}
+            rows={this.props.rows || 3}
             id={this.props.id}
             name={this.props.name}
             placeholder={this.props.placeholder || ''}

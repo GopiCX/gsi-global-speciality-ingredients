@@ -2,11 +2,13 @@
 
 .main-hearder {
   display: block;
-  padding: 16px 0;
+  padding: 8px 0;
   position: absolute;
   top: 0;
   z-index: 9;
   width: 100%;
+  background-color: var(--white);  
+  @include boxShadow($color: rgba(171, 171, 171, 0.50));
 
   .ant-menu-item {
     margin: 10px 10px !important;
@@ -58,12 +60,12 @@
     }
   }
   &.scrolled {
-    background-color: var(--white);
+    background-color: transparent;
     position: fixed;
     top: 0;
     z-index: 999;
     width: 100%;
-    @include boxShadow($color: rgba(171, 171, 171, 0.50));
+    box-shadow: unset;
 
       .top-header {
         .logo{
@@ -112,6 +114,13 @@
 
     li {
       padding: 0px 8px;
+      a.active{
+          position: relative;
+          &::before{
+            @include beforeContentLeft($background: var(--secondary), $height: 4px, $top: unset, $bottom: -6px, $opacity: 1);
+
+          }
+      }
       :hover {
         color: var(--white);
         a{

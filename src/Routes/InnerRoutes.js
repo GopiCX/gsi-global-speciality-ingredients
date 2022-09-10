@@ -8,6 +8,7 @@ import Home from '../Screens/LandingPage/Home';
 import AboutUs from '../Screens/AboutUs/AboutUs';
 import ContactUs from '../Screens/ContactUs/ContactUs';
 import Career from '../Screens/Career/Career';
+import OurSolutions from '../Screens/OurSolutions/OurSolutions';
 import Layout from '../Layout/Layout';
 class InnerRoutes extends React.Component {
     render() {
@@ -21,6 +22,7 @@ class InnerRoutes extends React.Component {
                     <Route path="/about-us" component={AboutUs} />
                     <Route path="/contact-us" component={ContactUs} />
                     <Route path="/career" component={Career} />
+                    <Route path="/our-solutions" component={OurSolutions} />
                 </Switch>
             </Layout>
         );

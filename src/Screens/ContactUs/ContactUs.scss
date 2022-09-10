@@ -34,15 +34,37 @@
     }
   }
   .address {
-    padding: 50px;
     ul {
       margin: 0px;
       padding: 0px 30px 0px 0px;
     }
-    a {
-      padding: 20px;
-      background-image: linear-gradient(to right, #e31e28, #e31e28, #631f6d);
-      border: none;
-      border-radius: 50px;
+    .bg-red-gradient{
+      background-image: linear-gradient(to right, #e31e28, #c8004f, #9b0067, #631f6d, #2d2885);
+    }
+  }
+
+  .get-in-touch{
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 30px;
+    input[type="text"], 
+    input[type="password"], 
+    input[type="number"], 
+    input[type="date"], 
+    .ant-picker,
+    select,
+    textarea{
+      color: var(--black);
+        font-weight: 300;
+        font-size: 16px;
+        padding: 11px 20px;
+        background-color: var(--white);
+        border-radius: 5px;
+    }
+    textarea{
+      min-height: 100px;
+    }
+    .form-fields{
+        margin-bottom: 16px;
     }
   }

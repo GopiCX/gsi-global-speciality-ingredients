@@ -8,6 +8,7 @@
   --black: #333333;
   --dark-gray: #3C393A;
   --gray: #e2e2e1;
+  --light-gray: #f5f5f5;
   --success: #28a745;
   --green: #0bb479;
   --info: #17a2b8;
@@ -122,9 +123,11 @@ h6 {
 }
 
 p {
-  font-size: 16px;
   margin-top: 0;
   margin-bottom: 1rem;
+}
+p, ol, ul{
+  font-size: 16px;
 }
 
 p:last-child {
@@ -297,21 +300,22 @@ button {
 
 .btn,
 .ant-btn {
-  display: inline-block;
-  color: #6F7580;
+  display: inline-block; 
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: transparent;
-  border: 1px solid transparent;
-  padding: 5px 15px;
-  letter-spacing: 0.1rem;
-  font-size: 14px;
-  line-height: 1.5;
-  border-radius: 0.25rem;
+  background-color: transparent;  
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+ 
+  color: white;
+  font-size: 16px;
+  padding: 10px 50px; 
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  min-height: 50px;
 }
 
 a.standard,
@@ -322,24 +326,21 @@ button.primary,
 .ant-btn-standard,
 .ant-btn-button.secondary,
 .btn.btn-primary {
-  min-height: 42px;
-  outline: none;
-  width: auto;
-  font-size: 17px;
-  border-radius: 0;
-  border-radius: 3px;
-  box-shadow: none;
-  text-shadow: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 50px; 
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;  
+  min-height: 50px;
 }
 
 a.standard,
 .ant-btn-primary,
 .btn.btn-primary {
-  color: var(--white);
-  background: var(--primary);
-  border-color: var(--primary);
+  color: var(--white);  
   transition: all 400ms ease;
-  // box-shadow: 0 20px 50px #2dccc240;
+  @include redGradient;
 }
 
 .ant-btn-primary:active,
@@ -347,8 +348,7 @@ a.standard:hover,
 .ant-btn-primary:hover,
 .ant-btn-primary:focus,
 .btn.btn-primary:hover {
-  background: var(--secondary);
-  border-color: var(--secondary);
+  @include redGradient;
 }
 
 .ant-btn-button.secondary,
@@ -357,9 +357,7 @@ a.standard:hover,
 .ant-btn-button.secondary:hover,
 .btn.btn-secondary:hover,
 .ant-btn-secondary:hover {
-  background-color: transparent;
-  border: 2px solid var(--secondary);
-  color: var(--secondary);
+  @include blueGradient;
 }
 
 .ant-btn-link {
@@ -538,19 +536,28 @@ input[type="text"]:focus {
 .rounded{
   @include borderRadius;
 }
+.border-2{
+  border-width: 2px !important;
+}
+.border-3{
+  border-width: 3px !important;
+}
 
 // background color
 .bg-blue{
   background-color: var(--primary);
 }
+.bg-light-gray{
+  background-color: var(--light-gray);
+}
 .bg-red{
   background-color: var(--secondary);
 }
 .bg-blue-gradient{
-  background-image: linear-gradient(to right, #282561, #631f6d, #9b0067, #c8004f, #e31e28);
+  @include blueGradient;  
 }
 .bg-red-gradient{
-  background-image: linear-gradient(to right, #e31e28, #c8004f, #9b0067, #631f6d, #282561);
+  @include redGradient;
 }
 
 // Background Pattern

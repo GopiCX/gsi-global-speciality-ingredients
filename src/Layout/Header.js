@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.scss";
-import { Link } from "react-router-dom";
+import { Link, NavLink  } from "react-router-dom";
 import { Row, Button, Col, Input, Tooltip } from "antd";
 import mainlogo from "../assets/images/gsi-logo.svg";
 import functionalIngredients from "../assets/images/Functional-Ingredients-Tailored-to-your-needs.svg"
@@ -30,6 +30,8 @@ export default class Header extends React.Component {
     }
     //Onscroll sticky Header function ends here
   }
+
+  
   render() {
     return (
       <React.Fragment>
@@ -45,22 +47,22 @@ export default class Header extends React.Component {
                 <div className="center-header">
                   <ul>
                     <li>
-                      <Link to="/">Home</Link>
+                      <NavLink exact activeClassName="active" to="/">Home</NavLink>
                     </li>
                     <li>
-                      <Link to="/about-us">About</Link>
+                      <NavLink activeClassName="active" to="/about-us">About</NavLink>
                     </li>
                     <li>
-                      <Link to="">Our Solution</Link>
+                      <NavLink activeClassName="active" to="/our-solutions">Our Solution</NavLink>
                     </li>
                     <li>
-                      <Link to="">Responsibility</Link>
+                      <NavLink activeClassName="active" to="/responsibility">Responsibility</NavLink>
                     </li>
                     <li>
-                      <Link to="/career">Careers</Link>
+                      <NavLink activeClassName="active" to="/career">Careers</NavLink>
                     </li>
                     <li>
-                      <Link to="/contact-us">Contact</Link>
+                      <NavLink activeClassName="active" to="/contact-us">Contact</NavLink>
                     </li>
                   </ul>
                 </div>

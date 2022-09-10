@@ -67,37 +67,40 @@ export default class Home extends React.Component {
           </div>
         </section>
 
-        <section className="value-proposition py-5">
+        <section className="value-proposition pb-5">
           {/* <img src={rectangleShape} className="shape-position" alt="shape"/> */}
-          <div className="container mx-auto py-3">
-            <div className="title-section text-center mb-4">
-              <h1 className="text-blue text-center d-inline border-right-3 border-danger  pr-3">Our Value Proposition</h1>
-              <p className="text-left mt-3">We offer a unique value proposition that differentiates us from our competitors. Our approach is customer-centric, and we focus on providing the best possible services and products.</p>
+          <div className="container mx-auto pb-3">
+            <div className="border border-2 border-top-0 border-danger">
+              <div className="p-4">
+                <div className="title-section text-center mb-4 pt-4">
+                  <h1 className="text-blue text-center d-inline border-right-3 border-danger  pr-3">Our Value Proposition</h1>
+                  <p className="text-left mt-3">We offer a unique value proposition that differentiates us from our competitors. Our approach is customer-centric, and we focus on providing the best possible services and products.</p>
+                </div>
+                <Row gutter={[30, 20]} align="center" className="pb-3 ">
+                  <Col xs={{ span: 24 }} sm={{ span: 8 }} md={{ span: 8 }} lg={{ span: 8 }} className="text-center px-lg-3">
+                    <div className="text-center px-lg-4">
+                      <img src={researchDevelopment} alt="Research & Development" className="mb-3" />
+                      <h3 className="mb-3 text-blue">Research <br />& Development</h3>
+                      <p>Product Development, Food or Recipe Formulations, Raw Material Variations, Formula Costing​</p>
+                    </div>
+                  </Col>
+                  <Col xs={{ span: 24 }} sm={{ span: 8 }} md={{ span: 8 }} lg={{ span: 8 }}>
+                    <div className="text-center px-lg-4">
+                      <img src={projectManagement} alt="Project Management​" className="mb-3" />
+                      <h3 className="mb-3 text-blue">Project <br />Management​</h3>
+                      <p>Technical Feasibility, Technology Assessment, Turnkey Project, Plant and Machinery Execution​</p>
+                    </div>
+                  </Col>
+                  <Col xs={{ span: 24 }} sm={{ span: 8 }} md={{ span: 8 }} lg={{ span: 8 }} className="text-center px-lg-3">
+                    <div className="text-center px-lg-4">
+                      <img src={processDevelopment} alt="Process Development & Improvement​" className="mb-3" />
+                      <h3 className="mb-3 text-blue">Process Development <br />& Improvement​</h3>
+                      <p>Technical Feasibility, Technology Assessment, Turnkey Project, Plant and Machinery Execution​</p>
+                    </div>
+                  </Col>
+                </Row>
+              </div>
             </div>
-            <Row gutter={[30, 20]} align="center" className="pb-3 ">
-              <Col xs={{ span: 24 }} sm={{ span: 8 }} md={{ span: 8 }} lg={{ span: 8 }} className="text-center px-lg-3">
-                <div className="text-center px-lg-4">
-                  <img src={researchDevelopment} alt="Research & Development" className="mb-3" />
-                  <h3 className="mb-3 text-blue">Research <br />& Development</h3>
-                  <p>Product Development, Food or Recipe Formulations, Raw Material Variations, Formula Costing​</p>
-                </div>
-              </Col>
-              <Col xs={{ span: 24 }} sm={{ span: 8 }} md={{ span: 8 }} lg={{ span: 8 }}>
-                <div className="text-center px-lg-4">
-                  <img src={projectManagement} alt="Project Management​" className="mb-3" />
-                  <h3 className="mb-3 text-blue">Project <br />Management​</h3>
-                  <p>Technical Feasibility, Technology Assessment, Turnkey Project, Plant and Machinery Execution​</p>
-                </div>
-              </Col>
-              <Col xs={{ span: 24 }} sm={{ span: 8 }} md={{ span: 8 }} lg={{ span: 8 }} className="text-center px-lg-3">
-                <div className="text-center px-lg-4">
-                  <img src={processDevelopment} alt="Process Development & Improvement​" className="mb-3" />
-                  <h3 className="mb-3 text-blue">Process Development <br />& Improvement​</h3>
-                  <p>Technical Feasibility, Technology Assessment, Turnkey Project, Plant and Machinery Execution​</p>
-                </div>
-              </Col>
-
-            </Row>
           </div>
         </section>
 

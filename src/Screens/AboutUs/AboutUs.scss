@@ -1,8 +1,78 @@
 .fun-facts {
-  .card{
+  .card {
     box-shadow: unset;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
-  h6{
+
+  h6 {
     font-size: 70px;
+  }
+}
+
+.mission-vision {
+  .card {
+    img {
+      min-height: 300px;
+      @media(max-width: 600px){
+        min-height: auto ;
+        height: auto;
+      }
+    }
+  }
+}
+// core-value 
+.core-value {
+  .lists-container{
+    display: flex;
+    @media(max-width: 600px){
+      display: block;
+    }
+    .item-list{
+      width: 20%;
+      
+      .details{
+        padding: 10px;
+      }
+    }
+  }
+}
+
+// group-companies
+.group-companies{
+  .companies{
+    .card{
+      padding: 17px;
+      margin: 5px;
+      box-shadow: unset;
+      text-align: center;
+      img{
+        height: 70px;
+      }
+    }
+  }
+}
+
+// leadership 
+.leadership {
+  .role{
+    font-size: 14px;
+    color: var(--black);
+  }
+  p{
+    font-size: 19px;
+  }
+}
+
+// corporate-philosophy
+.corporate-philosophy{
+  img{
+    width: 88%;
+    @media(max-width: 600px){
+      width:100%;
+    }
   }
 }
