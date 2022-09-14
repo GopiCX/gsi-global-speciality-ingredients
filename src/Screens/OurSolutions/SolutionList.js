@@ -13,7 +13,7 @@ class SolutionList extends Component {
                     <Link to={`${this.props.solutionPageLink}`}>
                         <div class="solution-box">
                             <div class="details">
-                                <img src={`${this.props.solutionImg}`} alt={`${this.props.solutionTitle}`} />
+                                <img src={`${this.props.solutionImg}`} className="animation-grow" alt={`${this.props.solutionTitle}`} />
                                 <div class="title">
                                     <h5>{this.props.solutionTitle}</h5>
                                 </div>

@@ -9,19 +9,19 @@ import developmentProduct from "../../assets/images/development-of-product-and-c
 import researchDevelopment from "../../assets/images/01-research-development.svg";
 import projectManagement from "../../assets/images/02-project-management.svg";
 import processDevelopment from "../../assets/images/03-process-development-improvement.svg";
-import confectionerySolutions from "../../assets/images/00-confectionery-solutions.png";
-import bakerySolution from "../../assets/images/01-bakery-solutions.png";
-import shelfLife from "../../assets/images/02-shelf-life-frying-solutions.png";
-import oilFat from "../../assets/images/03-oil-Fat-solutions.png";
+import confectionerySolutions from "../../assets/images/our-solutions/confectionery-solutions.jpg";
+import bakerySolution from "../../assets/images/our-solutions/bakery-solutions.jpg";
+import shelfLife from "../../assets/images/our-solutions/shelf-life-frying-solutions.jpg";
+import oilFat from "../../assets/images/our-solutions/oil-fat-solutions.jpg";
 import viewAll from "../../assets/images/01-bakery-solutions.png";
-import innovationWheel from "../../assets/images/05-innovation-wheel-wheel-new.png"
-import commitment from "../../assets/images/04-commitment.png"
-import competence from "../../assets/images/04-competence.png"
-import customerSatisfactionSurvey from "../../assets/images/04-customer-satisfaction-survey.png"
-import innovation from "../../assets/images/04-innovation.png"
-import productPerformance from "../../assets/images/04-product-performance.png"
-import baker from "../../assets/images/baker.svg"
-import rectangleShape from "../../assets/images/patterns/shape-1.png"
+import innovationWheel from "../../assets/images/05-innovation-wheel-wheel-new.png";
+import commitment from "../../assets/images/04-commitment.png";
+import customerSatisfactionSurvey from "../../assets/images/04-customer-satisfaction-survey.png";
+import innovation from "../../assets/images/04-innovation.png";
+import productPerformance from "../../assets/images/04-product-performance.png";
+import baker from "../../assets/images/baker.svg";
+import quoteTop from "../../assets/images/icons/quote-1.svg";
+import quoteBottom from "../../assets/images/icons/quote-2.svg";
 export default class Home extends React.Component {
   render() {
     return (
@@ -41,17 +41,17 @@ export default class Home extends React.Component {
                 </div>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 7 }} lg={{ span: 7 }} >
-                <div className="pb-2">
-                  <img src={yourInnovation} alt="your innovation our solution" className="rounded w-100" />
-                </div>
+                 <div className="overflow-hidden border-radius">
+                  <img src={yourInnovation} alt="your innovation our solution" className="animation-grow rounded w-100" />
+                  </div>
               </Col>
             </Row>
           </div>
         </section>
 
-        <section className="bg-blue pattern-2  py-5">
+        <section className="development-product bg-blue  pattern-2  py-5">
           <div className="container mx-auto py-3">
-            <Row gutter={[30, 20]} align="center" className="pb-3 ">
+            <Row gutter={[30, 20]} align="middle" className="pb-3 ">
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} >
                 <div className="pb-2 pr-lg-4">
                   <h1 className="border-left-3 border-danger text-white pl-3 mb-3">Development of Product and Capability Spectrum</h1>
@@ -59,10 +59,8 @@ export default class Home extends React.Component {
                 </div>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} >
-                <div className="pb-2">
-                  <img src={developmentProduct} alt="your innovation our solution" className="w-100" />
-                </div>
-              </Col>
+                   <img src={developmentProduct} alt="your innovation our solution" />
+               </Col>
             </Row>
           </div>
         </section>
@@ -111,20 +109,20 @@ export default class Home extends React.Component {
                 <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">GSI Shared Values</h2>
                 <p className="mt-3">We share common values. These values guide our actions and help us work together as a team. We believe in being honest and working together to solve problems.</p>
               </Col>
-              <Col xs={{ span: 24 }} sm={{ span: 14 }} md={{ span: 14 }} lg={{ span: 14 }}>
-
+              <Col xs={{ span: 24 }} sm={{ span: 14 }} md={{ span: 14 }} lg={{ span: 14 }} className="text-right quote-icon">
+                <img src={quoteTop} alt="quote" />
               </Col>
             </Row>
           </div>
         </section>
 
-        <section className="gsi-shared-value align-top">
+        <section className="gsi-shared-value quote-bg align-top">
           <div className="container mx-auto">
             <Row gutter={[22, 20]} className="mb-3">
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
                 <div className="card d-flex">
-                  <div className="image">
-                    <img src={commitment} alt="Commitment" />
+                  <div className="image overflow-hidden">
+                    <img src={commitment} alt="Commitment"/>
                   </div>
                   <div className="details p-3 p-lg-4">
                     <h5 className="text-blue">Commitment</h5>
@@ -134,8 +132,8 @@ export default class Home extends React.Component {
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
                 <div className="card d-flex">
-                  <div className="image">
-                    <img src={innovation} alt="Innovation" />
+                  <div className="image overflow-hidden">
+                    <img src={innovation} alt="Innovation"/>
                   </div>
                   <div className="details p-3 p-lg-4">
                     <h5 className="text-blue">Innovation</h5>
@@ -145,7 +143,7 @@ export default class Home extends React.Component {
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
                 <div className="card d-flex">
-                  <div className="image">
+                  <div className="image overflow-hidden">
                     <img src={productPerformance} alt="Product Performance" />
                   </div>
                   <div className="details p-3 p-lg-4">
@@ -156,7 +154,7 @@ export default class Home extends React.Component {
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
                 <div className="card d-flex">
-                  <div className="image">
+                  <div className="image overflow-hidden">
                     <img src={commitment} alt="Competence" />
                   </div>
                   <div className="details p-3 p-lg-4">
@@ -167,7 +165,7 @@ export default class Home extends React.Component {
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 10 }} >
                 <div className="card d-flex">
-                  <div className="image">
+                  <div className="image overflow-hidden">
                     <img src={customerSatisfactionSurvey} alt="Customer Satisfaction Survey" />
                   </div>
                   <div className="details p-3 p-lg-4">
@@ -177,6 +175,7 @@ export default class Home extends React.Component {
                 </div>
               </Col>
             </Row>
+                
             <Row gutter={[22, 20]} >
               <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 12 }} className="baker text-left text-md-center text-lg-right" >
                 <img src={baker} alt="Baker" />
@@ -210,7 +209,7 @@ export default class Home extends React.Component {
             </div>
             <div className="card-holder">
               <div className="card-box">
-                <div className="details">
+                <div className="details overflow-hidden border-radius">
                   <img src={confectionerySolutions} alt="Process Development & Improvement​" />
                   <div class="title">
                     <h6>Confectionery <br />Solutions</h6>
@@ -218,7 +217,7 @@ export default class Home extends React.Component {
                 </div>
               </div>
               <div className="card-box">
-                <div className="details">
+                <div className="details overflow-hidden border-radius">
                   <img src={bakerySolution} alt="Process Development & Improvement​" />
                   <div class="title">
                     <h6>Bakery <br />Solutions</h6>
@@ -226,7 +225,7 @@ export default class Home extends React.Component {
                 </div>
               </div>
               <div className="card-box">
-                <div className="details">
+                <div className="details overflow-hidden border-radius">
                   <img src={shelfLife} alt="Process Development & Improvement​" />
                   <div class="title">
                     <h6>Shelf Life & <br /> Frying Solutions</h6>
@@ -234,7 +233,7 @@ export default class Home extends React.Component {
                 </div>
               </div>
               <div className="card-box">
-                <div className="details">
+                <div className="details overflow-hidden border-radius">
                   <img src={oilFat} alt="Oil & Fat Solutions" />
                   <div class="title">
                     <h6>Oil & Fat <br />Solutions</h6>
@@ -242,7 +241,7 @@ export default class Home extends React.Component {
                 </div>
               </div>
               <div className="card-box ">
-                <div className="details">
+                <div className="details overflow-hidden border-radius">
                   <img src={viewAll} alt="View All Solutions" />
                   <div class="title">
                     <h6>View All Solutions</h6>

@@ -1,0 +1,47 @@
+.solutions-grids {
+    h3 {
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+
+    h5 {
+        font-weight: normal;
+        margin-bottom: 9px;
+        font-size: 17px;
+    }
+
+    &.card {
+        img {
+            min-height: 317px;
+        }
+    }
+
+    .details {}
+
+    .slick-dots {
+        bottom: 18px;
+        text-align: center;
+    }
+
+    .slick-list {
+        border-top-left-radius: 13px;
+        border-bottom-left-radius: 13px;
+    }
+
+    ul {
+        padding-left: 19px;
+        margin-bottom: 0px;
+
+        li {
+            font-size: 15px;
+
+            &::marker {
+                font-size: 19px;
+                color: #282561;
+                background: -webkit-linear-gradient(#282561, #e31e28);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}

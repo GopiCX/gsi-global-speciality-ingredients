@@ -9,6 +9,10 @@ import AboutUs from '../Screens/AboutUs/AboutUs';
 import ContactUs from '../Screens/ContactUs/ContactUs';
 import Career from '../Screens/Career/Career';
 import OurSolutions from '../Screens/OurSolutions/OurSolutions';
+import Responsibility from '../Screens/Responsibility/Responsibility';
+import KeyAccountmanager from '../Screens/KeyAccountmanager/KeyAccountmanager';
+import ConfectionerySolutions from '../Screens/ConfectionerySolutions/ConfectionerySolutions';
+
 import Layout from '../Layout/Layout';
 class InnerRoutes extends React.Component {
     render() {
@@ -23,6 +27,9 @@ class InnerRoutes extends React.Component {
                     <Route path="/contact-us" component={ContactUs} />
                     <Route path="/career" component={Career} />
                     <Route path="/our-solutions" component={OurSolutions} />
+                    <Route path="/responsibility" component={Responsibility} />
+                    <Route path="/key-account-manager" component={KeyAccountmanager} />
+                    <Route path="/confectionery-solutions" component={ConfectionerySolutions} />
                 </Switch>
             </Layout>
         );

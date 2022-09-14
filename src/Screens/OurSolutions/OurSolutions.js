@@ -7,18 +7,18 @@ import TitleSection from '../../Components/TitleSection/TitleSection';
 import './OurSolutions.scss'
 import SolutionList from './SolutionList'
 
-import confectionerySolutions from "../../assets/images/our-solutions/confectionery-solutions.png";
-import bakerySolution from "../../assets/images/our-solutions/bakery-solutions.png";
-import shelfLife from "../../assets/images/02-shelf-life-frying-solutions.png";
-import oilFat from "../../assets/images/03-oil-Fat-solutions.png";
-import antiClouding from "../../assets/images/03-oil-Fat-solutions.png";
-import beverageSolutions from "../../assets/images/03-oil-Fat-solutions.png";
-import chocolateSolutions from "../../assets/images/03-oil-Fat-solutions.png";
-import dairyAnalogue from "../../assets/images/03-oil-Fat-solutions.png";
-import colourSolutions from "../../assets/images/03-oil-Fat-solutions.png";
-import nutritionSolutions from "../../assets/images/03-oil-Fat-solutions.png";
-import savourySolutions from "../../assets/images/03-oil-Fat-solutions.png";
-import Adsorbent from "../../assets/images/03-oil-Fat-solutions.png";
+import confectionerySolutions from "../../assets/images/our-solutions/confectionery-solutions.jpg";
+import bakerySolution from "../../assets/images/our-solutions/bakery-solutions.jpg";
+import shelfLife from "../../assets/images/our-solutions/shelf-life-frying-solutions.jpg";
+import oilFat from "../../assets/images/our-solutions/oil-fat-solutions.jpg";
+import antiClouding from "../../assets/images/our-solutions/anti-clouding-clouding-agents.jpg";
+import beverageSolutions from "../../assets/images/our-solutions/beverage-solutions.jpg";
+import chocolateSolutions from "../../assets/images/our-solutions/chocolate-solutions.jpg";
+import dairyAnalogue from "../../assets/images/our-solutions/dairy-dairy-analogue.jpg";
+import colourSolutions from "../../assets/images/our-solutions/flavour-colour-solutions.jpg";
+import nutritionSolutions from "../../assets/images/our-solutions/nutrition-solutions.jpg";
+import savourySolutions from "../../assets/images/our-solutions/savoury-solutions.jpg";
+import Adsorbent from "../../assets/images/our-solutions/adsorbent.jpg";
 
 class OurSolutions extends React.Component {
     render() {
@@ -38,7 +38,7 @@ class OurSolutions extends React.Component {
                             </Col>
                         </Row>
                         <Row gutter={[20, 20]} align="center">
-                            <SolutionList solutionTitle="Confectionery Solutions" solutionPageLink="/about-us" solutionImg={confectionerySolutions} />
+                            <SolutionList solutionTitle="Confectionery Solutions" solutionPageLink="/confectionery-solutions" solutionImg={confectionerySolutions} />
                             <SolutionList solutionTitle="Bakery Solutions" solutionPageLink="/about-us" solutionImg={bakerySolution} />
                             <SolutionList solutionTitle="Shelf Life & Frying Solutions" solutionPageLink="/about-us" solutionImg={shelfLife} />
                             <SolutionList solutionTitle="Oil & Fat Solutions" solutionPageLink="/about-us" solutionImg={oilFat} />

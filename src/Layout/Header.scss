@@ -7,7 +7,7 @@
   top: 0;
   z-index: 9;
   width: 100%;
-  background-color: var(--white);  
+  background-color: var(--white);
   @include boxShadow($color: rgba(171, 171, 171, 0.50));
 
   .ant-menu-item {
@@ -19,25 +19,35 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     .logo {
       background: var(--white);
-      padding: 7px 26px 7px 56px;
+      padding: 16px 26px 15px 56px;
       border-top-right-radius: 50px;
       border-bottom-right-radius: 50px;
-      @media(max-width:900px){
-        padding: 7px 26px 7px 28px;
+
+      @media(max-width:1160px) {
+        padding: 16px 26px 15px 28px;
       }
+      @media(max-width:600px) {
+        padding: 16px 13px 15px 13px;
+      }
+
       span {
         margin-left: 10px;
         font-size: 26px;
         color: var(--black);
         // @include luchida;
       }
+
       img {
-        height: 64px;
+        height: 59px;
         padding-right: 10px;
-        @media(max-width:900px){
-          height: 30px;
+        @media(max-width:1200px) {
+          height: 46px !important;
+        }
+        @media(max-width:600px) {
+          height: 30px !important;
         }
       }
     }
@@ -47,18 +57,27 @@
       padding: 11px 56px 12px 26px;
       border-top-left-radius: 50px;
       border-bottom-left-radius: 50px;
-      @media(max-width:900px){
-        padding: 7px 80px 7px 28px;
+
+      @media(max-width:1160px) {
+        padding: 16px 30px 14px 28px;
       }
+      @media(max-width:1100px) {
+        padding: 16px 80px 14px 28px;
+      }
+
       img {
-        height: 51px;
+        height: 47px;
         padding-left: 10px;
-        @media(max-width:900px){
-          height: 25px;
+        @media(max-width:1200px) {
+          height: 39px !important;
+        }
+        @media(max-width:600px) {
+          height: 25px !important;
         }
       }
     }
   }
+
   &.scrolled {
     background-color: transparent;
     position: fixed;
@@ -67,18 +86,19 @@
     width: 100%;
     box-shadow: unset;
 
-      .top-header {
-        .logo{
-          img{
-            height: 40px;
-          }
-        }        
-      }
-      .functional-ingredient{
-        img{
+    .top-header {
+      .logo {
+        img {
           height: 40px;
         }
       }
+    }
+
+    .functional-ingredient {
+      img {
+        height: 40px;
+      }
+    }
   }
 }
 
@@ -88,11 +108,13 @@
   background: var(--primary);
   border-radius: 50px;
   margin-top: 8px;
-  @media(max-width:900px){
+
+  @media(max-width:900px) {
     background: unset;
     border-radius: 0;
-    padding:0;
+    padding: 0;
   }
+
   ul {
     list-style: none;
     padding: 0;
@@ -108,25 +130,21 @@
     -ms-flex-align: center;
     align-items: center;
 
-    @media(max-width:900px){
+    @media(max-width:900px) {
       display: block;
     }
 
     li {
       padding: 0px 8px;
-      a.active{
-          position: relative;
-          &::before{
-            @include beforeContentLeft($background: var(--secondary), $height: 4px, $top: unset, $bottom: -6px, $opacity: 1);
 
-          }
-      }
-      :hover {
+      &:hover {
         color: var(--white);
-        a{
+
+        a {
           color: var(--white);
         }
       }
+
       a {
         display: block;
         text-align: left;
@@ -134,8 +152,19 @@
         color: var(--white);
         padding: 5px 13px;
         letter-spacing: 1px;
-        @media(max-width:900px){
+
+        @media(max-width:900px) {
           font-size: 22px;
+          padding: 6px 0 !important;
+        }
+
+        &.active {
+          position: relative;
+
+          &::before {
+            @include beforeContentLeft($background: var(--secondary), $height: 4px, $top: unset, $bottom: -6px, $opacity: 1);
+
+          }
         }
       }
     }
@@ -145,7 +174,7 @@
 // center-header ends
 
 .navigations {
-  @media(max-width: 900px) {
+  @media(max-width: 1100px) {
     display: none
   }
 
@@ -153,11 +182,12 @@
     display: block;
     position: fixed;
     right: 0;
-    top:0;
+    top: 0;
     padding: 53px 30px 30px 30px;
     background: var(--primary);
     height: 100vh;
     min-width: 300px;
+    z-index: 999;
 
     .center-header {
       ul {
@@ -189,10 +219,10 @@
 #hamburger {
   display: none;
 
-  @media(max-width: 900px) {
+  @media(max-width: 1100px) {
     display: block;
     position: absolute;
-    top: 21px;
+    top: 13px;
     right: 20px;
     width: 40px;
     height: 40px;

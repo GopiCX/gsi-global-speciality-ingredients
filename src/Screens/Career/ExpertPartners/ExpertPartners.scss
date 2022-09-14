@@ -33,16 +33,30 @@
         background: var(--white);
         color: var(--black);
         border-radius: 50px;
-        width: 43px;
-        height: 43px;
+        width: 50px;
+        height: 50px;
         text-align: center;
         line-height: 27px;
         box-shadow: 0 0 10px #7c7c7c;
+        bottom: 40%;
+        @media(max-width: 500px){
+            bottom: -21px;
+        }
         &::before{
-            font-size: 30px;
-            line-height: 40px;
+            font-size: 39px;
+            line-height: 47px;
             text-align: center;  
             @include gradientText;          
+        }
+    }
+    .slick-prev{
+        @media(max-width: 500px){
+            left: 30%;
+        }
+    }
+    .slick-next{
+        @media(max-width: 500px){
+            right: 30%;
         }
     }
 
