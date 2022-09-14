@@ -6,6 +6,7 @@ import { SearchOutlined } from '@ant-design/icons';
 import TitleSection from '../../Components/TitleSection/TitleSection';
 import './ConfectionerySolutions.scss';
 import BakeStableFilling from './BakeStableFilling';
+import ShelfStableFilling from './ShelfStableFilling';
 
 class KeyAccountmanager extends React.Component {
     render() {
@@ -26,6 +27,7 @@ class KeyAccountmanager extends React.Component {
                         </Row>
                         <div className="mt-4">
                             <BakeStableFilling />
+                            <ShelfStableFilling />
                         </div>
                     </div>
                 </section>
