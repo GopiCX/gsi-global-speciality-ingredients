@@ -17,11 +17,13 @@ import './Career.scss'
 
 const { Panel } = Collapse;
 
+
 class Career extends React.Component {
   render() {
     return (
       <React.Fragment>
         <TitleSection className="career" welcomeText="Welcome to Global peciality Ingredients" titleName="Why Work With Us" />
+        
         <section className="key-benefits py-5">
           <div className="container mx-auto">
             <h2 className="border-left-3 border-danger text-blue pl-3 mb-4">Key benefits of working with us</h2>
@@ -53,7 +55,7 @@ class Career extends React.Component {
         </section>
 
         <ExpertPartners />
-        
+
 
         <section className="py-5">
           <div className="container mx-auto">
@@ -184,7 +186,7 @@ class Career extends React.Component {
           <div className="container mx-auto">
             <Row gutter={[30, 20]} align="center" className="text-center">
               <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} >
-                  <a className="btn bg-red-gradient text-white" href="https://www.linkedin.com/company/global-specialty-ingredients/jobs/" target="_blank">Follow us @ linkedin</a>
+                <a className="btn bg-red-gradient text-white" href="https://www.linkedin.com/company/global-specialty-ingredients/jobs/" target="_blank">Follow us @ linkedin</a>
               </Col>
             </Row>
           </div>

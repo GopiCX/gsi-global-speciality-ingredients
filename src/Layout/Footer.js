@@ -14,12 +14,12 @@ export default class Footer extends React.Component {
                 <section className="footer py-5">
                     <div className="container mx-auto">
                         <Row gutter={[12, 22]}>
-                            <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 14 }}>
-                                <div className="d-flex">
+                            <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 133 }}>
+                                <div className="footer-logo">
                                     <img src={mainlogo} className="pr-4 mr-4 border-right" alt="GSI - Global Specialty Ingredients | Your Innovation Our Solution" />
                                     <img src={functionalIngredients} alt="Functional Ingredients Tailored to your needs" />
                                 </div>
-                                <div className="social-media mt-5">
+                                <div className="social-media mt-3 mt-lg-5">
                                     <h3 className="text-red text-uppercase">Follow us</h3>
                                     <ul className="d-flex p-0 m-0">
                                         <li><a href=""><i class="fa fa-facebook" aria-hidden="true" /></a></li>
@@ -29,7 +29,7 @@ export default class Footer extends React.Component {
                                     </ul>
                                 </div>
                             </Col>
-                            <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 5 }}>
+                            <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 6 }}>
                                 <h3 className="text-red">Get In Touch</h3>
                                 <div className="contact-item">
                                     <div className="icon">

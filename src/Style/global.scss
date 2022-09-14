@@ -542,6 +542,16 @@ input[type="text"]:focus {
 .border-3{
   border-width: 3px !important;
 }
+.border-radius{
+  @include borderRadius;
+}
+.border-radius-left{
+  @include borderRadiusLeft;
+}
+.border-radius-right{
+  @include borderRadiusRight;
+}
+
 
 // background color
 .bg-blue{
@@ -568,6 +578,34 @@ input[type="text"]:focus {
 .pattern-2 {
   background-image: url('../assets/images/patterns/dark-wave.jpg');
   @include backgroundNoRepeat($size: 80%, $position: bottom center);
+}
+.quote-bg {
+  background-image: url('../assets/images/icons/quote-2.svg');
+  @include backgroundNoRepeat($size: 120px, $position: 4% 67%);
+  @media(max-width: 600px){
+    @include backgroundNoRepeat($size: 60px, $position: 25% 80%);
+  }
+  @media(max-width: 500px){
+    @include backgroundNoRepeat($size: 60px, $position: 25% 97%);
+  }
+}
+.globe-bg {
+  background-image: url('../assets/images/globe.svg');
+  @include backgroundNoRepeat($size: 17%, $position: top right);
+  &:hover{
+    background-image: url('../assets/images/globe-blue.svg');
+  }
+  @media(max-width: 767px){
+    @include backgroundNoRepeat($size: 90px, $position: 100% 100%);
+  }
+}
+.quote-icon{
+  img{
+    height: 70px;
+    @media(max-width: 600px){
+      height: 50px;
+    }
+  }
 }
 .shape-position{
   width: 94% !important;
@@ -597,4 +635,25 @@ input[type="text"]:focus {
           }
          
       }
+}
+// grow animation
+.animation-grow:hover {
+  transform: scale(1.1);
+}
+.animation-grow {
+  transition-duration: .3s;
+  transition-property: transform;
+}
+
+// move down
+.move-down{
+  position: absolute;
+  bottom: 40px;
+  right:0;
+  left:0;
+  z-index: 2;
+  img{
+      height: 40px;
+      cursor: pointer;
+  }
 }

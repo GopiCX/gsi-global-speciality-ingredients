@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import './TitleSection.scss';
+import scrollDown from '../../assets/images/icons/mouse-icon.svg';
 
 class TitleSection extends Component {
     render() {
@@ -15,6 +16,9 @@ class TitleSection extends Component {
                                     <h1 className="text-white mb-3 mb-lg-4">{this.props.titleName}</h1>
                                 </div>
                             </div>
+                        </div>
+                        <div className="move-down">
+                            <img src={scrollDown} alt="Move to another section" />
                         </div>
                     </div>
                 </section>

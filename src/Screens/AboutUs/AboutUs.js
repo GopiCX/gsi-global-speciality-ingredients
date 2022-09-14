@@ -41,7 +41,9 @@ class AboutUs extends React.Component {
                 </div>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 8 }} lg={{ span: 8 }} >
-                <img src={awardWinninggsi} alt="your innovation our solution" className="rounded w-100" />
+                <div className="overflow-hidden border-radius">
+                  <img src={awardWinninggsi} alt="your innovation our solution " className="animation-grow rounded w-100" />
+                </div>
               </Col>
             </Row>
           </div>
@@ -50,26 +52,24 @@ class AboutUs extends React.Component {
         <section className="fun-facts bg-blue py-5">
           <div className="container mx-auto">
             <Row gutter={[30, 20]} className="mb-3">
-              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
-                <div className="card p-4 p-lg-5">
+              <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 8 }} lg={{ span: 8 }} >
+                <div className="card p-3 p-lg-5">
                   <h6 className="text-outline-red"><span>04</span>+</h6>
                   <p>Manufacturing plant in 4 countries</p>
                 </div>
               </Col>
-              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
-                <div className="card p-4 p-lg-5">
+              <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 8 }} lg={{ span: 8 }} >
+                <div className="card p-3 p-lg-5">
                   <h6 className="text-outline-red"><span>06</span>+</h6>
                   <p>Joint venture companies in 6 countries</p>
                 </div>
               </Col>
-              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
-                <div className="card p-4 p-lg-5">
+              <Col xs={{ span: 24 }} sm={{ span: 8 }} md={{ span: 8 }} lg={{ span: 8 }} >
+                <div className="card p-3 p-lg-5">
                   <h6 className="text-outline-red"><span>10</span>+</h6>
                   <p>Business Partners Globally</p>
                 </div>
               </Col>
-            </Row>
-            <Row gutter={[30, 20]} className="mb-3">
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} >
                 <div className="card">
                   <Row gutter={[30, 20]} className="mb-3">
@@ -80,7 +80,9 @@ class AboutUs extends React.Component {
                       </div>
                     </Col>
                     <Col xs={{ span: 24, order: 1 }} sm={{ span: 12, order: 1 }} md={{ span: 12, order: 2 }} lg={{ span: 12, order: 2 }} >
-                      <img src={marketed} className="right-image" alt="Market to more than 40 countries globally" />
+                      <div className="overflow-hidden border-radius-right">
+                        <img src={marketed} className="right-image animation-grow" alt="Market to more than 40 countries globally" />
+                      </div>
                     </Col>
                   </Row>
                 </div>
@@ -96,8 +98,9 @@ class AboutUs extends React.Component {
                       </div>
                     </Col>
                     <Col xs={{ span: 24, order: 1 }} sm={{ span: 12, order: 1 }} md={{ span: 12, order: 2 }} lg={{ span: 12, order: 2 }} >
-
-                      <img src={employeesGlobally} className="right-image" alt="Employees Globally" />
+                      <div className="overflow-hidden border-radius-right">
+                        <img src={employeesGlobally} className="right-image animation-grow" alt="Employees Globally" />
+                      </div>
                     </Col>
                   </Row>
                 </div>
@@ -113,7 +116,9 @@ class AboutUs extends React.Component {
                 <div className="card">
                   <Row gutter={[20, 20]} justify="space-between" align="center">
                     <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} >
-                      <img src={ourMission} className="w-100" alt="our Mission" />
+                      <div className="overflow-hidden border-radius-left">
+                        <img src={ourMission} className="w-100 animation-grow" alt="our Mission" />
+                      </div>
                     </Col>
                     <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} >
                       <div className="details p-3 p-lg-4">
@@ -128,7 +133,9 @@ class AboutUs extends React.Component {
                 <div className="card">
                   <Row gutter={[20, 20]} justify="space-between" align="center">
                     <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} >
-                      <img src={ourVission} className="w-100" alt="Product Performance"/>
+                      <div className="overflow-hidden border-radius-left">
+                        <img src={ourVission} className="w-100 animation-grow" alt="Product Performance" />
+                      </div>
                     </Col>
                     <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} >
                       <div className="details p-3 p-lg-4">
@@ -149,36 +156,46 @@ class AboutUs extends React.Component {
             <Row gutter={[20, 20]} justify="space-between" align="center">
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} >
                 <div className="details">
-                  <img src={integrityImg} alt="Integrity" className="w-100 mb-2" />
-                  <h5 className="text-white mt-3">Integrity</h5>
+                  <div className="overflow-hidden border-radius">
+                    <img src={integrityImg} alt="Integrity" className="w-100 animation-grow" />
+                  </div>
+                  <h5 className="text-white mt-4">Integrity</h5>
                   <p className="text-white">Integrity and positive thinking</p>
                 </div>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} >
                 <div className="details">
-                  <img src={innovationImg} alt="Innovation" className="w-100 mb-2" />
-                  <h5 className="text-white mt-3">Innovation</h5>
+                  <div className="overflow-hidden border-radius">
+                    <img src={innovationImg} alt="Innovation" className="w-100 animation-grow" />
+                  </div>
+                  <h5 className="text-white mt-4">Innovation</h5>
                   <p className="text-white">we anticipate change and shape it to fit our purposes</p>
                 </div>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} >
                 <div className="details">
-                  <img src={continualImprovement} alt="Innovation" className="w-100 mb-2" />
-                  <h5 className="text-white mt-3">Continual Improvement</h5>
+                  <div className="overflow-hidden border-radius">
+                    <img src={continualImprovement} alt="Innovation" className="w-100 animation-grow" />
+                  </div>
+                  <h5 className="text-white mt-4">Continual Improvement</h5>
                   <p className="text-white">We are a learning organization and we improve by analyzing and reviewing our results</p>
                 </div>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} >
                 <div className="details">
-                  <img src={positiveAttitude} alt="Positive Attitude" className="w-100 mb-2" />
-                  <h5 className="text-white mt-3">Positive Attitude</h5>
+                  <div className="overflow-hidden border-radius">
+                    <img src={positiveAttitude} alt="Positive Attitude" className="w-100 animation-grow" />
+                  </div>
+                  <h5 className="text-white mt-4">Positive Attitude</h5>
                   <p className="text-white">We have ‘can do’ attitude and drive to get the job done</p>
                 </div>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} >
                 <div className="details">
-                  <img src={integrityImg} alt="Commitment to Excellence" className="w-100 mb-2" />
-                  <h5 className="text-white mt-3">Commitment to Excellence</h5>
+                  <div className="overflow-hidden border-radius">
+                    <img src={integrityImg} alt="Commitment to Excellence" className="w-100 animation-grow" />
+                  </div>
+                  <h5 className="text-white mt-4">Commitment to Excellence</h5>
                   <p className="text-white">We do what we promised to do with Excellence</p>
                 </div>
               </Col>
@@ -229,23 +246,35 @@ class AboutUs extends React.Component {
               <h2 className="border-left-3 text-center d-inline border-danger text-white pl-3 mb-4">GSI Group of Companies</h2>
             </div>
             <Row gutter={[20, 20]} align="center">
-              <Col xs={{ span: 12 }} sm={{ span: 12 }} md={{ span: 4 }} lg={{ span: 4 }} >
-                <img src={logo1} alt="Mattwin" className="card w-100 p-3" />
+              <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }} >
+                <div className="overflow-hidden border-radius">
+                  <img src={logo1} alt="Mattwin" className="animation-grow card w-100 p-3" />
+                </div>
               </Col>
-              <Col xs={{ span: 12 }} sm={{ span: 12 }} md={{ span: 4 }} lg={{ span: 4 }}>
-                <img src={logo2} alt="BIS" className="card w-100 p-3" />
+              <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
+                <div className="overflow-hidden border-radius">
+                  <img src={logo2} alt="BIS" className="animation-grow card w-100 p-3" />
+                </div>
               </Col>
-              <Col xs={{ span: 12 }} sm={{ span: 12 }} md={{ span: 4 }} lg={{ span: 4 }}>
-                <img src={logo3} alt="Agile Formers" className="card w-100 p-3" />
+              <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
+                <div className="overflow-hidden border-radius">
+                  <img src={logo3} alt="Agile Formers" className="animation-grow card w-100 p-3" />
+                </div>
               </Col>
-              <Col xs={{ span: 12 }} sm={{ span: 12 }} md={{ span: 4 }} lg={{ span: 4 }}>
-                <img src={logo4} alt="Dr.well" className="card w-100 p-3" />
+              <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
+                <div className="overflow-hidden border-radius">
+                  <img src={logo4} alt="Dr.well" className="animation-grow card w-100 p-3" />
+                </div>
               </Col>
-              <Col xs={{ span: 12 }} sm={{ span: 12 }} md={{ span: 4 }} lg={{ span: 4 }}>
-                <img src={logo5} alt="3P GSI Ingredients" className="card w-100 p-3" />
+              <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
+                <div className="overflow-hidden border-radius">
+                  <img src={logo5} alt="3P GSI Ingredients" className="animation-grow card w-100 p-3" />
+                </div>
               </Col>
-              <Col xs={{ span: 12 }} sm={{ span: 12 }} md={{ span: 4 }} lg={{ span: 4 }}>
-                <img src={logo6} alt="3P GSI Ingredients" className="card w-100 p-3" />
+              <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
+                <div className="overflow-hidden border-radius">
+                  <img src={logo6} alt="3P GSI Ingredients" className="animation-grow card w-100 p-3" />
+                </div>
               </Col>
             </Row>
           </div>

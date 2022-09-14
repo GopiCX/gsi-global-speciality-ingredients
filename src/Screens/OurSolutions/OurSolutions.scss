@@ -16,6 +16,8 @@
 .solution-box{
     .details{
         position: relative;
+        overflow: hidden;
+        border-radius: 10px;
         img{
             width: 100%;
             border-radius: 13px;

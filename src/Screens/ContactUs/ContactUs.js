@@ -48,8 +48,8 @@ class ContactUs extends React.Component {
                                 </div>
                                 <h4 className="text-red">Global Specialty Ingredients (M) Sdn. Bhd.</h4>
                                 <p className="text-white mt-4">Lot 16 & 18, Jalan Permata 9/KS9 Taman Perindustrian Air Hitam, 41200 Klang Selangor Darul Ehsan, MALAYSIA</p>
-                                <div className="d-flex mt-4">
-                                    <ul>
+                                <div className="d-sm-block d-md-flex d-lg-flex mt-4">
+                                    <ul className="mb-sm-2">
                                         <h6 className="text-red">Phone</h6>
                                         <p className="text-white">+6018 3123 7171</p>
                                     </ul>
