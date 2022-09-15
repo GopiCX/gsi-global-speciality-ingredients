@@ -12,6 +12,9 @@ import OurSolutions from '../Screens/OurSolutions/OurSolutions';
 import Responsibility from '../Screens/Responsibility/Responsibility';
 import KeyAccountmanager from '../Screens/KeyAccountmanager/KeyAccountmanager';
 import ConfectionerySolutions from '../Screens/ConfectionerySolutions/ConfectionerySolutions';
+import BakerySolutions from '../Screens/BakerySolutions/BakerySolutions';
+import ShelfLifeFryingSolutions from '../Screens/ShelfLifeFryingSolutions/ShelfLifeFryingSolutions';
+import OilFatSolutions from '../Screens/OilFatSolutions/OilFatSolutions';
 
 import Layout from '../Layout/Layout';
 class InnerRoutes extends React.Component {
@@ -30,6 +33,9 @@ class InnerRoutes extends React.Component {
                     <Route path="/responsibility" component={Responsibility} />
                     <Route path="/key-account-manager" component={KeyAccountmanager} />
                     <Route path="/confectionery-solutions" component={ConfectionerySolutions} />
+                    <Route path="/bakery-solutions" component={BakerySolutions} />
+                    <Route path="/shelf-life-frying-solutions" component={ShelfLifeFryingSolutions} />
+                    <Route path="/oil-fat-solutions" component={OilFatSolutions} />
                 </Switch>
             </Layout>
         );
