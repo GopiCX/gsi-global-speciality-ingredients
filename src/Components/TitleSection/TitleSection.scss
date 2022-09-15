@@ -75,16 +75,7 @@
     &.confectionary-solutions{
         @include bgSetup($bg-image: url('../assets/images/confectionary-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
     }
-    &.aboutus,
-    &.contactus,
-    &.solutions,
-    &.career,
-    &.responsibility,
-    &.key-account-manager,
-    .confectionary-solutions{
-        @media(max-width:1100px) {
-            background-position: center center;
-        }
-    }
-    
+    &.bakery-solutions{
+        @include bgSetup($bg-image: url('../assets/images/bakery-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    }    
 }

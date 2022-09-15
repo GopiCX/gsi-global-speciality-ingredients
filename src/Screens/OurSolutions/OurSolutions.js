@@ -39,9 +39,9 @@ class OurSolutions extends React.Component {
                         </Row>
                         <Row gutter={[20, 20]} align="center">
                             <SolutionList solutionTitle="Confectionery Solutions" solutionPageLink="/confectionery-solutions" solutionImg={confectionerySolutions} />
-                            <SolutionList solutionTitle="Bakery Solutions" solutionPageLink="/about-us" solutionImg={bakerySolution} />
-                            <SolutionList solutionTitle="Shelf Life & Frying Solutions" solutionPageLink="/about-us" solutionImg={shelfLife} />
-                            <SolutionList solutionTitle="Oil & Fat Solutions" solutionPageLink="/about-us" solutionImg={oilFat} />
+                            <SolutionList solutionTitle="Bakery Solutions" solutionPageLink="/bakery-solutions" solutionImg={bakerySolution} />
+                            <SolutionList solutionTitle="Shelf Life & Frying Solutions" solutionPageLink="/shelf-life-frying-solutions" solutionImg={shelfLife} />
+                            <SolutionList solutionTitle="Oil & Fat Solutions" solutionPageLink="/oil-fat-solutions" solutionImg={oilFat} />
                             <SolutionList solutionTitle="Anti-Clouding & Clouding Agents" solutionPageLink="/about-us" solutionImg={antiClouding} />
                             <SolutionList solutionTitle="Beverage Solutions" solutionPageLink="/about-us" solutionImg={beverageSolutions} />
                             <SolutionList solutionTitle="Chocolate Solutions" solutionPageLink="/about-us" solutionImg={chocolateSolutions} />
