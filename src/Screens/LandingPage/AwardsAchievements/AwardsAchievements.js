@@ -3,6 +3,7 @@ import { withRouter } from "react-router";
 import { Row, Col, Popover } from "antd";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
+import Fade from 'react-reveal/Fade';
 import Award1 from '../../../assets/images/award/awards-1.png';
 import Award2 from '../../../assets/images/award/awards-2.png';
 import './AwardsAchievements.scss'
@@ -25,19 +26,23 @@ class AwardsAchievements extends React.Component {
         return (
             <React.Fragment>
 
-                <section className="awards-achievements bg-blue ">
+                <section className="awards-achievements bg-blue p-mob">
 
                     <Slider {...awardslidersettings}>
                         <div className="list">
                             <Row align="center">
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="text-center">
-                                    <img src={Award1} alt="Awards" />
+                                    <Fade>
+                                        <img src={Award1} alt="Awards" />
+                                    </Fade>
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="bg-blue py-5 px-lg-5 px-2 text-white  px-lg-3 center-contents">
                                     <div className="awards px-lg-3 middle-content">
-                                        <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">Awards & Achievements</h2>
-                                        <span className="d-block">2019</span>
-                                        <p>Best Food Ingredients Supplier by Frost and Sullivan</p>
+                                        <Fade top>
+                                            <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">Awards & Achievements</h2>
+                                            <span className="d-block">2019</span>
+                                            <p>Best Food Ingredients Supplier by Frost and Sullivan</p>
+                                        </Fade>
                                     </div>
                                 </Col>
                             </Row>
@@ -45,18 +50,22 @@ class AwardsAchievements extends React.Component {
                         <div className="list">
                             <Row align="center">
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="text-center">
-                                    <img src={Award2} alt="Awards" />
+                                    <Fade>
+                                        <img src={Award2} alt="Awards" />
+                                    </Fade>
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="bg-blue py-5 px-lg-5 px-2 text-white  px-lg-3 center-contents">
                                     <div className="awards px-lg-3 middle-content">
-                                         <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">Awards & Achievements</h2>
-                                        <span className="d-block">2018</span>
-                                        <p>STAR OUTSTANDING BUSINESS AWARDS (SOBA)</p>
+                                        <Fade top>
+                                            <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">Awards & Achievements</h2>
+                                            <span className="d-block">2018</span>
+                                            <p>STAR OUTSTANDING BUSINESS AWARDS (SOBA)</p>
+                                        </Fade>
                                     </div>
                                 </Col>
                             </Row>
                         </div>
-                        
+
                     </Slider>
                 </section>
             </React.Fragment >

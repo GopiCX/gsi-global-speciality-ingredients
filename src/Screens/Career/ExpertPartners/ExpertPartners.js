@@ -24,6 +24,8 @@ const expertSlidersettings = {
         {
           breakpoint: 1024,
           settings: {
+            arrows: false,
+            dots: true,
             slidesToShow: 3,
             slidesToScroll: 1,
             infinite: true,
@@ -32,6 +34,8 @@ const expertSlidersettings = {
         {
           breakpoint: 900,
           settings: {
+            arrows: false,
+            dots: true,
             slidesToShow: 2,
             slidesToScroll: 1
           }
@@ -39,6 +43,8 @@ const expertSlidersettings = {
         {
           breakpoint: 580,
           settings: {
+            arrows: false,
+            dots: true,
             slidesToShow: 1,
             slidesToScroll: 1
           }
@@ -52,8 +58,8 @@ class ExpertPartners extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <section className="expert-partners bg-blue-gradient py-5">
-                    <div className="container mx-auto py-3">
+                <section className="expert-partners bg-blue-gradient py-5  p-mob">
+                    <div className="container mx-auto py-2 py-lg-3">
                         <Row gutter={[30, 20]} align="center" className="text-white pb-5 ">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} >
                                 <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">We are committed expert partners</h2>

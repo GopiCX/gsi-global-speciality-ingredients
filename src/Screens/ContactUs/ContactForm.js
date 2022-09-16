@@ -82,7 +82,6 @@ class ContactForm extends React.Component {
                             value={this.state.phone}
                             onChangeText={this.onChangeText}
                             type="text"
-                            
                         />
                     </div>
                     <div className="form-fields">

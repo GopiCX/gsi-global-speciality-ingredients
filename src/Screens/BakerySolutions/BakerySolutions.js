@@ -19,7 +19,7 @@ class BakerySolutions extends React.Component {
             <React.Fragment>
                 <TitleSection className="bakery-solutions" welcomeText="Welcome to Global peciality Ingredients" titleName="Bakery Solutions" />
 
-                <section className="gsi-solutions py-5">
+                <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">
                         <Row gutter={[20, 20]} align="center" className="mb-4">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 16 }} lg={{ span: 16 }} >
@@ -40,11 +40,11 @@ class BakerySolutions extends React.Component {
                     </div>
                 </section>
 
-                <section className="pb-4">
+                <section className="pb-4 p-mob">
                     <div className="container mx-auto">
                         <Row gutter={[20, 20]} align="center">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} className='text-center'>
-                                <Link to="/key-account-manager" className='btn'>For further inquiry, Meet Your Key Account Manager!</Link>
+                                <Link to="/key-account-manager" className="btn ant-btn-primary">For further inquiry, Meet Your Key Account Manager!</Link>
                             </Col>
                         </Row>
                     </div>

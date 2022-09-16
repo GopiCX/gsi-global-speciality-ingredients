@@ -18,7 +18,7 @@ class KeyAccountmanager extends React.Component {
             <React.Fragment>
                 <TitleSection className="key-account-manager" welcomeText="Welcome to Global peciality Ingredients" titleName="Meet Your Key Account Manager" />
 
-                <section className="gsi-solutions py-5">
+                <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">
                         <Row gutter={[20, 20]} align="center" className="mb-4">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 16 }} lg={{ span: 16 }} >
