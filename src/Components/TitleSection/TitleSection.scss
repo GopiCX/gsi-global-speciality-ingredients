@@ -77,5 +77,32 @@
     }
     &.bakery-solutions{
         @include bgSetup($bg-image: url('../assets/images/bakery-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    }
+    &.shelf-life-frying-solutions{
+        @include bgSetup($bg-image: url('../assets/images/shelf-life-frying-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    }  
+    &.oil-fat-solutions{
+        @include bgSetup($bg-image: url('../assets/images/oil-fat-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    }  
+    &.anti-clouding-clouding-agents{
+        @include bgSetup($bg-image: url('../assets/images/anti-clouding-clouding-agents/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
     }    
+    &.beverage-solutions{
+        @include bgSetup($bg-image: url('../assets/images/beverage-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    }   
+    &.chocolate-solutions{
+        @include bgSetup($bg-image: url('../assets/images/chocolate-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    }   
+    &.dairy-dairy-analogue{
+        @include bgSetup($bg-image: url('../assets/images/dairy-dairy-analogue/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    }    
+    &.flavour-colour-solutions{
+        @include bgSetup($bg-image: url('../assets/images/flavour-colour-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    }   
+    &.nutrition-solutions{
+        @include bgSetup($bg-image: url('../assets/images/nutrition-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    }   
+    &.savoury-solutions{
+        @include bgSetup($bg-image: url('../assets/images/savoury-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    }   
 }
