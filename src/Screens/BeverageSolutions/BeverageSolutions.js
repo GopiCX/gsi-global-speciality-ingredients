@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
@@ -6,39 +5,34 @@ import { Row, Col, Input } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
 import TitleSection from '../../Components/TitleSection/TitleSection';
 //import './ConfectionerySolutions.scss';
-import MargarineSpread from './MargarineSpread';
-import IndustrialCakeCreamMargarine from './IndustrialCakeCreamMargarine';
-import PuffPastryMargarine from './PuffPastryMargarine';
-import VegetableCream from './VegetableCream';
-import Ghee from './Ghee';
-import LiquidShortening from './LiquidShortening';
+import Coffee from './Coffee';
+import InstantBeverage from './InstantBeverage';
+import ChocolateBeverage from './ChocolateBeverage';
+import SoftDrinkJuices from './SoftDrinkJuices';
 
 
-
-class OilFatSolutions extends React.Component {
+class BeverageSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="oil-fat-solutions" welcomeText="Welcome to Global peciality Ingredients" titleName="Oil & Fat Solutions" />
+                <TitleSection className="beverage-solutions" welcomeText="Welcome to Global peciality Ingredients" titleName="Beverage Solutions" />
 
                 <section className="gsi-solutions py-5">
                     <div className="container mx-auto">
                         <Row gutter={[20, 20]} align="center" className="mb-4">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 16 }} lg={{ span: 16 }} >
                                 <h2 className="border-left-3 text-blue  border-danger pl-3 mb-3">Please find our product line.</h2>
-                                <p className="text-left mt-3">GSI offers a broad range of functional emulsifier blends for use in margarines, shortenings, ghees and other lipid products. Our expertise team will help you to optimise your emulsifers and fat compositions, and your production processing as well in order for you to achieve the best results.</p>
+                                <p className="text-left mt-3">GSI will help you develop exotic hot- and cold-beverage concepts with our innovative products. You no longer have to worry about the flavour and functionality challenges posed when creating great drinks.</p>
                             </Col>
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 8 }} lg={{ span: 8 }} >
                                 <Input size="large" placeholder="Search..." prefix={<SearchOutlined />} />
                             </Col>
                         </Row>
                         <div className="mt-4">
-                            <MargarineSpread />
-                            <IndustrialCakeCreamMargarine />
-                            <PuffPastryMargarine />
-                            <VegetableCream />
-                            <Ghee />
-                            <LiquidShortening />
+                            <Coffee />
+                            <InstantBeverage />
+                            <ChocolateBeverage />
+                            <SoftDrinkJuices />
                         </div>
                     </div>
                 </section>
@@ -47,7 +41,7 @@ class OilFatSolutions extends React.Component {
                     <div className="container mx-auto">
                         <Row gutter={[20, 20]} align="center">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} className='text-center'>
-                                <Link to="/key-account-manager" className='btn ant-btn-primary'>For further inquiry, Meet Your Key Account Manager!</Link>
+                                <Link to="/key-account-manager" className='btn'>For further inquiry, Meet Your Key Account Manager!</Link>
                             </Col>
                         </Row>
                     </div>
@@ -57,4 +51,4 @@ class OilFatSolutions extends React.Component {
         )
     }
 }
-export default withRouter(OilFatSolutions)
+export default withRouter(BeverageSolutions)

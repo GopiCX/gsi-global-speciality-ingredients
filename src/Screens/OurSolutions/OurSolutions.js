@@ -42,13 +42,13 @@ class OurSolutions extends React.Component {
                             <SolutionList solutionTitle="Bakery Solutions" solutionPageLink="/bakery-solutions" solutionImg={bakerySolution} />
                             <SolutionList solutionTitle="Shelf Life & Frying Solutions" solutionPageLink="/shelf-life-frying-solutions" solutionImg={shelfLife} />
                             <SolutionList solutionTitle="Oil & Fat Solutions" solutionPageLink="/oil-fat-solutions" solutionImg={oilFat} />
-                            <SolutionList solutionTitle="Anti-Clouding & Clouding Agents" solutionPageLink="/about-us" solutionImg={antiClouding} />
-                            <SolutionList solutionTitle="Beverage Solutions" solutionPageLink="/about-us" solutionImg={beverageSolutions} />
-                            <SolutionList solutionTitle="Chocolate Solutions" solutionPageLink="/about-us" solutionImg={chocolateSolutions} />
-                            <SolutionList solutionTitle="Dairy & Dairy Analogue" solutionPageLink="/about-us" solutionImg={dairyAnalogue} />
-                            <SolutionList solutionTitle="Flavour & Colour Solutions" solutionPageLink="/about-us" solutionImg={colourSolutions} />
-                            <SolutionList solutionTitle="Nutrition Solutions" solutionPageLink="/about-us" solutionImg={nutritionSolutions} />
-                            <SolutionList solutionTitle="Savoury Solutions" solutionPageLink="/about-us" solutionImg={savourySolutions} />
+                            <SolutionList solutionTitle="Anti-Clouding & Clouding Agents" solutionPageLink="/anti-clouding-clouding-agents" solutionImg={antiClouding} />
+                            <SolutionList solutionTitle="Beverage Solutions" solutionPageLink="/beverage-solutions" solutionImg={beverageSolutions} />
+                            <SolutionList solutionTitle="Chocolate Solutions" solutionPageLink="/chocolate-solutions" solutionImg={chocolateSolutions} />
+                            <SolutionList solutionTitle="Dairy & Dairy Analogue" solutionPageLink="/dairy-dairy-analogue" solutionImg={dairyAnalogue} />
+                            <SolutionList solutionTitle="Flavour & Colour Solutions" solutionPageLink="/flavour-colour-solutions" solutionImg={colourSolutions} />
+                            <SolutionList solutionTitle="Nutrition Solutions" solutionPageLink="/nutrition-solutions" solutionImg={nutritionSolutions} />
+                            <SolutionList solutionTitle="Savoury Solutions" solutionPageLink="/savoury-solutions" solutionImg={savourySolutions} />
                             <SolutionList solutionTitle="Adsorbent" solutionPageLink="/about-us" solutionImg={Adsorbent} />
                          </Row>
                     </div>
