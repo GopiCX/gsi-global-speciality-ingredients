@@ -16,9 +16,10 @@ class AccountManagerRajeshJesuraj extends React.Component {
                         </Col>
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 18 }} lg={{ span: 18 }} >
                             <h3 className="text-blue">Mr. Robert Basker</h3>
+                            <h6>GM - Sales & Marketing</h6>
+
                             <Row gutter={[20, 20]} className="mb-4">
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 9 }} className="border-right mr-2 pr-2"  >
-                                    <h6>GM - Sales & Marketing</h6>
                                     <div className="contact-item">
                                         <div className="icon">
                                             <i class="fa fa-whatsapp" aria-hidden="true" />

@@ -47,7 +47,7 @@ class OilFatSolutions extends React.Component {
                     <div className="container mx-auto">
                         <Row gutter={[20, 20]} align="center">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} className='text-center'>
-                                <Link to="/key-account-manager" className='btn'>For further inquiry, Meet Your Key Account Manager!</Link>
+                                <Link to="/key-account-manager" className='btn ant-btn-primary'>For further inquiry, Meet Your Key Account Manager!</Link>
                             </Col>
                         </Row>
                     </div>

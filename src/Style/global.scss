@@ -65,6 +65,7 @@ body {
   color: var(--dark-gray);
   text-align: left;
   background-color: #fff;
+  overflow-x:hidden;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -259,11 +260,11 @@ button {
 }
 
 .container {
-  -webkit-flex: 0 0 89.33333%;
+  -webkit-flex: 0 0 1140px;
   -moz-box-flex: 0;
-  -ms-flex: 0 0 89.33333%;
-  flex: 0 0 89.33333%;
-  max-width: 89.33333%;
+  -ms-flex: 0 0 1140px;
+  flex: 0 0 1140px;
+  max-width: 1140px;  
 }
 
 .ml-auto,
@@ -505,7 +506,13 @@ input[type="text"]:focus {
 .section-subtitle {
   font-size: 27px;
 }
-
+// custom sace
+.p-mob{
+  @media(max-width: 1018px){
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
 //custom text colors
 .text-blue{
   color: var(--primary);
