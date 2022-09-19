@@ -18,6 +18,7 @@ import shelfLife from "../../assets/images/our-solutions/shelf-life-frying-solut
 import oilFat from "../../assets/images/our-solutions/oil-fat-solutions.jpg";
 import viewAll from "../../assets/images/01-bakery-solutions.png";
 import innovationWheel from "../../assets/images/05-innovation-wheel-wheel-new.png";
+import innovationWheelCircle from "../../assets/images/05-innovation-wheel-wheel.png";
 import commitment from "../../assets/images/04-commitment.png";
 import customerSatisfactionSurvey from "../../assets/images/04-customer-satisfaction-survey.png";
 import innovation from "../../assets/images/04-innovation.png";
@@ -40,7 +41,7 @@ export default class Home extends React.Component {
             <Row gutter={[30, 20]} align="center" className="pb-3 ">
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 17 }} lg={{ span: 17 }} >
                 <div className="pb-2 pr-lg-4">
-                  <Fade top>
+                  <Fade left>
                     <h1 className="border-left-3 border-danger text-blue pl-3 mb-3">Your Innovation Our Solution</h1>
                     <p className="text-black mb-2">We at Global Specialty Ingredients through research and development, are committed and passionate in helping customers to provide innovative ideas and solutions on product innovation by bringing revolutionary innovation ideas and skills to a sustainable level.</p>
                     <p className="text-black">Our innovations are backed by decades of experience and extensive knowledge of innovation by listening to and collaborating with our customers.</p>
@@ -49,29 +50,28 @@ export default class Home extends React.Component {
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 7 }} lg={{ span: 7 }} >
                 <div className="overflow-hidden border-radius">
-                  <Fade top>
+                  <Fade right>
                     <img src={yourInnovation} alt="your innovation our solution" className="animation-grow rounded w-100" />
                   </Fade>
                 </div>
               </Col>
             </Row>
           </div>
-        </section>
-
+        </section> 
 
         <section className="development-product bg-blue  pattern-2  py-5 p-mob">
           <div className="container mx-auto py-3">
             <Row gutter={[30, 20]} align="middle" className="pb-3 ">
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} >
                 <div className="pb-2 pr-lg-4">
-                  <Zoom Left>
+                  <Fade Left>
                     <h1 className="border-left-3 border-danger text-white pl-3 mb-3">Development of Product and Capability Spectrum</h1>
                     <p className="text-black text-white mb-2">GSI has a variety of ingredients and capabilities that can help you with your product development innovation and know-how on process technology which can help you achieve your expectation.</p>
-                  </Zoom>
+                  </Fade>
                 </div>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} >
-                <Fade top>
+                <Fade right>
                   <img src={developmentProduct} alt="your innovation our solution" />
                 </Fade>
               </Col>
@@ -84,12 +84,12 @@ export default class Home extends React.Component {
           <div className="container mx-auto pb-3">
             <div className="border border-2 border-top-0 border-danger">
               <div className="p-4">
-                <Zoom top>
+                <Fade>
                   <div className="title-section text-center mb-4 pt-4">
                     <h1 className="text-blue text-center d-inline border-right-3 border-danger  pr-3">Our Value Proposition</h1>
                     <p className="text-left mt-3">We offer a unique value proposition that differentiates us from our competitors. Our approach is customer-centric, and we focus on providing the best possible services and products.</p>
                   </div>
-                </Zoom>
+                </Fade>
                 <Row gutter={[30, 20]} align="center" className="pb-3 ">
                   <Col xs={{ span: 24 }} sm={{ span: 8 }} md={{ span: 8 }} lg={{ span: 8 }} className="text-center px-lg-3">
                     <Bounce>
@@ -129,13 +129,13 @@ export default class Home extends React.Component {
           <div className="container mx-auto py-3">
             <Row gutter={[30, 20]} align="center" className="text-white pb-3 ">
               <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 10 }} lg={{ span: 10 }} >
-                <Fade top>
+                <Fade left>
                   <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">GSI Shared Values</h2>
                   <p className="mt-3">We share common values. These values guide our actions and help us work together as a team. We believe in being honest and working together to solve problems.</p>
                 </Fade>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 14 }} md={{ span: 14 }} lg={{ span: 14 }} className="text-right quote-icon">
-                <Fade top>
+                <Fade right>
                   <img src={quoteTop} alt="quote" />
                 </Fade>
               </Col>
@@ -228,9 +228,9 @@ export default class Home extends React.Component {
 
         <section className="innovation-wheel bg-red-gradient py-5 p-mob">
           <div className="container mx-auto py-3">
-            <Row gutter={[30, 20]} align="center" className="text-white pb-3 ">
+            <Row gutter={[30, 20]} align="center" className="text-white pb-md-3 pb-lg-3 ">
               <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 10 }} lg={{ span: 10 }} >
-                <Fade top>
+                <Fade left>
                   <h2 className="border-left-3 border-blue text-white pl-3 mb-3">Innovation Wheel</h2>
                   <p className="mt-3">The innovation wheel is a model that helps GSI to increase innovation by implementing a systematic process approach for innovation.</p>
                   <p className="mt-3">This process helps GSI to recognize areas of potential discovery, improvement, and strength.</p>
@@ -238,8 +238,9 @@ export default class Home extends React.Component {
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 14 }} md={{ span: 14 }} lg={{ span: 14 }}>
                 <div className="wheel">
-                  <Fade top>
-                    <img src={innovationWheel} alt="Innovation Wheel" />
+                  <Fade right>
+                    <img src={innovationWheel} alt="Innovation Wheel" className="innovation-wheel-jpg"/>
+                    <img src={innovationWheelCircle} alt="Innovation Wheel" className="innovation-wheel-circle" />
                   </Fade>
                 </div>
               </Col>
@@ -250,8 +251,8 @@ export default class Home extends React.Component {
 
 
         <section className="cutting-edge-solution py-5 p-mob">
-          <div className="container mx-auto py-3">
-            <Fade top>
+          <div className="container mx-auto py-lg-3">
+            <Fade left>
               <div className="title-section mb-4">
                 <h2 className="border-left-3 text-blue  border-danger pl-3 mb-3">Our Cutting Edge Solutions</h2>
                 <p className="text-left mt-3">Our extraordinary ingredients are product of technical expertise, <br />meticulous research and innovation of listening to and working with our customers.</p>
@@ -308,12 +309,15 @@ export default class Home extends React.Component {
               </Bounce>
               <Bounce>
                 <div className="card-box ">
-                  <div className="details overflow-hidden border-radius">
-                    <img src={viewAll} alt="View All Solutions" />
-                    <div class="center-align">
-                      <h6 className="text-white text-center">View All<br />Solutions</h6>
+                  <Link to="/our-solutions">
+                    <div className="details bg-grid overflow-hidden border-radius">
+                      <img src={viewAll} alt="View All Solutions" />
+                      <div class="center-align text-center">
+                        <h6 className="text-white text-center">View All<br />Solutions</h6>
+                        <i className="fa fa-chevron-circle-right text-white" />
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
               </Bounce>
             </div>

@@ -124,6 +124,10 @@
 .ant-back-top {
     right: 26px !important;
     bottom: 20px !important;
+    @media(max-width: 450px){
+        width: 30px;
+        height: 39px;
+    }
 }
 
 .back-to-top {
@@ -136,10 +140,20 @@
     color: var(--primary);
     text-align: center;
     font-size: 15px;
+    @media(max-width: 450px){
+        height: 39px;
+        width: 30px;
+        line-height: 27px;
+        font-size: 11px;
+    }
     img{
         width: 24px;
         height: 24px;
         margin-bottom: 4px;
+        @media(max-width: 450px){
+            width: 12px;
+            height: 12px;
+        }
     }
     span{
         line-height: 0;

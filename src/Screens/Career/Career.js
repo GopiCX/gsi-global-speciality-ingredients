@@ -5,7 +5,6 @@ import { PlusOutlined, MinusOutlined } from '@ant-design/icons';
 import { Row, Col, Collapse } from 'antd';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
-import Bounce from 'react-reveal/Bounce';
 import TitleSection from '../../Components/TitleSection/TitleSection';
 import ExpertPartners from "./ExpertPartners/ExpertPartners";
 import experienceImg from "../../assets/images/career/experience.png";
@@ -35,31 +34,31 @@ class Career extends React.Component {
             </Fade>
             <Row gutter={[25, 20]} justify="space-between" align="left">
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} >
-                <Bounce cascade>
+                <Fade>
                   <img src={experienceImg} alt="Experience" className="w-100" />
                   <div className="bg-light-gray p-3 p-lg-4">
                     <h5 className="text-blue mb-3">Experience</h5>
                     <p>Consumers today want food and beverages that taste great, have a pleasing texture and appearance, and are not only nutritious but also delectable and cost effective. We offer the knowledge, skills, facilities, and infrastructure to assist you in meeting these expectations and maintaining your competitive advantage.</p>
                   </div>
-                </Bounce>
+                </Fade>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} >
-                <Bounce cascade>
+                <Fade>
                   <img src={innovationImg} alt="Innovation" className="w-100" />
                   <div className="bg-light-gray p-3 p-lg-4">
                     <h5 className="text-blue mb-3">Innovation</h5>
                     <p>Our original and innovative culture is fueled by our desire to create fascinating, market-winning products. Our customers regard us as not only a reliable source of high-quality ingredients, but also as a strategic partner who assists them in developing ground-breaking new products to satisfy evolving consumer expectations.</p>
                   </div>
-                </Bounce>
+                </Fade>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} >
-                <Bounce cascade>
+              <Fade>
                   <img src={qualityImg} alt="Quality" className="w-100" />
                   <div className="bg-light-gray p-3 p-lg-4">
                     <h5 className="text-blue mb-3">Quality</h5>
                     <p>Our major priority has always been to provide high-quality products and services. Our partners have complete faith in our products, so we strive to exceed their expectations.</p>
                   </div>
-                </Bounce>
+                </Fade>
               </Col>
             </Row>
           </div>
@@ -68,7 +67,7 @@ class Career extends React.Component {
         <ExpertPartners />
 
 
-        <section className="py-5 p-mob">
+        <section className="performance-measurement py-5 p-mob">
           <div className="container mx-auto">
             <Fade left>
               <h2 className="border-left-3 border-danger text-blue pl-3 mb-4">Performance Measurement</h2>
@@ -76,49 +75,49 @@ class Career extends React.Component {
             </Fade>
             <Row gutter={[20, 20]} justify="space-between" align="left">
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} >
-                <Bounce cascade>
+                <Fade>
                   <div className="details">
-                    <img src={businessstrategyMapping} alt="Business Strategy Mapping" className="w-100 mb-2" />
+                    <img src={businessstrategyMapping} alt="Business Strategy Mapping" className="mb-2" />
                     <h5 className="text-blue mt-3">Business Strategy Mapping</h5>
                     <p>A business strategy map is a basic diagram that depicts the logical cause-and-effect relationship between strategic goals. It is one of the most important components of the balanced scorecard technique since it is used to swiftly describe how the business creates value.</p>
                   </div>
-                </Bounce>
+                </Fade>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} >
-                <Bounce cascade>
+                <Fade>
                   <div className="details">
-                    <img src={balancedScorecard} alt="Balanced Scorecard" className="w-100 mb-2" />
+                    <img src={balancedScorecard} alt="Balanced Scorecard" className="mb-2" />
                     <h5 className="text-blue mt-3">Balanced Scorecard</h5>
                     <p>The scorecard prioritises strategy and vision over control. It establishes objectives but expects that people will adopt whatever attitudes and actions are required to achieve those objectives. The goals of the measures are to entice people to support the overarching objective.</p>
                   </div>
-                </Bounce>
+                </Fade>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} >
-                <Bounce cascade>
+                <Fade>
                   <div className="details">
-                    <img src={keyperformanceIndicator} alt="Key Performance Indicator (KPI)" className="w-100 mb-2" />
+                    <img src={keyperformanceIndicator} alt="Key Performance Indicator (KPI)" className="mb-2" />
                     <h5 className="text-blue mt-3">Key Performance Indicator (KPI)</h5>
                     <p>The crucial (key) indicators of progress toward a desired objective are known as key performance indicators (KPIs). KPIs serve as a focal point for strategic and operational improvement, providing an analytical foundation for decision-making and assisting in focusing attention on what matters most.</p>
                   </div>
-                </Bounce>
+                </Fade>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} >
-                <Bounce cascade>
+                <Fade>
                   <div className="details">
-                    <img src={KeyresultAreas} alt="Key Result Areas (KRA)" className="w-100 mb-2" />
+                    <img src={KeyresultAreas} alt="Key Result Areas (KRA)" className="mb-2" />
                     <h5 className="text-blue mt-3">Key Result Areas (KRA)</h5>
                     <p>A short list of overall goals that influence how a person executes their job, or general performance and growth goals for an organisation or one of its divisions, are referred to as Key Result Areas (KRAs).</p>
                   </div>
-                </Bounce>
+                </Fade>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} >
-                <Bounce cascade>
+                <Fade>
                   <div className="details">
-                    <img src={personaldevelopmentPlan} alt="Personal Development Plan (PDP)" className="w-100 mb-2" />
+                    <img src={personaldevelopmentPlan} alt="Personal Development Plan (PDP)" className="mb-2" />
                     <h5 className="text-blue mt-3">Personal Development Plan (PDP)</h5>
                     <p>A personal development plan (PDP) is an action plan that you can use to establish your personal goals and what you want to accomplish. Your positive and negative characteristics. To achieve your objectives, identify the areas where you need to improve and develop. What you must do in order to meet your objectives</p>
                   </div>
-                </Bounce>
+                </Fade>
               </Col>
             </Row>
           </div>
@@ -128,7 +127,7 @@ class Career extends React.Component {
           <div className="container mx-auto py-3">
             <Row gutter={[30, 20]} align="center" className="text-white pb-5 ">
               <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} >
-                <Fade top>
+                <Fade>
                   <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">What we offer</h2>
                   <p className="mt-3">GSI offers attractive benefit plans to all of our employees, as well as keeping track of new industry developments and enhancing our programmes as needed.</p>
                 </Fade>
@@ -139,7 +138,7 @@ class Career extends React.Component {
 
         <section className="benefits py-5 align-top  p-mob">
           <div className="container mx-auto py-3">
-            <Zoom top>
+            <Zoom>
               <div className="title-section text-center mb-3">
                 <h2 className="text-white  d-inline pl-3 ">General Benefits</h2>
               </div>

@@ -37,7 +37,7 @@ class OurSolutions extends React.Component {
                                 <Input size="large" placeholder="Search..." prefix={<SearchOutlined />} />
                             </Col>
                         </Row>
-                        <Row gutter={[20, 20]} align="center">
+                        <Row gutter={[{ xs: 4, sm: 5, md: 10, lg: 15 }, { xs: 8, sm: 16, md: 18, lg: 20 }]} align="center">
                             <SolutionList solutionTitle="Confectionery Solutions" solutionPageLink="/confectionery-solutions" solutionImg={confectionerySolutions} />
                             <SolutionList solutionTitle="Bakery Solutions" solutionPageLink="/bakery-solutions" solutionImg={bakerySolution} />
                             <SolutionList solutionTitle="Shelf Life & Frying Solutions" solutionPageLink="/shelf-life-frying-solutions" solutionImg={shelfLife} />
@@ -49,7 +49,7 @@ class OurSolutions extends React.Component {
                             <SolutionList solutionTitle="Flavour & Colour Solutions" solutionPageLink="/flavour-colour-solutions" solutionImg={colourSolutions} />
                             <SolutionList solutionTitle="Nutrition Solutions" solutionPageLink="/nutrition-solutions" solutionImg={nutritionSolutions} />
                             <SolutionList solutionTitle="Savoury Solutions" solutionPageLink="/savoury-solutions" solutionImg={savourySolutions} />
-                            <SolutionList solutionTitle="Adsorbent" solutionPageLink="/about-us" solutionImg={Adsorbent} />
+                            <SolutionList solutionTitle="Adsorbent" solutionPageLink="/adsorbent" solutionImg={Adsorbent} />
                          </Row>
                     </div>
                 </section>

@@ -47,22 +47,22 @@ export default class Header extends React.Component {
                 <div className="center-header">
                   <ul>
                     <li>
-                      <NavLink exact activeClassName="active" to="/">Home</NavLink>
+                      <NavLink exact onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/">Home</NavLink>
                     </li>
                     <li>
-                      <NavLink activeClassName="active" to="/about-us">About</NavLink>
+                      <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/about-us">About</NavLink>
                     </li>
                     <li>
-                      <NavLink activeClassName="active" to="/our-solutions">Our Solution</NavLink>
+                      <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/our-solutions">Our Solution</NavLink>
                     </li>
                     <li>
-                      <NavLink activeClassName="active" to="/responsibility">Responsibility</NavLink>
+                      <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/responsibility">Responsibility</NavLink>
                     </li>
                     <li>
-                      <NavLink activeClassName="active" to="/career">Careers</NavLink>
+                      <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/career">Careers</NavLink>
                     </li>
                     <li>
-                      <NavLink activeClassName="active" to="/contact-us">Contact</NavLink>
+                      <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/contact-us">Contact</NavLink>
                     </li>
                   </ul>
                 </div>

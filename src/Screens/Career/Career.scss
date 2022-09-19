@@ -39,3 +39,17 @@
         }
     }
 }
+// performance-measurement
+.performance-measurement{
+    @media(max-width: 580px){
+        .ant-col-xs-24 {
+            text-align: center;
+        }
+    }
+    img{
+        width:100%;
+        @media(max-width: 580px){
+            width: 50%;
+        }
+    }
+}

@@ -8,14 +8,21 @@ import TitleSection from '../../Components/TitleSection/TitleSection';
 import OilsFatsCrystalEnhancer from './OilsFatsCrystalEnhancer';
 import OilsFatsAntiCrystallization from './OilsFatsAntiCrystallization';
 import Beverages from './Beverages';
-
+import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
+import Fade from 'react-reveal/Fade';
 class AntiCloudingCloudingAgents extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            showMoreinfo: false
+        };
+    }
     render() {
         return (
             <React.Fragment>
                 <TitleSection className="anti-clouding-clouding-agents" welcomeText="Welcome to Global peciality Ingredients" titleName="Anti Clouding & Clouding Agents" />
 
-                <section className="gsi-solutions py-5">
+                <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">
                         <Row gutter={[20, 20]} align="center" className="mb-4">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 16 }} lg={{ span: 16 }} >
@@ -27,22 +34,16 @@ class AntiCloudingCloudingAgents extends React.Component {
                             </Col>
                         </Row>
                         <div className="mt-4">
-                            <OilsFatsCrystalEnhancer />
-                            <OilsFatsAntiCrystallization />
-                            <Beverages />
+                            <Fade>
+                                <OilsFatsCrystalEnhancer />
+                                <OilsFatsAntiCrystallization />
+                                <Beverages />
+                            </Fade>
                         </div>
                     </div>
                 </section>
 
-                <section className="pb-4">
-                    <div className="container mx-auto">
-                        <Row gutter={[20, 20]} align="center">
-                            <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} className='text-center'>
-                                <Link to="/key-account-manager" className='btn'>For further inquiry, Meet Your Key Account Manager!</Link>
-                            </Col>
-                        </Row>
-                    </div>
-                </section>
+                <FurtherEnquiry />
 
             </React.Fragment >
         )

@@ -9,15 +9,15 @@ import IceCreamFrozenDesserts from './IceCreamFrozenDesserts';
 import ImitationCream from './ImitationCream';
 import CoffeeCreamer from './CoffeeCreamer';
 import ProcessedCheeseCheeseAnalogue from './ProcessedCheeseCheeseAnalogue';
-
-
+import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
+import Bounce from 'react-reveal/Bounce';
 class DairyDairyAnalogue extends React.Component {
     render() {
         return (
             <React.Fragment>
                 <TitleSection className="dairy-dairy-analogue" welcomeText="Welcome to Global peciality Ingredients" titleName="Dairy & Dairy Analogue" />
 
-                <section className="gsi-solutions py-5">
+                <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">
                         <Row gutter={[20, 20]} align="center" className="mb-4">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 16 }} lg={{ span: 16 }} >
@@ -29,23 +29,17 @@ class DairyDairyAnalogue extends React.Component {
                             </Col>
                         </Row>
                         <div className="mt-4">
-                            <IceCreamFrozenDesserts />
-                            <ImitationCream />
-                            <CoffeeCreamer />
-                            <ProcessedCheeseCheeseAnalogue />
+                            <Bounce>
+                                <IceCreamFrozenDesserts />
+                                <ImitationCream />
+                                <CoffeeCreamer />
+                                <ProcessedCheeseCheeseAnalogue />
+                            </Bounce>
                         </div>
                     </div>
                 </section>
 
-                <section className="pb-4">
-                    <div className="container mx-auto">
-                        <Row gutter={[20, 20]} align="center">
-                            <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} className='text-center'>
-                                <Link to="/key-account-manager" className='btn'>For further inquiry, Meet Your Key Account Manager!</Link>
-                            </Col>
-                        </Row>
-                    </div>
-                </section>
+                <FurtherEnquiry />
 
             </React.Fragment >
         )

@@ -10,8 +10,8 @@ import Cake from './Cake';
 import CakePremix from './CakePremix';
 import BiscuitsCookiesCrackers from './BiscuitsCookiesCrackers';
 import CerealsSnacks from './CerealsSnacks';
-
-
+import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
+import Fade from 'react-reveal/Fade';
 
 class BakerySolutions extends React.Component {
     render() {
@@ -31,24 +31,18 @@ class BakerySolutions extends React.Component {
                             </Col>
                         </Row>
                         <div className="mt-4">
-                            <BreadRollPastry />
-                            <Cake />
-                            <CakePremix />
-                            <BiscuitsCookiesCrackers />
-                            <CerealsSnacks />
+                            <Fade>
+                                <BreadRollPastry />
+                                <Cake />
+                                <CakePremix />
+                                <BiscuitsCookiesCrackers />
+                                <CerealsSnacks />
+                            </Fade>
                         </div>
                     </div>
                 </section>
 
-                <section className="pb-4 p-mob">
-                    <div className="container mx-auto">
-                        <Row gutter={[20, 20]} align="center">
-                            <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} className='text-center'>
-                                <Link to="/key-account-manager" className="btn ant-btn-primary">For further inquiry, Meet Your Key Account Manager!</Link>
-                            </Col>
-                        </Row>
-                    </div>
-                </section>
+                <FurtherEnquiry />
 
             </React.Fragment >
         )

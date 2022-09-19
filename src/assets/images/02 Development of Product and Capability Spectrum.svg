@@ -1,116 +1,127 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="907.673" height="712" viewBox="0 0 907.673 712">
-  <defs>
-    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#7b2e87"/>
-      <stop offset="1" stop-color="#6c0f45"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#38b19e"/>
-      <stop offset="1" stop-color="#0090a8"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#0b798d"/>
-      <stop offset="1" stop-color="#004676"/>
-    </linearGradient>
-    <filter id="Rectangle_314" x="124.673" y="60" width="312" height="104" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="10" result="blur"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Rectangle_310" x="169.673" y="0" width="267" height="104" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="10" result="blur-2"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-2"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Rectangle_315" x="75.673" y="120" width="361" height="104" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="10" result="blur-3"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-3"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#f0613d"/>
-      <stop offset="1" stop-color="#d5142f"/>
-    </linearGradient>
-    <filter id="Rectangle_309" x="374.673" y="552" width="533" height="160" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="10" result="blur-4"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-4"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Rectangle_307" x="374.673" y="225" width="533" height="160" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="10" result="blur-5"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-5"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Rectangle_308" x="374.673" y="389" width="533" height="160" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="10" result="blur-6"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-6"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-  </defs>
-  <g id="Group_126" data-name="Group 126" transform="translate(-456.327 -1984)">
-    <path id="Intersection_9" data-name="Intersection 9" d="M3.535,141.84A5,5,0,0,1-.771,134.3L83.247-8.16H338.028L422.047,134.3a5,5,0,0,1-4.307,7.54Z" transform="translate(650.104 2219.16)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)"/>
-    <path id="Intersection_8" data-name="Intersection 8" d="M3.56,128.685a5,5,0,0,1-4.3-7.55L71.448-.583H535.241L607.43,121.135a5,5,0,0,1-4.3,7.55Z" transform="translate(557.396 2386.583)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient-2)"/>
-    <path id="Intersection_7" data-name="Intersection 7" d="M3.559,139.752A5,5,0,0,1-.74,132.2L77.729,0H728.2l78.469,132.2a5,5,0,0,1-4.3,7.552Z" transform="translate(457.774 2543.001)" fill="url(#linear-gradient-3)"/>
-    <g transform="matrix(1, 0, 0, 1, 456.33, 1984)" filter="url(#Rectangle_314)">
-      <path id="Rectangle_314-2" data-name="Rectangle 314" d="M22,0H252a0,0,0,0,1,0,0V44a0,0,0,0,1,0,0H22A22,22,0,0,1,0,22v0A22,22,0,0,1,22,0Z" transform="translate(154.67 87)" fill="#fff"/>
-    </g>
-    <g transform="matrix(1, 0, 0, 1, 456.33, 1984)" filter="url(#Rectangle_310)">
-      <path id="Rectangle_310-2" data-name="Rectangle 310" d="M22,0H207a0,0,0,0,1,0,0V44a0,0,0,0,1,0,0H22A22,22,0,0,1,0,22v0A22,22,0,0,1,22,0Z" transform="translate(199.67 27)" fill="#fff"/>
-    </g>
-    <g transform="matrix(1, 0, 0, 1, 456.33, 1984)" filter="url(#Rectangle_315)">
-      <path id="Rectangle_315-2" data-name="Rectangle 315" d="M22,0H301a0,0,0,0,1,0,0V44a0,0,0,0,1,0,0H22A22,22,0,0,1,0,22v0A22,22,0,0,1,22,0Z" transform="translate(105.67 147)" fill="#fff"/>
-    </g>
-    <path id="Polygon_4" data-name="Polygon 4" d="M111.7,7.27a5,5,0,0,1,8.606,0L227.534,188.453a5,5,0,0,1-4.3,7.547H8.769a5,5,0,0,1-4.3-7.547Z" transform="translate(745 1995)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient-4)"/>
-    <text id="INNOVATION" transform="translate(749 2040)" fill="#262262" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-61.304" y="0">INNOVATION</tspan></text>
-    <text id="SOLUTION" transform="translate(702 2100)" fill="#262262" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-51.665" y="0">SOLUTION</tspan></text>
-    <text id="PERFORMANCE" transform="translate(667 2160)" fill="#262262" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-78.335" y="0">PERFORMANCE</tspan></text>
-    <text id="Ingredient_Systems_Expertise" data-name="Ingredient
-Systems
-&amp; Expertise" transform="translate(846 2268)" fill="#fff" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-96.67" y="0">Ingredient</tspan><tspan x="-82.275" y="25">Systems</tspan><tspan x="-110.049" y="50">&amp; Expertise</tspan></text>
-    <text id="Specialty_Ingredient_Capabilities" data-name="Specialty Ingredient 
-&amp; Capabilities" transform="translate(846 2445)" fill="#fff" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-195.605" y="0">Specialty Ingredient </tspan><tspan x="-132.256" y="25">&amp; Capabilities</tspan></text>
-    <text id="Know_How_Process_Technology" data-name="Know How Process Technology" transform="translate(551 2601)" fill="#fff" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-185.596" y="15">Know How Process </tspan><tspan x="-110.752" y="40">Technology</tspan></text>
-    <text id="Product_Development_Formulation" data-name="Product Development
-&amp; Formulation" transform="translate(787 2095)" fill="#fff" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="-37.778" y="15">Product </tspan><tspan x="-62.793" y="40">Development</tspan><tspan x="-67.773" y="65">&amp; Formulation</tspan></text>
-    <g id="Intersection_12" data-name="Intersection 12" transform="translate(498.98 2563.001)" fill="none">
-      <path d="M4.722,100a5,5,0,0,1-4.3-7.552L55.3,0H520.741l54.874,92.448a5,5,0,0,1-4.3,7.552Z" stroke="none"/>
-      <path d="M 571.3155517578125 97.99897003173828 C 572.4074096679688 97.99897003173828 573.3818359375 97.43235778808594 573.9221801757812 96.48336029052734 C 574.4625244140625 95.53420257568359 574.452392578125 94.40697479248047 573.89501953125 93.46797180175781 L 519.6026000976562 1.99912703037262 L 56.43527221679688 1.99912703037262 L 2.142843961715698 93.46797180175781 C 1.585459351539612 94.40697479248047 1.575305461883545 95.53420257568359 2.115613222122192 96.48328399658203 C 2.65592098236084 97.43235778808594 3.630382537841797 97.99897003173828 4.722305297851562 97.99897003173828 L 571.3155517578125 97.99897003173828 M 571.3155517578125 99.99897003173828 L 4.722305297851562 99.99897003173828 C 0.846920907497406 99.99897003173828 -1.555233001708984 95.77981567382812 0.4229978322982788 92.44712829589844 L 55.29661178588867 -0.0008729365654289722 L 520.7412109375 -0.0008729365654289722 L 575.6148681640625 92.44712829589844 C 577.593017578125 95.77981567382812 575.19091796875 99.99897003173828 571.3155517578125 99.99897003173828 Z" stroke="none" fill="#fff"/>
-    </g>
-    <g transform="matrix(1, 0, 0, 1, 456.33, 1984)" filter="url(#Rectangle_309)">
-      <path id="Rectangle_309-2" data-name="Rectangle 309" d="M0,0H423a50,50,0,0,1,50,50v0a50,50,0,0,1-50,50H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(404.67 579)" fill="#fff"/>
-    </g>
-    <g id="Intersection_10" data-name="Intersection 10" transform="translate(690.807 2244.16)" fill="none">
-      <path d="M4.784,91.84A5,5,0,0,1,.477,84.3L55.007-8.16H224.861l54.53,92.46a5,5,0,0,1-4.306,7.54Z" stroke="none"/>
-      <path d="M 275.0841064453125 89.83960723876953 C 276.1741943359375 89.83960723876953 277.1478576660156 89.27445983886719 277.6886291503906 88.32784271240234 C 278.2295532226562 87.38092041015625 278.2217407226562 86.25472259521484 277.6679077148438 85.31542205810547 L 223.7181854248047 -6.160312175750732 L 56.14943313598633 -6.160312175750732 L 2.199807405471802 85.31526184082031 C 1.645845890045166 86.25472259521484 1.638076663017273 87.38092041015625 2.178999662399292 88.32780456542969 C 2.71976900100708 89.27445983886719 3.693422794342041 89.83960723876953 4.783499717712402 89.83960723876953 L 275.0841064453125 89.83960723876953 M 275.0841064453125 91.83960723876953 L 4.783499717712402 91.83960723876953 C 0.9143843054771423 91.83960723876953 -1.488615751266479 87.63299560546875 0.4769996702671051 84.29941558837891 L 55.00707626342773 -8.160312652587891 L 224.8605346679688 -8.160312652587891 L 279.390625 84.29941558837891 C 281.356201171875 87.63299560546875 278.9532165527344 91.83960723876953 275.0841064453125 91.83960723876953 Z" stroke="none" fill="#fff"/>
-    </g>
-    <text id="Formulation_Technology_Turnkey_Project_Management_Research_Development_" data-name="Formulation Technology, Turnkey Project
-Management, Research &amp; Development " transform="translate(876 2608)" fill="#333" font-size="20" font-family="Helvetica"><tspan x="0" y="0">Formulation Technology, Turnkey Project</tspan><tspan x="0" y="25">Management, Research &amp; Development </tspan></text>
-    <g transform="matrix(1, 0, 0, 1, 456.33, 1984)" filter="url(#Rectangle_307)">
-      <path id="Rectangle_307-2" data-name="Rectangle 307" d="M0,0H423a50,50,0,0,1,50,50v0a50,50,0,0,1-50,50H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(404.67 252)" fill="#fff"/>
-    </g>
-    <g id="Intersection_11" data-name="Intersection 11" transform="translate(598.605 2400.583)" fill="none">
-      <path d="M4.4,99.417a5,5,0,0,1-4.3-7.55L54.932-.583H413.717l54.831,92.45a5,5,0,0,1-4.3,7.55Z" stroke="none"/>
-      <path d="M 464.2470092773438 97.41669464111328 C 465.3391418457031 97.41669464111328 466.3137817382812 96.8502197265625 466.8540954589844 95.90139770507812 C 467.3942565917969 94.95281219482422 467.3841857910156 93.82598876953125 466.8269653320312 92.88681030273438 L 412.5774536132812 1.416810631752014 L 56.07146835327148 1.416810631752014 L 1.821964263916016 92.88674926757812 C 1.265140652656555 93.82575225830078 1.255258321762085 94.95269012451172 1.795611262321472 95.90139770507812 C 2.336081981658936 96.8502197265625 3.310729026794434 97.41669464111328 4.402787685394287 97.41669464111328 L 464.2470092773438 97.41669464111328 M 464.2470092773438 99.41669464111328 L 4.402787685394287 99.41669464111328 C 0.5274348258972168 99.41669464111328 -1.874682784080505 95.19927978515625 0.1017289236187935 91.8665771484375 L 54.93231582641602 -0.5831893086433411 L 413.7166137695312 -0.5831893086433411 L 468.5472106933594 91.8665771484375 C 470.5245056152344 95.19927978515625 468.1224365234375 99.41669464111328 464.2470092773438 99.41669464111328 Z" stroke="none" fill="#fff"/>
-    </g>
-    <text id="Emulsifier_Functional_Ingredients_Antioxidant_Absorbents_Specialty_Fats_Oil_Fragrance_Flavor_Seasoning_Chocolates" data-name="Emulsifier &amp; Functional Ingredients,
-Antioxidant, Absorbents, Specialty Fats &amp; Oil,
-Fragrance, Flavor, Seasoning, &amp; Chocolates" transform="translate(876 2249)" fill="#333" font-size="20" font-family="Helvetica"><tspan x="0" y="15">Emulsifier &amp; Functional Ingredients,</tspan><tspan x="0" y="40">Antioxidant, Absorbents, Specialty Fats &amp; Oil,</tspan><tspan x="0" y="65">Fragrance, Flavor, Seasoning, &amp; Chocolates</tspan></text>
-    <g transform="matrix(1, 0, 0, 1, 456.33, 1984)" filter="url(#Rectangle_308)">
-      <path id="Rectangle_308-2" data-name="Rectangle 308" d="M0,0H423a50,50,0,0,1,50,50v0a50,50,0,0,1-50,50H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(404.67 416)" fill="#fff"/>
-    </g>
-    <text id="Health_Sensitive_Nutrients_Fat_Mimetic_Customized_Nutrition" data-name="Health Sensitive Nutrients, Fat Mimetic,
-Customized Nutrition" transform="translate(876 2445)" fill="#333" font-size="20" font-family="Helvetica"><tspan x="0" y="0">Health Sensitive Nutrients, Fat Mimetic,</tspan><tspan x="0" y="25">Customized Nutrition</tspan></text>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 907.7 712" style="enable-background:new 0 0 907.7 712;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Intersection_9_1_);}
+	.st1{fill:url(#Intersection_8_1_);}
+	.st2{fill:url(#Intersection_7_1_);}
+	.st3{filter:url(#Rectangle_314);}
+	.st4{fill:#FFFFFF;}
+	.st5{filter:url(#Rectangle_310);}
+	.st6{filter:url(#Rectangle_315);}
+	.st7{fill:url(#Polygon_4_1_);}
+	.st8{fill:#262262;}
+	.st9{font-family:'Helvetica-Bold';}
+	.st10{font-size:20px;}
+	.st11{fill:none;}
+	.st12{fill:#333333;}
+	.st13{font-family:'Helvetica';}
+</style>
+<filter  filterUnits="userSpaceOnUse" height="104" id="Rectangle_315" width="361" x="75.673" y="120">
+	<feOffset  dy="3" input="SourceAlpha"></feOffset>
+	<feGaussianBlur  result="blur-3" stdDeviation="10"></feGaussianBlur>
+	<feFlood  flood-opacity="0.161"></feFlood>
+	<feComposite  in2="blur-3" operator="in"></feComposite>
+	<feComposite  in="SourceGraphic" operator="over"></feComposite>
+</filter>
+<filter  filterUnits="userSpaceOnUse" height="104" id="Rectangle_314" width="312" x="124.673" y="60">
+	<feOffset  dy="3" input="SourceAlpha"></feOffset>
+	<feGaussianBlur  result="blur" stdDeviation="10"></feGaussianBlur>
+	<feFlood  flood-opacity="0.161"></feFlood>
+	<feComposite  in2="blur" operator="in"></feComposite>
+	<feComposite  in="SourceGraphic" operator="over"></feComposite>
+</filter>
+<filter  filterUnits="userSpaceOnUse" height="104" id="Rectangle_310" width="267" x="169.673" y="0">
+	<feOffset  dy="3" input="SourceAlpha"></feOffset>
+	<feGaussianBlur  result="blur-2" stdDeviation="10"></feGaussianBlur>
+	<feFlood  flood-opacity="0.161"></feFlood>
+	<feComposite  in2="blur-2" operator="in"></feComposite>
+	<feComposite  in="SourceGraphic" operator="over"></feComposite>
+</filter>
+<g id="Group_126" transform="translate(-456.327 -1984)">
+	
+		<linearGradient id="Intersection_9_1_" gradientUnits="userSpaceOnUse" x1="659.8461" y1="2590.2068" x2="660.8461" y2="2590.2068" gradientTransform="matrix(424.2052 0 0 -150 -279261.5 390817)">
+		<stop  offset="0" style="stop-color:#7B2E87"/>
+		<stop  offset="1" style="stop-color:#6C0F45"/>
+	</linearGradient>
+	<path id="Intersection_9" class="st0" d="M653.6,2361c-2.8,0-5-2.2-5-5c0-0.9,0.2-1.8,0.7-2.5l84-142.5h254.8l84,142.5
+		c1.4,2.4,0.6,5.4-1.8,6.8c-0.8,0.5-1.6,0.7-2.5,0.7H653.6z"/>
+	
+		<linearGradient id="Intersection_8_1_" gradientUnits="userSpaceOnUse" x1="659.9923" y1="2590.3201" x2="660.9923" y2="2590.3201" gradientTransform="matrix(609.569 0 0 -129.268 -401754.9375 337296.0938)">
+		<stop  offset="0" style="stop-color:#38B19E"/>
+		<stop  offset="1" style="stop-color:#0090A8"/>
+	</linearGradient>
+	<path id="Intersection_8" class="st1" d="M561,2515.3c-2.8,0-5-2.2-5-5c0-0.9,0.2-1.8,0.7-2.5l72.2-121.7h463.8l72.2,121.7
+		c1.4,2.4,0.6,5.4-1.8,6.9c-0.8,0.5-1.7,0.7-2.5,0.7H561z"/>
+	
+		<linearGradient id="Intersection_7_1_" gradientUnits="userSpaceOnUse" x1="660.0748" y1="2590.2585" x2="661.0748" y2="2590.2585" gradientTransform="matrix(808.8104 0 0 -139.752 -533419 364606.6875)">
+		<stop  offset="0" style="stop-color:#0B798D"/>
+		<stop  offset="1" style="stop-color:#004676"/>
+	</linearGradient>
+	<path id="Intersection_7" class="st2" d="M461.3,2682.8c-2.8,0-5-2.2-5-5c0-0.9,0.2-1.8,0.7-2.6l78.5-132.2H1186l78.5,132.2
+		c1.4,2.4,0.6,5.4-1.7,6.9c-0.8,0.5-1.7,0.7-2.6,0.7H461.3z"/>
+	<g transform="matrix(1, 0, 0, 1, 456.33, 1984)" class="st3">
+		<path id="Rectangle_314-2_1_" class="st4" d="M176.7,87h230l0,0v44l0,0h-230c-12.2,0-22-9.8-22-22l0,0
+			C154.7,96.8,164.5,87,176.7,87z"/>
+	</g>
+	<g transform="matrix(1, 0, 0, 1, 456.33, 1984)" class="st5">
+		<path id="Rectangle_310-2_1_" class="st4" d="M221.7,27h185l0,0v44l0,0h-185c-12.2,0-22-9.8-22-22l0,0
+			C199.7,36.8,209.5,27,221.7,27z"/>
+	</g>
+	<g transform="matrix(1, 0, 0, 1, 456.33, 1984)" class="st6">
+		<path id="Rectangle_315-2_1_" class="st4" d="M127.7,147h279l0,0v44l0,0h-279c-12.2,0-22-9.8-22-22l0,0
+			C105.7,156.8,115.5,147,127.7,147z"/>
+	</g>
+	
+		<linearGradient id="Polygon_4_1_" gradientUnits="userSpaceOnUse" x1="659.4182" y1="2590.0544" x2="660.4182" y2="2590.0544" gradientTransform="matrix(224.4605 0 0 -191.1844 -147264.5313 497273.375)">
+		<stop  offset="0" style="stop-color:#F0613D"/>
+		<stop  offset="1" style="stop-color:#D5142F"/>
+	</linearGradient>
+	<path id="Polygon_4" class="st7" d="M856.7,2002.3c1.4-2.4,4.5-3.2,6.8-1.8c0.7,0.4,1.3,1,1.8,1.8l107.2,181.2
+		c1.4,2.4,0.6,5.4-1.8,6.8c-0.8,0.5-1.6,0.7-2.5,0.7H753.8c-2.8,0-5-2.2-5-5c0-0.9,0.2-1.8,0.7-2.5L856.7,2002.3z"/>
+	<text transform="matrix(1 0 0 1 687.696 2040)" class="st8 st9 st10">INNOVATION</text>
+	<text transform="matrix(1 0 0 1 650.335 2100)" class="st8 st9 st10">SOLUTION</text>
+	<text transform="matrix(1 0 0 1 588.665 2160)" class="st8 st9 st10">PERFORMANCE</text>
+	<text transform="matrix(1 0 0 1 749.33 2268)" class="st4 st9 st10">Ingredient</text>
+	<text transform="matrix(1 0 0 1 763.725 2293)" class="st4 st9 st10">Systems</text>
+	<text transform="matrix(1 0 0 1 735.951 2318)" class="st4 st9 st10">&amp; Expertise</text>
+	<text transform="matrix(1 0 0 1 650.395 2445)" class="st4 st9 st10">Specialty Ingredient </text>
+	<text transform="matrix(1 0 0 1 713.744 2470)" class="st4 st9 st10">&amp; Capabilities</text>
+	<text transform="matrix(1 0 0 1 648.2612 2604.7144)" class="st4 st9 st10">Know How Process </text>
+	<text transform="matrix(1 0 0 1 726.1732 2635.1428)" class="st4 st9 st10">Technology</text>
+	<text transform="matrix(1 0 0 1 749.222 2110)" class="st4 st9 st10">Product </text>
+	<text transform="matrix(1 0 0 1 724.207 2135)" class="st4 st9 st10">Development</text>
+	<text transform="matrix(1 0 0 1 719.227 2160)" class="st4 st9 st10">&amp; Formulation</text>
+	<g id="Intersection_12" transform="translate(498.98 2563.001)">
+		<path class="st11" d="M4.7,100c-2.8,0-5-2.2-5-5c0-0.9,0.2-1.8,0.7-2.6L55.3,0h465.4l54.9,92.4c1.4,2.4,0.6,5.4-1.7,6.9
+			c-0.8,0.5-1.7,0.7-2.6,0.7H4.7z"/>
+		<path class="st4" d="M571.3,98c1.1,0,2.1-0.6,2.6-1.5c0.5-0.9,0.5-2.1,0-3L519.6,2H56.4L2.1,93.5c-0.6,0.9-0.6,2.1,0,3
+			C2.7,97.4,3.6,98,4.7,98H571.3 M571.3,100H4.7c-3.9,0-6.3-4.2-4.3-7.6L55.3,0h465.4l54.9,92.4C577.6,95.8,575.2,100,571.3,100z"/>
+	</g>
+	<g id="Intersection_10" transform="translate(690.807 2244.16)">
+		<path class="st11" d="M4.8,91.8c-2.8,0-5-2.2-5-5c0-0.9,0.2-1.8,0.7-2.5L55-8.2h169.9l54.5,92.5c1.4,2.4,0.6,5.4-1.8,6.8
+			c-0.8,0.5-1.6,0.7-2.5,0.7L4.8,91.8z"/>
+		<path class="st4" d="M275.1,89.8c1.1,0,2.1-0.6,2.6-1.5c0.5-0.9,0.5-2.1,0-3L223.7-6.2H56.1L2.2,85.3c-0.6,0.9-0.6,2.1,0,3
+			c0.5,0.9,1.5,1.5,2.6,1.5H275.1 M275.1,91.8H4.8c-3.9,0-6.3-4.2-4.3-7.5L55-8.2h169.9l54.5,92.5C281.4,87.6,279,91.8,275.1,91.8z"
+			/>
+	</g>
+	<path id="Rectangle_309-2" class="st4" d="M861,2563h423c27.6,0,50,22.4,50,50l0,0c0,27.6-22.4,50-50,50H861l0,0V2563L861,2563z"/>
+	<text transform="matrix(1 0 0 1 876 2608)" class="st12 st13 st10">Formulation Technology, Turnkey Project</text>
+	<text transform="matrix(1 0 0 1 876 2633)" class="st12 st13 st10">Management, Research &amp; Development</text>
+	<g id="Intersection_11" transform="translate(598.605 2400.583)">
+		<path class="st11" d="M4.4,99.4c-2.8,0-5-2.2-5-5c0-0.9,0.2-1.8,0.7-2.5L54.9-0.6h358.8l54.8,92.4c1.4,2.4,0.6,5.4-1.8,6.9
+			c-0.8,0.5-1.7,0.7-2.5,0.7H4.4z"/>
+		<path class="st4" d="M464.2,97.4c1.1,0,2.1-0.6,2.6-1.5c0.5-0.9,0.5-2.1,0-3L412.6,1.4H56.1L1.8,92.9c-0.6,0.9-0.6,2.1,0,3
+			c0.5,0.9,1.5,1.5,2.6,1.5H464.2 M464.2,99.4H4.4c-3.9,0-6.3-4.2-4.3-7.6L54.9-0.6h358.8l54.8,92.4
+			C470.5,95.2,468.1,99.4,464.2,99.4z"/>
+	</g>
+	<path id="Rectangle_307-2" class="st4" d="M861,2236h423c27.6,0,50,22.4,50,50l0,0c0,27.6-22.4,50-50,50H861l0,0V2236L861,2236z"/>
+	<text transform="matrix(1 0 0 1 876 2264)" class="st12 st13 st10">Emulsifer &amp; Functional Ingredients,</text>
+	<text transform="matrix(1 0 0 1 876 2289)" class="st12 st13 st10">Antioxidant, Absorbents, Specialty Fats &amp; Oil,</text>
+	<text transform="matrix(1 0 0 1 876 2314)" class="st12 st13 st10">Fragrance, Flavor, Seasoning, &amp; Chocolates</text>
+	<path id="Rectangle_308-2" class="st4" d="M861,2400h423c27.6,0,50,22.4,50,50l0,0c0,27.6-22.4,50-50,50H861l0,0V2400L861,2400z"/>
+	<text transform="matrix(1 0 0 1 876 2445)" class="st12 st13 st10">Health Sensitive Nutrients, Fat Mimetic,</text>
+	<text transform="matrix(1 0 0 1 876 2470)" class="st12 st13 st10">Customized Nutrition</text>
+</g>
 </svg>

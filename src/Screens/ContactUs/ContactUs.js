@@ -31,7 +31,7 @@ class ContactUs extends React.Component {
                         <Row gutter={[30, 20]} align="center" className="pb-3 ">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 20 }} lg={{ span: 13 }} className="center-contents" >
                                 <div className="title-section text-center mb-4">
-                                    <Zoom top>
+                                    <Zoom>
                                         <ContactForm />
                                     </Zoom>
                                 </div>
@@ -68,7 +68,7 @@ class ContactUs extends React.Component {
                                         </div>
                                     </Bounce>
                                     <Zoom top>
-                                        <a href="#" className="btn bg-red-gradient text-white mt-4">Make Your Key Account Manager</a>
+                                        <Link to="/key-account-manager" className="btn bg-red-gradient text-white mt-4">Make Your Key Account Manager</Link>
                                     </Zoom>
                                 </div>
                             </Col>

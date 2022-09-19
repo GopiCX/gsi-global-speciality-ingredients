@@ -114,3 +114,20 @@
   border-top-right-radius: $top;
   border-bottom-right-radius: $bottom;
 }
+
+@mixin fontAwesomeiconCont {
+  content: "\f138";
+  position: absolute;
+  right: 15px;
+  bottom: 27px;
+  font-size: 27px;
+  width: 30px;
+  height: 30px;
+  color: var(--white);
+  font-family: fontawesome;
+}
+
+@mixin alignCenter {
+  margin:0 auto;
+  display: block;
+}

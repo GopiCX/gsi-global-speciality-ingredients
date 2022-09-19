@@ -62,11 +62,11 @@ class HomeSlider extends React.Component {
               autoPlay={true}
               volume={0}
             />
-            <div className=" item slider-1 ">
+             <div className=" item">
               <div className="center-contents w-100 p-mob">
                 <div className=" middle-content ">
                   <div className="container mx-auto slider-caption">
-                    <Zoom top cascade>
+                    <Zoom top>
                       <h1 className="text-white text-center mb-3">WELCOME TO GLOBAL SPECIALTY INGREDIENTS</h1>
                     </Zoom>
                     <Fade top>

@@ -8,7 +8,8 @@ import '../ConfectionerySolutions/ConfectionerySolutions.scss';
 import Preservatives from './Preservatives';
 import Antioxidants from './Antioxidants';
 import NaturalAntioxidants from './NaturalAntioxidants';
-
+import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
+import Fade from 'react-reveal/Fade';
 
 class ShelfLifeFryingSolutions extends React.Component {
     render() {
@@ -16,7 +17,7 @@ class ShelfLifeFryingSolutions extends React.Component {
             <React.Fragment>
                 <TitleSection className="shelf-life-frying-solutions" welcomeText="Welcome to Global peciality Ingredients" titleName="ShelfLife & Frying Solutions" />
 
-                <section className="gsi-solutions py-5">
+                <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">
                         <Row gutter={[20, 20]} align="center" className="mb-4">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 16 }} lg={{ span: 16 }} >
@@ -28,22 +29,16 @@ class ShelfLifeFryingSolutions extends React.Component {
                             </Col>
                         </Row>
                         <div className="mt-4">
-                            <Preservatives />
-                            <Antioxidants />
-                            <NaturalAntioxidants />
+                            <Fade>
+                                <Preservatives />
+                                <Antioxidants />
+                                <NaturalAntioxidants />
+                            </Fade>
                         </div>
                     </div>
                 </section>
 
-                <section className="pb-4">
-                    <div className="container mx-auto">
-                        <Row gutter={[20, 20]} align="center">
-                            <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} className='text-center'>
-                                <Link to="/key-account-manager" className="btn ant-btn-primary">For further inquiry, Meet Your Key Account Manager!</Link>
-                            </Col>
-                        </Row>
-                    </div>
-                </section>
+                <FurtherEnquiry />
 
             </React.Fragment >
         )

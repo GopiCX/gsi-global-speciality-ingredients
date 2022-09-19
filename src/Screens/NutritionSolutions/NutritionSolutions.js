@@ -7,15 +7,15 @@ import TitleSection from '../../Components/TitleSection/TitleSection';
 //import './ConfectionerySolutions.scss';
 import SportsBalancedNutrition from './SportsBalancedNutrition';
 import FatsolubleVitaminsCarrier from './FatsolubleVitaminsCarrier';
-
-
+import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
+import Fade from 'react-reveal/Fade';
 class NutritionSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
                 <TitleSection className="nutrition-solutions" welcomeText="Welcome to Global peciality Ingredients" titleName="Sports and Balanced Nutrition" />
 
-                <section className="gsi-solutions py-5">
+                <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">
                         <Row gutter={[20, 20]} align="center" className="mb-4">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 16 }} lg={{ span: 16 }} >
@@ -27,21 +27,15 @@ class NutritionSolutions extends React.Component {
                             </Col>
                         </Row>
                         <div className="mt-4">
-                            <SportsBalancedNutrition />
-                            <FatsolubleVitaminsCarrier />
+                            <Fade>
+                                <SportsBalancedNutrition />
+                                <FatsolubleVitaminsCarrier />
+                            </Fade>
                         </div>
                     </div>
                 </section>
 
-                <section className="pb-4">
-                    <div className="container mx-auto">
-                        <Row gutter={[20, 20]} align="center">
-                            <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} className='text-center'>
-                                <Link to="/key-account-manager" className='btn'>For further inquiry, Meet Your Key Account Manager!</Link>
-                            </Col>
-                        </Row>
-                    </div>
-                </section>
+                <FurtherEnquiry />
 
             </React.Fragment >
         )
