@@ -5,11 +5,9 @@ import { Row, Col } from 'antd';
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';
 import TitleSection from '../../Components/TitleSection/TitleSection';
-import corporateResponsibility from "../../assets/images/responsibility/corporate-responsibility.jpg";
 import EventGallery from './EventGallery';
 import './Responsibility.scss'
-
-
+import corporateResponsibility from "../../assets/images/responsibility/corporate-responsibility.jpg";
 class Responsibility extends React.Component {
   render() {
     return (
@@ -18,13 +16,13 @@ class Responsibility extends React.Component {
 
         <section className="who-we-are pattern-1 py-5  p-mob">
           <div className="container mx-auto">
-            <Bounce top>
+            <Fade left>
               <h2 className="border-left-3 border-danger text-blue pl-3 mb-4">Corporate Social responsibility</h2>
-            </Bounce>
+            </Fade>
             <Row gutter={[20, 20]} align="center">
               <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 16 }} lg={{ span: 16 }} >
                 <div class="pr-lg-4">
-                  <Fade left cascade>
+                  <Fade left>
                     <p class="mt-4">Businessess are increasingly expected to be responsible for their impact on society and the environment in today's world. Corporate social responsibility (CSR) is no longer a well-regarded company practice thus, its has become a consumer demand.</p>
                     <p class="mt-4">GSI identifies the business model and level of responsibility that Businessess should follow in order to have a good impact on the world. The CSR model shows how a flim can be accountable to its employees, stakeholders, the general public, the global and local surroundings.</p>
                     <p class="mt-4">GSI approach has a favorable impact on a business brand in addition to helping the environment and society. People are prioritising firms that focus on social responsibility as they become more socially conscious. Employee morale is also boosted as a result of CSR initiatives, as both employees and employers feel more dedicated in their job.</p>

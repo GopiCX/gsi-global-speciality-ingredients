@@ -14,7 +14,7 @@
 // development-product
 .development-product {
     img {
-        width: 89%;
+        width: 98%;
         margin: 0 auto;
         display: block;
 
@@ -26,7 +26,7 @@
 }
 
 // cutting-edge-solution
-.cutting-edge-solution { 
+.cutting-edge-solution {
 
     .card-box {
         width: 20%;
@@ -37,7 +37,7 @@
             width: 33.3333%;
         }
 
-        @media(max-width: 670px) {
+        @media(max-width: 540px) {
             width: 50%;
             padding: 5px;
         }
@@ -51,6 +51,14 @@
                     @include animationGrowHover;
                 }
             }
+
+            &.bg-grid {
+                &::before {
+                    @include beforeContent($opacity: 0.9);
+                    @include redGradient;
+                    z-index: 9;
+                }
+            }
         }
 
         .title {
@@ -62,42 +70,76 @@
             width: 100%;
             border-bottom-right-radius: 13px;
             border-bottom-left-radius: 13px;
-            padding-right: 40px; 
+            padding-right: 40px;
+
+            @media(max-width: 623px) {
+                padding: 10px 11px;
+                padding-right: 30px;
+            }
 
             h6 {
                 color: var(--white);
                 font-weight: normal;
                 font-size: 16px;
                 line-height: 151%;
+                margin-bottom: 0;
+
                 @media(max-width: 500px) {
                     font-size: 14px;
                 }
             }
         }
+
         &:hover {
             .title {
                 &:after {
-                    content: "\f138";
-                    position: absolute;
-                    right: 15px;
-                    bottom: 27px;
-                    font-size: 30px;
-                    width: 30px;
-                    height: 30px;
-                    color: var(--white);
-                    font-family: fontawesome;
+                    @include fontAwesomeiconCont;
                 }
             }
+
+            .center-align {
+                .fa {
+                    display: block;
+                    position: relative;
+                }
+
+                @media(max-width: 575px) {
+                    margin-top: 10px;
+                }
+            }
+
         }
-        .center-align{
+
+        .center-align {
             position: absolute;
             z-index: 9;
-            top: 50%;
+            top: 44%;
             right: 0;
             left: 0;
             margin: 0 auto;
-            h6{
-                text-align: center;
+
+            @media(max-width: 575px) {
+                top: 36%;
+            }
+
+            h6 {
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 150%;
+            }
+        }
+
+        .center-align {
+            .fa {
+                margin-top: 9px;
+                display: none;
+                font-size: 27px;
+            }
+
+            @media (max-width: 580px) {
+                .fa {
+                    display: block;
+                }
             }
         }
 
@@ -111,9 +153,16 @@
 
 // innovation-wheel
 .innovation-wheel {
+    @media screen and (min-device-width:100px) and (max-device-width: 600px) {
+        position: relative;
+    }
 
     .wheel {
         position: relative;
+
+        .innovation-wheel-circle {
+            display: none
+        }
 
         img {
             position: absolute;
@@ -121,29 +170,23 @@
             top: -179px;
             right: 0;
 
-            @media(max-width:575px) {
-                top: 0;
-                position: relative;
-            }
-
-            @media screen and (min-device-width: 2500px) and (max-device-width: 3000px) {
-                width: 36%;
-            }
-
-            @media screen and (min-device-width: 2000px) and (max-device-width: 2500px) {
-                width: 47%;
-            }
-
-            @media screen and (min-device-width: 1800px) and (max-device-width: 2000px) {
-                width: 59%;
-            }
-
-            @media screen and (min-device-width: 1600px) and (max-device-width: 1800px) {
-                width: 75%;
-            }
-
             @media screen and (min-device-width: 1400px) and (max-device-width: 1600px) {
                 width: 86%;
+                top: -119px;
+            }
+
+            @media(max-width:800px) {
+                position: relative;
+                width: 100%;
+                top: 0;
+
+                &.innovation-wheel-jpg {
+                    display: none;
+                }
+
+                &.innovation-wheel-circle {
+                    display: block;
+                }
             }
         }
     }
@@ -192,6 +235,7 @@
             width: 70%;
             float: left;
             padding: 16px;
+
         }
 
     }
@@ -212,5 +256,10 @@
         position: absolute;
         bottom: 140px;
         z-index: 1;
+
+        @media(max-width: 600px) {
+            height: 60px;
+            bottom: 40px;
+        }
     }
 }

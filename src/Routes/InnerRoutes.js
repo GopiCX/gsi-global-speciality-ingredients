@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import Home from '../Screens/LandingPage/Home';
 import AboutUs from '../Screens/AboutUs/AboutUs';
+import HomeReview from '../Screens/LandingPage/HomeReview';
 import ContactUs from '../Screens/ContactUs/ContactUs';
 import Career from '../Screens/Career/Career';
 import OurSolutions from '../Screens/OurSolutions/OurSolutions';
@@ -22,6 +23,8 @@ import DairyDairyAnalogue from '../Screens/DairyDairyAnalogue/DairyDairyAnalogue
 import FlavourColourSolutions from '../Screens/FlavourColourSolutions/FlavourColourSolutions';
 import NutritionSolutions from '../Screens/NutritionSolutions/NutritionSolutions';
 import SavourySolutions from '../Screens/SavourySolutions/SavourySolutions';
+import Adsorbent from '../Screens/Adsorbent/Adsorbent';
+import TermsandConditions from '../Screens/TermsandConditions/TermsandConditions';
 
 import Layout from '../Layout/Layout';
 class InnerRoutes extends React.Component {
@@ -32,7 +35,8 @@ class InnerRoutes extends React.Component {
         return (
             <Layout {...this.props}>
                 <Switch>
-                    <Route exact path={`/`} component={Home} />                    
+                    <Route exact path={`/`} component={Home} />
+                    <Route exact path={`/home-1`} component={HomeReview} />
                     <Route path="/about-us" component={AboutUs} />
                     <Route path="/contact-us" component={ContactUs} />
                     <Route path="/career" component={Career} />
@@ -50,6 +54,8 @@ class InnerRoutes extends React.Component {
                     <Route path="/flavour-colour-solutions" component={FlavourColourSolutions} />
                     <Route path="/nutrition-solutions" component={NutritionSolutions} />
                     <Route path="/savoury-solutions" component={SavourySolutions} />
+                    <Route path="/adsorbent" component={Adsorbent} />
+                    <Route path="/terms-and-conditions" component={TermsandConditions} />
                 </Switch>
             </Layout>
         );

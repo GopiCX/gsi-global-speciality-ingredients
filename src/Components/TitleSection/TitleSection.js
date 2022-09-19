@@ -14,12 +14,12 @@ class TitleSection extends Component {
                         <div className="center-contents w-100">
                             <div className="middle-content">
                                 <div className="caption mt-sm-3 mt-lg-5 pt-sm-1 pt-lg-3">
-                                    <Zoom top cascade>
-                                        <p className="text-white text-uppercase mb-3 mb-lg-4">{this.props.welcomeText}</p>
-                                    </Zoom>
                                     <Fade top>
-                                        <h1 className="text-white mb-3 mb-lg-4">{this.props.titleName}</h1>
+                                        <p className="text-white text-uppercase mb-3 mb-lg-4">{this.props.welcomeText}</p>
                                     </Fade>
+                                    <Zoom top>
+                                        <h1 className="text-white mb-3 mb-lg-4">{this.props.titleName}</h1>
+                                    </Zoom>
                                 </div>
                             </div>
                         </div>

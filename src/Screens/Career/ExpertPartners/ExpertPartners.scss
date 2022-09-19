@@ -10,16 +10,31 @@
         padding: 0 20px 20px 0;
         background-color: var(--white);
         min-height: 252px;
-        border-radius: 13px;
+        border-radius: 16px;
+
+        @media(max-width:581px) {
+            min-height: auto;
+        }
     }
 
     .details {
         display: flex;
 
+        @media(max-width:381px) {
+            display: block;
+            text-align: center;
+        }
+
         .image {
             img {
                 height: 106px;
+                @media(max-width:381px) {
+                    padding-top:20px;
+                    @include alignCenter;
+                }
             }
+
+            
         }
 
         .desc {
@@ -39,15 +54,22 @@
         line-height: 27px;
         box-shadow: 0 0 10px #7c7c7c;
         bottom: 40%;
-        &::before{
+
+        &::before {
             font-size: 39px;
             line-height: 47px;
-            text-align: center;  
-            @include gradientText;          
+            text-align: center;
+            @include gradientText;
         }
     }
-    .slick-dots{
+
+    .slick-dots {
         text-align: center;
+
+        @media(max-width:581px) {
+            position: relative;
+            bottom: 0;
+        }
     }
 
 }

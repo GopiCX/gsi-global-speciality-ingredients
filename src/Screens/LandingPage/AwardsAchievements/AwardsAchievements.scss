@@ -1,55 +1,94 @@
 .awards-achievements {
     position: relative;
 
+    @media(max-width: 575px) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
     img {
         max-height: 404px;
-        margin:0 auto;
+        margin: 0 auto;
+
+        @media(max-width: 575px) {
+            border-radius: 10px;
+        }
     }
 
     .awards {
+        padding:20px;
+        @media(max-width: 575px) {
+            padding-left:0;
+            padding-right:0;
+        }
         span {
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: var(--secondary);
             font-size: 65px;
             font-weight: 700;
-            color: transparent;           
+            color: transparent;
         }
 
         p {
             font-size: 25px;
             font-weight: 300;
+            color: var(--white);
+
+            @media(max-width:900px) {
+                font-size: 20px;
+            }
+
+            @media(max-width: 575px) {
+                font-size: 17px;
+            }
         }
     }
+
     .slick-dots {
-        right: 41%;
+        right: 45%;
         bottom: 56px;
         width: auto;
+
+        @media(max-width:900px) {
+            .slick-dots {
+                right: 42%;
+                bottom: 32px;
+            }
+        }
+
+        @media(max-width: 575px) {
+            position: relative;
+            right:0;
+            top: 0;
+        }
     }
-    @media(max-width:900px){
-        h2{
+
+    @media(max-width:900px) {
+        h2 {
             position: relative;
             top: 0;
             right: unset;
             z-index: 9;
         }
-        img{
+
+        img {
             max-height: 250px;
         }
-        .awards{
-            span{
-                    font-size: 37px;
-            }
-            p{
-                font-size: 20px;
+
+        .awards {
+            span {
+                font-size: 37px;
             }
         }
-        .slick-dots {
-                    right: 42%;
-                    bottom: 32px;
-        }
-        .bg-blue{
-            padding-left:25px !important;
+
+        .bg-blue {
+            padding-left: 25px !important;
             padding-right: 25px !important;
+
+            @media(max-width: 575px) {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
         }
     }
 }

@@ -36,8 +36,8 @@ class AwardsAchievements extends React.Component {
                                         <img src={Award1} alt="Awards" />
                                     </Fade>
                                 </Col>
-                                <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="bg-blue py-5 px-lg-5 px-2 text-white  px-lg-3 center-contents">
-                                    <div className="awards px-lg-3 middle-content">
+                                <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="bg-blue space text-white  px-lg-3 center-contents">
+                                    <div className="awards middle-content">
                                         <Fade top>
                                             <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">Awards & Achievements</h2>
                                             <span className="d-block">2019</span>
@@ -54,8 +54,8 @@ class AwardsAchievements extends React.Component {
                                         <img src={Award2} alt="Awards" />
                                     </Fade>
                                 </Col>
-                                <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="bg-blue py-5 px-lg-5 px-2 text-white  px-lg-3 center-contents">
-                                    <div className="awards px-lg-3 middle-content">
+                                <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="bg-blue space center-contents">
+                                    <div className="awards middle-content">
                                         <Fade top>
                                             <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">Awards & Achievements</h2>
                                             <span className="d-block">2018</span>

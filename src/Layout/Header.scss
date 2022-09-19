@@ -9,6 +9,8 @@
   width: 100%;
   background-color: var(--white);
   @include boxShadow($color: rgba(171, 171, 171, 0.50));
+  transform: translateZ(0);
+  transition:all 0.5s;
 
   .ant-menu-item {
     margin: 10px 10px !important;
@@ -64,7 +66,9 @@
       @media(max-width:1100px) {
         padding: 16px 80px 14px 28px;
       }
-
+      @media(max-width:300px) {
+        display: none
+      }
       img {
         height: 40px;
         padding-left: 10px;
@@ -109,7 +113,7 @@
   border-radius: 50px;
   margin-top: 8px;
 
-  @media(max-width:900px) {
+  @media(max-width:1100px) {
     background: unset;
     border-radius: 0;
     padding: 0;
@@ -130,7 +134,7 @@
     -ms-flex-align: center;
     align-items: center;
 
-    @media(max-width:900px) {
+    @media(max-width:1100px) {
       display: block;
     }
 
@@ -153,7 +157,7 @@
         padding: 5px 13px;
         letter-spacing: 1px;
 
-        @media(max-width:900px) {
+        @media(max-width:1100px) {
           font-size: 22px;
           padding: 6px 0 !important;
         }
@@ -175,7 +179,8 @@
 
 .navigations {
   @media(max-width: 1100px) {
-    display: none
+    display: none;    
+    transition: max-height 0.6s cubic-bezier(0, 1, 0, 1);
   }
 
   &.opened {
@@ -188,6 +193,7 @@
     height: 100vh;
     min-width: 300px;
     z-index: 999;
+    transition: max-height 2s ease-in-out;
 
     .center-header {
       ul {
