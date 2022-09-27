@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
-import { Row, Col, Button } from 'antd';
+import { Row, Col } from 'antd';
 import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Zoom';
-import Bounce from 'react-reveal/Bounce';
 import TitleSection from '../../Components/TitleSection/TitleSection';
 import './ContactUs.scss';
 import ContactForm from './ContactForm';
@@ -13,32 +11,7 @@ class ContactUs extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="contactus" welcomeText="Welcome to Global peciality Ingredients" titleName="Contact Us" />
-
-                <section className="get-in-touch pattern-1 py-5 p-mob">
-                    <div className="container mx-auto">
-                        <Row gutter={[30, 20]} align="center" className="pb-3 ">
-                            <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} className="center-contents" >
-                                <div className="title-section text-center mb-4">
-                                    <Fade top>
-                                        <h1 className="text-blue text-center d-inline border-left-3 pl-3  border-danger  pr-3">Contact Us</h1>
-                                        <p className="mt-4">Fill out the form below and we will contact you as soon as possible.</p>
-                                    </Fade>
-                                </div>
-                            </Col>
-                        </Row>
-
-                        <Row gutter={[30, 20]} align="center" className="pb-3 ">
-                            <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 20 }} lg={{ span: 13 }} className="center-contents" >
-                                <div className="title-section text-center mb-4">
-                                    <Zoom>
-                                        <ContactForm />
-                                    </Zoom>
-                                </div>
-                            </Col>
-                        </Row>
-                    </div>
-                </section>
+                <TitleSection className="contactus" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Contact Us" />
 
                 <section className="gsi-location bg-blue">
                     <div className="container-fluid mx-auto">
@@ -50,7 +23,7 @@ class ContactUs extends React.Component {
                             </Col>
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 12 }} className="center-contents" >
                                 <div className="address p-4 p-lg-5  p-mob">
-                                    <Bounce cascade>
+                                    <Fade>
                                         <div className="title-section mb-4">
                                             <h1 className="text-white d-inline border-left-3 pl-3  border-danger  pr-3">Our Main Office</h1>
                                         </div>
@@ -66,15 +39,40 @@ class ContactUs extends React.Component {
                                                 <p className="text-white">marketing@gsiworldwide.com</p>
                                             </ul>
                                         </div>
-                                    </Bounce>
-                                    <Zoom top>
+                                    </Fade>
+                                    <Fade>
                                         <Link to="/key-account-manager" className="btn bg-red-gradient text-white mt-4">Make Your Key Account Manager</Link>
-                                    </Zoom>
+                                    </Fade>
                                 </div>
                             </Col>
                         </Row>
                     </div>
                 </section>
+
+                <section className="get-in-touch py-5 p-mob">
+                    <div className="container mx-auto">
+                        <Row gutter={[30, 20]} align="center" className="pb-3 ">
+                            <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} className="center-contents" >
+                                <div className="title-section text-center mb-4">
+                                    <Fade>
+                                        <h1 className="text-blue text-center d-inline border-left-3 pl-3  border-danger  pr-3">Contact Us</h1>
+                                        <p className="mt-4">Fill out the form below and we will contact you as soon as possible.</p>
+                                    </Fade>
+                                </div>
+                            </Col>
+                        </Row>
+
+                        <Row gutter={[30, 20]} align="center" className="pb-3 ">
+                            <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 20 }} lg={{ span: 13 }} className="center-contents" >
+                                <div className="title-section text-center mb-4">
+                                    <Fade>
+                                        <ContactForm />
+                                    </Fade>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+                </section>                
 
             </React.Fragment>
         )

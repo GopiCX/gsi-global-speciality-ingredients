@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Row, Col, Button } from "antd";
+import { Row, Col } from "antd";
 import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Zoom';
 import Bounce from 'react-reveal/Bounce';
 import "./Home.scss";
 import HomeSlider from "./HomeSlider/HomeSlider";
@@ -16,10 +15,11 @@ import confectionerySolutions from "../../assets/images/our-solutions/confection
 import bakerySolution from "../../assets/images/our-solutions/bakery-solutions.jpg";
 import shelfLife from "../../assets/images/our-solutions/shelf-life-frying-solutions.jpg";
 import oilFat from "../../assets/images/our-solutions/oil-fat-solutions.jpg";
-import viewAll from "../../assets/images/01-bakery-solutions.png";
+import viewAll from "../../assets/images/view-all.png";
 import innovationWheel from "../../assets/images/05-innovation-wheel-wheel-new.png";
 import innovationWheelCircle from "../../assets/images/05-innovation-wheel-wheel.png";
 import commitment from "../../assets/images/04-commitment.png";
+import competence from "../../assets/images/04-competence.png";
 import customerSatisfactionSurvey from "../../assets/images/04-customer-satisfaction-survey.png";
 import innovation from "../../assets/images/04-innovation.png";
 import productPerformance from "../../assets/images/04-product-performance.png";
@@ -36,12 +36,12 @@ export default class Home extends React.Component {
         <HomeSlider />
         {/* main slider ends */}
 
-        <section className="pattern-1 py-5 p-mob">
+        <section className="your-innovation pattern-1 py-5 p-mob">
           <div className="container mx-auto py-3">
-            <Row gutter={[30, 20]} align="center" className="pb-3 ">
+            <Row gutter={[30, 20]} align="middle" className="pb-3 ">
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 17 }} lg={{ span: 17 }} >
                 <div className="pb-2 pr-lg-4">
-                  <Fade left>
+                  <Fade>
                     <h1 className="border-left-3 border-danger text-blue pl-3 mb-3">Your Innovation Our Solution</h1>
                     <p className="text-black mb-2">We at Global Specialty Ingredients through research and development, are committed and passionate in helping customers to provide innovative ideas and solutions on product innovation by bringing revolutionary innovation ideas and skills to a sustainable level.</p>
                     <p className="text-black">Our innovations are backed by decades of experience and extensive knowledge of innovation by listening to and collaborating with our customers.</p>
@@ -50,7 +50,7 @@ export default class Home extends React.Component {
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 7 }} lg={{ span: 7 }} >
                 <div className="overflow-hidden border-radius">
-                  <Fade right>
+                  <Fade>
                     <img src={yourInnovation} alt="your innovation our solution" className="animation-grow rounded w-100" />
                   </Fade>
                 </div>
@@ -61,17 +61,17 @@ export default class Home extends React.Component {
 
         <section className="development-product bg-blue  pattern-2  py-5 p-mob">
           <div className="container mx-auto py-3">
-            <Row gutter={[30, 20]} align="middle" className="pb-3 ">
-              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} >
+            <Row gutter={[30, 20]} align="middle">
+              <Col xs={{ span: 24 }} sm={{ span: 11 }} md={{ span: 11 }} lg={{ span: 11 }} >
                 <div className="pb-2 pr-lg-4">
-                  <Fade Left>
+                  <Fade>
                     <h1 className="border-left-3 border-danger text-white pl-3 mb-3">Development of Product and Capability Spectrum</h1>
                     <p className="text-black text-white mb-2">GSI has a variety of ingredients and capabilities that can help you with your product development innovation and know-how on process technology which can help you achieve your expectation.</p>
                   </Fade>
                 </div>
               </Col>
-              <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} >
-                <Fade right>
+              <Col xs={{ span: 24 }} sm={{ span: 13 }} md={{ span: 13 }} lg={{ span: 13 }} >
+                <Fade>
                   <img src={developmentProduct} alt="your innovation our solution" />
                 </Fade>
               </Col>
@@ -129,7 +129,7 @@ export default class Home extends React.Component {
           <div className="container mx-auto py-3">
             <Row gutter={[30, 20]} align="center" className="text-white pb-3 ">
               <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 10 }} lg={{ span: 10 }} >
-                <Fade left>
+                <Fade>
                   <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">GSI Shared Values</h2>
                   <p className="mt-3">We share common values. These values guide our actions and help us work together as a team. We believe in being honest and working together to solve problems.</p>
                 </Fade>
@@ -143,11 +143,11 @@ export default class Home extends React.Component {
           </div>
         </section>
 
-        <section className="gsi-shared-value align-top p-mob">
+        <section className="gsi-shared-value pb-custom align-top p-mob">
           <div className="container mx-auto">
-            <Row gutter={[22, 20]} className="mb-3">
+            <Row gutter={[20, 20]} className="mb-3">
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
-                <Bounce>
+                <Fade>
                   <div className="card">
                     <div className="image overflow-hidden">
                       <img src={commitment} alt="Commitment" />
@@ -157,10 +157,10 @@ export default class Home extends React.Component {
                       <p>GSI employees are the heart of our business</p>
                     </div>
                   </div>
-                </Bounce>
+                </Fade>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
-                <Bounce>
+                <Fade>
                   <div className="card">
                     <div className="image overflow-hidden">
                       <img src={innovation} alt="Innovation" />
@@ -170,10 +170,10 @@ export default class Home extends React.Component {
                       <p>Thinking out of the box</p>
                     </div>
                   </div>
-                </Bounce>
+                </Fade>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
-                <Bounce>
+                <Fade>
                   <div className="card">
                     <div className="image overflow-hidden">
                       <img src={productPerformance} alt="Product Performance" />
@@ -183,23 +183,23 @@ export default class Home extends React.Component {
                       <p>Continuous cycle of improvement</p>
                     </div>
                   </div>
-                </Bounce>
+                </Fade>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
-                <Bounce>
+                <Fade>
                   <div className="card">
                     <div className="image overflow-hidden">
-                      <img src={commitment} alt="Competence" />
+                      <img src={competence} alt="Competence" />
                     </div>
                     <div className="details">
                       <h5 className="text-blue">Competence</h5>
                       <p>Continuous cycle of improvement</p>
                     </div>
                   </div>
-                </Bounce>
+                </Fade>
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 8 }} >
-                <Bounce>
+                <Fade>
                   <div className="card">
                     <div className="image overflow-hidden">
                       <img src={customerSatisfactionSurvey} alt="Customer Satisfaction Survey" />
@@ -209,17 +209,17 @@ export default class Home extends React.Component {
                       <p>Identify customer hidden opportunities</p>
                     </div>
                   </div>
-                </Bounce>
+                </Fade>
               </Col>
             </Row>
 
             <Row gutter={[22, 20]} >
-              <Fade top>
+              <Fade>
                 <img src={quoteBottom} className="quote-bottom" alt="Quote Bottom" />
               </Fade>
-              <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 12 }} className="baker text-left text-md-center text-lg-right" >
+              {/* <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 12 }} className="baker text-left text-md-center text-lg-right" >
                 <img src={baker} alt="Baker" />
-              </Col>
+              </Col> */}
             </Row>
 
 
@@ -230,7 +230,7 @@ export default class Home extends React.Component {
           <div className="container mx-auto py-3">
             <Row gutter={[30, 20]} align="center" className="text-white pb-md-3 pb-lg-3 ">
               <Col xs={{ span: 24 }} sm={{ span: 10 }} md={{ span: 10 }} lg={{ span: 10 }} >
-                <Fade left>
+                <Fade>
                   <h2 className="border-left-3 border-blue text-white pl-3 mb-3">Innovation Wheel</h2>
                   <p className="mt-3">The innovation wheel is a model that helps GSI to increase innovation by implementing a systematic process approach for innovation.</p>
                   <p className="mt-3">This process helps GSI to recognize areas of potential discovery, improvement, and strength.</p>
@@ -238,7 +238,7 @@ export default class Home extends React.Component {
               </Col>
               <Col xs={{ span: 24 }} sm={{ span: 14 }} md={{ span: 14 }} lg={{ span: 14 }}>
                 <div className="wheel">
-                  <Fade right>
+                  <Fade>
                     <img src={innovationWheel} alt="Innovation Wheel" className="innovation-wheel-jpg"/>
                     <img src={innovationWheelCircle} alt="Innovation Wheel" className="innovation-wheel-circle" />
                   </Fade>
@@ -252,14 +252,14 @@ export default class Home extends React.Component {
 
         <section className="cutting-edge-solution py-5 p-mob">
           <div className="container mx-auto py-lg-3">
-            <Fade left>
+            <Fade>
               <div className="title-section mb-4">
                 <h2 className="border-left-3 text-blue  border-danger pl-3 mb-3">Our Cutting Edge Solutions</h2>
                 <p className="text-left mt-3">Our extraordinary ingredients are product of technical expertise, <br />meticulous research and innovation of listening to and working with our customers.</p>
               </div>
             </Fade>
             <div className="card-holder">
-              <Bounce>
+              <Fade>
                 <div className="card-box">
                   <Link to="/confectionery-solutions">
                     <div className="details overflow-hidden border-radius">
@@ -270,8 +270,8 @@ export default class Home extends React.Component {
                     </div>
                   </Link>
                 </div>
-              </Bounce>
-              <Bounce>
+              </Fade>
+              <Fade>
                 <div className="card-box">
                   <Link to="/bakery-solutions">
                     <div className="details overflow-hidden border-radius">
@@ -282,8 +282,8 @@ export default class Home extends React.Component {
                     </div>
                   </Link>
                 </div>
-              </Bounce>
-              <Bounce>
+              </Fade>
+              <Fade>
                 <div className="card-box">
                   <Link to="/shelf-life-frying-solutions">
                     <div className="details overflow-hidden border-radius">
@@ -294,8 +294,8 @@ export default class Home extends React.Component {
                     </div>
                   </Link>
                 </div>
-              </Bounce>
-              <Bounce>
+              </Fade>
+              <Fade>
                 <div className="card-box">
                   <Link to="/oil-fat-solutions">
                     <div className="details overflow-hidden border-radius">
@@ -306,8 +306,8 @@ export default class Home extends React.Component {
                     </div>
                   </Link>
                 </div>
-              </Bounce>
-              <Bounce>
+              </Fade>
+              <Fade>
                 <div className="card-box ">
                   <Link to="/our-solutions">
                     <div className="details bg-grid overflow-hidden border-radius">
@@ -319,7 +319,7 @@ export default class Home extends React.Component {
                     </div>
                   </Link>
                 </div>
-              </Bounce>
+              </Fade>
             </div>
           </div>
         </section>

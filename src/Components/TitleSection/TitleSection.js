@@ -14,18 +14,18 @@ class TitleSection extends Component {
                         <div className="center-contents w-100">
                             <div className="middle-content">
                                 <div className="caption mt-sm-3 mt-lg-5 pt-sm-1 pt-lg-3">
-                                    <Fade top>
+                                    <Fade>
                                         <p className="text-white text-uppercase mb-3 mb-lg-4">{this.props.welcomeText}</p>
                                     </Fade>
-                                    <Zoom top>
+                                    <Fade>
                                         <h1 className="text-white mb-3 mb-lg-4">{this.props.titleName}</h1>
-                                    </Zoom>
+                                    </Fade>
                                 </div>
                             </div>
                         </div>
 
                         <div className="move-down">
-                            <Zoom>
+                            <Zoom bottom>
                                 <img src={scrollDown} alt="Move to another section" />
                             </Zoom>
                         </div>

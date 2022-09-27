@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import Slider from "react-slick";
 import { Row, Col } from 'antd';

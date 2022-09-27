@@ -1,8 +1,7 @@
 import React from "react";
 import { withRouter } from "react-router";
-import { Row, Col, Image } from "antd";
+import { Row, Col } from "antd";
 import Fade from 'react-reveal/Fade';
-import Bounce from 'react-reveal/Bounce';
 import Slider from "react-slick";
 import "./Responsibility.scss";
 import selaganHockey from "../../assets/images/responsibility/selagan-hockey/main.jpg"
@@ -64,7 +63,7 @@ import valluvarvizhaGallery10 from "../../assets/images/responsibility/valluvar-
 const eventGallery = {
     arrows: true,
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -318,7 +317,7 @@ class EventGallery extends React.Component {
                         </Row>
                         <Row gutter={[20, 20]} align="center" className="pb-4">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} >
-                                <Bounce left cascade>
+                                <Fade>
                                     <Slider {...eventGallery}>
                                         <div onClick={() => this.setState({ selaganGallery: true })}>
                                             <SlidingList eventMainImg={selaganHockey} eventYear="2019" eventName="Selagan Hockey" />
@@ -336,7 +335,7 @@ class EventGallery extends React.Component {
                                             <SlidingList eventMainImg={valluvarVizha} eventYear="2017" eventName="2017 valluvar vizha" />
                                         </div>
                                     </Slider>
-                                </Bounce>
+                                </Fade>
                             </Col>
                         </Row>
                     </div>

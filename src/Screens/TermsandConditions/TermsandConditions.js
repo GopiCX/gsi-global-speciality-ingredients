@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import { Row, Col } from 'antd';
 import TitleSection from '../../Components/TitleSection/TitleSection';
@@ -8,7 +7,7 @@ class TermsandConditions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="terms-and-conditions" welcomeText="Welcome to Global peciality Ingredients" titleName="Terms and Conditions" />
+                <TitleSection className="terms-and-conditions" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Terms and Conditions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

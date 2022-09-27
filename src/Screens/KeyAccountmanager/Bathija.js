@@ -1,9 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
-import { Row, Col, Input } from 'antd';
-import { SearchOutlined } from '@ant-design/icons';
-import TitleSection from '../../Components/TitleSection/TitleSection';
+import { Row, Col } from 'antd';
 import bathijaRajeshQrCode from '../../assets/images/key-account-manager/bathija-rajesh.webp'
 import './KeyAccountmanager.scss'
 import uae from '../../assets/images/countries/uae.png';

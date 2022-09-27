@@ -48,7 +48,9 @@
 
         p {
             margin-top: 2px;
-            font-size: 15px;
+            a{
+                color: var(--black);
+            }
         }
     }
 
@@ -127,6 +129,7 @@
     @media(max-width: 450px){
         width: 30px;
         height: 39px;
+        right: 20px !important;
     }
 }
 

@@ -6,8 +6,8 @@ import {
 } from 'react-router-dom';
 import Home from '../Screens/LandingPage/Home';
 import AboutUs from '../Screens/AboutUs/AboutUs';
-import HomeReview from '../Screens/LandingPage/HomeReview';
 import ContactUs from '../Screens/ContactUs/ContactUs';
+import Events from '../Screens/Events/Events';
 import Career from '../Screens/Career/Career';
 import OurSolutions from '../Screens/OurSolutions/OurSolutions';
 import Responsibility from '../Screens/Responsibility/Responsibility';
@@ -36,9 +36,9 @@ class InnerRoutes extends React.Component {
             <Layout {...this.props}>
                 <Switch>
                     <Route exact path={`/`} component={Home} />
-                    <Route exact path={`/home-1`} component={HomeReview} />
                     <Route path="/about-us" component={AboutUs} />
                     <Route path="/contact-us" component={ContactUs} />
+                    <Route path="/events" component={Events} />
                     <Route path="/career" component={Career} />
                     <Route path="/our-solutions" component={OurSolutions} />
                     <Route path="/responsibility" component={Responsibility} />

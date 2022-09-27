@@ -1,5 +1,19 @@
+@import "../../../Style/mixin.scss";
+
 .awards-achievements {
     position: relative;
+    overflow: hidden;
+
+    &::after {
+        @include beforeContentLeft($top: unset, $bottom: 0, $left: unset, $right: -30px, $width: 19%, $height: 100%, $opacity: 0.1, $background: url('../assets/images/globe-1.svg'));
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+
+    @media(max-width:767px) {
+        padding: 30px 0;
+        text-align: center;
+    }
 
     @media(max-width: 575px) {
         padding-top: 20px;
@@ -16,17 +30,20 @@
     }
 
     .awards {
-        padding:20px;
+        padding: 20px;
+
         @media(max-width: 575px) {
-            padding-left:0;
-            padding-right:0;
+            padding-left: 0;
+            padding-right: 0;
         }
+
         span {
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: var(--secondary);
             font-size: 65px;
             font-weight: 700;
             color: transparent;
+            line-height: 65px;
         }
 
         p {
@@ -35,31 +52,34 @@
             color: var(--white);
 
             @media(max-width:900px) {
-                font-size: 20px;
+                font-size: 18px;
             }
 
-            @media(max-width: 575px) {
+            @media(max-width: 767px) {
                 font-size: 17px;
+                margin-bottom: 10px;
             }
         }
     }
 
     .slick-dots {
-        right: 45%;
+        right: 28%;
         bottom: 56px;
         width: auto;
 
-        @media(max-width:900px) {
-            .slick-dots {
-                right: 42%;
-                bottom: 32px;
-            }
+        @media(max-width:999px) {
+            right: 18%;
+            bottom: 24px;
         }
 
-        @media(max-width: 575px) {
-            position: relative;
-            right:0;
-            top: 0;
+        @media(max-width:899px) {
+            right: 13%;
+            bottom: 18px;
+        }
+        @media(max-width: 767px) {
+            right: 0;
+            bottom: 0;
+            left: 0;
         }
     }
 
@@ -69,15 +89,21 @@
             top: 0;
             right: unset;
             z-index: 9;
+            font-size: 22px;
         }
 
         img {
             max-height: 250px;
+            @media(max-width: 767px) {
+                max-height: 200px;
+                border-radius: 10px;
+            }
         }
 
         .awards {
             span {
                 font-size: 37px;
+                line-height: 37px;
             }
         }
 

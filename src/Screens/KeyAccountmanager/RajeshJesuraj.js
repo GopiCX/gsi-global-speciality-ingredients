@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
-import { Row, Col, Input } from 'antd';
+import { Row, Col } from 'antd';
 import rajeshJesurajQrCode from '../../assets/images/key-account-manager/rajesh-jesuraj.webp'
 import './KeyAccountmanager.scss'
 

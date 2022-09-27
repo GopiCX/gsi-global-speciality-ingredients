@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import { Col } from 'antd';
 import { withRouter } from 'react-router-dom'; 
-import Bounce from 'react-reveal/Bounce';
+import Fade from 'react-reveal/Fade';
 import './OurSolutions.scss';
 
 
@@ -11,7 +11,7 @@ class SolutionList extends Component {
         return (
             <React.Fragment>
                 <Col xs={{ span: 12 }} sm={{ span: 12 }} md={{ span: 6 }} lg={{ span: 6 }} >
-                    <Bounce>
+                    <Fade>
                         <Link to={`${this.props.solutionPageLink}`}>
                             <div class="solution-box">
                                 <div class="details">
@@ -22,7 +22,7 @@ class SolutionList extends Component {
                                 </div>
                             </div>
                         </Link>
-                    </Bounce>
+                    </Fade>
                 </Col>
             </React.Fragment >
         );

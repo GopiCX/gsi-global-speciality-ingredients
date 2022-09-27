@@ -7,10 +7,8 @@
   top: 0;
   z-index: 9;
   width: 100%;
-  background-color: var(--white);
-  @include boxShadow($color: rgba(171, 171, 171, 0.50));
   transform: translateZ(0);
-  transition:all 0.5s;
+  transition: all 0.5s;
 
   .ant-menu-item {
     margin: 10px 10px !important;
@@ -31,10 +29,13 @@
       @media(max-width:1160px) {
         padding: 16px 26px 15px 28px;
       }
+
       @media(max-width:600px) {
         padding: 16px 13px 15px 13px;
       }
-
+      @media(max-width:350px) {
+        padding: 12px 13px 15px 12px;
+      }
       span {
         margin-left: 10px;
         font-size: 26px;
@@ -45,11 +46,16 @@
       img {
         height: 40px;
         padding-right: 10px;
+
         @media(max-width:1200px) {
           height: 46px !important;
         }
+
         @media(max-width:600px) {
           height: 30px !important;
+        }
+        @media(max-width:500px) {
+          padding-right: 0;
         }
       }
     }
@@ -63,32 +69,43 @@
       @media(max-width:1160px) {
         padding: 16px 30px 14px 28px;
       }
+
       @media(max-width:1100px) {
         padding: 16px 80px 14px 28px;
       }
+      @media(max-width:350px) {
+        padding: 12px 65px 14px 23px;
+      }
+
       @media(max-width:300px) {
         display: none
       }
+
       img {
         height: 40px;
         padding-left: 10px;
+
         @media(max-width:1200px) {
           height: 39px !important;
         }
+
         @media(max-width:600px) {
           height: 25px !important;
+        }
+        @media(max-width:500px) {
+          padding-left: 0;
         }
       }
     }
   }
 
   &.scrolled {
-    background-color: transparent;
     position: fixed;
     top: 0;
     z-index: 999;
-    width: 100%;
-    box-shadow: unset;
+    width: 100%;    
+    background-color: var(--white);
+    @include boxShadow($color: rgba(171, 171, 171, 0.50));
 
     .top-header {
       .logo {
@@ -139,7 +156,7 @@
     }
 
     li {
-      padding: 0px 8px;
+      // padding: 0px 8px;
 
       &:hover {
         color: var(--white);
@@ -179,7 +196,7 @@
 
 .navigations {
   @media(max-width: 1100px) {
-    display: none;    
+    display: none;
     transition: max-height 0.6s cubic-bezier(0, 1, 0, 1);
   }
 
@@ -228,7 +245,7 @@
   @media(max-width: 1100px) {
     display: block;
     position: absolute;
-    top: 21px;
+    top: 28px;
     right: 20px;
     width: 40px;
     height: 40px;
@@ -241,5 +258,8 @@
     &.menuopened {
       background-image: url("../assets/images/close.svg");
     }
+  }
+  @media(max-width: 600px) {
+    top: 21px;
   }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.scss';
 import { Link } from 'react-router-dom';
 import { Row, Col, BackTop } from 'antd';
-import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 import './Footer.scss'
 import mainlogo from "../assets/images/gsi-logo.svg";
 import functionalIngredients from "../assets/images/Functional-Ingredients-Tailored-to-your-needs.svg"
@@ -12,31 +12,31 @@ export default class Footer extends React.Component {
 
     render() {
         return (
-            <React.Fragment>
+            <React.Fragment>                 
                 <section className="footer py-5  p-mob">
                     <div className="container mx-auto">
                         <Row gutter={[10, 10]}>
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 8 }} lg={{ span: 13 }}>
                                 <div className="footer-logo mb-3 mb-lg-5">
-                                    <Zoom cascade>
+                                    <Fade>
                                         <img src={mainlogo} className="pr-4 mr-4 border-right" alt="GSI - Global Specialty Ingredients | Your Innovation Our Solution" />
                                         <img src={functionalIngredients} alt="Functional Ingredients Tailored to your needs" />
-                                    </Zoom>
+                                    </Fade>
                                 </div>
                                 <div className="social-media">
-                                    <Zoom cascade>
+                                    <Fade>
                                         <h3 className="text-red text-uppercase">Follow us</h3>
                                         <ul className="d-flex p-0 m-0">
-                                            <li><a href="https://www.facebook.com/globalspecialtyingredients/" target="_blank"><i class="fa fa-facebook" aria-hidden="true" /></a></li>
-                                            <li><a href="https://www.instagram.com/globalspecialtyingredients/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" /></a></li>
-                                            <li><a href="https://twitter.com/specialty_m" target="_blank"><i class="fa fa-twitter" aria-hidden="true" /></a></li>
-                                            <li><a href="https://www.linkedin.com/company/global-specialty-ingredients/jobs/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" /></a></li>
+                                            <li><a href="https://www.facebook.com/globalspecialtyingredients/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook" aria-hidden="true" /></a></li>
+                                            <li><a href="https://www.instagram.com/globalspecialtyingredients/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true" /></a></li>
+                                            <li><a href="https://twitter.com/specialty_m" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" aria-hidden="true" /></a></li>
+                                            <li><a href="https://www.linkedin.com/company/global-specialty-ingredients/jobs/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square" aria-hidden="true" /></a></li>
                                         </ul>
-                                    </Zoom>
+                                    </Fade>
                                 </div>
                             </Col>
                             <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 6 }}>
-                                <Zoom cascade>
+                                <Fade>
                                     <h3 className="text-red">Get In Touch</h3>
                                     <div className="contact-item">
                                         <div className="icon">
@@ -44,7 +44,7 @@ export default class Footer extends React.Component {
                                         </div>
                                         <div className="details">
                                             <span>Whatsapp</span>
-                                            <p>+6018 955 1105</p>
+                                            <p><a href="tel: +6018 955 1105">+6018 955 1105</a></p>
                                         </div>
                                     </div>
                                     <div className="contact-item">
@@ -53,20 +53,20 @@ export default class Footer extends React.Component {
                                         </div>
                                         <div className="details">
                                             <span>Email</span>
-                                            <p>marketing@gsiworldwide.com</p>
+                                            <p><a href="mailto:marketing@gsiworldwide.com">marketing@gsiworldwide.com</a></p>
                                         </div>
                                     </div>
-                                </Zoom>
+                                </Fade>
                             </Col>
                             <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 5 }}>
-                                <Zoom cascade>
+                                <Fade>
                                     <div className="contact-item mt-sm-2 mt-md-3 mt-lg-4">
                                         <div className="icon">
                                             <i class="fa fa-phone" aria-hidden="true" />
                                         </div>
                                         <div className="details">
                                             <span>Phone</span>
-                                            <p>+6018 3123 7171</p>
+                                            <p><a href="tel:+6018 3123 7171">+6018 3123 7171</a></p>
                                         </div>
                                     </div>
                                     <div className="contact-item">
@@ -78,16 +78,17 @@ export default class Footer extends React.Component {
                                             <p>Mon-Fri 9:00AM - 6:00 PM (GMT+8) </p>
                                         </div>
                                     </div>
-                                </Zoom>
+                                </Fade>
                             </Col>
                         </Row>
                     </div>
                 </section>
+
                 <section className="bottom-footer py-3  p-mob">
                     <div className="container mx-auto">
                         <Row gutter={[12, 22]}>
-                            <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 12 }}>
-                                <Zoom cascade>
+                            <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 14 }}>
+                                <Fade>
                                     <ul className="p-0 m-0">
                                         <li>
                                             <Link to="/">Home</Link>
@@ -102,24 +103,28 @@ export default class Footer extends React.Component {
                                             <Link to="/responsibility">Responsibility</Link>
                                         </li>
                                         <li>
+                                            <Link to="/events">Events</Link>
+                                        </li>
+                                        <li>
                                             <Link to="/career">Careers</Link>
                                         </li>
                                         <li>
                                             <Link to="/contact-us">Contact</Link>
                                         </li>
                                     </ul>
-                                </Zoom>
+                                </Fade>
                             </Col>
-                            <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 12 }}>
-                                <Zoom cascade>
+                            <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 10 }}>
+                                <Fade>
                                     <div className="text-right text-white" >
-                                        <Link to="/terms-and-conditions" className="border-right text-white pr-2 mr-2">Terms and Conditions</Link> <span>© {(new Date().getFullYear())} Copyright GSI. All Right reserved.</span>
+                                        <Link to="/terms-and-conditions" className="border-right text-white pr-2 mr-2">Terms and Conditions</Link> <span>© {(new Date().getFullYear())} Copyright GSI. All Right Reserved.</span>
                                     </div>
-                                </Zoom>
+                                </Fade>
                             </Col>
                         </Row>
                     </div>
                 </section>
+               
                 <BackTop>
                     <div className="back-to-top">
                         <img src={moveTop} alt="move to top" />
