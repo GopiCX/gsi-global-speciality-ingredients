@@ -28,9 +28,12 @@
         .image {
             img {
                 height: 106px;
+                border-top-left-radius: 15px;
+                border-bottom-right-radius: 15px;
                 @media(max-width:381px) {
                     padding-top:20px;
                     @include alignCenter;
+
                 }
             }
 

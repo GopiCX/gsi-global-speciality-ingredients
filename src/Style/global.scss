@@ -40,8 +40,8 @@ html {
 *,
 html,
 body {
-  // @include luchida;
-  font-family: 'Roboto', sans-serif;
+  @include Georgia;
+  // font-family: 'Roboto', sans-serif;
   line-height: 160%;
 }
 
@@ -122,11 +122,10 @@ h3,
 h4,
 h5,
 h6 {
-  // @include luchidaBold;
-  font-weight: 700;
+  @include GeorgiaBold;
   margin-top: 0;
   margin-bottom: 0.5rem;
-  line-height: 105%;
+  line-height: 126%;
 }
 
 p {
@@ -134,7 +133,10 @@ p {
   margin-bottom: 1rem;
 }
 p, ol, ul{
-  font-size: 16px;
+  font-size: 17px;
+  @media(max-width: 300px){
+    font-size: 15px;
+  }
 }
 
 p:last-child {
@@ -594,8 +596,8 @@ input[type="text"]:focus {
 
 // Background Pattern
 .pattern-1 {
-  background-image: url('../assets/images/patterns/our-solution.jpg');
-  @include backgroundNoRepeat($size: 50%, $position: bottom left);
+  background-image: url('../assets/images/patterns/our-solution.png');
+  @include backgroundNoRepeat($size: 35%, $position: bottom left);
 }
 .pattern-2 {
   background-image: url('../assets/images/patterns/dark-wave.jpg');
@@ -612,7 +614,7 @@ input[type="text"]:focus {
   }
 }
 .globe-bg {
-  background-image: url('../assets/images/globe.svg');
+  background-image: url('../assets/images/globe-1.svg');
   @include backgroundNoRepeat($size: 17%, $position: top right);
   &:hover{
     background-image: url('../assets/images/globe-blue.svg');

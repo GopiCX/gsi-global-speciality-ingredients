@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import { Row, Col, Input } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
@@ -17,7 +16,7 @@ class BakerySolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="bakery-solutions" welcomeText="Welcome to Global peciality Ingredients" titleName="Bakery Solutions" />
+                <TitleSection className="bakery-solutions" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Bakery Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

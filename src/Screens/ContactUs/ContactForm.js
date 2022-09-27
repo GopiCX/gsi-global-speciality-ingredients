@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router';
 import InputBox from '../../Components/InputBox/InputBox';
-import { Button, Col, notification, Row } from "antd";
+import { Button} from "antd";
 
 class ContactForm extends React.Component {
     constructor() {

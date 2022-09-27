@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import { Row, Col, Input } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
@@ -16,7 +15,7 @@ class KeyAccountmanager extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="key-account-manager" welcomeText="Welcome to Global peciality Ingredients" titleName="Meet Your Key Account Manager" />
+                <TitleSection className="key-account-manager" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Meet Your Key Account Manager" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

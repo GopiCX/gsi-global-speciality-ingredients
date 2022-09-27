@@ -1,23 +1,29 @@
-// Futura fonts
+// arbat font
 @font-face {
-    font-family: "Luchida";
-    src: url("../assets/font/lucida-fax/luchida-fax-regular.ttf") format("truetype");
+    font-family: 'Arbat';
+    src: url("../assets/font/arbat/arbat-bold.ttf") format("truetype");
+    font-weight: 600;
+}
+// Georgia fonts
+@font-face {
+    font-family: 'Georgia';
+    src: url("../assets/font/georgia/georgia-regular.ttf") format("truetype");
     font-weight: 400;
 }
 @font-face {
-    font-family: "Luchida";
-    src: url("../assets/font/lucida-fax/luchida-fax-italic.ttf") format("truetype");
+    font-family: 'Georgia';
+    src: url("../assets/font/georgia/georgia-regular-italic.ttf") format("truetype");
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
-    font-family: "Luchida";
-    src: url("../assets/font/lucida-fax/luchida-fax-demibold.ttf") format("truetype");
+    font-family: 'Georgia';
+    src: url("../assets/font/georgia/georgia-bold.ttf") format("truetype");
     font-weight: 600;
 }
 @font-face {
-    font-family: "Luchida";
-    src: url("../assets/font/lucida-fax/luchida-fax-demibold-italic.ttf") format("truetype");
+    font-family: 'Georgia';
+    src: url("../assets/font/georgia/georgia-bold-italic.ttf") format("truetype");
     font-weight: 600;
     font-style: italic;
 }

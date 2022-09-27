@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import { Row, Col, Input } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
@@ -15,7 +14,7 @@ class Adsorbent extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="adsorbent" welcomeText="Welcome to Global peciality Ingredients" titleName="Adsorbent" />
+                <TitleSection className="adsorbent" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Adsorbent" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

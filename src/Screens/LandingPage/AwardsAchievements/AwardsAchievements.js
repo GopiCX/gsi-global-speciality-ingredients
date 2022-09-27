@@ -1,12 +1,22 @@
 import React from "react";
 import { withRouter } from "react-router";
-import { Row, Col, Popover } from "antd";
-import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import Fade from 'react-reveal/Fade';
-import Award1 from '../../../assets/images/award/awards-1.png';
-import Award2 from '../../../assets/images/award/awards-2.png';
+import Award1 from '../../../assets/images/award/awards-1.jpg';
+import Award2 from '../../../assets/images/award/awards-2.jpg';
+import Award3 from '../../../assets/images/award/awards-3.jpg';
+import Award4 from '../../../assets/images/award/awards-4.png';
+import Award5 from '../../../assets/images/award/awards-5.jpg';
+import Award6 from '../../../assets/images/award/awards-6.jpg';
+import Award7 from '../../../assets/images/award/awards-7.jpg';
+import Award8 from '../../../assets/images/award/awards-8.jpg';
+import Award9 from '../../../assets/images/award/awards-9.jpg';
+import Award10 from '../../../assets/images/award/awards-10.jpg';
+import Award11 from '../../../assets/images/award/awards-11.jpg';
+import Award12 from '../../../assets/images/award/awards-12.jpg';
+import Award13 from '../../../assets/images/award/awards-13.png';
 import './AwardsAchievements.scss'
+import AwardsAchivemenetsList from './AwardsAchivemenetsList'
+
 
 const awardslidersettings = {
     arrows: false,
@@ -16,7 +26,6 @@ const awardslidersettings = {
     slidesToShow: 1,
     slidesToScroll: 1,
     fade: true,
-    speed: 500,
     infinite: true,
     cssEase: 'ease-in-out',
     touchThreshold: 100
@@ -30,42 +39,44 @@ class AwardsAchievements extends React.Component {
 
                     <Slider {...awardslidersettings}>
                         <div className="list">
-                            <Row align="center">
-                                <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="text-center">
-                                    <Fade>
-                                        <img src={Award1} alt="Awards" />
-                                    </Fade>
-                                </Col>
-                                <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="bg-blue space text-white  px-lg-3 center-contents">
-                                    <div className="awards middle-content">
-                                        <Fade top>
-                                            <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">Awards & Achievements</h2>
-                                            <span className="d-block">2019</span>
-                                            <p>Best Food Ingredients Supplier by Frost and Sullivan</p>
-                                        </Fade>
-                                    </div>
-                                </Col>
-                            </Row>
+                            <AwardsAchivemenetsList AwardImg={Award1} AwardYear="2021" ShortDesc="SME 100 Awards Fast Movie Companies" />
                         </div>
                         <div className="list">
-                            <Row align="center">
-                                <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="text-center">
-                                    <Fade>
-                                        <img src={Award2} alt="Awards" />
-                                    </Fade>
-                                </Col>
-                                <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 12 }} className="bg-blue space center-contents">
-                                    <div className="awards middle-content">
-                                        <Fade top>
-                                            <h2 className="border-left-3 text-white  border-danger pl-3 mb-3">Awards & Achievements</h2>
-                                            <span className="d-block">2018</span>
-                                            <p>STAR OUTSTANDING BUSINESS AWARDS (SOBA)</p>
-                                        </Fade>
-                                    </div>
-                                </Col>
-                            </Row>
+                            <AwardsAchivemenetsList AwardImg={Award2} AwardYear="2021" ShortDesc="SME 100 Awards Fast Movie Companies" />
                         </div>
-
+                        <div className="list">
+                            <AwardsAchivemenetsList AwardImg={Award3} AwardYear="2021" ShortDesc="SME 100 Awards Fast Movie Companies" />
+                        </div>
+                        <div className="list">
+                            <AwardsAchivemenetsList AwardImg={Award4} AwardYear="2019" ShortDesc="Best Food Ingredients Supplier by Frost and Sullivan" />
+                        </div>
+                        <div className="list">
+                            <AwardsAchivemenetsList AwardImg={Award5} AwardYear="2019" ShortDesc="Best Food Ingredients Supplier by Frost and Sullivan" />
+                        </div>
+                        <div className="list">
+                            <AwardsAchivemenetsList AwardImg={Award6} AwardYear="2018" ShortDesc="Production & Commercialisation Of Specialty Food Ingredients Award" />
+                        </div>
+                        <div className="list">
+                            <AwardsAchivemenetsList AwardImg={Award7} AwardYear="2018" ShortDesc="Production & Commercialisation Of Specialty Food Ingredients Award" />
+                        </div>
+                        <div className="list">
+                            <AwardsAchivemenetsList AwardImg={Award8} AwardYear="2018" ShortDesc="Production & Commercialisation Of Specialty Food Ingredients Award" />
+                        </div>
+                        <div className="list">
+                            <AwardsAchivemenetsList AwardImg={Award9} AwardYear="2018" ShortDesc="Production & Commercialisation Of Specialty Food Ingredients Award" />
+                        </div>
+                        <div className="list">
+                            <AwardsAchivemenetsList AwardImg={Award10} AwardYear="2018" ShortDesc="Production & Commercialisation Of Specialty Food Ingredients Award" />
+                        </div>
+                        <div className="list">
+                            <AwardsAchivemenetsList AwardImg={Award11} AwardYear="2018" ShortDesc="Production & Commercialisation Of Specialty Food Ingredients Award" />
+                        </div>
+                        <div className="list">
+                            <AwardsAchivemenetsList AwardImg={Award12} AwardYear="2018" ShortDesc="Production & Commercialisation Of Specialty Food Ingredients Award" />
+                        </div>
+                        <div className="list">
+                            <AwardsAchivemenetsList AwardImg={Award13} AwardYear="2018" ShortDesc="STAR OUTSTANDING BUSINESS AWARDS (SOBA)" />
+                        </div>
                     </Slider>
                 </section>
             </React.Fragment >

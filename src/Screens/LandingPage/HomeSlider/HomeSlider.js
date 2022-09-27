@@ -1,9 +1,8 @@
 import React from "react";
 import { withRouter } from "react-router";
 import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Zoom'; 
-import { Link } from "react-router-dom";
-import TestComponent from 'react-background-video-player';
+import Zoom from 'react-reveal/Zoom';
+import BgVideo from 'react-background-video-player';
 import posterImg from '../../../assets/images/main-slider/main-slider.webp';
 import posterVideo from '../../../assets/video/gsi-hero-page.mp4';
 import scrollDown from '../../../assets/images/icons/mouse-icon.svg';
@@ -48,7 +47,7 @@ class HomeSlider extends React.Component {
         {/* <!--Main Slider section starts--> */}
         <div className="gsi-slider">
           <div className="slider-content ">
-            <TestComponent
+            <BgVideo
               ref={p => this.player = p}
               containerWidth={this.state.windowWidth}
               containerHeight={this.state.windowHeight}
@@ -62,14 +61,14 @@ class HomeSlider extends React.Component {
               autoPlay={true}
               volume={0}
             />
-             <div className=" item">
+            <div className=" item">
               <div className="center-contents w-100 p-mob">
                 <div className=" middle-content ">
                   <div className="container mx-auto slider-caption">
-                    <Zoom top>
+                    <Fade>
                       <h1 className="text-white text-center mb-3">WELCOME TO GLOBAL SPECIALTY INGREDIENTS</h1>
-                    </Zoom>
-                    <Fade top>
+                    </Fade>
+                    <Fade>
                       <p className="text-center text-white">Bringing Revolutionary Ideas<br /> and Solutions of Tomorrow</p>
                     </Fade>
                   </div>
@@ -77,7 +76,9 @@ class HomeSlider extends React.Component {
               </div>
             </div>
             <div className="move-down text-center">
-              <img src={scrollDown} alt="Move to another section" />
+              <Zoom bottom>
+                <img src={scrollDown} alt="Move to another section" />
+              </Zoom>
             </div>
           </div>
         </div>

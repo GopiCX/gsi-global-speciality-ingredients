@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import { Row, Col,  } from 'antd';
 import SaravananQrCode from '../../assets/images/key-account-manager/saravanan.webp'

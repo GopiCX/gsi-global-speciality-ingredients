@@ -1,9 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
-import { Row, Col, Input } from 'antd';
-import { SearchOutlined } from '@ant-design/icons';
-import TitleSection from '../../Components/TitleSection/TitleSection';
+import { Row, Col} from 'antd';
 import VijayQrCode from '../../assets/images/key-account-manager/vijay.webp'
 import './KeyAccountmanager.scss'
 import malaysia from '../../assets/images/countries/malaysia.png';

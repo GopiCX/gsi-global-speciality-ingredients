@@ -1,10 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import { PlusOutlined, MinusOutlined } from '@ant-design/icons';
 import { Row, Col, Collapse } from 'antd';
 import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Zoom';
 import TitleSection from '../../Components/TitleSection/TitleSection';
 import ExpertPartners from "./ExpertPartners/ExpertPartners";
 import experienceImg from "../../assets/images/career/experience.png";
@@ -24,11 +22,11 @@ class Career extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <TitleSection className="career" welcomeText="Welcome to Global peciality Ingredients" titleName="Why Work With Us" />
+        <TitleSection className="career" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Why Work With Us" />
 
         <section className="key-benefits py-5 p-mob">
           <div className="container mx-auto">
-            <Fade left>
+            <Fade>
               <h2 className="border-left-3 border-danger text-blue pl-3 mb-4">Key benefits of working with us</h2>
               <p className="mb-4">Our partners come to us because they are looking for more than a safe pair of hands. They need to know that we’re leaders in our field and that they will be advised, supported and guided at every step.</p>
             </Fade>
@@ -69,7 +67,7 @@ class Career extends React.Component {
 
         <section className="performance-measurement py-5 p-mob">
           <div className="container mx-auto">
-            <Fade left>
+            <Fade>
               <h2 className="border-left-3 border-danger text-blue pl-3 mb-4">Performance Measurement</h2>
               <p className="mb-4">Employee performance measurement is the process of evaluating a person’s work using objective, quantitative criteria. We feel that knowing how our employees are progressing professionally and contributing to our company is vital.</p>
             </Fade>
@@ -138,7 +136,7 @@ class Career extends React.Component {
 
         <section className="benefits py-5 align-top  p-mob">
           <div className="container mx-auto py-3">
-            <Zoom>
+            <Fade>
               <div className="title-section text-center mb-3">
                 <h2 className="text-white  d-inline pl-3 ">General Benefits</h2>
               </div>
@@ -204,7 +202,7 @@ class Career extends React.Component {
 
                 </Col>
               </Row>
-            </Zoom>
+            </Fade>
           </div>
         </section>
 
@@ -212,9 +210,9 @@ class Career extends React.Component {
           <div className="container mx-auto">
             <Row gutter={[30, 20]} align="center" className="text-center">
               <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} >
-                <Zoom>
-                  <a className="btn bg-red-gradient text-white" href="https://www.linkedin.com/company/global-specialty-ingredients/jobs/" target="_blank">Follow us @ linkedin</a>
-                </Zoom>
+                <Fade>
+                  <a className="btn bg-red-gradient text-white" href="https://www.linkedin.com/company/global-specialty-ingredients/jobs/" target="_blank" rel="noopener noreferrer">Follow us @ linkedin</a>
+                </Fade>
               </Col>
             </Row>
           </div>

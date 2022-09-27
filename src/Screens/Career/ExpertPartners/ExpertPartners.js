@@ -6,11 +6,10 @@ import "./ExpertPartners.scss";
 import ethical from "../../../assets/images/career/ethical.png"
 import open from "../../../assets/images/career/open.png"
 import proactive from "../../../assets/images/career/proactive.png"
-import comprehensiveSupport from "../../../assets/images/career/proactive.png"
-import technicalExpertise from "../../../assets/images/career/proactive.png"
-import innovationInsight from "../../../assets/images/career/proactive.png"
+import comprehensiveSupport from "../../../assets/images/career/comprehensive-support.png"
+import technicalExpertise from "../../../assets/images/career/technical-expertise.png"
+import innovationInsight from "../../../assets/images/career/innovation-insight.png"
 import Fade from 'react-reveal/Fade';
-import Bounce from 'react-reveal/Bounce';
 
 const expertSlidersettings = {
     arrows: true,
@@ -71,7 +70,7 @@ class ExpertPartners extends React.Component {
                         </Row>
                         <Row gutter={[30, 20]} align="center">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 24 }} >
-                                <Bounce>
+                                <Fade>
                                     <Slider {...expertSlidersettings}>
                                         <div className="item">
                                             <div className="details">
@@ -146,7 +145,7 @@ class ExpertPartners extends React.Component {
                                         </div>
                                         {/* <!--Slider Item ends--> */}
                                     </Slider>
-                                </Bounce>
+                                </Fade>
                             </Col>
                         </Row>
                     </div>

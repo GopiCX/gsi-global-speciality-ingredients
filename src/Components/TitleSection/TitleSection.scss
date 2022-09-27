@@ -15,7 +15,7 @@
         h1 {
             font-size: 55px;
             letter-spacing: 4px;
-            font-weight: 500;
+            font-weight: 600;
             margin-bottom: 0;
 
             @media(max-width: 1018px) {
@@ -70,7 +70,9 @@
     &.solutions {
         @include bgSetup($bg-image: url('../assets/images/our-solutions/oursolutions.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
     }
-
+    &.events {
+        @include bgSetup($bg-image: url('../assets/images/events/events.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    }
     &.career {
         @include bgSetup($bg-image: url('../assets/images/career/careers01.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
     }
@@ -78,7 +80,7 @@
         @include bgSetup($bg-image: url('../assets/images/responsibility/responsibility.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
     }
     &.key-account-manager{
-        @include bgSetup($bg-image: url('../assets/images/key-account-manager/key-account-manager.jpeg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+        @include bgSetup($bg-image: url('../assets/images/key-account-manager/key-account-manager.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
     }
     &.confectionary-solutions{
         @include bgSetup($bg-image: url('../assets/images/confectionary-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)

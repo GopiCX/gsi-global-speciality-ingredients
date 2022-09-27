@@ -1,22 +1,26 @@
-// Fonts mixins
-// Light Font
-@mixin luchida {
-  font-family: 'Luchida';
+// ArbatBold mixins
+@mixin ArbatBold{
+  font-family: 'Arbat';
+  font-weight: 600;
+}
+// Georgia Font
+@mixin Georgia {
+  font-family: 'Georgia';
   font-weight: 400;
 }
 
-@mixin luchidaItalic {
-  @include luchida;
+@mixin GeorgiaItalic {
+  @include Georgia;
   font-style: italic;
 }
 
-@mixin luchidaBold {
-  font-family: 'Luchida';
+@mixin GeorgiaBold {
+  font-family: 'Georgia';
   font-weight: 600;
 }
 
-@mixin luchidaBoldItalic {
-  @include luchidaBold;
+@mixin GeorgiaBoldItalic {
+  @include GeorgiaBold;
   font-style: italic;
 }
 
@@ -84,7 +88,8 @@
 }
 
 @mixin redGradient{
-  background-image: linear-gradient(to right, #e31e28, #c8004f, #9b0067, #631f6d, #282561);
+  // background-image: linear-gradient(to right, #e31e28, #c8004f, #9b0067, #631f6d, #282561);
+  background-image: linear-gradient(to right, #e31e28, #9b1f3e, #a31f3b, #631f6d, #282561);
 }
 @mixin blueGradient{
   background-image: linear-gradient(to right, #282561, #631f6d, #9b0067, #c8004f, #e31e28);

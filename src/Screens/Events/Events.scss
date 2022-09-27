@@ -1,0 +1,59 @@
+.gsi-participation {
+    .card {
+        padding: 25px;
+        min-height: 180px;
+
+        @media(max-width: 600px) {
+            padding: 20px;
+            min-height: auto;
+        }
+
+        img {
+            height: 28px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+
+            @media(max-width: 600px) {
+                font-size: 16px;
+            }
+        }
+
+        h3 {
+            font-size: 30px;
+
+            @media(max-width: 600px) {
+                font-size: 25px;
+            }
+        }
+    }
+
+}
+
+.ant-timeline {
+    .ant-timeline-item-label {
+        color: var(--white);
+    }
+
+    .ant-timeline-item-label,
+    .ant-timeline-item-content {
+        font-size: 20px;
+        @media(max-width: 320px){
+            font-size: 17px;
+        }
+    }
+
+    .ant-timeline-item-content {
+        padding: 10px;
+        background: var(--white);
+        border-radius: 10px;
+        color: var(--black);
+    }
+
+    .ant-timeline-item-head-blue {
+        color: var(--secondary);
+        border-color: var(--secondary);
+    }
+}

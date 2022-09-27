@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.scss";
 import { Link, NavLink  } from "react-router-dom";
-import { Row, Button, Col, Input, Tooltip } from "antd";
 import mainlogo from "../assets/images/gsi-logo.svg";
 import functionalIngredients from "../assets/images/Functional-Ingredients-Tailored-to-your-needs.svg"
 export let setHeader = false;
@@ -57,6 +56,9 @@ export default class Header extends React.Component {
                     </li>
                     <li>
                       <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/responsibility">Responsibility</NavLink>
+                    </li>
+                    <li>
+                      <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/events">Events</NavLink>
                     </li>
                     <li>
                       <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/career">Careers</NavLink>

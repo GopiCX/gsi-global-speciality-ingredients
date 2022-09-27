@@ -1,5 +1,14 @@
 @import "../../Style/mixin.scss";
 
+.pb-custom{
+    padding-bottom: 118px;
+}
+
+.your-innovation{
+    h1{
+        @include ArbatBold;
+    }
+}
 .value-proposition {
     img {
         width: 60%;
@@ -14,7 +23,7 @@
 // development-product
 .development-product {
     img {
-        width: 98%;
+        width: 100%;
         margin: 0 auto;
         display: block;
 
@@ -167,7 +176,7 @@
         img {
             position: absolute;
             width: 99%;
-            top: -179px;
+            top: -163px;
             right: 0;
 
             @media screen and (min-device-width: 1400px) and (max-device-width: 1600px) {
@@ -175,7 +184,7 @@
                 top: -119px;
             }
 
-            @media(max-width:800px) {
+            @media(max-width:950px) {
                 position: relative;
                 width: 100%;
                 top: 0;
@@ -220,7 +229,7 @@
 
         .image {
             @include borderRadiusLeft;
-            width: 30%;
+            width: 33%;
             float: left;
         }
 
@@ -232,10 +241,17 @@
         }
 
         .details {
-            width: 70%;
+            width: 67%;
             float: left;
-            padding: 16px;
-
+            padding: 13px;
+            p{
+                line-height: 124%;
+            }
+            h5{
+                @media(max-width: 500px){
+                    font-size: 16px;
+                }
+            }
         }
 
     }
@@ -254,7 +270,7 @@
     .quote-bottom {
         height: 83px;
         position: absolute;
-        bottom: 140px;
+        bottom: 93px;
         z-index: 1;
 
         @media(max-width: 600px) {

@@ -74,14 +74,13 @@
 
 // core-value 
 .core-value {
-  img {
-    width: 100%;
-
-    @media(max-width: 1166px) {
-      width: 60%;
+  .details{
+    img {
+      width: 100%;
+      border-radius: 10px;  
     }
-
   }
+  
 
   .lists-container {
     display: flex;
@@ -119,7 +118,7 @@
 // leadership 
 .leadership {
   .role {
-    font-size: 14px;
+    font-size: 11px;
     color: var(--black);
   }
 
