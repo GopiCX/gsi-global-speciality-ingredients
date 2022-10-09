@@ -11,7 +11,7 @@ class ContactUs extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="contactus" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Contact Us" />
+                <TitleSection className="contactus" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Contact Us" />
 
                 <section className="gsi-location bg-blue">
                     <div className="container-fluid mx-auto">
@@ -36,7 +36,7 @@ class ContactUs extends React.Component {
                                             </ul>
                                             <ul>
                                                 <h6 className="text-red">Email</h6>
-                                                <p className="text-white">marketing@gsiworldwide.com</p>
+                                                <p className="text-white">inquiry@gsi-worldwide.com</p>
                                             </ul>
                                         </div>
                                     </Fade>

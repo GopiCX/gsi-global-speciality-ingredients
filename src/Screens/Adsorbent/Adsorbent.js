@@ -14,7 +14,7 @@ class Adsorbent extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="adsorbent" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Adsorbent" />
+                <TitleSection className="adsorbent" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Adsorbent" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

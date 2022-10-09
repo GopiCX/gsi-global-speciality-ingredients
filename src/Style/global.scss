@@ -596,7 +596,7 @@ input[type="text"]:focus {
 
 // Background Pattern
 .pattern-1 {
-  background-image: url('../assets/images/patterns/our-solution.png');
+  // background-image: url('../assets/images/patterns/our-solution.png');
   @include backgroundNoRepeat($size: 35%, $position: bottom left);
 }
 .pattern-2 {

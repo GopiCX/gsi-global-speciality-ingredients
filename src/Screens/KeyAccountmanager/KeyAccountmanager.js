@@ -15,7 +15,7 @@ class KeyAccountmanager extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="key-account-manager" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Meet Your Key Account Manager" />
+                <TitleSection className="key-account-manager" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Meet Your Key Account Manager" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

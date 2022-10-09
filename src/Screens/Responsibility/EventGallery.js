@@ -320,7 +320,7 @@ class EventGallery extends React.Component {
                                 <Fade>
                                     <Slider {...eventGallery}>
                                         <div onClick={() => this.setState({ selaganGallery: true })}>
-                                            <SlidingList eventMainImg={selaganHockey} eventYear="2019" eventName="Selagan Hockey" />
+                                            <SlidingList eventMainImg={selaganHockey} eventYear="2019" eventName="Selangor Hockey" />
                                         </div>
                                         <div onClick={() => this.setState({ recognitionGallery: true })}>
                                             <SlidingList eventMainImg={recognitionDay} eventYear="2018" eventName="2018 recognition day for upsr achievers" />

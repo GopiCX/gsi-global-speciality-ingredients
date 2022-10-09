@@ -17,7 +17,7 @@ class OilFatSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="oil-fat-solutions" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Oil & Fat Solutions" />
+                <TitleSection className="oil-fat-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Oil & Fat Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

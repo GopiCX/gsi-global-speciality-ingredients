@@ -10,7 +10,7 @@ class Responsibility extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <TitleSection className="responsibility" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Responsibility" />
+        <TitleSection className="responsibility" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Responsibility" />
 
         <section className="who-we-are pattern-1 py-5  p-mob">
           <div className="container mx-auto">

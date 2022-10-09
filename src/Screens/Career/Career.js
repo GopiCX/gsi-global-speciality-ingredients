@@ -22,7 +22,7 @@ class Career extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <TitleSection className="career" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Why Work With Us" />
+        <TitleSection className="career" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Why Work With Us" />
 
         <section className="key-benefits py-5 p-mob">
           <div className="container mx-auto">

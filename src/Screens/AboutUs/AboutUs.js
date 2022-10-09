@@ -24,11 +24,14 @@ import logo3 from "../../assets/images/group-companies/logo-3.png";
 import logo4 from "../../assets/images/group-companies/logo-4.png";
 import logo5 from "../../assets/images/group-companies/logo-5.png";
 import logo6 from "../../assets/images/group-companies/logo-6.png";
+import logo7 from "../../assets/images/group-companies/logo-7.png";
+import logo8 from "../../assets/images/group-companies/logo-8.png";
+import logo9 from "../../assets/images/group-companies/logo-9.png";
 class AboutUs extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <TitleSection className="aboutus" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Who We are" />
+        <TitleSection className="aboutus" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Who We are" />
 
         <section className="who-we-are py-5  p-mob">
           <div className="container mx-auto">
@@ -87,17 +90,18 @@ class AboutUs extends React.Component {
                 <Fade>
                   <div className="card">
                     <Row gutter={[30, 20]} className="mb-3">
-                      <Col xs={{ span: 14, order: 1 }} sm={{ span: 14, order: 1 }} md={{ span: 12, order: 1 }} lg={{ span: 12, order: 1 }} >
+                      {/* <Col xs={{ span: 14, order: 1 }} sm={{ span: 14, order: 1 }} md={{ span: 12, order: 1 }} lg={{ span: 12, order: 1 }} > */}
+                      <Col >
                         <div className="details p-3 p-lg-4">
                           <h6 className="text-outline-red"><span>40</span>+</h6>
                           <p>Market to more than 40 countries globally</p>
                         </div>
                       </Col>
-                      <Col xs={{ span: 10, order: 2 }} sm={{ span: 10, order: 2 }} md={{ span: 12, order: 2 }} lg={{ span: 12, order: 2 }} >
+                      {/* <Col xs={{ span: 10, order: 2 }} sm={{ span: 10, order: 2 }} md={{ span: 12, order: 2 }} lg={{ span: 12, order: 2 }} >
                         <div className="overflow-hidden border-radius-right">
                           <img src={marketed} className="right-image animation-grow" alt="Market to more than 40 countries globally" />
                         </div>
-                      </Col>
+                      </Col> */}
                     </Row>
                   </div>
                 </Fade>
@@ -106,18 +110,18 @@ class AboutUs extends React.Component {
                 <Fade>
                   <div className="card">
                     <Row gutter={[30, 20]} className="mb-3">
-                      <Col xs={{ span: 14, order: 1 }} sm={{ span: 14, order: 1 }} md={{ span: 12, order: 1 }} lg={{ span: 12, order: 1 }} >
-
+                      {/* <Col xs={{ span: 14, order: 1 }} sm={{ span: 14, order: 1 }} md={{ span: 12, order: 1 }} lg={{ span: 12, order: 1 }} > */}
+                      <Col >
                         <div className="details p-3 p-lg-4">
                           <h6 className="text-outline-red"><span>100</span>+</h6>
                           <p>Employees Globally</p>
                         </div>
                       </Col>
-                      <Col xs={{ span: 10, order: 2 }} sm={{ span: 10, order: 2 }} md={{ span: 12, order: 2 }} lg={{ span: 12, order: 2 }} >
+                      {/* <Col xs={{ span: 10, order: 2 }} sm={{ span: 10, order: 2 }} md={{ span: 12, order: 2 }} lg={{ span: 12, order: 2 }} >
                         <div className="overflow-hidden border-radius-right">
                           <img src={employeesGlobally} className="right-image animation-grow" alt="Employees Globally" />
                         </div>
-                      </Col>
+                      </Col> */}
                     </Row>
                   </div>
                 </Fade>
@@ -290,7 +294,7 @@ class AboutUs extends React.Component {
               <Col xs={{ span: 24, order: 2 }} sm={{ span: 24, order: 2 }} md={{ span: 12, order: 2 }} lg={{ span: 12, order: 2 }} >
                 <div class="border border-3 border-danger border-bottom-0 p-xs-3 p-3 p-lg-5">
                   <Fade>
-                    <h2 className="border-left-3 border-danger text-blue pl-3 mb-4">Dr.Robert Basker <span className="role text-black">Doctory of Philosopy, Ph.D. Chemistry</span> <span className="d-block font-weight-light">CEO & Technical Director</span></h2>
+                    <h2 className="border-left-3 border-danger text-blue pl-3 mb-4">Dr.Robert Basker <span className="role text-black">Doctor of Philosophy, Ph.D. Chemistry</span> <span className="d-block font-weight-light">CEO & Technical Director</span></h2>
                     <p>Dr Robert Basker provides great leadership on all aspects of the company’s operation by emphasizing on mission and vision</p>
                   </Fade>
                 </div>
@@ -347,6 +351,21 @@ class AboutUs extends React.Component {
                 <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
                   <div className="overflow-hidden border-radius">
                     <img src={logo6} alt="3P GSI Ingredients" className="animation-grow card w-100 p-3" />
+                  </div>
+                </Col>
+                <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
+                  <div className="overflow-hidden border-radius">
+                    <img src={logo7} alt="Monolith" className="animation-grow card w-100 p-3" />
+                  </div>
+                </Col>
+                <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
+                  <div className="overflow-hidden border-radius">
+                    <img src={logo8} alt="Snap Packing" className="animation-grow card w-100 p-3" />
+                  </div>
+                </Col>
+                <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
+                  <div className="overflow-hidden border-radius">
+                    <img src={logo9} alt="Ceramic Compound" className="animation-grow card w-100 p-3" />
                   </div>
                 </Col>
               </Row>

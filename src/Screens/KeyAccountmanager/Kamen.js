@@ -33,7 +33,9 @@ class AccountManagerKamen extends React.Component {
                                         </div>
                                         <div className="details">
                                             <span>Whatsapp</span>
-                                            <p>+6019 332 7324</p>
+                                            <p>
+                                                <a href="https://wa.me/60193327324" target="_blank" rel="noopener noreferrer">+6019 332 7324</a>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="contact-item">
@@ -42,7 +44,9 @@ class AccountManagerKamen extends React.Component {
                                         </div>
                                         <div className="details">
                                             <span>Email</span>
-                                            <p>marketing@gsi-worldwide.com</p>
+                                            <p>
+                                                <a href="mailto:inquiry@gsi-worldwide.com">inquiry@gsi-worldwide.com</a>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="contact-item">

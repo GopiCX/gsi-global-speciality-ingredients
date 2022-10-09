@@ -14,7 +14,7 @@ class BeverageSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="beverage-solutions" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Beverage Solutions" />
+                <TitleSection className="beverage-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Beverage Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

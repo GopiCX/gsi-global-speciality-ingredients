@@ -33,7 +33,9 @@ class AccountManagerVijay extends React.Component {
                                         </div>
                                         <div className="details">
                                             <span>Whatsapp</span>
-                                            <p>+6014 3612 525</p>
+                                            <p>
+                                                <a href="https://wa.me/60143612525" target="_blank" rel="noopener noreferrer">+6014 3612 525</a>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="contact-item">
@@ -42,7 +44,7 @@ class AccountManagerVijay extends React.Component {
                                         </div>
                                         <div className="details">
                                             <span>Email</span>
-                                            <p>marketing@gsi-worldwide.com</p>
+                                            <p><a href="mailto:inquiry@gsi-worldwide.com">inquiry@gsi-worldwide.com</a></p>
                                         </div>
                                     </div>
                                     <div className="contact-item">

@@ -2,7 +2,8 @@ import React from 'react';
 import { withRouter } from 'react-router';
 import { Row, Col } from 'antd';
 import rajeshJesurajQrCode from '../../assets/images/key-account-manager/rajesh-jesuraj.webp'
-import './KeyAccountmanager.scss'
+import './KeyAccountmanager.scss';
+import malaysia from '../../assets/images/countries/malaysia.png';
 
 class AccountManagerRajeshJesuraj extends React.Component {
     render() {
@@ -24,7 +25,9 @@ class AccountManagerRajeshJesuraj extends React.Component {
                                         </div>
                                         <div className="details">
                                             <span>Whatsapp</span>
-                                            <p>+6012 636 3807</p>
+                                            <p>
+                                                <a href="https://wa.me/60126363807" target="_blank" rel="noopener noreferrer">+6012 636 3807</a>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="contact-item">
@@ -33,7 +36,9 @@ class AccountManagerRajeshJesuraj extends React.Component {
                                         </div>
                                         <div className="details">
                                             <span>Email</span>
-                                            <p>rajeshjesuraj@gsi-worldwide.com</p>
+                                            <p>
+                                                <a href="mailto:rajeshjesuraj@gsi-worldwide.com">rajeshjesuraj@gsi-worldwide.com</a>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="contact-item">
@@ -44,6 +49,14 @@ class AccountManagerRajeshJesuraj extends React.Component {
                                             <span>Hours</span>
                                             <p>(GMT+8): Mon-Fri 9:00AM - 6:00PM</p>
                                         </div>
+                                    </div>
+                                </Col>
+                                <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 10 }} >
+                                    <h4 className="text-blue">Supported Region</h4>
+                                    <div className="supported-region">
+                                        <ul>
+                                            <li><img src={malaysia} alt="North Malaysia" />Worldwide</li>
+                                        </ul>
                                     </div>
                                 </Col>
                             </Row>

@@ -12,7 +12,7 @@ class NutritionSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="nutrition-solutions" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Sports and Balanced Nutrition" />
+                <TitleSection className="nutrition-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Sports and Balanced Nutrition" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

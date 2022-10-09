@@ -19,7 +19,7 @@ class AntiCloudingCloudingAgents extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="anti-clouding-clouding-agents" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Anti Clouding & Clouding Agents" />
+                <TitleSection className="anti-clouding-clouding-agents" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Anti Clouding & Clouding Agents" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

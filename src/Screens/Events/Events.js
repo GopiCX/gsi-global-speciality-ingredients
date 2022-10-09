@@ -10,7 +10,7 @@ class Events extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="events" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Events" />
+                <TitleSection className="events" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Events" />
 
                 <section className="gsi-solutions py-5  p-mob">
                     <div className="container mx-auto">
