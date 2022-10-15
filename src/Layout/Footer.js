@@ -27,10 +27,10 @@ export default class Footer extends React.Component {
                                     <Fade>
                                         <h3 className="text-red text-uppercase">Follow us</h3>
                                         <ul className="d-flex p-0 m-0">
-                                            <li><a href="https://www.facebook.com/globalspecialtyingredients/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook" aria-hidden="true" /></a></li>
-                                            <li><a href="https://www.instagram.com/globalspecialtyingredients/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true" /></a></li>
-                                            <li><a href="https://twitter.com/specialty_m" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" aria-hidden="true" /></a></li>
-                                            <li><a href="https://www.linkedin.com/company/global-specialty-ingredients/jobs/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square" aria-hidden="true" /></a></li>
+                                            <li><a href="https://www.facebook.com/globalspecialtyingredients/" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
+                                            <li><a href="https://www.instagram.com/globalspecialtyingredients/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram" aria-hidden="true" /></a></li>
+                                            <li><a href="https://twitter.com/specialty_m" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
+                                            <li><a href="https://www.linkedin.com/company/global-specialty-ingredients/jobs/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin-square" aria-hidden="true" /></a></li>
                                         </ul>
                                     </Fade>
                                 </div>
@@ -40,7 +40,7 @@ export default class Footer extends React.Component {
                                     <h3 className="text-red">Get In Touch</h3>
                                     <div className="contact-item">
                                         <div className="icon">
-                                            <i class="fa fa-whatsapp" aria-hidden="true" />
+                                            <i className="fa fa-whatsapp" aria-hidden="true" />
                                         </div>
                                         <div className="details">
                                             <span>Whatsapp</span>
@@ -49,7 +49,7 @@ export default class Footer extends React.Component {
                                     </div>
                                     <div className="contact-item">
                                         <div className="icon">
-                                            <i class="fa fa-envelope-o" aria-hidden="true" />
+                                            <i className="fa fa-envelope-o" aria-hidden="true" />
                                         </div>
                                         <div className="details">
                                             <span>Email</span>
@@ -62,7 +62,7 @@ export default class Footer extends React.Component {
                                 <Fade>
                                     <div className="contact-item mt-sm-2 mt-md-3 mt-lg-4">
                                         <div className="icon">
-                                            <i class="fa fa-phone" aria-hidden="true" />
+                                            <i className="fa fa-phone" aria-hidden="true" />
                                         </div>
                                         <div className="details">
                                             <span>Phone</span>
@@ -71,7 +71,7 @@ export default class Footer extends React.Component {
                                     </div>
                                     <div className="contact-item">
                                         <div className="icon">
-                                            <i class="fa fa-clock-o" aria-hidden="true" />
+                                            <i className="fa fa-clock-o" aria-hidden="true" />
                                         </div>
                                         <div className="details">
                                             <span>Hours</span>

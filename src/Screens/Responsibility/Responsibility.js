@@ -19,11 +19,11 @@ class Responsibility extends React.Component {
             </Fade>
             <Row gutter={[20, 20]} align="center">
               <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 16 }} lg={{ span: 16 }} >
-                <div class="pr-lg-4">
+                <div className="pr-lg-4">
                   <Fade>
-                    <p class="mt-4">Businessess are increasingly expected to be responsible for their impact on society and the environment in today's world. Corporate social responsibility (CSR) is no longer a well-regarded company practice thus, its has become a consumer demand.</p>
-                    <p class="mt-4">GSI identifies the business model and level of responsibility that Businessess should follow in order to have a good impact on the world. The CSR model shows how a flim can be accountable to its employees, stakeholders, the general public, the global and local surroundings.</p>
-                    <p class="mt-4">GSI approach has a favorable impact on a business brand in addition to helping the environment and society. People are prioritising firms that focus on social responsibility as they become more socially conscious. Employee morale is also boosted as a result of CSR initiatives, as both employees and employers feel more dedicated in their job.</p>
+                    <p className="mt-4">Businessess are increasingly expected to be responsible for their impact on society and the environment in today's world. Corporate social responsibility (CSR) is no longer a well-regarded company practice thus, its has become a consumer demand.</p>
+                    <p className="mt-4">GSI identifies the business model and level of responsibility that Businessess should follow in order to have a good impact on the world. The CSR model shows how a flim can be accountable to its employees, stakeholders, the general public, the global and local surroundings.</p>
+                    <p className="mt-4">GSI approach has a favorable impact on a business brand in addition to helping the environment and society. People are prioritising firms that focus on social responsibility as they become more socially conscious. Employee morale is also boosted as a result of CSR initiatives, as both employees and employers feel more dedicated in their job.</p>
                   </Fade>
                 </div>
               </Col>

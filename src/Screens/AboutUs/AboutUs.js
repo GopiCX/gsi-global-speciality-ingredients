@@ -36,15 +36,15 @@ class AboutUs extends React.Component {
         <section className="who-we-are py-5  p-mob">
           <div className="container mx-auto">
             <Fade>
-              <h1 class="text-blue">GS<span class="text-red">I</span> was founded in <span class="text-red">2005</span> with a strong focus on product reliability and sustainability for food and non-food industries.</h1>
+              <h1 className="text-blue">GS<span className="text-red">I</span> was founded in <span className="text-red">2005</span> with a strong focus on product reliability and sustainability for food and non-food industries.</h1>
             </Fade>
             <Row gutter={[20, 20]} align="center">
               <Col xs={{ span: 24, order: 2 }} sm={{ span: 16, order: 2 }} md={{ span: 16, order: 1 }} lg={{ span: 16, order: 1 }} >
-                <div class="pr-lg-4">
+                <div className="pr-lg-4">
                   <Fade>
-                    <p class="mt-4">GSI is a leading global ingredients solutions company manufactured, and supplier of value-added Functional Ingredients, <span class="text-red">TAILORED</span> <span class="text-blue">TO YOUR NEEDS</span>, we offer an extensive range of natural food ingredients, functional food ingredients, specialty ingredients, ingredients through products, and consumer’s products like vegetable oils and fats, baking, beverages, snacks, meat processing, confectionery, dairy, biodiesel, oleochemical, and personal care.</p>
-                    <p class="mt-4">The cornerstone of our business is our profound knowledge of specialty ingredients which we tailored according to manufacturers and industries requirements, locally and abroad. GSI developed innovative specialty ingredients whereby our customers can count on us for a reliable supply of high quality and value-added ingredients, leveraging our ingredients expertise, solutions, and collective experience – together with our customers – we find ingredients solutions that work. GSI is committed to providing outstanding service by being receptive so that we can provide the best solutions for our customers at the same time ensuring the right quality with the right approach.</p>
-                    <p class="mt-4">GSI innovation studio supports our value creation partner by providing product and application knowledge no matter where you are base.</p>
+                    <p className="mt-4">GSI is a leading global ingredients solutions company manufactured, and supplier of value-added Functional Ingredients, <span className="text-red">TAILORED</span> <span className="text-blue">TO YOUR NEEDS</span>, we offer an extensive range of natural food ingredients, functional food ingredients, specialty ingredients, ingredients through products, and consumer’s products like vegetable oils and fats, baking, beverages, snacks, meat processing, confectionery, dairy, biodiesel, oleochemical, and personal care.</p>
+                    <p className="mt-4">The cornerstone of our business is our profound knowledge of specialty ingredients which we tailored according to manufacturers and industries requirements, locally and abroad. GSI developed innovative specialty ingredients whereby our customers can count on us for a reliable supply of high quality and value-added ingredients, leveraging our ingredients expertise, solutions, and collective experience – together with our customers – we find ingredients solutions that work. GSI is committed to providing outstanding service by being receptive so that we can provide the best solutions for our customers at the same time ensuring the right quality with the right approach.</p>
+                    <p className="mt-4">GSI innovation studio supports our value creation partner by providing product and application knowledge no matter where you are base.</p>
                   </Fade>
                 </div>
               </Col>
@@ -292,13 +292,13 @@ class AboutUs extends React.Component {
             </Fade>
             <Row align="center">
               <Col xs={{ span: 24, order: 2 }} sm={{ span: 24, order: 2 }} md={{ span: 12, order: 2 }} lg={{ span: 12, order: 2 }} >
-                <div class="border border-3 border-danger border-bottom-0 p-xs-3 p-3 p-lg-5">
+                <div className="border border-3 border-danger border-bottom-0 p-xs-3 p-3 p-lg-5">
                   <Fade>
                     <h2 className="border-left-3 border-danger text-blue pl-3 mb-4">Dr.Robert Basker <span className="role text-black">Doctor of Philosophy, Ph.D. Chemistry</span> <span className="d-block font-weight-light">CEO & Technical Director</span></h2>
                     <p>Dr Robert Basker provides great leadership on all aspects of the company’s operation by emphasizing on mission and vision</p>
                   </Fade>
                 </div>
-                <div class="bg-red-gradient p-xs-3 p-3 p-lg-5">
+                <div className="bg-red-gradient p-xs-3 p-3 p-lg-5">
                   <Fade>
                     <h2 className="border-left-3 border-blue text-white pl-3 mb-4">Samantha Basker, <span className="d-block font-weight-light">CFO & Managing Director</span></h2>
                     <p className="text-white">Samantha Basker who’s known for high degree of ability in planning, implementing, managing and running all aspects of a company</p>

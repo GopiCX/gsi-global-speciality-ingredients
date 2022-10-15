@@ -29,7 +29,7 @@ class AccountManagerKamen extends React.Component {
                                 <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 9 }} className="border-right mr-2 pr-2"  >
                                     <div className="contact-item">
                                         <div className="icon">
-                                            <i class="fa fa-whatsapp" aria-hidden="true" />
+                                            <i className="fa fa-whatsapp" aria-hidden="true" />
                                         </div>
                                         <div className="details">
                                             <span>Whatsapp</span>
@@ -40,7 +40,7 @@ class AccountManagerKamen extends React.Component {
                                     </div>
                                     <div className="contact-item">
                                         <div className="icon">
-                                            <i class="fa fa-envelope-o" aria-hidden="true" />
+                                            <i className="fa fa-envelope-o" aria-hidden="true" />
                                         </div>
                                         <div className="details">
                                             <span>Email</span>
@@ -51,7 +51,7 @@ class AccountManagerKamen extends React.Component {
                                     </div>
                                     <div className="contact-item">
                                         <div className="icon">
-                                            <i class="fa fa-clock-o" aria-hidden="true" />
+                                            <i className="fa fa-clock-o" aria-hidden="true" />
                                         </div>
                                         <div className="details">
                                             <span>Hours</span>

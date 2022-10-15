@@ -53,8 +53,8 @@ class GlazingAgents extends React.Component {
                                     <div className="details">
                                         <h5 className="text-red">Core Applications</h5>
                                         <ul>
-                                            <li><span class="JsGRdQ">Chocolates</span></li>
-                                            <li><span class="JsGRdQ">Confectioneries</span></li>
+                                            <li><span className="JsGRdQ">Chocolates</span></li>
+                                            <li><span className="JsGRdQ">Confectioneries</span></li>
                                         </ul>
                                     </div>
                                 </Col>

@@ -13,10 +13,10 @@ class SolutionList extends Component {
                 <Col xs={{ span: 12 }} sm={{ span: 12 }} md={{ span: 6 }} lg={{ span: 6 }} >
                     <Fade>
                         <Link to={`${this.props.solutionPageLink}`}>
-                            <div class="solution-box">
-                                <div class="details">
+                            <div className="solution-box">
+                                <div className="details">
                                     <img src={`${this.props.solutionImg}`} className="animation-grow" alt={`${this.props.solutionTitle}`} />
-                                    <div class="title">
+                                    <div className="title">
                                         <h5>{this.props.solutionTitle}</h5>
                                     </div>
                                 </div>

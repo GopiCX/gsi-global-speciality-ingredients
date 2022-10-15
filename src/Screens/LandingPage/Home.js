@@ -264,7 +264,7 @@ export default class Home extends React.Component {
                   <Link to="/confectionery-solutions">
                     <div className="details overflow-hidden border-radius">
                       <img src={confectionerySolutions} alt="Process Development & Improvement​" />
-                      <div class="title">
+                      <div className="title">
                         <h6>Confectionery <br />Solutions</h6>
                       </div>
                     </div>
@@ -276,7 +276,7 @@ export default class Home extends React.Component {
                   <Link to="/bakery-solutions">
                     <div className="details overflow-hidden border-radius">
                       <img src={bakerySolution} alt="Process Development & Improvement​" />
-                      <div class="title">
+                      <div className="title">
                         <h6>Bakery <br />Solutions</h6>
                       </div>
                     </div>
@@ -288,7 +288,7 @@ export default class Home extends React.Component {
                   <Link to="/shelf-life-frying-solutions">
                     <div className="details overflow-hidden border-radius">
                       <img src={shelfLife} alt="Process Development & Improvement​" />
-                      <div class="title">
+                      <div className="title">
                         <h6>Shelf Life & <br /> Frying Solutions</h6>
                       </div>
                     </div>
@@ -300,7 +300,7 @@ export default class Home extends React.Component {
                   <Link to="/oil-fat-solutions">
                     <div className="details overflow-hidden border-radius">
                       <img src={oilFat} alt="Oil & Fat Solutions" />
-                      <div class="title">
+                      <div className="title">
                         <h6>Oil & Fat <br />Solutions</h6>
                       </div>
                     </div>
@@ -312,7 +312,7 @@ export default class Home extends React.Component {
                   <Link to="/our-solutions">
                     <div className="details bg-grid overflow-hidden border-radius">
                       <img src={viewAll} alt="View All Solutions" />
-                      <div class="center-align text-center">
+                      <div className="center-align text-center">
                         <h6 className="text-white text-center">View All<br />Solutions</h6>
                         <i className="fa fa-chevron-circle-right text-white" />
                       </div>

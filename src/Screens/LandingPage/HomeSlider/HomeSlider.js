@@ -8,6 +8,14 @@ import posterVideo from '../../../assets/video/gsi-hero-page.mp4';
 import scrollDown from '../../../assets/images/icons/mouse-icon.svg';
 import "./HomeSlider.scss";
 
+const headlineData = [
+  "Bringing Revolutionary Ideas & Solutions of Tomorrow",
+  "Providing Cutting Edge Solutions",
+  "Making Products Sustainable In Global Market",
+  "Differentiating & Reengineering Value Creation",
+  "Driven By The Voyage Of Discovery",
+  "Cycle Of Improvement"
+]
 class HomeSlider extends React.Component {
   constructor(props) {
     super(props);
@@ -19,6 +27,8 @@ class HomeSlider extends React.Component {
       duration: 0,
       windowWidth: window.innerWidth,
       windowHeight: window.innerHeight,
+      value: 0,
+      headline: headlineData[0]
     }
   }
 
@@ -28,6 +38,23 @@ class HomeSlider extends React.Component {
       isMuted: this.player.isMuted,
     });
     window.addEventListener('resize', this.handleResize);
+    const interval = setInterval(() => {
+      console.log(this.state.value)
+      if (this.state.value === headlineData.length - 1) {
+        this.setState({
+          value: 0,
+          headline: headlineData[0]
+        })
+        console.log(this.state.value, this.state.headline);
+      } else {
+        this.setState({
+          value: this.state.value + 1,
+          headline: headlineData[this.state.value + 1]
+        })
+        console.log(this.state.value, this.state.headline);
+      }
+    }, 5000);
+    return () => clearInterval(interval);
   }
 
   componentWillMount() {
@@ -69,7 +96,7 @@ class HomeSlider extends React.Component {
                       <h1 className="text-white text-center mb-3">WELCOME TO GLOBAL SPECIALTY INGREDIENTS</h1>
                     </Fade>
                     <Fade>
-                      <p className="text-center text-white">Bringing Revolutionary Ideas<br /> and Solutions of Tomorrow</p>
+                      <p className="text-center text-white home-headline">{this.state.headline}</p>
                     </Fade>
                   </div>
                 </div>
