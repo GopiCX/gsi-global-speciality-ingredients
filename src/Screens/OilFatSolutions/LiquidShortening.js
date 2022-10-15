@@ -3,7 +3,7 @@ import { withRouter } from 'react-router';
 import Slider from "react-slick";
 import { Row, Col } from 'antd';
 //import './ConfectionerySolutions.scss'
-import slide1 from '../../assets/images/oil-fat-solutions/margarine-spread/1.jpg';
+import slide1 from '../../assets/images/oil-fat-solutions/liquid-shortening/1.jpg';
 
 
 const bakeStableGallery = {
