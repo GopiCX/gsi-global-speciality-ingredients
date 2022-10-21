@@ -10,11 +10,13 @@ import CoffeeCreamer from './CoffeeCreamer';
 import ProcessedCheeseCheeseAnalogue from './ProcessedCheeseCheeseAnalogue';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Bounce from 'react-reveal/Bounce';
+import { bgImages } from '../../Util/data';
+
 class DairyDairyAnalogue extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="dairy-dairy-analogue" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Dairy & Dairy Analogue" />
+                <TitleSection sliderImages={bgImages.diary} className="dairy-dairy-analogue" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Dairy & Dairy Analogue" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

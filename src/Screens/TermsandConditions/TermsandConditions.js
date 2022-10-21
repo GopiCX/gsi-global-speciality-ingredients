@@ -2,12 +2,13 @@ import React from 'react';
 import { withRouter } from 'react-router';
 import { Row, Col } from 'antd';
 import TitleSection from '../../Components/TitleSection/TitleSection';
+import { bgImages } from '../../Util/data';
 
 class TermsandConditions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="terms-and-conditions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Terms and Conditions" />
+                <TitleSection sliderImages={bgImages.tnc} className="terms-and-conditions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Terms and Conditions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

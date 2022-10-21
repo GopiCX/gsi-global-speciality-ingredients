@@ -8,11 +8,13 @@ import ChocolateProducts from './ChocolateProducts';
 import ChocolateBasedCentre from './ChocolateBasedCentre';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
+import { bgImages } from '../../Util/data';
+
 class ChocolateSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="chocolate-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Chocolate Solutions" />
+                <TitleSection sliderImages={bgImages.choco} className="chocolate-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Chocolate Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

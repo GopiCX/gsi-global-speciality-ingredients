@@ -676,9 +676,18 @@ input[type="text"]:focus {
   right:0;
   left:0;
   z-index: 2;
+  animation: 1s linear 4s infinite alternate yoyo;
   img{
       height: 40px;
       cursor: pointer;
+  }
+}
+@keyframes yoyo {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateX(0);
   }
 }
 

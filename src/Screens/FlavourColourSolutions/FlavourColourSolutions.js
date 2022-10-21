@@ -10,11 +10,12 @@ import Colours from './Colours';
 import Flavours from './Flavours';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Bounce';
+import { bgImages } from '../../Util/data';
 class FlavourColourSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="flavour-colour-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Flavour Colour Solutions" />
+                <TitleSection sliderImages={bgImages.flavour} className="flavour-colour-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Flavour Colour Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

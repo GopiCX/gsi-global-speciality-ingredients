@@ -9,12 +9,13 @@ import FeedstockOilBiodieselPurification from './FeedstockOilBiodieselPurificati
 import OleoChemicalPurification from './OleoChemicalPurification';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
+import { bgImages } from '../../Util/data';
 
 class Adsorbent extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="adsorbent" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Adsorbent" />
+                <TitleSection sliderImages={bgImages.adsorbent} className="adsorbent" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Adsorbent" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

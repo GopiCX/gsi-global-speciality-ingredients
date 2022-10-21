@@ -39,19 +39,16 @@ class HomeSlider extends React.Component {
     });
     window.addEventListener('resize', this.handleResize);
     const interval = setInterval(() => {
-      console.log(this.state.value)
       if (this.state.value === headlineData.length - 1) {
         this.setState({
           value: 0,
           headline: headlineData[0]
         })
-        console.log(this.state.value, this.state.headline);
       } else {
         this.setState({
           value: this.state.value + 1,
           headline: headlineData[this.state.value + 1]
         })
-        console.log(this.state.value, this.state.headline);
       }
     }, 5000);
     return () => clearInterval(interval);

@@ -6,11 +6,12 @@ import TitleSection from '../../Components/TitleSection/TitleSection';
 import EventGallery from './EventGallery';
 import './Responsibility.scss'
 import corporateResponsibility from "../../assets/images/responsibility/corporate-responsibility.jpg";
+import { bgImages } from '../../Util/data';
 class Responsibility extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <TitleSection className="responsibility" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Responsibility" />
+        <TitleSection sliderImages={bgImages.responsibility} className="responsibility" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Responsibility" />
 
         <section className="who-we-are pattern-1 py-5  p-mob">
           <div className="container mx-auto">

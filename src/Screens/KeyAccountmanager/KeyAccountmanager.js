@@ -10,12 +10,13 @@ import Saravanan from './Saravanan';
 import Bathija from './Bathija';
 import RajeshJesuraj from './RajeshJesuraj';
 import RobertBasker from './RobertBasker';
+import { bgImages } from '../../Util/data';
 
 class KeyAccountmanager extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="key-account-manager" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Meet Your Key Account Manager" />
+                <TitleSection sliderImages={bgImages.kam} className="key-account-manager" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Meet Your Key Account Manager" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

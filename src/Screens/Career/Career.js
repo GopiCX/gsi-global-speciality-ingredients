@@ -14,6 +14,7 @@ import keyperformanceIndicator from "../../assets/images/career/key-performance-
 import KeyresultAreas from "../../assets/images/career/key-result-areas.png"
 import personaldevelopmentPlan from "../../assets/images/career/personal-development-plan.png"
 import './Career.scss'
+import { bgImages } from '../../Util/data';
 
 const { Panel } = Collapse;
 
@@ -22,7 +23,7 @@ class Career extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <TitleSection className="career" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Why Work With Us" />
+        <TitleSection sliderImages={bgImages.career} className="career" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Why Work With Us" />
 
         <section className="key-benefits py-5 p-mob">
           <div className="container mx-auto">

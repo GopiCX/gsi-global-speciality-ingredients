@@ -27,11 +27,12 @@ import logo6 from "../../assets/images/group-companies/logo-6.png";
 import logo7 from "../../assets/images/group-companies/logo-7.png";
 import logo8 from "../../assets/images/group-companies/logo-8.png";
 import logo9 from "../../assets/images/group-companies/logo-9.png";
+import { bgImages } from '../../Util/data';
 class AboutUs extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <TitleSection className="aboutus" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Who We are" />
+        <TitleSection sliderImages={bgImages.about} className="aboutus" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Who We are" />
 
         <section className="who-we-are py-5  p-mob">
           <div className="container mx-auto">
