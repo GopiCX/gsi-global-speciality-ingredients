@@ -193,7 +193,7 @@ export default class Home extends React.Component {
                     </div>
                     <div className="details">
                       <h5 className="text-blue">Competence</h5>
-                      <p>Continuous cycle of improvement</p>
+                      <p>Integrity and positive thinking </p>
                     </div>
                   </div>
                 </Fade>

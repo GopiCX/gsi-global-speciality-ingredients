@@ -146,7 +146,7 @@ class AboutUs extends React.Component {
                       <Col xs={{ span: 16 }} sm={{ span: 16 }} md={{ span: 12 }} lg={{ span: 12 }} >
                         <div className="details p-3 p-lg-4">
                           <h5 className="border-left-3 border-danger pl-3 text-blue">Our Mission</h5>
-                          <p>To provide innovative solutions using our creativity and insight to make our customer' products sustainable in the global market</p>
+                          <p>To provide innovative solutions using our creativity and insight to make our customers’ products sustainable in the global market</p>
                         </div>
                       </Col>
                     </Row>
@@ -213,7 +213,7 @@ class AboutUs extends React.Component {
                       <img src={integrityImg} alt="Integrity" className="animation-grow" />
                     </div>
                     <h5 className="text-white mt-4">Integrity</h5>
-                    <p className="text-white">Integrity and positive thinking</p>
+                    <p className="text-white">We act with integrity and show Respect</p>
                   </div>
                 </Fade>
               </Col>

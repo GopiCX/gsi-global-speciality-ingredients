@@ -3,7 +3,7 @@ import { withRouter } from 'react-router';
 import { Row, Col } from 'antd';
 import robertBaskerQrCode from '../../assets/images/key-account-manager/robert-basker.webp'
 import './KeyAccountmanager.scss';
-import malaysia from '../../assets/images/countries/malaysia.png';
+import global from '../../assets/images/globe-blue-flag.svg';
 
 class AccountManagerRajeshJesuraj extends React.Component {
     render() {
@@ -56,7 +56,7 @@ class AccountManagerRajeshJesuraj extends React.Component {
                                     <h4 className="text-blue">Supported Region</h4>
                                     <div className="supported-region">
                                         <ul>
-                                            <li><img src={malaysia} alt="North Malaysia" />Worldwide</li>
+                                            <li><img src={global} alt="North Malaysia" />Worldwide</li>
                                         </ul>
                                     </div>
                                 </Col>

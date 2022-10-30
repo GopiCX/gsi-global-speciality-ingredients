@@ -45,6 +45,8 @@ import adsorbentSlider from "../assets/images/adsorbent/main.jpg";
 
 import tncSlider from "../assets/images/chocolate-solutions/main.jpg";
 
+import CrystalPromoter from "../assets/images/crystal-promoter/main.jpg";
+
 export const bgImages = {
   about: [aboutSliderOne, aboutSliderTwo],
   ourSolution: [solutionSliderOne, solutionSliderTwo],
@@ -66,4 +68,5 @@ export const bgImages = {
   savoury: [savourySlider, savourySlider],
   adsorbent: [adsorbentSlider, adsorbentSlider],
   tnc: [tncSlider, tncSlider],
+  CrystalPromoter: [CrystalPromoter, CrystalPromoter],
 };

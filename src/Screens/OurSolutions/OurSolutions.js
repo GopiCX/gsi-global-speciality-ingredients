@@ -18,6 +18,7 @@ import colourSolutions from "../../assets/images/our-solutions/flavour-colour-so
 import nutritionSolutions from "../../assets/images/our-solutions/nutrition-solutions.jpg";
 import savourySolutions from "../../assets/images/our-solutions/savoury-solutions.jpg";
 import Adsorbent from "../../assets/images/our-solutions/adsorbent.jpg";
+import CrystalPromoter from "../../assets/images/our-solutions/crystal-promoter.jpg";
 import { bgImages } from '../../Util/data';
 
 class OurSolutions extends React.Component {
@@ -50,6 +51,7 @@ class OurSolutions extends React.Component {
                             <SolutionList solutionTitle="Nutrition Solutions" solutionPageLink="/nutrition-solutions" solutionImg={nutritionSolutions} />
                             <SolutionList solutionTitle="Savoury Solutions" solutionPageLink="/savoury-solutions" solutionImg={savourySolutions} />
                             <SolutionList solutionTitle="Adsorbent" solutionPageLink="/adsorbent" solutionImg={Adsorbent} />
+                            {/* <SolutionList solutionTitle="Crystal Promoter" solutionPageLink="/crystal-promoter" solutionImg={CrystalPromoter} /> */}
                          </Row>
                     </div>
                 </section>

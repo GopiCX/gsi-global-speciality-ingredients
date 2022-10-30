@@ -24,7 +24,7 @@ class TitleSection extends Component {
     return (
       <React.Fragment>
         <section
-          className={`text-center top-banner p-mob ${this.props.className}`}
+          className={`text-center top-banner ${this.props.className}`}
         >
           <Slider {...TitleSliderSettings}>
             {this.props.sliderImages.map((image, i) => (

@@ -66,7 +66,7 @@ export default class Footer extends React.Component {
                                         </div>
                                         <div className="details">
                                             <span>Phone</span>
-                                            <p><a href="tel:+6018 3123 7171">+6018 3123 7171</a></p>
+                                            <p><a href="tel:+60331237171">+603 3123 7171</a></p>
                                         </div>
                                     </div>
                                     <div className="contact-item">
