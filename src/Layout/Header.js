@@ -52,7 +52,7 @@ export default class Header extends React.Component {
                       <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/about-us">About</NavLink>
                     </li>
                     <li>
-                      <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/our-solutions">Our Solution</NavLink>
+                      <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/our-solutions">Our Solutions</NavLink>
                     </li>
                     <li>
                       <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/responsibility">Responsibility</NavLink>

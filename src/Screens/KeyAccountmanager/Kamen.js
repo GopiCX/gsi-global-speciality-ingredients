@@ -29,25 +29,29 @@ class AccountManagerKamen extends React.Component {
                                 <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 9 }} className="border-right mr-2 pr-2"  >
                                     <div className="contact-item">
                                         <div className="icon">
-                                            <i class="fa fa-whatsapp" aria-hidden="true" />
+                                            <i className="fa fa-whatsapp" aria-hidden="true" />
                                         </div>
                                         <div className="details">
                                             <span>Whatsapp</span>
-                                            <p>+6019 332 7324</p>
+                                            <p>
+                                                <a href="https://wa.me/60193327324" target="_blank" rel="noopener noreferrer">+6019 332 7324</a>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="contact-item">
                                         <div className="icon">
-                                            <i class="fa fa-envelope-o" aria-hidden="true" />
+                                            <i className="fa fa-envelope-o" aria-hidden="true" />
                                         </div>
                                         <div className="details">
                                             <span>Email</span>
-                                            <p>marketing@gsi-worldwide.com</p>
+                                            <p>
+                                                <a href="mailto:inquiry@gsi-worldwide.com">inquiry@gsi-worldwide.com</a>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="contact-item">
                                         <div className="icon">
-                                            <i class="fa fa-clock-o" aria-hidden="true" />
+                                            <i className="fa fa-clock-o" aria-hidden="true" />
                                         </div>
                                         <div className="details">
                                             <span>Hours</span>

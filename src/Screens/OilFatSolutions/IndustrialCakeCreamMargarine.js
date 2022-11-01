@@ -34,10 +34,10 @@ class IndustrialCakeCreamMargarine extends React.Component {
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 6 }} lg={{ span: 6 }} >
                             <Slider {...bakeStableGallery} className="border-radius-left">
                                 <div className="item">
-                                    <img src={slide1} alt="Industrial Cake & Cream Margarine" />
+                                    <img src={slide2} alt="Industrial Cake & Cream Margarine" />
                                 </div>
                                 <div className="item">
-                                    <img src={slide2} alt="Industrial Cake & Cream Margarine" />
+                                    <img src={slide1} alt="Industrial Cake & Cream Margarine" />
                                 </div>
                             </Slider>
                         </Col>

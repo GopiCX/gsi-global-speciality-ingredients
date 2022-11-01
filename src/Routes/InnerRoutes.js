@@ -24,6 +24,7 @@ import FlavourColourSolutions from '../Screens/FlavourColourSolutions/FlavourCol
 import NutritionSolutions from '../Screens/NutritionSolutions/NutritionSolutions';
 import SavourySolutions from '../Screens/SavourySolutions/SavourySolutions';
 import Adsorbent from '../Screens/Adsorbent/Adsorbent';
+import CrystalPromoter from '../Screens/CrystalPromoter/CrystalPromoter';
 import TermsandConditions from '../Screens/TermsandConditions/TermsandConditions';
 
 import Layout from '../Layout/Layout';
@@ -55,6 +56,7 @@ class InnerRoutes extends React.Component {
                     <Route path="/nutrition-solutions" component={NutritionSolutions} />
                     <Route path="/savoury-solutions" component={SavourySolutions} />
                     <Route path="/adsorbent" component={Adsorbent} />
+                    {/* <Route path="/crystal-promoter" component={CrystalPromoter} /> */}
                     <Route path="/terms-and-conditions" component={TermsandConditions} />
                 </Switch>
             </Layout>

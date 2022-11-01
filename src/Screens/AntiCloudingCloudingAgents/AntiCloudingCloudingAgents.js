@@ -9,6 +9,8 @@ import OilsFatsAntiCrystallization from './OilsFatsAntiCrystallization';
 import Beverages from './Beverages';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
+import { bgImages } from '../../Util/data';
+
 class AntiCloudingCloudingAgents extends React.Component {
     constructor() {
         super();
@@ -19,7 +21,7 @@ class AntiCloudingCloudingAgents extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="anti-clouding-clouding-agents" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Anti Clouding & Clouding Agents" />
+                <TitleSection sliderImages={bgImages.anitCloud} className="anti-clouding-clouding-agents" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Anti Clouding & Clouding Agents" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

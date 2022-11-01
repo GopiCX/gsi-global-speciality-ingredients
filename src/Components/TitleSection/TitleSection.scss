@@ -13,112 +13,133 @@
         z-index: 1;
 
         h1 {
-            font-size: 55px;
+            font-size: 72px;
             letter-spacing: 4px;
             font-weight: 600;
             margin-bottom: 0;
 
             @media(max-width: 1018px) {
-                font-size: 46px;
+                font-size: 62px;
                 line-height: 150%;
             }
 
             @media(max-width: 600px) {
-                font-size: 43px;
+                font-size: 55px;
             }
 
             @media(max-width: 500px) {
-                font-size: 27px;
+                font-size: 40px;
                 letter-spacing: 0px;
             }
             @media(max-width: 300px) {
-                font-size: 20px;
+                font-size: 32px;
             }
         }
 
         p {
-            font-size: 30px;
+            font-size: 20px;
             word-break: break-word;
-            @media(max-width: 900px) {
-                font-size: 26px;
-            }
             @media(max-width: 575px){
-                font-size: 20px;
+                font-size: 14px;
             }
         }
     }
 
     .center-contents {
-        min-height: 680px;
-        height: 100vh;
-        position: relative;
+        // min-height: 680px;
+        // height: 100vh;
+        // position: relative;
+        // z-index: 1;
+        // @media(max-width:1100px) {
+        //     min-height: 450px;
+        //     height: 70vh;
+        // }
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         z-index: 1;
-        @media(max-width:1100px) {
-            min-height: 450px;
-            height: 70vh;
-        }
+        width: 100%;
+        height: 100%;
     }
 
-    &.aboutus {
-        @include bgSetup($bg-image: url('../assets/images/about/about-us.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover);
-    }
+    // &.aboutus {
+    //     @include bgSetup($bg-image: url('../assets/images/about/about-us.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover);
+    // }
 
-    &.contactus {
-        @include bgSetup($bg-image: url('../assets/images/contact/contact-us.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }
+    // &.contactus {
+    //     @include bgSetup($bg-image: url('../assets/images/contact/contact-us.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }
 
-    &.solutions {
-        @include bgSetup($bg-image: url('../assets/images/our-solutions/oursolutions.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // &.solutions {
+    //     @include bgSetup($bg-image: url('../assets/images/our-solutions/oursolutions.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }
+    // &.events {
+    //     @include bgSetup($bg-image: url('../assets/images/events/events.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }
+    // &.career {
+    //     @include bgSetup($bg-image: url('../assets/images/career/careers01.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }
+    // &.responsibility{
+    //     @include bgSetup($bg-image: url('../assets/images/responsibility/responsibility.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }
+    // &.key-account-manager{
+    //     @include bgSetup($bg-image: url('../assets/images/key-account-manager/key-account-manager.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }
+    // &.confectionary-solutions{
+    //     @include bgSetup($bg-image: url('../assets/images/confectionary-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }
+    // &.bakery-solutions{
+    //     @include bgSetup($bg-image: url('../assets/images/bakery-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }
+    // &.shelf-life-frying-solutions{
+    //     @include bgSetup($bg-image: url('../assets/images/shelf-life-frying-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }  
+    // &.oil-fat-solutions{
+    //     @include bgSetup($bg-image: url('../assets/images/oil-fat-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }  
+    // &.anti-clouding-clouding-agents{
+    //     @include bgSetup($bg-image: url('../assets/images/anti-clouding-clouding-agents/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }    
+    // &.beverage-solutions{
+    //     @include bgSetup($bg-image: url('../assets/images/beverage-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }   
+    // &.chocolate-solutions{
+    //     @include bgSetup($bg-image: url('../assets/images/chocolate-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }   
+    // &.dairy-dairy-analogue{
+    //     @include bgSetup($bg-image: url('../assets/images/dairy-dairy-analogue/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }    
+    // &.flavour-colour-solutions{
+    //     @include bgSetup($bg-image: url('../assets/images/flavour-colour-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }   
+    // &.nutrition-solutions{
+    //     @include bgSetup($bg-image: url('../assets/images/nutrition-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }   
+    // &.savoury-solutions{
+    //     @include bgSetup($bg-image: url('../assets/images/savoury-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }   
+    // &.adsorbent{
+    //     @include bgSetup($bg-image: url('../assets/images/adsorbent/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }   
+    // &.terms-and-conditions{
+    //     @include bgSetup($bg-image: url('../assets/images/chocolate-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    // }  
+}
+
+.zoom-in-effect {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    animation: zoom 3.45s infinite;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
     }
-    &.events {
-        @include bgSetup($bg-image: url('../assets/images/events/events.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
+    to {
+        transform: scale(1.2);
     }
-    &.career {
-        @include bgSetup($bg-image: url('../assets/images/career/careers01.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }
-    &.responsibility{
-        @include bgSetup($bg-image: url('../assets/images/responsibility/responsibility.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }
-    &.key-account-manager{
-        @include bgSetup($bg-image: url('../assets/images/key-account-manager/key-account-manager.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }
-    &.confectionary-solutions{
-        @include bgSetup($bg-image: url('../assets/images/confectionary-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }
-    &.bakery-solutions{
-        @include bgSetup($bg-image: url('../assets/images/bakery-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }
-    &.shelf-life-frying-solutions{
-        @include bgSetup($bg-image: url('../assets/images/shelf-life-frying-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }  
-    &.oil-fat-solutions{
-        @include bgSetup($bg-image: url('../assets/images/oil-fat-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }  
-    &.anti-clouding-clouding-agents{
-        @include bgSetup($bg-image: url('../assets/images/anti-clouding-clouding-agents/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }    
-    &.beverage-solutions{
-        @include bgSetup($bg-image: url('../assets/images/beverage-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }   
-    &.chocolate-solutions{
-        @include bgSetup($bg-image: url('../assets/images/chocolate-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }   
-    &.dairy-dairy-analogue{
-        @include bgSetup($bg-image: url('../assets/images/dairy-dairy-analogue/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }    
-    &.flavour-colour-solutions{
-        @include bgSetup($bg-image: url('../assets/images/flavour-colour-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }   
-    &.nutrition-solutions{
-        @include bgSetup($bg-image: url('../assets/images/nutrition-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }   
-    &.savoury-solutions{
-        @include bgSetup($bg-image: url('../assets/images/savoury-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }   
-    &.adsorbent{
-        @include bgSetup($bg-image: url('../assets/images/adsorbent/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }   
-    &.terms-and-conditions{
-        @include bgSetup($bg-image: url('../assets/images/chocolate-solutions/main.jpg'), $bg-repeat: no-repeat, $bg-position: center center, $bg-size: cover)
-    }  
 }

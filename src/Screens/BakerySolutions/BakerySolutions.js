@@ -11,12 +11,13 @@ import BiscuitsCookiesCrackers from './BiscuitsCookiesCrackers';
 import CerealsSnacks from './CerealsSnacks';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
+import { bgImages } from '../../Util/data';
 
 class BakerySolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="bakery-solutions" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Bakery Solutions" />
+                <TitleSection sliderImages={bgImages.bs} className="bakery-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Bakery Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

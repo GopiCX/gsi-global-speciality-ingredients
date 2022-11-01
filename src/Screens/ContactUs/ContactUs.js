@@ -6,19 +6,20 @@ import Fade from 'react-reveal/Fade';
 import TitleSection from '../../Components/TitleSection/TitleSection';
 import './ContactUs.scss';
 import ContactForm from './ContactForm';
+import { bgImages } from '../../Util/data';
 
 class ContactUs extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="contactus" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Contact Us" />
+                <TitleSection sliderImages={bgImages.contact} className="contactus" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Contact Us" />
 
                 <section className="gsi-location bg-blue">
                     <div className="container-fluid mx-auto">
                         <Row align="center">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 12 }}>
                                 <div className="map">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4939379298644!2d101.32767281475681!3d2.9603563978439364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cd00b2e94f241d%3A0x1e25b47118688a3a!2s(Westport)Global%20Special%20ty%20Ingredients%20(M)%20Sdn.%20Bhd.!5e0!3m2!1sen!2sin!4v1661843310287!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4939379298644!2d101.32767281475681!3d2.9603563978439364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cd00b2e94f241d%3A0x1e25b47118688a3a!2s(Westport)Global%20Special%20ty%20Ingredients%20(M)%20Sdn.%20Bhd.!5e0!3m2!1sen!2sin!4v1661843310287!5m2!1sen!2sin" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </Col>
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 12 }} className="center-contents" >
@@ -36,7 +37,7 @@ class ContactUs extends React.Component {
                                             </ul>
                                             <ul>
                                                 <h6 className="text-red">Email</h6>
-                                                <p className="text-white">marketing@gsiworldwide.com</p>
+                                                <p className="text-white">inquiry@gsi-worldwide.com</p>
                                             </ul>
                                         </div>
                                     </Fade>

@@ -52,6 +52,7 @@ class OilsFatsCrystalEnhancer extends React.Component {
                                         <ul>
                                             <li>Vegetable Ghee</li>
                                             <li>Palm Oils</li>
+                                            <li>Fractionation</li>
                                         </ul>
                                     </div>
                                 </Col>
