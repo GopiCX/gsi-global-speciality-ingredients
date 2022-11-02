@@ -65,15 +65,15 @@ class ChocolateProducts extends React.Component {
                                     <div className="details">
                                         <h5 className="text-red">Core Applications</h5>
                                         <ul>
-                                            <li><span class="JsGRdQ">Chocolate compounds &amp; bar</span></li>
-                                            <li><span class="JsGRdQ">Enrobed confectionery &amp; bakery pieces</span></li>
-                                            <li><span class="JsGRdQ">“Easy” &amp; “difficult” chocolate moulds</span></li>
-                                            <li><span class="JsGRdQ">Spinning confectionery products</span></li>
-                                            <li><span class="JsGRdQ">Panning confectionery products</span></li>
-                                            <li><span class="JsGRdQ">Chocolate filling</span></li>
-                                            <li><span class="JsGRdQ">Liquid chocolate</span></li>
-                                            <li><span class="JsGRdQ">Chocolate paste, tablet, coating</span></li>
-                                            <li><span class="JsGRdQ">Soft chocolate compound /solid bar for cold climate</span></li>
+                                            <li><span className="JsGRdQ">Chocolate compounds &amp; bar</span></li>
+                                            <li><span className="JsGRdQ">Enrobed confectionery &amp; bakery pieces</span></li>
+                                            <li><span className="JsGRdQ">“Easy” &amp; “difficult” chocolate moulds</span></li>
+                                            <li><span className="JsGRdQ">Spinning confectionery products</span></li>
+                                            <li><span className="JsGRdQ">Panning confectionery products</span></li>
+                                            <li><span className="JsGRdQ">Chocolate filling</span></li>
+                                            <li><span className="JsGRdQ">Liquid chocolate</span></li>
+                                            <li><span className="JsGRdQ">Chocolate paste, tablet, coating</span></li>
+                                            <li><span className="JsGRdQ">Soft chocolate compound /solid bar for cold climate</span></li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -81,16 +81,16 @@ class ChocolateProducts extends React.Component {
                                     <div className="details">
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
-                                            <li><span class="JsGRdQ">Prevents fat blooming on surface of chocolate compound/bar</span></li>
-                                            <li><span class="JsGRdQ">Improve glossiness &amp; flowing properties of chocolate</span></li>
-                                            <li><span class="JsGRdQ">Smooth texture</span></li>
-                                            <li><span class="JsGRdQ">Optimization cocoa butter content &amp; coating thickness</span></li>
-                                            <li><span class="JsGRdQ">Simplifying processing and handling</span></li>
-                                            <li><span class="JsGRdQ">Reduction of plastic viscosity</span></li>
-                                            <li><span class="JsGRdQ">Ideal chocolate flow properties needed to fill the mould without creating air bubbles</span></li>
-                                            <li><span class="JsGRdQ">Possible to reduce fat content</span></li><li><span class="JsGRdQ">Fast-melting form with good snap</span></li>
-                                            <li><span class="JsGRdQ">Melts in the mouth temperature at 35℃</span></li>
-                                            <li><span class="JsGRdQ">Excellent eating characteristics for ultimate indulgence</span></li>
+                                            <li><span className="JsGRdQ">Prevents fat blooming on surface of chocolate compound/bar</span></li>
+                                            <li><span className="JsGRdQ">Improve glossiness &amp; flowing properties of chocolate</span></li>
+                                            <li><span className="JsGRdQ">Smooth texture</span></li>
+                                            <li><span className="JsGRdQ">Optimization cocoa butter content &amp; coating thickness</span></li>
+                                            <li><span className="JsGRdQ">Simplifying processing and handling</span></li>
+                                            <li><span className="JsGRdQ">Reduction of plastic viscosity</span></li>
+                                            <li><span className="JsGRdQ">Ideal chocolate flow properties needed to fill the mould without creating air bubbles</span></li>
+                                            <li><span className="JsGRdQ">Possible to reduce fat content</span></li><li><span className="JsGRdQ">Fast-melting form with good snap</span></li>
+                                            <li><span className="JsGRdQ">Melts in the mouth temperature at 35℃</span></li>
+                                            <li><span className="JsGRdQ">Excellent eating characteristics for ultimate indulgence</span></li>
                                         </ul>
                                     </div>
                                 </Col>

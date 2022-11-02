@@ -9,11 +9,13 @@ import SaucesGravies from './SaucesGravies';
 import MeatProducts from './MeatProducts';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
+import { bgImages } from '../../Util/data';
+
 class SavourySolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="savoury-solutions" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Savoury Solutions" />
+                <TitleSection sliderImages={bgImages.savoury} className="savoury-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Savoury Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

@@ -12,12 +12,13 @@ import Ghee from './Ghee';
 import LiquidShortening from './LiquidShortening';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
+import { bgImages } from '../../Util/data';
 
 class OilFatSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="oil-fat-solutions" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Oil & Fat Solutions" />
+                <TitleSection sliderImages={bgImages.oilFat} className="oil-fat-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Oil & Fat Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

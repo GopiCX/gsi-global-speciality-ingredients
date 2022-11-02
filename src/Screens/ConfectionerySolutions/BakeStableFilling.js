@@ -4,8 +4,8 @@ import Slider from "react-slick";
 import { Row, Col } from 'antd';
 import './ConfectionerySolutions.scss'
 import slide1 from '../../assets/images/confectionary-solutions/bake-stable-filling/1.jpg';
-import slide2 from '../../assets/images/confectionary-solutions/bake-stable-filling/2.jpg';
-import slide3 from '../../assets/images/confectionary-solutions/bake-stable-filling/3.jpg';
+import slide2 from '../../assets/images/confectionary-solutions/bake-stable-filling/3.jpg';
+import slide3 from '../../assets/images/confectionary-solutions/bake-stable-filling/2.jpg';
 import slide4 from '../../assets/images/confectionary-solutions/bake-stable-filling/4.jpg';
 
 const bakeStableGallery = {

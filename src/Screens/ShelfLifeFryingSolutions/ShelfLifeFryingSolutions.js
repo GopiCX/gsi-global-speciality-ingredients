@@ -9,12 +9,13 @@ import Antioxidants from './Antioxidants';
 import NaturalAntioxidants from './NaturalAntioxidants';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
+import { bgImages } from '../../Util/data';
 
 class ShelfLifeFryingSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="shelf-life-frying-solutions" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="ShelfLife & Frying Solutions" />
+                <TitleSection sliderImages={bgImages.shelf} className="shelf-life-frying-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="ShelfLife & Frying Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

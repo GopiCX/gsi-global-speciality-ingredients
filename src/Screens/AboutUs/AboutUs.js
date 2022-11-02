@@ -24,24 +24,28 @@ import logo3 from "../../assets/images/group-companies/logo-3.png";
 import logo4 from "../../assets/images/group-companies/logo-4.png";
 import logo5 from "../../assets/images/group-companies/logo-5.png";
 import logo6 from "../../assets/images/group-companies/logo-6.png";
+import logo7 from "../../assets/images/group-companies/logo-7.png";
+import logo8 from "../../assets/images/group-companies/logo-8.png";
+import logo9 from "../../assets/images/group-companies/logo-9.png";
+import { bgImages } from '../../Util/data';
 class AboutUs extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <TitleSection className="aboutus" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Who We are" />
+        <TitleSection sliderImages={bgImages.about} className="aboutus" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Who We are" />
 
         <section className="who-we-are py-5  p-mob">
           <div className="container mx-auto">
             <Fade>
-              <h1 class="text-blue">GS<span class="text-red">I</span> was founded in <span class="text-red">2005</span> with a strong focus on product reliability and sustainability for food and non-food industries.</h1>
+              <h1 className="text-blue">GS<span className="text-red">I</span> was founded in <span className="text-red">2005</span> with a strong focus on product reliability and sustainability for food and non-food industries.</h1>
             </Fade>
             <Row gutter={[20, 20]} align="center">
               <Col xs={{ span: 24, order: 2 }} sm={{ span: 16, order: 2 }} md={{ span: 16, order: 1 }} lg={{ span: 16, order: 1 }} >
-                <div class="pr-lg-4">
+                <div className="pr-lg-4">
                   <Fade>
-                    <p class="mt-4">GSI is a leading global ingredients solutions company manufactured, and supplier of value-added Functional Ingredients, <span class="text-red">TAILORED</span> <span class="text-blue">TO YOUR NEEDS</span>, we offer an extensive range of natural food ingredients, functional food ingredients, specialty ingredients, ingredients through products, and consumer’s products like vegetable oils and fats, baking, beverages, snacks, meat processing, confectionery, dairy, biodiesel, oleochemical, and personal care.</p>
-                    <p class="mt-4">The cornerstone of our business is our profound knowledge of specialty ingredients which we tailored according to manufacturers and industries requirements, locally and abroad. GSI developed innovative specialty ingredients whereby our customers can count on us for a reliable supply of high quality and value-added ingredients, leveraging our ingredients expertise, solutions, and collective experience – together with our customers – we find ingredients solutions that work. GSI is committed to providing outstanding service by being receptive so that we can provide the best solutions for our customers at the same time ensuring the right quality with the right approach.</p>
-                    <p class="mt-4">GSI innovation studio supports our value creation partner by providing product and application knowledge no matter where you are base.</p>
+                    <p className="mt-4">GSI is a leading global ingredients solutions company manufactured, and supplier of value-added Functional Ingredients, <span className="text-red">TAILORED</span> <span className="text-blue">TO YOUR NEEDS</span>, we offer an extensive range of natural food ingredients, functional food ingredients, specialty ingredients, ingredients through products, and consumer’s products like vegetable oils and fats, baking, beverages, snacks, meat processing, confectionery, dairy, biodiesel, oleochemical, and personal care.</p>
+                    <p className="mt-4">The cornerstone of our business is our profound knowledge of specialty ingredients which we tailored according to manufacturers and industries requirements, locally and abroad. GSI developed innovative specialty ingredients whereby our customers can count on us for a reliable supply of high quality and value-added ingredients, leveraging our ingredients expertise, solutions, and collective experience – together with our customers – we find ingredients solutions that work. GSI is committed to providing outstanding service by being receptive so that we can provide the best solutions for our customers at the same time ensuring the right quality with the right approach.</p>
+                    <p className="mt-4">GSI innovation studio supports our value creation partner by providing product and application knowledge no matter where you are base.</p>
                   </Fade>
                 </div>
               </Col>
@@ -87,17 +91,18 @@ class AboutUs extends React.Component {
                 <Fade>
                   <div className="card">
                     <Row gutter={[30, 20]} className="mb-3">
-                      <Col xs={{ span: 14, order: 1 }} sm={{ span: 14, order: 1 }} md={{ span: 12, order: 1 }} lg={{ span: 12, order: 1 }} >
+                      {/* <Col xs={{ span: 14, order: 1 }} sm={{ span: 14, order: 1 }} md={{ span: 12, order: 1 }} lg={{ span: 12, order: 1 }} > */}
+                      <Col >
                         <div className="details p-3 p-lg-4">
                           <h6 className="text-outline-red"><span>40</span>+</h6>
                           <p>Market to more than 40 countries globally</p>
                         </div>
                       </Col>
-                      <Col xs={{ span: 10, order: 2 }} sm={{ span: 10, order: 2 }} md={{ span: 12, order: 2 }} lg={{ span: 12, order: 2 }} >
+                      {/* <Col xs={{ span: 10, order: 2 }} sm={{ span: 10, order: 2 }} md={{ span: 12, order: 2 }} lg={{ span: 12, order: 2 }} >
                         <div className="overflow-hidden border-radius-right">
                           <img src={marketed} className="right-image animation-grow" alt="Market to more than 40 countries globally" />
                         </div>
-                      </Col>
+                      </Col> */}
                     </Row>
                   </div>
                 </Fade>
@@ -106,18 +111,18 @@ class AboutUs extends React.Component {
                 <Fade>
                   <div className="card">
                     <Row gutter={[30, 20]} className="mb-3">
-                      <Col xs={{ span: 14, order: 1 }} sm={{ span: 14, order: 1 }} md={{ span: 12, order: 1 }} lg={{ span: 12, order: 1 }} >
-
+                      {/* <Col xs={{ span: 14, order: 1 }} sm={{ span: 14, order: 1 }} md={{ span: 12, order: 1 }} lg={{ span: 12, order: 1 }} > */}
+                      <Col >
                         <div className="details p-3 p-lg-4">
                           <h6 className="text-outline-red"><span>100</span>+</h6>
                           <p>Employees Globally</p>
                         </div>
                       </Col>
-                      <Col xs={{ span: 10, order: 2 }} sm={{ span: 10, order: 2 }} md={{ span: 12, order: 2 }} lg={{ span: 12, order: 2 }} >
+                      {/* <Col xs={{ span: 10, order: 2 }} sm={{ span: 10, order: 2 }} md={{ span: 12, order: 2 }} lg={{ span: 12, order: 2 }} >
                         <div className="overflow-hidden border-radius-right">
                           <img src={employeesGlobally} className="right-image animation-grow" alt="Employees Globally" />
                         </div>
-                      </Col>
+                      </Col> */}
                     </Row>
                   </div>
                 </Fade>
@@ -141,7 +146,7 @@ class AboutUs extends React.Component {
                       <Col xs={{ span: 16 }} sm={{ span: 16 }} md={{ span: 12 }} lg={{ span: 12 }} >
                         <div className="details p-3 p-lg-4">
                           <h5 className="border-left-3 border-danger pl-3 text-blue">Our Mission</h5>
-                          <p>To provide innovative solutions using our creativity and insight to make our customer' products sustainable in the global market</p>
+                          <p>To provide innovative solutions using our creativity and insight to make our customers’ products sustainable in the global market</p>
                         </div>
                       </Col>
                     </Row>
@@ -208,7 +213,7 @@ class AboutUs extends React.Component {
                       <img src={integrityImg} alt="Integrity" className="animation-grow" />
                     </div>
                     <h5 className="text-white mt-4">Integrity</h5>
-                    <p className="text-white">Integrity and positive thinking</p>
+                    <p className="text-white">We act with integrity and show Respect</p>
                   </div>
                 </Fade>
               </Col>
@@ -288,13 +293,13 @@ class AboutUs extends React.Component {
             </Fade>
             <Row align="center">
               <Col xs={{ span: 24, order: 2 }} sm={{ span: 24, order: 2 }} md={{ span: 12, order: 2 }} lg={{ span: 12, order: 2 }} >
-                <div class="border border-3 border-danger border-bottom-0 p-xs-3 p-3 p-lg-5">
+                <div className="border border-3 border-danger border-bottom-0 p-xs-3 p-3 p-lg-5">
                   <Fade>
-                    <h2 className="border-left-3 border-danger text-blue pl-3 mb-4">Dr.Robert Basker <span className="role text-black">Doctory of Philosopy, Ph.D. Chemistry</span> <span className="d-block font-weight-light">CEO & Technical Director</span></h2>
+                    <h2 className="border-left-3 border-danger text-blue pl-3 mb-4">Dr.Robert Basker <span className="role text-black">Doctor of Philosophy, Ph.D. Chemistry</span> <span className="d-block font-weight-light">CEO & Technical Director</span></h2>
                     <p>Dr Robert Basker provides great leadership on all aspects of the company’s operation by emphasizing on mission and vision</p>
                   </Fade>
                 </div>
-                <div class="bg-red-gradient p-xs-3 p-3 p-lg-5">
+                <div className="bg-red-gradient p-xs-3 p-3 p-lg-5">
                   <Fade>
                     <h2 className="border-left-3 border-blue text-white pl-3 mb-4">Samantha Basker, <span className="d-block font-weight-light">CFO & Managing Director</span></h2>
                     <p className="text-white">Samantha Basker who’s known for high degree of ability in planning, implementing, managing and running all aspects of a company</p>
@@ -347,6 +352,21 @@ class AboutUs extends React.Component {
                 <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
                   <div className="overflow-hidden border-radius">
                     <img src={logo6} alt="3P GSI Ingredients" className="animation-grow card w-100 p-3" />
+                  </div>
+                </Col>
+                <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
+                  <div className="overflow-hidden border-radius">
+                    <img src={logo7} alt="Monolith" className="animation-grow card w-100 p-3" />
+                  </div>
+                </Col>
+                <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
+                  <div className="overflow-hidden border-radius">
+                    <img src={logo8} alt="Snap Packing" className="animation-grow card w-100 p-3" />
+                  </div>
+                </Col>
+                <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
+                  <div className="overflow-hidden border-radius">
+                    <img src={logo9} alt="Ceramic Compound" className="animation-grow card w-100 p-3" />
                   </div>
                 </Col>
               </Row>

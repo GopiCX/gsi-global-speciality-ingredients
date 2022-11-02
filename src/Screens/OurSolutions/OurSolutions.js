@@ -18,12 +18,14 @@ import colourSolutions from "../../assets/images/our-solutions/flavour-colour-so
 import nutritionSolutions from "../../assets/images/our-solutions/nutrition-solutions.jpg";
 import savourySolutions from "../../assets/images/our-solutions/savoury-solutions.jpg";
 import Adsorbent from "../../assets/images/our-solutions/adsorbent.jpg";
+import CrystalPromoter from "../../assets/images/our-solutions/crystal-promoter.jpg";
+import { bgImages } from '../../Util/data';
 
 class OurSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection className="solutions" welcomeText="WELCOME TO GLOBAL SPECIALITY INGREDIENTS" titleName="Driven By Voyage of Discovery" />
+                <TitleSection sliderImages={bgImages.ourSolution} className="solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Driven By Voyage of Discovery" />
 
                 <section className="gsi-solutions py-5  p-mob">
                     <div className="container mx-auto">
@@ -49,6 +51,7 @@ class OurSolutions extends React.Component {
                             <SolutionList solutionTitle="Nutrition Solutions" solutionPageLink="/nutrition-solutions" solutionImg={nutritionSolutions} />
                             <SolutionList solutionTitle="Savoury Solutions" solutionPageLink="/savoury-solutions" solutionImg={savourySolutions} />
                             <SolutionList solutionTitle="Adsorbent" solutionPageLink="/adsorbent" solutionImg={Adsorbent} />
+                            {/* <SolutionList solutionTitle="Crystal Promoter" solutionPageLink="/crystal-promoter" solutionImg={CrystalPromoter} /> */}
                          </Row>
                     </div>
                 </section>
