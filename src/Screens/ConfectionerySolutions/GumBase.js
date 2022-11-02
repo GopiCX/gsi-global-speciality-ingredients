@@ -4,6 +4,8 @@ import Slider from "react-slick";
 import { Row, Col } from 'antd';
 import './ConfectionerySolutions.scss'
 import slide1 from '../../assets/images/confectionary-solutions/gum-base/1.jpg';
+import SliderBox from '../../Components/SliderBox/SliderBox';
+import { solutionImg } from '../../Util/solutionData';
 
 const bakeStableGallery = {
     arrows: false,
@@ -29,11 +31,12 @@ class GumBase extends React.Component {
                 <div className="solutions-grids less-content card mb-3">
                     <Row align="center">
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 6 }} lg={{ span: 6 }} >
-                            <Slider {...bakeStableGallery} className="border-radius-left">
+                            {/* <Slider {...bakeStableGallery} className="border-radius-left">
                                 <div className="item">
                                     <img src={slide1} alt="GumBase" />
                                 </div>
-                            </Slider>
+                            </Slider> */}
+                            <SliderBox solutionImages={solutionImg.gumBase} />
                         </Col>
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 18 }} lg={{ span: 18 }} className="p-3 p-sm-4 p-md-4 p-lg-4 " >
                             <h3 className="text-blue">Gum-Base</h3>
@@ -49,7 +52,7 @@ class GumBase extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Chewing gums</li>
                                             <li>Bubble gums</li>                                        

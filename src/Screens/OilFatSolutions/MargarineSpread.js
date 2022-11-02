@@ -26,12 +26,16 @@ class MargarineSpread extends React.Component {
                                         <h5 className="text-red">Products</h5>
                                         <ul>
                                             <li>GLORICH 5050</li>
+                                            <li>GLORICH 9010</li>
+                                            <li>GLORICH 7030</li>
+                                            <li>GLORICH 4050</li>
+                                            <li>GLORICH 6040</li>
                                         </ul>
                                     </div>
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Full fat margarines</li>
                                             <li>Tub/ table margarines</li>

@@ -29,12 +29,15 @@ class Cake extends React.Component {
                                             <li>GLORISE 5410</li>
                                             <li>GLOMUL MGD 95</li>
                                             <li>GLOMUL SSL 208</li>
+                                            <li>GLOMUL PS 60</li>
+                                            <li>GLOMARG</li>
+                                            <li>GLOGEL</li>
                                         </ul>
                                     </div>
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Sponge cakes</li>
                                             <li>Pound cakes</li>
@@ -47,6 +50,7 @@ class Cake extends React.Component {
                                             <li>Swiss rolls</li>
                                             <li>Eggless cakes</li>
                                             <li>Bakery cake margarines &amp; shortening</li>
+                                            <li>Low fat cakes</li>
                                         </ul>
                                     </div>
                                 </Col>

@@ -54,7 +54,7 @@ class SugarConfectionery extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Caramels</li>
                                             <li>Toffees</li>
@@ -67,9 +67,8 @@ class SugarConfectionery extends React.Component {
                                     <div className="details">
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
-                                            <li>Improved emulsification</li>
+                                            <li>Improved emulsification & fat dispersion</li>
                                             <li>Lubrication &amp; anti-sticking</li>
-                                            <li>Improved fat dispersion</li>
                                             <li>Lightening colour</li>
                                             <li>More creamy and smooth texture</li>
                                             <li>Prevents cold flow</li>

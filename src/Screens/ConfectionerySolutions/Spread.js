@@ -63,7 +63,7 @@ class Spread extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Chocolate spreads</li>
                                             <li>Spreadable products</li>
@@ -79,7 +79,6 @@ class Spread extends React.Component {
                                             <li><p>Prevents oils separation without significant influence on the meltdown properties</p></li>
                                             <li><p>Oil absorbing behaviour reduces the risk of oilling out</p></li>
                                             <li><p>Improved the mouth-feels</p></li>
-                                            <li><p>Flavour release properties</p></li>
                                         </ul>
                                     </div>
                                 </Col>

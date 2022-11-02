@@ -35,9 +35,9 @@ class AntiCloudingAgents extends React.Component {
                         </Row>
                         <div className="mt-4">
                             <Fade>
-                                <OilsFatsCrystalEnhancer />
+                                {/* <OilsFatsCrystalEnhancer /> */}
                                 <OilsFatsAntiCrystallization />
-                                <Beverages />
+                                {/* <Beverages /> */}
                             </Fade>
                         </div>
                     </div>

@@ -28,13 +28,13 @@ class SportsBalancedNutrition extends React.Component {
                                         <ul>
                                             <li>GLOMCT 60P</li>
                                             <li>GLOMCT 60C</li>
-                                            <li>GLOMCT 60C Organic Coconut</li>
+                                            <li>GLOMCT 60C (Organic Coconut)</li>
                                         </ul>
                                     </div>
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Clinical nutrition</li>
                                             <li>Infant formulation</li>

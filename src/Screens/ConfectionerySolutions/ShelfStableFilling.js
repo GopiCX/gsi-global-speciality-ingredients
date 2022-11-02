@@ -54,11 +54,10 @@ class ShelfStableFilling extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Center filling of wafer rolls &amp; cones</li>
-                                            <li>Desserts</li>
-                                            <li>Baked goods filling</li>
+                                            <li>Desserts & baked goods filling</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -69,11 +68,10 @@ class ShelfStableFilling extends React.Component {
                                             <li>Stability against oil separation</li>
                                             <li>Prevents dripping</li>
                                             <li>Easy distribution</li>
-                                            <li>Improved fat dispersion</li>
+                                            <li>Improved fat dispersion, glossiness, & viscosity of final product</li>
                                             <li>No waxy taste</li>
                                             <li>Improved glossiness</li>
-                                            <li>Improved viscosity of final product and better mouthfeel</li>
-                                            <li>Compatible with other type of oils &amp; fats including nut oils</li>
+                                            <li>Compatible with other type of oils & fats including nut oils</li>
                                         </ul>
                                     </div>
                                 </Col>

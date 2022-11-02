@@ -34,7 +34,7 @@ class BiscuitsCookiesCrackers extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Cookies</li>
                                             <li>Soft cookies</li>
@@ -47,12 +47,10 @@ class BiscuitsCookiesCrackers extends React.Component {
                                     <div className="details">
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
-                                            <li>Improved distribution of fat in the dough</li>
+                                            <li>Improve distribution of fat in the dough, dough handling & product homogeneity</li>
                                             <li>Reduced dough viscosity</li>
-                                            <li>Improved dough handling</li>
                                             <li>Increased spread</li>
                                             <li>Fat replacement</li>
-                                            <li>Improves product homogeneity</li>
                                         </ul>
                                     </div>
                                 </Col>

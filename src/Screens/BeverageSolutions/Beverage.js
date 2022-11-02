@@ -3,7 +3,7 @@ import { withRouter } from 'react-router';
 import { Row, Col } from 'antd';
 import SliderBox from "../../Components/SliderBox/SliderBox";
 import { solutionImg } from '../../Util/solutionData';
-class FatsolubleVitaminsCarrier extends React.Component {
+class Beverage extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -13,13 +13,13 @@ class FatsolubleVitaminsCarrier extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="solutions-grids  less-content  card mb-3">
+                <div className="solutions-grids less-content card mb-3">
                     <Row align="center">
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 6 }} lg={{ span: 6 }} >
-                        <SliderBox solutionImages={solutionImg.FatSolubleVitaminsCarrier} />
+                        <SliderBox solutionImages={solutionImg.beverage} />
                         </Col>
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 18 }} lg={{ span: 18 }} className="p-3 p-sm-4 p-md-4 p-lg-4 " >
-                            <h3 className="text-blue">Fat-soluble Vitamins Carrier</h3>
+                            <h3 className="text-blue">Beverage</h3>
                             <Row gutter={[20, 20]} className={this.state.showMoreinfo ? "showmoreinfo" : "showlessinfo"}>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
@@ -27,13 +27,6 @@ class FatsolubleVitaminsCarrier extends React.Component {
                                         <ul>
                                             <li>GLOMCT 60P</li>
                                             <li>GLOMCT 60C</li>
-                                            <li>GLOMCT 60C (Organic Coconut)</li>
-                                            <li>Omega Vegan DHA & EPA</li>
-                                            <li>Vitamin E, A & D</li>
-                                            <li>Tocotrienols</li>
-                                            <li>Tocopherols</li>
-                                            <li>Beta Carotene</li>
-                                            <li>Natural Antioxidants</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -41,8 +34,9 @@ class FatsolubleVitaminsCarrier extends React.Component {
                                     <div className="details">
                                         <h5 className="text-red">Primary Applications</h5>
                                         <ul>
-                                            <li>Vitamin supplements</li>
-                                            <li>Vitamin drops</li>
+                                            <li>Fruit juices</li>
+                                            <li>Fruit-flavored beverages</li>
+                                            <li>Soft drinks</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -50,7 +44,7 @@ class FatsolubleVitaminsCarrier extends React.Component {
                                     <div className="details">
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
-                                            <li>Solubilizer and carrier</li>
+                                            <li>Clouding agent</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -65,4 +59,4 @@ class FatsolubleVitaminsCarrier extends React.Component {
         )
     }
 }
-export default withRouter(FatsolubleVitaminsCarrier)
+export default withRouter(Beverage)

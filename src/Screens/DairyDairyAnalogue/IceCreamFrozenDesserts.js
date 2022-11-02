@@ -25,13 +25,13 @@ class IceCreamFrozenDesserts extends React.Component {
                                     <div className="details">
                                         <h5 className="text-red">Products</h5>
                                         <ul>
-                                            <li>GLOICE GSI 32</li>
+                                            <li>GLOICE 32</li>
                                         </ul>
                                     </div>
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Frozen yoghurts &amp; sherberts</li>
                                             <li>Ice cream</li>
@@ -49,11 +49,10 @@ class IceCreamFrozenDesserts extends React.Component {
                                             <li>Imparts dryness, body, smooth texture</li>
                                             <li>Creamy and smooth sensation</li>
                                             <li>Reduced fat</li>
-                                            <li>Improved the churning</li>
+                                            <li>Improve the churning & overrun</li>
                                             <li>Stable and ability to withstand heat shock</li>
                                             <li>Slow meltdown/ melt-resistant</li>
                                             <li>Promotes small ice-crystal</li>
-                                            <li>Improved overrun</li>
                                         </ul>
                                     </div>
                                 </Col>

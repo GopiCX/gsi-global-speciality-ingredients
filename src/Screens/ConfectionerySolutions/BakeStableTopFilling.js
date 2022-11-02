@@ -6,6 +6,8 @@ import { Row, Col } from 'antd';
 import './ConfectionerySolutions.scss'
 import slide1 from '../../assets/images/confectionary-solutions/bake-stable-top-filling/1.jpg';
 import slide2 from '../../assets/images/confectionary-solutions/bake-stable-top-filling/2.jpg';
+import SliderBox from '../../Components/SliderBox/SliderBox';
+import { solutionImg } from '../../Util/solutionData';
 
 
 
@@ -33,14 +35,15 @@ class BakeStableTopFilling extends React.Component {
                 <div className="solutions-grids less-content card mb-3">
                     <Row align="center">
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 6 }} lg={{ span: 6 }} >
-                            <Slider {...bakeStableGallery} className="border-radius-left">
+                            {/* <Slider {...bakeStableGallery} className="border-radius-left">
                                 <div className="item">
                                     <img src={slide1} alt="BakeStableTopFilling" />
                                 </div>
                                 <div className="item">
                                     <img src={slide2} alt="BakeStableTopFilling" />
                                 </div>
-                            </Slider>
+                            </Slider> */}
+                            <SliderBox solutionImages={solutionImg.BakeStapleTopFillings} />
                         </Col>
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 18 }} lg={{ span: 18 }} className="p-3 p-sm-4 p-md-4 p-lg-4 " >
                             <h3 className="text-blue">Bake Stable Top Filling</h3>
@@ -56,9 +59,10 @@ class BakeStableTopFilling extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
-                                            <li>Biscuits & cookies</li>
+                                            <li>Cookies</li>
+                                            <li>Biscuits</li>
                                         </ul>
                                     </div>
                                 </Col>

@@ -65,7 +65,7 @@ class Coating extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Ice cream dip</li>
                                             <li>Ice cream cone coating</li>
@@ -79,13 +79,11 @@ class Coating extends React.Component {
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
                                             <li>Prevents oil separation</li>
-                                            <li>Improved viscosity of final product</li>
+                                            <li>Improved glossiness & viscosity of final product</li>
                                             <li>Achieved thin layer</li>
                                             <li>Short crystallization time</li>
                                             <li>Plasticity coating texture, without cracking</li>
-                                            <li>Avoid fat bloom</li>
-                                            <li>Form relatively hard, brittle layers upon cooling</li>
-                                            <li>Avoid water migration</li>
+                                            <li>Avoid fat bloom & water migration</li>
                                             <li>Melts in the mouth temperature at 35℃</li>
                                         </ul>
                                     </div>

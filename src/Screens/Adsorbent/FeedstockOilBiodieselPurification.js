@@ -34,7 +34,7 @@ class FeedstockOilBiodieselPurification extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Fresh Oils or Fats</li>
                                             <li>Yellow Grease</li>
@@ -51,8 +51,7 @@ class FeedstockOilBiodieselPurification extends React.Component {
                                             <li>Off-odours</li>
                                             <li>Off-flavours</li>
                                             <li>Off-colours</li>
-                                            <li>Reduce Free fatty acids</li>
-                                            <li>Reduce Polar compound formation</li>
+                                            <li>Reduce free fatty acids & polar compound formation</li>
                                         </ul>
                                     </div>
                                 </Col>

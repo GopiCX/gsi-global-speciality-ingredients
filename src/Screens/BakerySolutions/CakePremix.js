@@ -27,12 +27,14 @@ import { solutionImg } from '../../Util/solutionData';
                                         <h5 className="text-red">Products</h5>
                                         <ul>
                                             <li>GLORISE 2213</li>
+                                            <li>GLOMUL 2209</li>
+                                            <li>GLOGEL</li>
                                         </ul>
                                     </div>
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Eggless cakes</li>
                                             <li>Vegan cakes</li>

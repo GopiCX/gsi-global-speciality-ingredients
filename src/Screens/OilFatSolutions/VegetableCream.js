@@ -16,7 +16,7 @@ class VegetableCream extends React.Component {
                 <div className="solutions-grids  less-content  card mb-3">
                     <Row align="center">
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 6 }} lg={{ span: 6 }} >
-                            <SliderBox solutionImages={solutionImg.PuffPastry} />
+                            <SliderBox solutionImages={solutionImg.VegetableCeam} />
                         </Col>
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 18 }} lg={{ span: 18 }} className="p-3 p-sm-4 p-md-4 p-lg-4 " >
                             <h3 className="text-blue">Vegetable Cream</h3>
@@ -32,7 +32,7 @@ class VegetableCream extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Icings</li>
                                             <li>Biscuits &amp; cookies cream</li>
@@ -44,12 +44,8 @@ class VegetableCream extends React.Component {
                                     <div className="details">
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
-                                            <li>Improved aeration &amp; water absorption properties</li>
-                                            <li>Improved palatability</li>
-                                            <li>Improved stabilization</li>
+                                            <li>Improve aeration, water absorption properties, palatability, stabilization, overrun, foam stability & firmness</li>
                                             <li>Control crystallization</li>
-                                            <li>Improved foam stability &amp; firmness</li>
-                                            <li>Improved overrun</li>
                                             <li>Reduced whipping time</li>
                                         </ul>
                                     </div>
