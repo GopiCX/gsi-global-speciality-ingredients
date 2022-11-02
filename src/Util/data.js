@@ -23,7 +23,7 @@ import csSliderOne from "../assets/images/confectionary-solutions/main.jpg";
 
 import bsSliderOne from "../assets/images/bakery-solutions/main.jpg";
 
-import ShelfSliderOne from "../assets/images/shelf-life-solutions/main.jpg";
+import ShelfSliderOne from "../assets/images/shelf-life-solutions/1.jpg";
 
 import oilFatSliderOne from "../assets/images/oil-fat-solutions/main.jpg";
 
@@ -46,21 +46,21 @@ import tncSlider from "../assets/images/chocolate-solutions/main.jpg";
 
 import CrystalPromoter from "../assets/images/crystal-promoter/main.jpg";
 
-import FryingSolutionOne from "../assets/images/frying-solutions/antioxidants/1.png";
-import FryingSolutionTwo from "../assets/images/frying-solutions/antioxidants/2.png";
-import FryingSolutionThree from "../assets/images/frying-solutions/antioxidants/3.png";
+import FryingSolutionOne from "../assets/images/frying-solutions/antioxidants/1.jpg";
+import FryingSolutionTwo from "../assets/images/frying-solutions/antioxidants/2.jpg";
+import FryingSolutionThree from "../assets/images/frying-solutions/antioxidants/3.jpg";
 
-import colorSolutionOne from "../assets/images/colour-solutions/main.png";
-import colorSolutionTwo from "../assets/images/colour-solutions/natural-synthetic-colour/1.png";
-import colorSolutionThree from "../assets/images/colour-solutions/natural-synthetic-colour/2.png";
+import colorSolutionOne from "../assets/images/colour-solutions/main.jpg";
+import colorSolutionTwo from "../assets/images/colour-solutions/natural-synthetic-colour/1.jpg";
+import colorSolutionThree from "../assets/images/colour-solutions/natural-synthetic-colour/2.jpg";
 
 
-import FlavourSolutionOne from "../assets/images/flavour-solutions/1.png";
-import FlavourSolutionTwo from "../assets/images/flavour-solutions/2.png";
-import FlavourSolutionThree from "../assets/images/flavour-solutions/3.png";
-import FlavourSolutionFour from "../assets/images/flavour-solutions/4.png";
-import FlavourSolutionFive from "../assets/images/flavour-solutions/5.png";
-import FlavourSolutionSix from "../assets/images/flavour-solutions/6.png";
+import FlavourSolutionOne from "../assets/images/flavour-solutions/1.jpg";
+import FlavourSolutionTwo from "../assets/images/flavour-solutions/2.jpg";
+import FlavourSolutionThree from "../assets/images/flavour-solutions/3.jpg";
+import FlavourSolutionFour from "../assets/images/flavour-solutions/4.jpg";
+import FlavourSolutionFive from "../assets/images/flavour-solutions/5.jpg";
+import FlavourSolutionSix from "../assets/images/flavour-solutions/6.jpg";
 
 
 export const bgImages = {
