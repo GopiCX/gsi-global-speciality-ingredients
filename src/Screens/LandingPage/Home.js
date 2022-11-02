@@ -285,11 +285,11 @@ export default class Home extends React.Component {
               </Fade>
               <Fade>
                 <div className="card-box">
-                  <Link to="/shelf-life-frying-solutions">
+                  <Link to="/shelf-life-solutions">
                     <div className="details overflow-hidden border-radius">
                       <img src={shelfLife} alt="Process Development & Improvement​" />
                       <div className="title">
-                        <h6>Shelf Life & <br /> Frying Solutions</h6>
+                        <h6>Shelf Life  <br /> Solutions</h6>
                       </div>
                     </div>
                   </Link>

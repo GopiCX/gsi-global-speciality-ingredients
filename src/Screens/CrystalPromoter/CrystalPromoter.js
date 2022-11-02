@@ -4,6 +4,8 @@ import TitleSection from '../../Components/TitleSection/TitleSection';
 import { bgImages } from '../../Util/data';
 import { Row, Col, Input } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
+import Fade from 'react-reveal/Fade';
+import CrystalEnhancer from "./CrystalEnhancer";
 
 class CrystalPromoter extends React.Component {
     render() {
@@ -21,6 +23,11 @@ class CrystalPromoter extends React.Component {
                                 <Input size="large" placeholder="Search..." prefix={<SearchOutlined />} />
                             </Col>
                         </Row>
+                        <div className="mt-4">
+                            <Fade>
+                                <CrystalEnhancer />
+                            </Fade>
+                        </div>
                     </div>
                 </section>
             </React.Fragment >

@@ -14,17 +14,19 @@ import Responsibility from '../Screens/Responsibility/Responsibility';
 import KeyAccountmanager from '../Screens/KeyAccountmanager/KeyAccountmanager';
 import ConfectionerySolutions from '../Screens/ConfectionerySolutions/ConfectionerySolutions';
 import BakerySolutions from '../Screens/BakerySolutions/BakerySolutions';
-import ShelfLifeFryingSolutions from '../Screens/ShelfLifeFryingSolutions/ShelfLifeFryingSolutions';
+import ShelfLifeSolutions from '../Screens/ShelfLifeSolutions/ShelfLifeSolutions';
 import OilFatSolutions from '../Screens/OilFatSolutions/OilFatSolutions';
-import AntiCloudingCloudingAgents from '../Screens/AntiCloudingCloudingAgents/AntiCloudingCloudingAgents';
+import AntiCloudingAgents from '../Screens/AntiCloudingAgents/AntiCloudingAgents';
 import BeverageSolutions from '../Screens/BeverageSolutions/BeverageSolutions';
 import ChocolateSolutions from '../Screens/ChocolateSolutions/ChocolateSolutions';
 import DairyDairyAnalogue from '../Screens/DairyDairyAnalogue/DairyDairyAnalogue';
-import FlavourColourSolutions from '../Screens/FlavourColourSolutions/FlavourColourSolutions';
+import FlavourSolutions from '../Screens/FlavourSolutions/FlavourSolutions';
 import NutritionSolutions from '../Screens/NutritionSolutions/NutritionSolutions';
 import SavourySolutions from '../Screens/SavourySolutions/SavourySolutions';
 import Adsorbent from '../Screens/Adsorbent/Adsorbent';
 import CrystalPromoter from '../Screens/CrystalPromoter/CrystalPromoter';
+import FryingSolution from '../Screens/FryingSolution/FryingSolution';
+import ColourSolutions from '../Screens/ColourSolutions/ColourSolutions';
 import TermsandConditions from '../Screens/TermsandConditions/TermsandConditions';
 
 import Layout from '../Layout/Layout';
@@ -46,17 +48,19 @@ class InnerRoutes extends React.Component {
                     <Route path="/key-account-manager" component={KeyAccountmanager} />
                     <Route path="/confectionery-solutions" component={ConfectionerySolutions} />
                     <Route path="/bakery-solutions" component={BakerySolutions} />
-                    <Route path="/shelf-life-frying-solutions" component={ShelfLifeFryingSolutions} />
+                    <Route path="/shelf-life-solutions" component={ShelfLifeSolutions} />
                     <Route path="/oil-fat-solutions" component={OilFatSolutions} />
-                    <Route path="/anti-clouding-clouding-agents" component={AntiCloudingCloudingAgents} />
+                    <Route path="/anti-clouding-agents" component={AntiCloudingAgents} />
                     <Route path="/beverage-solutions" component={BeverageSolutions} />
                     <Route path="/chocolate-solutions" component={ChocolateSolutions} />
                     <Route path="/dairy-dairy-analogue" component={DairyDairyAnalogue} />
-                    <Route path="/flavour-colour-solutions" component={FlavourColourSolutions} />
+                    <Route path="/flavour-solutions" component={FlavourSolutions} />
                     <Route path="/nutrition-solutions" component={NutritionSolutions} />
                     <Route path="/savoury-solutions" component={SavourySolutions} />
                     <Route path="/adsorbent" component={Adsorbent} />
-                    {/* <Route path="/crystal-promoter" component={CrystalPromoter} /> */}
+                    <Route path="/crystal-promoter" component={CrystalPromoter} />
+                    <Route path="/frying-solution" component={FryingSolution} />
+                    <Route path="/colour-solutions" component={ColourSolutions} />
                     <Route path="/terms-and-conditions" component={TermsandConditions} />
                 </Switch>
             </Layout>

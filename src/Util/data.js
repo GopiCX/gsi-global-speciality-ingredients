@@ -23,7 +23,7 @@ import csSliderOne from "../assets/images/confectionary-solutions/main.jpg";
 
 import bsSliderOne from "../assets/images/bakery-solutions/main.jpg";
 
-import ShelfSliderOne from "../assets/images/shelf-life-frying-solutions/main.jpg";
+import ShelfSliderOne from "../assets/images/shelf-life-solutions/main.jpg";
 
 import oilFatSliderOne from "../assets/images/oil-fat-solutions/main.jpg";
 
@@ -35,17 +35,33 @@ import chocoSlider from "../assets/images/chocolate-solutions/main.jpg";
 
 import diarySlider from "../assets/images/dairy-dairy-analogue/main.jpg";
 
-import flavourSlider from "../assets/images/flavour-colour-solutions/main.jpg";
-
 import nutritionSlider from "../assets/images/nutrition-solutions/main.jpg";
 
 import savourySlider from "../assets/images/savoury-solutions/main.jpg";
 
-import adsorbentSlider from "../assets/images/adsorbent/main.jpg";
+import adsorbentSliderOne from "../assets/images/adsorbent/main.jpg";
+import adsorbentSliderTwo from "../assets/images/adsorbent/main-1.jpg";
 
 import tncSlider from "../assets/images/chocolate-solutions/main.jpg";
 
 import CrystalPromoter from "../assets/images/crystal-promoter/main.jpg";
+
+import FryingSolutionOne from "../assets/images/frying-solutions/antioxidants/1.png";
+import FryingSolutionTwo from "../assets/images/frying-solutions/antioxidants/2.png";
+import FryingSolutionThree from "../assets/images/frying-solutions/antioxidants/3.png";
+
+import colorSolutionOne from "../assets/images/colour-solutions/main.png";
+import colorSolutionTwo from "../assets/images/colour-solutions/natural-synthetic-colour/1.png";
+import colorSolutionThree from "../assets/images/colour-solutions/natural-synthetic-colour/2.png";
+
+
+import FlavourSolutionOne from "../assets/images/flavour-solutions/1.png";
+import FlavourSolutionTwo from "../assets/images/flavour-solutions/2.png";
+import FlavourSolutionThree from "../assets/images/flavour-solutions/3.png";
+import FlavourSolutionFour from "../assets/images/flavour-solutions/4.png";
+import FlavourSolutionFive from "../assets/images/flavour-solutions/5.png";
+import FlavourSolutionSix from "../assets/images/flavour-solutions/6.png";
+
 
 export const bgImages = {
   about: [aboutSliderOne, aboutSliderTwo],
@@ -63,10 +79,12 @@ export const bgImages = {
   beverage: [beverageSlider, beverageSlider],
   choco: [chocoSlider, chocoSlider],
   diary: [diarySlider, diarySlider],
-  flavour: [flavourSlider, flavourSlider],
   nutrition: [nutritionSlider, nutritionSlider],
   savoury: [savourySlider, savourySlider],
-  adsorbent: [adsorbentSlider, adsorbentSlider],
+  adsorbent: [adsorbentSliderOne, adsorbentSliderTwo],
   tnc: [tncSlider, tncSlider],
   CrystalPromoter: [CrystalPromoter, CrystalPromoter],
+  FryingSolution: [FryingSolutionOne, FryingSolutionTwo, FryingSolutionThree],
+  colourSolutions: [colorSolutionOne, colorSolutionTwo, colorSolutionThree],
+  Flavour:[FlavourSolutionOne, FlavourSolutionTwo, FlavourSolutionThree, FlavourSolutionFour, FlavourSolutionFive, FlavourSolutionSix]
 };
