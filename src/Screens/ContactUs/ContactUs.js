@@ -33,7 +33,7 @@ class ContactUs extends React.Component {
                                         <div className="d-sm-block d-md-flex d-lg-flex mt-4">
                                             <ul className="mb-sm-2">
                                                 <h6 className="text-red">Phone</h6>
-                                                <p className="text-white">+6018 3123 7171</p>
+                                                <p className="text-white">+603 3123 7171</p>
                                             </ul>
                                             <ul>
                                                 <h6 className="text-red">Email</h6>
