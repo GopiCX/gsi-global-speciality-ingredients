@@ -14,11 +14,14 @@ import antiClouding from "../../assets/images/our-solutions/anti-clouding-cloudi
 import beverageSolutions from "../../assets/images/our-solutions/beverage-solutions.jpg";
 import chocolateSolutions from "../../assets/images/our-solutions/chocolate-solutions.jpg";
 import dairyAnalogue from "../../assets/images/our-solutions/dairy-dairy-analogue.jpg";
-import colourSolutions from "../../assets/images/our-solutions/flavour-colour-solutions.jpg";
+import colourSolutions from "../../assets/images/our-solutions/colour-solutions.jpg";
 import nutritionSolutions from "../../assets/images/our-solutions/nutrition-solutions.jpg";
 import savourySolutions from "../../assets/images/our-solutions/savoury-solutions.jpg";
 import Adsorbent from "../../assets/images/our-solutions/adsorbent.jpg";
 import CrystalPromoter from "../../assets/images/our-solutions/crystal-promoter.jpg";
+import fryingSolution from "../../assets/images/our-solutions/frying-solutions.jpg";
+import flavourSolutions from '../../assets/images/our-solutions/flavour-solutions.jpg';
+
 import { bgImages } from '../../Util/data';
 
 class OurSolutions extends React.Component {
@@ -41,18 +44,20 @@ class OurSolutions extends React.Component {
                         <Row gutter={[{ xs: 4, sm: 5, md: 10, lg: 15 }, { xs: 8, sm: 16, md: 18, lg: 20 }]} align="center">
                             <SolutionList solutionTitle="Confectionery Solutions" solutionPageLink="/confectionery-solutions" solutionImg={confectionerySolutions} />
                             <SolutionList solutionTitle="Bakery Solutions" solutionPageLink="/bakery-solutions" solutionImg={bakerySolution} />
-                            <SolutionList solutionTitle="Shelf Life & Frying Solutions" solutionPageLink="/shelf-life-frying-solutions" solutionImg={shelfLife} />
+                            <SolutionList solutionTitle="Shelf Life Solutions" solutionPageLink="/shelf-life-solutions" solutionImg={shelfLife} />
+                            <SolutionList solutionTitle="Frying Solution" solutionPageLink="/frying-solution" solutionImg={fryingSolution} />
                             <SolutionList solutionTitle="Oil & Fat Solutions" solutionPageLink="/oil-fat-solutions" solutionImg={oilFat} />
-                            <SolutionList solutionTitle="Anti-Clouding & Clouding Agents" solutionPageLink="/anti-clouding-clouding-agents" solutionImg={antiClouding} />
+                            <SolutionList solutionTitle="Anti Clouding Agents" solutionPageLink="/anti-clouding-agents" solutionImg={antiClouding} />
+                            <SolutionList solutionTitle="Crystal Promoter" solutionPageLink="/crystal-promoter" solutionImg={CrystalPromoter} />
                             <SolutionList solutionTitle="Beverage Solutions" solutionPageLink="/beverage-solutions" solutionImg={beverageSolutions} />
-                            <SolutionList solutionTitle="Chocolate Solutions" solutionPageLink="/chocolate-solutions" solutionImg={chocolateSolutions} />
-                            <SolutionList solutionTitle="Dairy & Dairy Analogue" solutionPageLink="/dairy-dairy-analogue" solutionImg={dairyAnalogue} />
-                            <SolutionList solutionTitle="Flavour & Colour Solutions" solutionPageLink="/flavour-colour-solutions" solutionImg={colourSolutions} />
+                            <SolutionList solutionTitle="Dairy & Dairy Analogue Solution" solutionPageLink="/dairy-dairy-analogue" solutionImg={dairyAnalogue} />
+                            <SolutionList solutionTitle="Colour Solutions" solutionPageLink="/colour-solutions" solutionImg={colourSolutions} />
                             <SolutionList solutionTitle="Nutrition Solutions" solutionPageLink="/nutrition-solutions" solutionImg={nutritionSolutions} />
                             <SolutionList solutionTitle="Savoury Solutions" solutionPageLink="/savoury-solutions" solutionImg={savourySolutions} />
                             <SolutionList solutionTitle="Adsorbent" solutionPageLink="/adsorbent" solutionImg={Adsorbent} />
-                            {/* <SolutionList solutionTitle="Crystal Promoter" solutionPageLink="/crystal-promoter" solutionImg={CrystalPromoter} /> */}
-                         </Row>
+                            <SolutionList solutionTitle="Flavour Solutions" solutionPageLink="/flavour-solutions" solutionImg={flavourSolutions} />
+                            {/* <SolutionList solutionTitle="Chocolate Solutions" solutionPageLink="/chocolate-solutions" solutionImg={chocolateSolutions} /> */}
+                        </Row>
                     </div>
                 </section>
 

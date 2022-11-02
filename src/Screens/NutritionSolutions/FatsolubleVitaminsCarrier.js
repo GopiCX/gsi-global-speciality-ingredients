@@ -1,23 +1,8 @@
 import React from 'react';
 import { withRouter } from 'react-router';
-import Slider from "react-slick";
 import { Row, Col } from 'antd';
-//import './ConfectionerySolutions.scss'
-import slide1 from '../../assets/images/nutrition-solutions/fat-soluble-vitamins-carrier/1.jpg';
-import slide2 from '../../assets/images/nutrition-solutions/fat-soluble-vitamins-carrier/2.jpg';
-
-
-const bakeStableGallery = {
-    arrows: false,
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 5000
-};
-
+import SliderBox from "../../Components/SliderBox/SliderBox";
+import { solutionImg } from '../../Util/solutionData';
 class FatsolubleVitaminsCarrier extends React.Component {
     constructor() {
         super();
@@ -31,14 +16,7 @@ class FatsolubleVitaminsCarrier extends React.Component {
                 <div className="solutions-grids  less-content  card mb-3">
                     <Row align="center">
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 6 }} lg={{ span: 6 }} >
-                            <Slider {...bakeStableGallery} className="border-radius-left">
-                                <div className="item">
-                                    <img src={slide1} alt="Fat-soluble Vitamins Carrier" />
-                                </div>
-                                <div className="item">
-                                    <img src={slide2} alt="Fat-soluble Vitamins Carrier" />
-                                </div>
-                            </Slider>
+                        <SliderBox solutionImages={solutionImg.FatSolubleVitaminsCarrier} />
                         </Col>
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 18 }} lg={{ span: 18 }} className="p-3 p-sm-4 p-md-4 p-lg-4 " >
                             <h3 className="text-blue">Fat-soluble Vitamins Carrier</h3>
