@@ -20,20 +20,20 @@ import CerealsSnacks2 from '../assets/images/bakery-solutions/cereals-snacks/2.j
 import CerealsSnacks3 from '../assets/images/bakery-solutions/cereals-snacks/3.jpg';
 
 // Self Life Solution
-import Preservatives1 from "../assets/images/shelf-life-solutions/preservatives/1.png";
-import Preservatives2 from "../assets/images/shelf-life-solutions/preservatives/2.png";
-import Preservatives3 from "../assets/images/shelf-life-solutions/preservatives/3.png";
+import Preservatives1 from "../assets/images/shelf-life-solutions/preservatives/1.jpg";
+import Preservatives2 from "../assets/images/shelf-life-solutions/preservatives/2.jpg";
+import Preservatives3 from "../assets/images/shelf-life-solutions/preservatives/3.jpg";
 
 // Frying Solution
-import antioxidants1 from "../assets/images/frying-solutions/antioxidants/1.png";
-import antioxidants2 from "../assets/images/frying-solutions/antioxidants/2.png";
-import antioxidants3 from "../assets/images/frying-solutions/antioxidants/3.png";
-import antioxidants4 from "../assets/images/frying-solutions/antioxidants/4.png";
+import antioxidants1 from "../assets/images/frying-solutions/antioxidants/1.jpg";
+import antioxidants2 from "../assets/images/frying-solutions/antioxidants/2.jpg";
+import antioxidants3 from "../assets/images/frying-solutions/antioxidants/3.jpg";
+import antioxidants4 from "../assets/images/frying-solutions/antioxidants/4.jpg";
 
-import NaturalAntioxidants1 from "../assets/images/frying-solutions/natural-antioxidants/1.png";
-import NaturalAntioxidants2 from "../assets/images/frying-solutions/natural-antioxidants/2.png";
-import NaturalAntioxidants3 from "../assets/images/frying-solutions/natural-antioxidants/3.png";
-import NaturalAntioxidants4 from "../assets/images/frying-solutions/natural-antioxidants/4.png";
+import NaturalAntioxidants1 from "../assets/images/frying-solutions/natural-antioxidants/1.jpg";
+import NaturalAntioxidants2 from "../assets/images/frying-solutions/natural-antioxidants/2.jpg";
+import NaturalAntioxidants3 from "../assets/images/frying-solutions/natural-antioxidants/3.jpg";
+import NaturalAntioxidants4 from "../assets/images/frying-solutions/natural-antioxidants/4.jpg";
 
 
 // Oil & Fat Solutions
@@ -64,10 +64,10 @@ import OilsFatsAntiCrystallization1 from '../assets/images/anti-clouding-cloudin
 import Beverages1 from '../assets/images/anti-clouding-clouding-agents/beverages/1.jpg';
 
 // Crystal Promoter
-import crystalEnhancer1 from "../assets/images/crystal-promoter/crystal-enhancer/1.png";
-import crystalEnhancer2 from "../assets/images/crystal-promoter/crystal-enhancer/2.png";
-import crystalEnhancer3 from "../assets/images/crystal-promoter/crystal-enhancer/3.png";
-import crystalEnhancer4 from "../assets/images/crystal-promoter/crystal-enhancer/4.png";
+import crystalEnhancer1 from "../assets/images/crystal-promoter/crystal-enhancer/1.jpg";
+import crystalEnhancer2 from "../assets/images/crystal-promoter/crystal-enhancer/2.jpg";
+import crystalEnhancer3 from "../assets/images/crystal-promoter/crystal-enhancer/3.jpg";
+import crystalEnhancer4 from "../assets/images/crystal-promoter/crystal-enhancer/4.jpg";
 
 // Beverage Solutions
 
@@ -101,12 +101,12 @@ import ProcessedCheese2 from '../assets/images/dairy-dairy-analogue/processed-ch
 
 
 // Colour Solutions
-import SolubilityofColour1 from "../assets/images/colour-solutions/solubility-of-colour/1.png";
-import SolubilityofColour2 from "../assets/images/colour-solutions/solubility-of-colour/2.png";
-import SolubilityofColour3 from "../assets/images/colour-solutions/solubility-of-colour/3.png";
+import SolubilityofColour1 from "../assets/images/colour-solutions/solubility-of-colour/1.jpg";
+import SolubilityofColour2 from "../assets/images/colour-solutions/solubility-of-colour/2.jpg";
+import SolubilityofColour3 from "../assets/images/colour-solutions/solubility-of-colour/3.jpg";
 
-import NaturalSyntheticColour1 from "../assets/images/colour-solutions/natural-synthetic-colour/1.png";
-import NaturalSyntheticColour2 from "../assets/images/colour-solutions/natural-synthetic-colour/2.png";
+import NaturalSyntheticColour1 from "../assets/images/colour-solutions/natural-synthetic-colour/1.jpg";
+import NaturalSyntheticColour2 from "../assets/images/colour-solutions/natural-synthetic-colour/2.jpg";
 
 // Nutrition Solutions
 import FatSolubleVitaminsCarrier1 from '../assets/images/nutrition-solutions/fat-soluble-vitamins-carrier/1.jpg';
@@ -127,30 +127,30 @@ import PastaNoodles2 from '../assets/images/savoury-solutions/pasta-noodles/2.jp
 import PastaNoodles3 from '../assets/images/savoury-solutions/pasta-noodles/3.jpg';
 
 // Adsorbent
-import FryingOilFlteration1 from "../assets/images/adsorbent/frying-oil-filtration-frying-oil-recovery-solutions/1.png";
-import FryingOilFlteration2 from "../assets/images/adsorbent/frying-oil-filtration-frying-oil-recovery-solutions/2.png";
-import FryingOilFlteration3 from "../assets/images/adsorbent/frying-oil-filtration-frying-oil-recovery-solutions/3.png";
+import FryingOilFlteration1 from "../assets/images/adsorbent/frying-oil-filtration-frying-oil-recovery-solutions/1.jpg";
+import FryingOilFlteration2 from "../assets/images/adsorbent/frying-oil-filtration-frying-oil-recovery-solutions/2.jpg";
+import FryingOilFlteration3 from "../assets/images/adsorbent/frying-oil-filtration-frying-oil-recovery-solutions/3.jpg";
 
-import FeedStockOil1 from "../assets/images/adsorbent/feedstock-oil-biodiesel-purification/1.png";
-import FeedStockOil2 from "../assets/images/adsorbent/feedstock-oil-biodiesel-purification/2.png";
-import FeedStockOil3 from "../assets/images/adsorbent/feedstock-oil-biodiesel-purification/3.png";
+import FeedStockOil1 from "../assets/images/adsorbent/feedstock-oil-biodiesel-purification/1.jpg";
+import FeedStockOil2 from "../assets/images/adsorbent/feedstock-oil-biodiesel-purification/2.jpg";
+import FeedStockOil3 from "../assets/images/adsorbent/feedstock-oil-biodiesel-purification/3.jpg";
 
-import Purification1 from "../assets/images/adsorbent/oleo-chemical-purification/1.png";
-import Purification2 from "../assets/images/adsorbent/oleo-chemical-purification/2.png";
-import Purification3 from "../assets/images/adsorbent/oleo-chemical-purification/3.png";
-import Purification4 from "../assets/images/adsorbent/oleo-chemical-purification/4.png";
+import Purification1 from "../assets/images/adsorbent/oleo-chemical-purification/1.jpg";
+import Purification2 from "../assets/images/adsorbent/oleo-chemical-purification/2.jpg";
+import Purification3 from "../assets/images/adsorbent/oleo-chemical-purification/3.jpg";
+import Purification4 from "../assets/images/adsorbent/oleo-chemical-purification/4.jpg";
 
 // Flavour Solutions
-import FlavourSolution1 from "../assets/images/flavour-solutions/1.png";
-import FlavourSolution2 from "../assets/images/flavour-solutions/2.png";
-import FlavourSolution3 from "../assets/images/flavour-solutions/3.png";
-import FlavourSolution4 from "../assets/images/flavour-solutions/4.png";
-import FlavourSolution5 from "../assets/images/flavour-solutions/5.png";
-import FlavourSolution6 from "../assets/images/flavour-solutions/6.png";
-import FlavourSolution7 from "../assets/images/flavour-solutions/7.png";
-import FlavourSolution8 from "../assets/images/flavour-solutions/8.png";
-import FlavourSolution9 from "../assets/images/flavour-solutions/9.png";
-import FlavourSolution10 from "../assets/images/flavour-solutions/10.png";
+import FlavourSolution1 from "../assets/images/flavour-solutions/1.jpg";
+import FlavourSolution2 from "../assets/images/flavour-solutions/2.jpg";
+import FlavourSolution3 from "../assets/images/flavour-solutions/3.jpg";
+import FlavourSolution4 from "../assets/images/flavour-solutions/4.jpg";
+import FlavourSolution5 from "../assets/images/flavour-solutions/5.jpg";
+import FlavourSolution6 from "../assets/images/flavour-solutions/6.jpg";
+import FlavourSolution7 from "../assets/images/flavour-solutions/7.jpg";
+import FlavourSolution8 from "../assets/images/flavour-solutions/8.jpg";
+import FlavourSolution9 from "../assets/images/flavour-solutions/9.jpg";
+import FlavourSolution10 from "../assets/images/flavour-solutions/10.jpg";
 
 export const solutionImg = {
     // Confectionery Solutions
