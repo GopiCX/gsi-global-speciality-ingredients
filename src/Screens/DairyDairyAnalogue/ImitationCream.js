@@ -32,7 +32,7 @@ class ImitationCream extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Whipping cream</li>
                                             <li>Icings/ cream fillings</li>
@@ -49,17 +49,13 @@ class ImitationCream extends React.Component {
                                         <ul>
                                             <li>α-tending emulsifiers strengthen the foam skeleton due to increase foam agglomeration</li>
                                             <li>Long shelf life</li>
-                                            <li>Improved the foam stiffiness</li>
+                                            <li>Improved the foam stiffiness, overrun, freeze-thaw stability, whippability & mouthfeel</li>
                                             <li>Prevents drainage in the</li>
                                             <li>whipping cream</li>
                                             <li>Good piping definition but different body &amp; mouth feel can be produced</li>
                                             <li>Good storage stability</li>
                                             <li>Better cost-in use calculation</li>
                                             <li>Better foam stability</li>
-                                            <li>Improved overrun</li>
-                                            <li>Improved freeze-thaw stability</li>
-                                            <li>Improved whippability</li>
-                                            <li>Improved mouthfeel</li>
                                         </ul>
                                     </div>
                                 </Col>

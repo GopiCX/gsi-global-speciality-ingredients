@@ -33,7 +33,7 @@ class Coffee extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Coffee Syrups &amp; Creamers</li>
                                             <li>Cold Coffee Drinks</li>
@@ -48,12 +48,11 @@ class Coffee extends React.Component {
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
                                             <li>Dispersion aid</li>
-                                            <li>Improves whitening properties</li>
+                                            <li>Improve whitening properties & mouthfeels</li>
                                             <li>Good in aspect of solubility</li>
                                             <li>Feathering resistance</li>
                                             <li>Good emulsion stability of the creamer in the acidic environment of the coffee</li>
                                             <li>Flavour enhancer</li>
-                                            <li>Improved mouthfeels</li>
                                         </ul>
                                     </div>
                                 </Col>

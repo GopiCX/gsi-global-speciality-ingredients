@@ -32,7 +32,7 @@ class SaucesGravies extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Sauces</li>
                                             <li>Gravies</li>
@@ -43,10 +43,8 @@ class SaucesGravies extends React.Component {
                                     <div className="details">
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
-                                            <li>Improved emulsion stability</li>
-                                            <li>Improved shelf life</li>
+                                            <li>Improved emulsion stability, shelf life & mouthfeels</li>
                                             <li>Viscosity control</li>
-                                            <li>Improved mouthfeels</li>
                                         </ul>
                                     </div>
                                 </Col>

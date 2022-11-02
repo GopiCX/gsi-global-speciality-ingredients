@@ -32,12 +32,12 @@ class MeatProducts extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
-                                            <li>Improved emulsion stability</li>
-                                            <li>Improved shelf life</li>
-                                            <li>Viscosity control</li>
-                                            <li>Improved mouthfeels</li>
+                                            <li>Sausages</li>
+                                            <li>Meat spread</li>
+                                            <li>Pate</li>
+                                            <li>Processed meat</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -46,8 +46,7 @@ class MeatProducts extends React.Component {
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
                                             <li>Provides stable emulsions</li>
-                                            <li>Improved water and fat binder</li>
-                                            <li>Improved texture</li>
+                                            <li>Improve texture, water and fat binder</li>
                                         </ul>
                                     </div>
                                 </Col>

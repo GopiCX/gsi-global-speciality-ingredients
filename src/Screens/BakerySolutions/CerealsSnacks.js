@@ -28,13 +28,13 @@ import { solutionImg } from '../../Util/solutionData';
                                         <h5 className="text-red">Products</h5>
                                         <ul>
                                             <li>GLOMUL MGD 95</li>
-                                            <li>GLORINA POP CORN OIL</li>
+                                            <li>GLORINA POP CORN OIL 7032 (Oil System)</li>
                                         </ul>
                                     </div>
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Extruded &amp; pellet snacks</li>
                                             <li>Popcorn</li>
@@ -47,9 +47,8 @@ import { solutionImg } from '../../Util/solutionData';
                                     <div className="details">
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
-                                            <li>Reduce stickiness and clumping</li>
+                                            <li>Reduce stickiness, clumping & energy in extrusion process</li>
                                             <li>Easier processing</li>
-                                            <li>Reduce energy in extrusion process</li>
                                         </ul>
                                     </div>
                                 </Col>

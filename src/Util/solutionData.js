@@ -1,4 +1,8 @@
 // Confectionery Solutions
+import BakeStapleTopFillings1 from "../assets/images/confectionary-solutions/bake-stable-top-filling/3.png";
+import BakeStapleTopFillings2 from "../assets/images/confectionary-solutions/bake-stable-top-filling/4.png";
+
+import Gumbase1 from "../assets/images/confectionary-solutions/gum-base/2.png";
 
 // Bakery Solutions
 
@@ -14,6 +18,7 @@ import CakePremix1 from '../assets/images/bakery-solutions/cake-premix/1.jpg';
 import BiscuitCookies1 from '../assets/images/bakery-solutions/biscuits-cookies-crackers/1.jpg';
 import BiscuitCookies2 from '../assets/images/bakery-solutions/biscuits-cookies-crackers/2.jpg';
 import BiscuitCookies3 from '../assets/images/bakery-solutions/biscuits-cookies-crackers/3.jpg';
+import BiscuitCookies4 from '../assets/images/bakery-solutions/biscuits-cookies-crackers/4.jpg';
 
 import CerealsSnacks1 from '../assets/images/bakery-solutions/cereals-snacks/1.jpg';
 import CerealsSnacks2 from '../assets/images/bakery-solutions/cereals-snacks/2.jpg';
@@ -41,10 +46,12 @@ import MargarineSpread1 from '../assets/images/oil-fat-solutions/margarine-sprea
 
 import IndustrialCake1 from '../assets/images/oil-fat-solutions/industrial-cake-cream-margarine/1.jpg';
 import IndustrialCake2 from '../assets/images/oil-fat-solutions/industrial-cake-cream-margarine/2.jpg';
+import IndustrialCake3 from '../assets/images/oil-fat-solutions/industrial-cake-cream-margarine/3.jpg';
 
 import PuffPastry1 from '../assets/images/oil-fat-solutions/puff-pastry-margarine/1.jpg';
 import PuffPastry2 from '../assets/images/oil-fat-solutions/puff-pastry-margarine/2.jpg';
 import PuffPastry3 from '../assets/images/oil-fat-solutions/puff-pastry-margarine/3.jpg';
+import PuffPastry4 from '../assets/images/oil-fat-solutions/puff-pastry-margarine/4.jpg';
 
 import VegetableCeam1 from '../assets/images/oil-fat-solutions/vegetable-cream/1.jpg';
 import VegetableCeam2 from '../assets/images/oil-fat-solutions/vegetable-cream/2.jpg';
@@ -52,8 +59,10 @@ import VegetableCeam3 from '../assets/images/oil-fat-solutions/vegetable-cream/3
 
 import Ghee1 from '../assets/images/oil-fat-solutions/ghee/1.jpg';
 import Ghee2 from '../assets/images/oil-fat-solutions/ghee/2.jpg';
+import Ghee3 from '../assets/images/oil-fat-solutions/ghee/3.jpg';
 
 import LiquidShortening1 from '../assets/images/oil-fat-solutions/liquid-shortening/1.jpg';
+import LiquidShortening2 from '../assets/images/oil-fat-solutions/liquid-shortening/2.jpg';
 
 
 // Anti Clouding Agents
@@ -74,10 +83,12 @@ import crystalEnhancer4 from "../assets/images/crystal-promoter/crystal-enhancer
 import Coffee1 from '../assets/images/beverage-solutions/coffee/1.jpg';
 import Coffee2 from '../assets/images/beverage-solutions/coffee/2.jpg';
 import Coffee3 from '../assets/images/beverage-solutions/coffee/3.jpg';
+import Coffee4 from '../assets/images/beverage-solutions/coffee/4.jpg';
 
 import InstantBeverage1 from '../assets/images/beverage-solutions/instant-beverage/1.jpg';
 import InstantBeverage2 from '../assets/images/beverage-solutions/instant-beverage/2.jpg';
 import InstantBeverage3 from '../assets/images/beverage-solutions/instant-beverage/3.jpg';
+import InstantBeverage4 from '../assets/images/beverage-solutions/instant-beverage/4.jpg';
 
 import ChocolateBeverage1 from '../assets/images/beverage-solutions/chocolate-beverage/1.jpg';
 import ChocolateBeverage2 from '../assets/images/beverage-solutions/chocolate-beverage/2.jpg';
@@ -85,6 +96,8 @@ import ChocolateBeverage3 from '../assets/images/beverage-solutions/chocolate-be
 
 import SoftDrinkJuices1 from '../assets/images/beverage-solutions/soft-drink-juices/1.jpg';
 import SoftDrinkJuices2 from '../assets/images/beverage-solutions/soft-drink-juices/2.jpg';
+
+import Beverage1 from "../assets/images/beverage-solutions/beverage/1.png";
 
 // Dairy & Dairy Analogue Solution
 import IceCreamFrozen1 from '../assets/images/dairy-dairy-analogue/ice-cream-frozen-desserts/1.jpg';
@@ -118,6 +131,8 @@ import SportsBalancedNutrition2 from '../assets/images/nutrition-solutions/sport
 // Savoury Solutions
 import MeatProducts1 from '../assets/images/savoury-solutions/meat-products/1.jpg';
 import MeatProducts2 from '../assets/images/savoury-solutions/meat-products/2.jpg';
+import MeatProducts3 from '../assets/images/savoury-solutions/meat-products/3.jpg';
+import MeatProducts4 from '../assets/images/savoury-solutions/meat-products/4.jpg';
 
 import SaucesGravies1 from '../assets/images/savoury-solutions/sauces-gravies/1.jpg';
 import SaucesGravies2 from '../assets/images/savoury-solutions/sauces-gravies/2.jpg';
@@ -154,12 +169,14 @@ import FlavourSolution10 from "../assets/images/flavour-solutions/10.jpg";
 
 export const solutionImg = {
     // Confectionery Solutions
+    BakeStapleTopFillings: [BakeStapleTopFillings1, BakeStapleTopFillings2],
+    gumBase: [Gumbase1],
 
     // Bakery Solutions
     BreadRollPastry: [BreadRollPastry1, BreadRollPastry2],
     Cake: [Cake1, Cake2, Cake3],
     CakePremix: [CakePremix1],
-    BiscuitCookies: [BiscuitCookies1, BiscuitCookies2, BiscuitCookies3],
+    BiscuitCookies: [BiscuitCookies4, BiscuitCookies1, BiscuitCookies2, BiscuitCookies3],
     CerealsSnacks: [CerealsSnacks1, CerealsSnacks2, CerealsSnacks3],
 
     // Self Life Solution
@@ -171,11 +188,11 @@ export const solutionImg = {
 
     // Oil & Fat Solutions
     MargarineSpread: [MargarineSpread1],
-    IndustrialCake: [IndustrialCake1, IndustrialCake2],
-    PuffPastry: [PuffPastry1, PuffPastry2, PuffPastry3],
+    IndustrialCake: [IndustrialCake3, IndustrialCake1, IndustrialCake2],
+    PuffPastry: [PuffPastry4, PuffPastry1, PuffPastry2, PuffPastry3],
     VegetableCeam: [VegetableCeam1, VegetableCeam2, VegetableCeam3],
-    Ghee: [Ghee1, Ghee2],
-    LiquidShortening: [LiquidShortening1],
+    Ghee: [Ghee3, Ghee1, Ghee2],
+    LiquidShortening: [LiquidShortening2, LiquidShortening1],
 
     // Anti Clouding Agents    
     OilsFatsCrystalEnhancer: [OilsFatsCrystalEnhancer1],
@@ -187,10 +204,11 @@ export const solutionImg = {
 
     // Beverage Solutions
 
-    Coffee: [Coffee1, Coffee2, Coffee3],
-    InstantBeverage: [InstantBeverage1, InstantBeverage2, InstantBeverage3],
+    Coffee: [Coffee4, Coffee1, Coffee2, Coffee3],
+    InstantBeverage: [InstantBeverage4, InstantBeverage1, InstantBeverage2, InstantBeverage3],
     ChocolateBeverage: [ChocolateBeverage1, ChocolateBeverage2, ChocolateBeverage3],
     SoftDrinkJuices: [SoftDrinkJuices1, SoftDrinkJuices2],
+    beverage: [Beverage1],
 
 
     // Dairy & Dairy Analogue Solution
@@ -208,7 +226,7 @@ export const solutionImg = {
     SportsBalancedNutrition: [SportsBalancedNutrition1, SportsBalancedNutrition2],
 
     // Savoury Solutions
-    MeatProducts: [MeatProducts1, MeatProducts2],
+    MeatProducts: [MeatProducts3, MeatProducts4, MeatProducts1, MeatProducts2],
     SaucesGravies: [SaucesGravies1, SaucesGravies2],
     PastaNoodles: [PastaNoodles1, PastaNoodles2],
 

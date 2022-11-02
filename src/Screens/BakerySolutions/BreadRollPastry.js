@@ -31,16 +31,17 @@ class BreadRollPastry extends React.Component {
                                             <li>GLOMUL MGD 95</li>
                                             <li>GLOMUL SSL 208</li>
                                             <li>GLOMUL SSL 302</li>
+                                            <li>GLOMUL MGD 932-NH</li>
                                         </ul>
                                     </div>
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>White pan breads</li>
                                             <li>Sweet buns</li>
-                                            <li>Ham burger buns</li>
+                                            <li>Burger buns</li>
                                             <li>Doughnuts</li>
                                             <li>Frozen dough pastries</li>
                                             <li>Steam products</li>
@@ -60,14 +61,13 @@ class BreadRollPastry extends React.Component {
                                             <li>Fine crumb structure</li>
                                             <li>Water dispersible</li>
                                             <li>Shortening replacement</li>
-                                            <li>Increase dough viscosity</li>
+                                            <li>Increase dough viscosity & fermentation tolerance</li>
                                             <li>Better gas retention</li>
                                             <li>Greater bread volume</li>
                                             <li>Produce crisp bread crust</li>
                                             <li>Improved softness</li>
                                             <li>Shelf-life extension and anti-staling</li>
                                             <li>Long fresh keeping</li>
-                                            <li>Increase the dough’s fermentation tolerance</li>
                                             <li>Reduction of water loss during baking</li>
                                             <li>Improvement in chewing &amp; taste properties</li>
                                         </ul>

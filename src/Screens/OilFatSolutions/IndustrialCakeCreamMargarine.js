@@ -33,7 +33,7 @@ class IndustrialCakeCreamMargarine extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Bakery margarines</li>
                                             <li>Bakery shortenings</li>
@@ -46,13 +46,11 @@ class IndustrialCakeCreamMargarine extends React.Component {
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
                                             <li>Air incorporation and retention within the cake batter</li>
-                                            <li>Improved aeration &amp; water absorption properties</li>
+                                            <li>Improved aeration, water absorption properties, stabilization & mouthfeels</li>
                                             <li>Increase creaming volume</li>
                                             <li>Reduced whipping time</li>
-                                            <li>Improved stabilization</li>
                                             <li>Control crystallization</li>
                                             <li>Viscosity control</li>
-                                            <li>Improved mouthfeels</li>
                                         </ul>
                                     </div>
                                 </Col>

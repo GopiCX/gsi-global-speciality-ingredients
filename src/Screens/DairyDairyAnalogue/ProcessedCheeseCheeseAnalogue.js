@@ -32,7 +32,7 @@ class ProcessedCheeseCheeseAnalogue extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
                                             <li>Processed Cheeses</li>
                                             <li>Cream cheese analogue</li>
@@ -46,13 +46,8 @@ class ProcessedCheeseCheeseAnalogue extends React.Component {
                                     <div className="details">
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
-                                            <li>Improved melting properties</li>
-                                            <li>Improved texture</li>
-                                            <li>Improved palatability</li>
-                                            <li>Improved syneresis reduction</li>
-                                            <li>Imparts excellent creaminess &amp; body</li>
-                                            <li>Imparts fine &amp; uniform texture</li>
-                                            <li>Improved whippability</li>
+                                            <li>Improve melting properties, texture, palatability, syneresis reduction & whippability</li>
+                                            <li>Imparts excellent creaminess & body, fine & uniform texture</li>
                                             <li>Facilitates the spreadability</li>
                                         </ul>
                                     </div>

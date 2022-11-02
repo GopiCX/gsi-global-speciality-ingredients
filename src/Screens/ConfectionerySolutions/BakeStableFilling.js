@@ -62,10 +62,11 @@ class BakeStableFilling extends React.Component {
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">
                                     <div className="details">
-                                        <h5 className="text-red">Core Applications</h5>
+                                        <h5 className="text-red">Primary Applications</h5>
                                         <ul>
-                                            <li>Biscuits  cookies filling</li>
-                                            <li>Pies puffs filling</li>
+                                            <li>Cookies</li>
+                                            <li>Biscuits</li>
+                                            <li>Puff fillings</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -75,9 +76,8 @@ class BakeStableFilling extends React.Component {
                                         <ul>
                                             <li>Bake stable at elevated temperature</li>
                                             <li>Slow post hardening effect</li>
-                                            <li>Improved glossiness</li>
+                                            <li>Improved glossiness & viscosity of final product</li>
                                             <li>Smooth texture</li>
-                                            <li>Improved viscosity of final product</li>
                                         </ul>
                                     </div>
                                 </Col>

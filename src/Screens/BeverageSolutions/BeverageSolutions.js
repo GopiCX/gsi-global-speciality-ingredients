@@ -11,6 +11,7 @@ import SoftDrinkJuices from './SoftDrinkJuices';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Bounce from 'react-reveal/Bounce';
 import { bgImages } from '../../Util/data';
+import Beverage from './Beverage';
 class BeverageSolutions extends React.Component {
     render() {
         return (
@@ -32,6 +33,7 @@ class BeverageSolutions extends React.Component {
                             <Bounce>
                                 <Coffee />
                                 <InstantBeverage />
+                                <Beverage />
                                 <ChocolateBeverage />
                                 <SoftDrinkJuices />
                             </Bounce>

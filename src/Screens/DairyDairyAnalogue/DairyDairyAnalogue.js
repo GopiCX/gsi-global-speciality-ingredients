@@ -33,7 +33,7 @@ class DairyDairyAnalogue extends React.Component {
                             <Bounce>
                                 <IceCreamFrozenDesserts />
                                 <ImitationCream />
-                                <CoffeeCreamer />
+                                {/* <CoffeeCreamer /> */}
                                 <ProcessedCheeseCheeseAnalogue />
                             </Bounce>
                         </div>
