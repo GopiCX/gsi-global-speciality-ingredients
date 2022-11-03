@@ -28,6 +28,8 @@ import CrystalPromoter from '../Screens/CrystalPromoter/CrystalPromoter';
 import FryingSolution from '../Screens/FryingSolution/FryingSolution';
 import ColourSolutions from '../Screens/ColourSolutions/ColourSolutions';
 import TermsandConditions from '../Screens/TermsandConditions/TermsandConditions';
+import GsiIntroduction from '../Screens/PdfPages/GsiIntroduction';
+import SolutionsHandbook from '../Screens/PdfPages/SolutionsHandbook';
 
 import Layout from '../Layout/Layout';
 class InnerRoutes extends React.Component {
@@ -62,6 +64,8 @@ class InnerRoutes extends React.Component {
                     <Route path="/frying-solution" component={FryingSolution} />
                     <Route path="/colour-solutions" component={ColourSolutions} />
                     <Route path="/terms-and-conditions" component={TermsandConditions} />
+                    <Route path="/gsi-introduction" component={GsiIntroduction} />
+                    <Route path="/solutions-handbook" component={SolutionsHandbook} />
                 </Switch>
             </Layout>
         );
