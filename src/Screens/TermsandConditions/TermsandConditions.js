@@ -8,7 +8,7 @@ class TermsandConditions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.tnc} className="terms-and-conditions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Terms and Conditions" />
+                <TitleSection sliderImages={bgImages.tnc} className="terms-and-conditions" welcomeText="" titleName="Terms and Conditions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

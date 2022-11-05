@@ -13,7 +13,7 @@ class ShelfLifeFryingSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.shelf} className="shelf-life-frying-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Shelf Life Solutions" />
+                <TitleSection sliderImages={bgImages.shelf} className="shelf-life-frying-solutions" welcomeText="" titleName="Shelf Life Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

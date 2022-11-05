@@ -14,7 +14,7 @@ class NutritionSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.nutrition} className="nutrition-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Sports and Balanced Nutrition" />
+                <TitleSection sliderImages={bgImages.nutrition} className="nutrition-solutions" welcomeText="" titleName="Sports and Balanced Nutrition" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

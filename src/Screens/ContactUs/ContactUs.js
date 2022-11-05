@@ -12,7 +12,7 @@ class ContactUs extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.contact} className="contactus" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Contact Us" />
+                <TitleSection sliderImages={bgImages.contact} className="contactus" welcomeText="" titleName="Contact Us" />
 
                 <section className="gsi-location bg-blue">
                     <div className="container-fluid mx-auto">

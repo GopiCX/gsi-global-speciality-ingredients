@@ -17,7 +17,7 @@ class BakerySolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.bs} className="bakery-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Bakery Solutions" />
+                <TitleSection sliderImages={bgImages.bs} className="bakery-solutions" welcomeText="" titleName="Bakery Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

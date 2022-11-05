@@ -32,7 +32,7 @@ class AboutUs extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <TitleSection sliderImages={bgImages.about} className="aboutus" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Who We are" />
+        <TitleSection sliderImages={bgImages.about} className="aboutus" welcomeText="" titleName="Who We are" />
 
         <section className="who-we-are py-5  p-mob">
           <div className="container mx-auto">

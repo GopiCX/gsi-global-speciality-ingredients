@@ -28,7 +28,7 @@ class OurSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.ourSolution} className="solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Driven By Voyage of Discovery" />
+                <TitleSection sliderImages={bgImages.ourSolution} className="solutions" welcomeText="" titleName="Driven By Voyage of Discovery" />
 
                 <section className="gsi-solutions py-5  p-mob">
                     <div className="container mx-auto">

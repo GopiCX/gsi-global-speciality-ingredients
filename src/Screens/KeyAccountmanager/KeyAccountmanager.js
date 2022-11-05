@@ -16,7 +16,7 @@ class KeyAccountmanager extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.kam} className="key-account-manager" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Meet Your Key Account Manager" />
+                <TitleSection sliderImages={bgImages.kam} className="key-account-manager" welcomeText="" titleName="Meet Your Key Account Manager" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">
@@ -31,7 +31,7 @@ class KeyAccountmanager extends React.Component {
                         </Row>
                         <div className="mt-4">
                             <Vijay />
-                            <Kamen />
+                            {/* <Kamen /> */}
                             <Saravanan />
                             <Bathija />
                             <RajeshJesuraj />

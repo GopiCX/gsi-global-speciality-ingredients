@@ -11,7 +11,7 @@ class CrystalPromoter extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.CrystalPromoter} className="Crystal-promoter" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Crystal Promoter" />
+                <TitleSection sliderImages={bgImages.CrystalPromoter} className="Crystal-promoter" welcomeText="" titleName="Crystal Promoter" />
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">
                         <Row gutter={[20, 20]} align="center" className="mb-4">

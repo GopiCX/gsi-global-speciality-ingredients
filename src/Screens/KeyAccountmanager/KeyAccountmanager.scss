@@ -17,6 +17,11 @@
             margin-bottom: 15px;
         }
     }
+    .qr-contact {
+        @media(max-width: 1024px) {
+            display: none;
+        }
+    }
 
     .contact-item {
         position: relative;

@@ -11,7 +11,7 @@ class Events extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.events} className="events" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Events" />
+                <TitleSection sliderImages={bgImages.events} className="events" welcomeText="" titleName="Events" />
 
                 <section className="gsi-solutions py-5  p-mob">
                     <div className="container mx-auto">

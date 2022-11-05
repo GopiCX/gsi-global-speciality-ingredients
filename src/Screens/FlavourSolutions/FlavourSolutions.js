@@ -12,7 +12,7 @@ class FlavourSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.Flavour} className="flavour-colour-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Flavour Solutions" />
+                <TitleSection sliderImages={bgImages.Flavour} className="flavour-colour-solutions" welcomeText="" titleName="Flavour Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">
