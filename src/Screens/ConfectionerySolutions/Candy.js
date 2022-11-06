@@ -57,6 +57,7 @@ class Candy extends React.Component {
                                         <h5 className="text-red">Products</h5>
                                         <ul>
                                             <li>GLOMUL DGM 45</li>
+                                            <li>GLOCOAT 90M</li>
                                         </ul>
                                     </div>
                                 </Col>

@@ -32,6 +32,7 @@ class Preservatives extends React.Component {
                                             <li>GLOBALANCE 170</li>
                                             <li>GLOPHEROL AP 5050</li>
                                             <li>GLOPHEROL APC 5050</li>
+                                            <li>GLOLECI 40SY</li>
                                             <li>POTASSIUM SORBATE</li>
                                             <li>SODIUM BENZOATE</li>
                                             <li>BENZOIC ACID</li>

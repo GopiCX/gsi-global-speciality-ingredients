@@ -40,6 +40,7 @@ class CrystalEnhancer extends React.Component {
                                         <h5 className="text-red">Products</h5>
                                         <ul>
                                             <li>GLOMUL 60</li>
+                                            <li>GLOMUL 60 FR</li>
                                         </ul>
                                     </div>
                                 </Col>

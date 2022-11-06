@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { withRouter } from "react-router-dom";
 import "./PdfPages.scss";
 import SolutionsHandbookPdf from "../../assets/pdf/Solutions-Handbook.pdf";
 
@@ -20,4 +21,4 @@ export class SolutionsHandbook extends Component {
   }
 }
 
-export default SolutionsHandbook;
+export default withRouter(SolutionsHandbook);

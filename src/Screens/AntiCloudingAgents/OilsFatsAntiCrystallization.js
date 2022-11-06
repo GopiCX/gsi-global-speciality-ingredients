@@ -28,6 +28,7 @@ class OilsFatsAntiCrystallization extends React.Component {
                                         <ul>
                                             <li>CLEARWIN 23</li>
                                             <li>HIFED-MF 18</li>
+                                            <li>GLOCLEAR 18</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -46,6 +47,11 @@ class OilsFatsAntiCrystallization extends React.Component {
                                         <ul>
                                             <li>Crystallization inhibitor</li>
                                             <li>Prevent clouding</li>
+                                            <li>Delay crystallization formation</li>
+                                            <li>Does not increase peroxide value</li>
+                                            <li>No off-flavour release</li>
+                                            <li>Reduced cloud point & solid fat content</li>
+                                            <li>No color reversion during storage and frying</li>
                                         </ul>
                                     </div>
                                 </Col>

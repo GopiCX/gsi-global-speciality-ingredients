@@ -32,6 +32,7 @@ class BreadRollPastry extends React.Component {
                                             <li>GLOMUL SSL 208</li>
                                             <li>GLOMUL SSL 302</li>
                                             <li>GLOMUL MGD 932-NH</li>
+                                            <li>DATEM 80</li>
                                         </ul>
                                     </div>
                                 </Col>

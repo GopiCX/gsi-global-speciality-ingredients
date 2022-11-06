@@ -18,7 +18,7 @@ class OilFatSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.oilFat} className="oil-fat-solutions" welcomeText="" titleName="Oil & Fat Solutions" />
+                <TitleSection sliderImages={bgImages.oilFat} className="oil-fat-solutions" welcomeText="" titleName="Oils & Fats Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

@@ -30,8 +30,7 @@ class Cake extends React.Component {
                                             <li>GLOMUL MGD 95</li>
                                             <li>GLOMUL SSL 208</li>
                                             <li>GLOMUL PS 60</li>
-                                            <li>GLOMARG</li>
-                                            <li>GLOGEL</li>
+                                            <li>GLOMUL 2209</li>
                                         </ul>
                                     </div>
                                 </Col>

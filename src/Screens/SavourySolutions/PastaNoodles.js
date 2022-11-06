@@ -28,6 +28,7 @@ class PastaNoodles extends React.Component {
                                         <ul>
                                             <li>GLOMUL SSL 208</li>
                                             <li>GLOMUL DS 8020</li>
+                                            <li>GLOMUL DS 6040</li>
                                         </ul>
                                     </div>
                                 </Col>

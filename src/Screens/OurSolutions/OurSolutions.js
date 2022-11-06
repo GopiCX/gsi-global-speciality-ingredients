@@ -45,9 +45,9 @@ class OurSolutions extends React.Component {
                             <SolutionList solutionTitle="Confectionery Solutions" solutionPageLink="/confectionery-solutions" solutionImg={confectionerySolutions} />
                             <SolutionList solutionTitle="Bakery Solutions" solutionPageLink="/bakery-solutions" solutionImg={bakerySolution} />
                             <SolutionList solutionTitle="Shelf Life Solutions" solutionPageLink="/shelf-life-solutions" solutionImg={shelfLife} />
-                            <SolutionList solutionTitle="Frying Solution" solutionPageLink="/frying-solution" solutionImg={fryingSolution} />
-                            <SolutionList solutionTitle="Oil & Fat Solutions" solutionPageLink="/oil-fat-solutions" solutionImg={oilFat} />
-                            <SolutionList solutionTitle="Anti Clouding Agents" solutionPageLink="/anti-clouding-agents" solutionImg={antiClouding} />
+                            <SolutionList solutionTitle="Frying Solutions" solutionPageLink="/frying-solution" solutionImg={fryingSolution} />
+                            <SolutionList solutionTitle="Oils & Fats Solutions" solutionPageLink="/oil-fat-solutions" solutionImg={oilFat} />
+                            <SolutionList solutionTitle="Anti-Clouding Agents" solutionPageLink="/anti-clouding-agents" solutionImg={antiClouding} />
                             <SolutionList solutionTitle="Crystal Promoter" solutionPageLink="/crystal-promoter" solutionImg={CrystalPromoter} />
                             <SolutionList solutionTitle="Beverage Solutions" solutionPageLink="/beverage-solutions" solutionImg={beverageSolutions} />
                             <SolutionList solutionTitle="Dairy & Dairy Analogue Solution" solutionPageLink="/dairy-dairy-analogue" solutionImg={dairyAnalogue} />

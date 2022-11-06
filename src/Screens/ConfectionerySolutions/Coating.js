@@ -59,6 +59,7 @@ class Coating extends React.Component {
                                         <h5 className="text-red">Products</h5>
                                         <ul>
                                             <li>GLORICH 7155 E(Emulsifier)</li>
+                                            <li>GLORICH 5022(Emulsifier)</li>
                                             <li>GLORICH 7155 OS(Oil System)</li>
                                         </ul>
                                     </div>
@@ -69,7 +70,7 @@ class Coating extends React.Component {
                                         <ul>
                                             <li>Ice cream dip</li>
                                             <li>Ice cream cone coating</li>
-                                            <li>Doughnut coating</li>
+                                            <li>Bakery goods</li>
                                             <li>Frozen desserts &amp; desserts</li>
                                         </ul>
                                     </div>

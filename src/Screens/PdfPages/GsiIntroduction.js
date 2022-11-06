@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { withRouter } from 'react-router';
 import "./PdfPages.scss";
 import GsiIntroPdf from "../../assets/pdf/GSI-Introduction.pdf";
 
@@ -20,4 +21,4 @@ export class GsiIntroduction extends Component {
   }
 }
 
-export default GsiIntroduction;
+export default withRouter(GsiIntroduction);

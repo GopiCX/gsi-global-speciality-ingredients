@@ -40,12 +40,6 @@ class BakeStableFilling extends React.Component {
                                 <div className="item">
                                     <img src={slide2} alt="Bake Stable Filling" />
                                 </div>
-                                <div className="item">
-                                    <img src={slide3} alt="Bake Stable Filling" />
-                                </div>
-                                <div className="item">
-                                    <img src={slide4} alt="Bake Stable Filling" />
-                                </div>
                             </Slider>
                         </Col>
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 18 }} lg={{ span: 18 }} className="p-3 p-sm-4 p-md-4 p-lg-4 " >

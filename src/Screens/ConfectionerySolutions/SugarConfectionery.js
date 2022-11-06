@@ -48,7 +48,7 @@ class SugarConfectionery extends React.Component {
                                             <li>GLOMUL DGM 45</li>
                                             <li>GLOMUL MGD 95</li>
                                             <li>GLOMUL PGPR 50</li>
-                                            <li>Soy Lecithin</li>
+                                            <li>GLOMUL PGPR 850</li>
                                         </ul>
                                     </div>
                                 </Col>
