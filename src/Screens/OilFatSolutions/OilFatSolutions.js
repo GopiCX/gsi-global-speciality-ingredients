@@ -13,6 +13,7 @@ import LiquidShortening from './LiquidShortening';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
 import { bgImages } from '../../Util/data';
+import SpecialtyFat from './SpecialtyFat';
 
 class OilFatSolutions extends React.Component {
     render() {
@@ -39,6 +40,7 @@ class OilFatSolutions extends React.Component {
                                 <VegetableCream />
                                 <Ghee />
                                 <LiquidShortening />
+                                <SpecialtyFat />
                             </Fade>
                         </div>
                     </div>

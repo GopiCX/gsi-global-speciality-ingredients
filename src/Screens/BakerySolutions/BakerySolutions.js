@@ -12,6 +12,7 @@ import CerealsSnacks from './CerealsSnacks';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
 import { bgImages } from '../../Util/data';
+import LubricationReleasingAgents from './LubricationReleasingAgents';
 
 class BakerySolutions extends React.Component {
     render() {
@@ -37,6 +38,7 @@ class BakerySolutions extends React.Component {
                                 <CakePremix />
                                 <BiscuitsCookiesCrackers />
                                 <CerealsSnacks />
+                                <LubricationReleasingAgents />
                             </Fade>
                         </div>
                     </div>
