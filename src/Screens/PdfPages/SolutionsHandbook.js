@@ -15,8 +15,14 @@ export class SolutionsHandbook extends Component {
               height="100%"
               title="GSI Introduction"
             ></iframe>
-            <p>If the browser doesn't load the pdf or download automatically, please download the pdf from the <a href={SolutionsHandbookPdf} download>mirror link</a></p>
           </object>
+          <p>
+            If the browser doesn't load the pdf or download automatically,
+            please download the pdf from the{" "}
+            <a href={SolutionsHandbookPdf} download>
+              mirror link
+            </a>
+          </p>
         </div>
       </React.Fragment>
     );

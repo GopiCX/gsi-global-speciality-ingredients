@@ -15,8 +15,14 @@ export class GsiIntroduction extends Component {
               height="100%"
               title="GSI Introduction"
             ></iframe>
-              <p className="pdf-download">If the browser doesn't load the pdf or download automatically, please download the pdf from the <a href={GsiIntroPdf} download>mirror link</a></p>
           </object>
+          <p className="pdf-download">
+            If the browser doesn't load the pdf or download automatically,
+            please download the pdf from the{" "}
+            <a href={GsiIntroPdf} download>
+              mirror link
+            </a>
+          </p>
         </div>
       </React.Fragment>
     );
