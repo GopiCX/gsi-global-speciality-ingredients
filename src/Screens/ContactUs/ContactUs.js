@@ -42,7 +42,7 @@ class ContactUs extends React.Component {
                                         </div>
                                     </Fade>
                                     <Fade>
-                                        <Link to="/key-account-manager" className="btn bg-red-gradient text-white mt-4">Make Your Key Account Manager</Link>
+                                        <Link to="/key-account-manager" className="btn bg-red-gradient text-white mt-4">Meet Your Key Account Manager</Link>
                                     </Fade>
                                 </div>
                             </Col>
