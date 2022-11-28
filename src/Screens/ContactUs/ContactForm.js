@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { withRouter } from "react-router";
-import InputBox from "../../Components/InputBox/InputBox";
 import { Button, Input } from "antd";
-import { useForm, ValidationError } from "@formspree/react";
+import { useForm } from "@formspree/react";
+import { useEffect } from "react";
 
 // class ContactForm extends React.Component {
 //     constructor() {
@@ -120,7 +120,21 @@ const ContactForm = () => {
   //           message: "",
   //         };
   //       }
-  const [state, handleSubmit] = useForm("xyyvanno");
+  const [state, handleSubmit] = useForm("xeqdwpwk");
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    if (state.succeeded) {
+      setName("");
+      setEmail("");
+      setPhone("");
+      setMessage("");
+    }
+  }, [state]);
   return (
     <>
       <form onSubmit={handleSubmit}>
@@ -128,13 +142,22 @@ const ContactForm = () => {
           <p className="text-center gree">Form submitted successfully!</p>
         )}
         <div className="form-fields">
-          <Input type="text" name="name" id="name" placeholder="Your Name" />
+          <Input
+            type="text"
+            name="name"
+            id="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Your Name"
+          />
         </div>
         <div className="form-fields">
           <Input
             type="email"
             name="email"
             id="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             placeholder="Your Email"
           />
         </div>
@@ -143,6 +166,8 @@ const ContactForm = () => {
             type="number"
             name="phone"
             id="phone"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
             placeholder="Phone Number"
           />
         </div>
@@ -151,6 +176,8 @@ const ContactForm = () => {
             name="message"
             id="message"
             rows={4}
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
             placeholder="Message"
           />
         </div>
