@@ -114,7 +114,7 @@ export default class Home extends React.Component {
                       <div className="text-center px-lg-4">
                         <img src={processDevelopment} alt="Process Development & Improvement​" className="mb-3" />
                         <h3 className="mb-3 text-blue">Process Development <br />& Improvement​</h3>
-                        <p>Technical Feasibility, Technology Assessment, Turnkey Project, Plant and Machinery Execution​</p>
+                        <p>Process Auditing,Process Loss audits,Process Reengineering​</p>
                       </div>
                     </Bounce>
                   </Col>

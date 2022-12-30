@@ -203,7 +203,7 @@ class AboutUs extends React.Component {
         <section className="core-value py-5 bg-blue-gradient p-mob">
           <div className="container mx-auto">
             <Fade>
-              <h2 className="border-left-3 border-danger text-white pl-3 mb-4">Core value of Gsi</h2>
+              <h2 className="border-left-3 border-danger text-white pl-3 mb-4">Core value of GSI</h2>
             </Fade>
             <Row gutter={[20, 20]} justify="space-between" >
               <Col xs={{ span: 12 }} sm={{ span: 12 }} md={{ span: 6 }} lg={{ span: 4 }} >
