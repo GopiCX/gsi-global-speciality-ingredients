@@ -1,28 +1,26 @@
 import React from 'react';
 import { withRouter } from 'react-router';
 import { Row, Col} from 'antd';
-import VijayQrCode from '../../assets/images/key-account-manager/vijay.webp'
+import DarryQrCode from '../../assets/images/key-account-manager/Darry.webp'
 import './KeyAccountmanager.scss'
 import malaysia from '../../assets/images/countries/malaysia.png';
-import thailand from '../../assets/images/countries/thailand.png';
-import vietnam from '../../assets/images/countries/vietnam.png';
-import france from '../../assets/images/countries/france.png';
-import germany from '../../assets/images/countries/germany.png';
-import japan from '../../assets/images/countries/japan.png';
-import korea from '../../assets/images/countries/korea.png';
-import myanmar from '../../assets/images/countries/myanmar.png';
+import australia from '../../assets/images/countries/australia.png';
+import Newzealand from '../../assets/images/countries/newzealand.png';
+import Indonesia from '../../assets/images/countries/Indonesia.png';
+import PapuaPewGuinea from '../../assets/images/countries/PapuaPewGuinea.png';
+import Philippines from '../../assets/images/countries/phillipines.png';
 
-class AccountManagerVijay extends React.Component {
+class AccountManagerDarry extends React.Component {
     render() {
         return (
             <React.Fragment>
                 <div className="key-account-manager globe-bg card p-3 p-sm-4 p-md-4 p-lg-4 mb-3">
                     <Row gutter={[20, 20]} align="center">
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 6 }} lg={{ span: 6 }} >
-                            <img src={VijayQrCode} alt="Vijay QR code to scan" className="w-100 qr-contact" />
+                            <img src={DarryQrCode} alt="Darry QR code to scan" className="w-100 qr-contact" />
                         </Col>
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 18 }} lg={{ span: 18 }} >
-                            <h3 className="text-blue">Mr. Vijay</h3>
+                            <h3 className="text-blue">Mr. Darry</h3>
                             <h6>Key Account Manager</h6>
 
                             <Row gutter={[20, 20]} className="mb-4">
@@ -34,7 +32,7 @@ class AccountManagerVijay extends React.Component {
                                         <div className="details">
                                             <span>Whatsapp</span>
                                             <p>
-                                                <a href="https://wa.me/60193327324" target="_blank" rel="noopener noreferrer">+6019 332 7324</a>
+                                                <a href="https://wa.me/60189551105" target="_blank" rel="noopener noreferrer">+6018 955 1105</a>
                                             </p>
                                         </div>
                                     </div>
@@ -57,23 +55,19 @@ class AccountManagerVijay extends React.Component {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 10 }} >
+                                <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }}  >
                                     <h4 className="text-blue">Supported Region</h4>
                                     <div className="supported-region">
                                         <ul>
-                                            <li><img src={malaysia} alt="North Malaysia" />North Malaysia</li>
-                                            <li><img src={malaysia} alt="Central Malaysia" />Central Malaysia</li>
-                                            <li><img src={malaysia} alt="East Malaysia" />East Malaysia</li>
-                                            <li><img src={france} alt="France" />France</li>
-                                            <li><img src={germany} alt="Germany" />Germany</li>
-                                            
+                                            <li><img src={malaysia} alt="Central Malaysia"/>Central Malaysia</li>
+                                            <li><img src={Indonesia} alt="Indonesia" />Indonesia</li>
+                                            <li><img src={Philippines} alt="Philippines" />Philippines</li>
+                                                                                                               
                                         </ul>
                                         <ul>
-                                            <li><img src={japan} alt="Japan" />Japan</li>
-                                            <li><img src={thailand} alt="Thailand" />Thailand</li>
-                                            <li><img src={vietnam} alt="Vietnam" />Vietnam</li>
-                                            <li><img src={korea} alt="Korea" />Korea</li>
-                                            <li><img src={myanmar} alt="Myanmar" />Myanmar</li>
+                                             <li><img src={Newzealand} alt="New Zealand"/>New Zealand</li>
+                                            <li><img src={australia} alt="Australia"/>Australia</li>
+                                            <li><img src={PapuaPewGuinea} alt="PapuaPewGuinea"/>PapuaPewGuinea</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -85,4 +79,4 @@ class AccountManagerVijay extends React.Component {
         )
     }
 }
-export default withRouter(AccountManagerVijay)
+export default withRouter(AccountManagerDarry)

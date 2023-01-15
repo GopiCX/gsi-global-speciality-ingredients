@@ -7,7 +7,7 @@ import malaysia from '../../assets/images/countries/malaysia.png';
 import china from '../../assets/images/countries/china.png';
 import phillipines from '../../assets/images/countries/phillipines.png';
 import australia from '../../assets/images/countries/australia.png';
-import newZealand from '../../assets/images/countries/new-zealand.png';
+import newZealand from '../../assets/images/countries/newzealand.png';
 import portugal from '../../assets/images/countries/portugal.png';
 import spain from '../../assets/images/countries/spain.png';
 import italy from '../../assets/images/countries/italy.png';

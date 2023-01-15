@@ -15,6 +15,7 @@ import KeyresultAreas from "../../assets/images/career/key-result-areas.png"
 import personaldevelopmentPlan from "../../assets/images/career/personal-development-plan.png"
 import './Career.scss'
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet";
 
 const { Panel } = Collapse;
 
@@ -23,6 +24,15 @@ class Career extends React.Component {
   render() {
     return (
       <React.Fragment>
+         <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI career | Join Us to develop your industry experience ,innovative and enhancing skills </title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="The GSI team will guide our employees to progress professionally and contribute to our company objective & our goal."/> 
+          <meta name="keywords" content="Confectionary,Bakery,ShelfLife,Oil&Fats,Anti-Clouding Agents,Crystal Promoter,Dairy Analogue,Colour,Nutrition,Adsorbent,Flavour"/> 
+          <meta name="og:title" content="Global Specialty Ingredients path to your career progess "/>      
+          <meta name="og:description" content="GSI offers attractive benefit plans to all of our employees, as well as keeping track of new industry developments and enhancing our programmes "/> 
+              </Helmet>
         <TitleSection sliderImages={bgImages.career} className="career" welcomeText="" titleName="Why Work With Us" />
 
         <section className="key-benefits py-5 p-mob">

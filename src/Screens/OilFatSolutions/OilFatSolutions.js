@@ -14,11 +14,22 @@ import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
 import { bgImages } from '../../Util/data';
 import SpecialtyFat from './SpecialtyFat';
+import { Helmet } from "react-helmet";
 
 class OilFatSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
+                       <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI - Oils & Fats Solutions </title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="GSI offers broad range of functional emulsifier blends for use in margarines, shortenings, ghees and other lipid products."/> 
+          <meta name="keywords" content="Global Specialty Ingredients,Oils & Fats Solutions,margarines,puff pastry,vegetable cream,shortenings,fat,ghee"/> 
+          <meta name="og:title" content="GSI - Oils & Fats Solutions "/>      
+          <meta name="og:description" content="GSI offers broad range of functional emulsifier blends for use in margarines, shortenings, ghees and other lipid products."/> 
+              </Helmet>
+
                 <TitleSection sliderImages={bgImages.oilFat} className="oil-fat-solutions" welcomeText="" titleName="Oils & Fats Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">

@@ -7,11 +7,22 @@ import { SearchOutlined } from "@ant-design/icons";
 import Fade from "react-reveal/Fade";
 import Antioxidants from "./Antioxidants";
 import NaturalAntioxidants from "./NaturalAntioxidants";
+import { Helmet } from "react-helmet"; 
 
 class FryingSolution extends React.Component {
   render() {
     return (
       <React.Fragment>
+            <Helmet>
+    <meta charSet="utf-8" />
+    <title>GSI - Frying Solutions</title> 
+    <meta name="title" content=""/> 
+    <meta name="description" content="At Global Specialty Ingredients will enhance your food's chef-inspired flavors with Our natural, safe, and affordable additives extend the shelf life of your fired food goods."/> 
+    <meta name="keywords" content="Global Specialty Ingredients,Frying Solutions,rancimat,antioxidants,Emulsifiers"/> 
+    <meta name="og:title" content="GSI - Frying Solutions"/>      
+    <meta name="og:description" content="At Global Specialty Ingredients will enhance your food's chef-inspired flavors with Our natural, safe, and affordable additives extend the shelf life of your fired food goods."/> 
+           </Helmet>
+
         <TitleSection
           sliderImages={bgImages.FryingSolution}
           welcomeText=""

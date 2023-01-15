@@ -8,10 +8,21 @@ import Flavours from './Flavours';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Bounce';
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet";
+ 
 class FlavourSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
+                 <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI - Flavour Solutions</title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="At Global Specialty Ingredients we offer offers colours and flavours which suitable to all kinds of your food products."/> 
+          <meta name="keywords" content="Global Specialty Ingredients ,Flavours"/> 
+          <meta name="og:title" content="GSI - Flavour Solutions"/>      
+          <meta name="og:description" content="At Global Specialty Ingredients we offer offers colours and flavours which suitable to all kinds of your food products."/> 
+          </Helmet>
                 <TitleSection sliderImages={bgImages.Flavour} className="flavour-colour-solutions" welcomeText="" titleName="Flavour Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">

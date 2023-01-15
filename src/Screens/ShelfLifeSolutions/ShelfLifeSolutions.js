@@ -8,11 +8,22 @@ import Preservatives from './Preservatives';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet";
 
 class ShelfLifeFryingSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
+                <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI - Shelf Life Solutions </title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="GSI offers the safe, natural, and cost-effective food additives to prolong shelf life of your food products."/> 
+          <meta name="keywords" content="Global Specialty Ingredients,Shelf Life Solutions,Preservatives,yeast,taste,odour"/> 
+          <meta name="og:title" content="GSI - Shelf Life Solutions"/>      
+          <meta name="og:description" content="GSI offers the safe, natural, and cost-effective food additives to prolong shelf life of your food products."/> 
+              </Helmet>
+
                 <TitleSection sliderImages={bgImages.shelf} className="shelf-life-frying-solutions" welcomeText="" titleName="Shelf Life Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">

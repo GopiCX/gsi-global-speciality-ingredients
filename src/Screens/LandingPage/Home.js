@@ -6,7 +6,7 @@ import Bounce from 'react-reveal/Bounce';
 import "./Home.scss";
 import HomeSlider from "./HomeSlider/HomeSlider";
 import AwardsAchievements from "./AwardsAchievements/AwardsAchievements";
-import yourInnovation from "../../assets/images/your-innovation-our-solution.png";
+import yourInnovation from "../../assets/images/your-innovation-our-solutions.png";
 import developmentProduct from "../../assets/images/development-of-product-and-capability-spectrum.png";
 import researchDevelopment from "../../assets/images/01-research-development.svg";
 import projectManagement from "../../assets/images/02-project-management.svg";
@@ -26,12 +26,22 @@ import productPerformance from "../../assets/images/04-product-performance.png";
 import baker from "../../assets/images/baker.svg";
 import quoteTop from "../../assets/images/icons/quote-1.svg";
 import quoteBottom from "../../assets/images/icons/quote-2.svg";
+import { Helmet } from "react-helmet";
 
 
 export default class Home extends React.Component {
   render() {
     return (
       <React.Fragment>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Global Specialty Ingredients | Offer extensive range of natural ingredients & products</title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="GSI is a leading global ingredients solutions company manufactured, and supplier of value-added Functional Ingredients"/> 
+          <meta name="keywords" content="Confectionary,Bakery,ShelfLife,Oil&Fats,Anti-Clouding Agents,Crystal Promoter,Dairy Analogue,Colour,Nutrition,Adsorbent,Flavour"/> 
+          <meta name="og:title" content="Global Specialty Ingredients | Offer extensive range of natural ingredients & products"/>      
+          <meta name="og:description" content=""/> 
+        </Helmet>
         {/* main slider starts */}
         <HomeSlider />
         {/* main slider ends */}
@@ -57,7 +67,7 @@ export default class Home extends React.Component {
               </Col>
             </Row>
           </div>
-        </section> 
+        </section>
 
         <section className="development-product bg-blue  pattern-2  py-5 p-mob">
           <div className="container mx-auto py-3">
@@ -239,7 +249,7 @@ export default class Home extends React.Component {
               <Col xs={{ span: 24 }} sm={{ span: 14 }} md={{ span: 14 }} lg={{ span: 14 }}>
                 <div className="wheel">
                   <Fade>
-                    <img src={innovationWheel} alt="Innovation Wheel" className="innovation-wheel-jpg"/>
+                    <img src={innovationWheel} alt="Innovation Wheel" className="innovation-wheel-jpg" />
                     <img src={innovationWheelCircle} alt="Innovation Wheel" className="innovation-wheel-circle" />
                   </Fade>
                 </div>

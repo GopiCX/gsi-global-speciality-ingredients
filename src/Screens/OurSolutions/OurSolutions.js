@@ -23,11 +23,21 @@ import fryingSolution from "../../assets/images/our-solutions/frying-solutions.j
 import flavourSolutions from '../../assets/images/our-solutions/flavour-solutions.jpg';
 
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet";
 
 class OurSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
+                <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI Solutions | Your Functional ingredients Tailored solution partner </title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="GSI offers extraordinary natural functional ingredients with technical expertise, meticulous research and innovation for our customers"/> 
+          <meta name="keywords" content="Confectionary,Bakery,ShelfLife,Oil&Fats,Anti-Clouding Agents,Crystal Promoter,Dairy Analogue,Colour,Nutrition,Adsorbent,Flavour"/> 
+          <meta name="og:title" content="GSI Solutions | Your Functional ingredients Tailored solution partner "/>      
+          <meta name="og:description" content="Global Specialty Ingredients Functional ingredients solution partner offers products tailored to your needs "/> 
+              </Helmet>
                 <TitleSection sliderImages={bgImages.ourSolution} className="solutions" welcomeText="" titleName="Driven By Voyage of Discovery" />
 
                 <section className="gsi-solutions py-5  p-mob">

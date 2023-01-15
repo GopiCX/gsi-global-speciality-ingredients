@@ -6,11 +6,22 @@ import { Row, Col, Input } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
 import Fade from 'react-reveal/Fade';
 import CrystalEnhancer from "./CrystalEnhancer";
+import { Helmet } from "react-helmet"; 	
 
 class CrystalPromoter extends React.Component {
     render() {
         return (
             <React.Fragment>
+                <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI - Crystal Promoter</title> 
+          <meta name="title" content=""/> 
+<meta name="description" content="Global Specialty Ingredients offers you cost-effective, value added and great tasting savoury solutions that will leave your customers craving for more."/> 
+          <meta name="keywords" content="Global Specialty Ingredients ,Crystal Promoter,enhancer"/> 
+          <meta name="og:title" content="GSI - Crystal Promoter"/>      
+          <meta name="og:description" content="Global Specialty Ingredients offers you cost-effective, value added and great tasting savoury solutions that will leave your customers craving for more."/> 
+              </Helmet>
+ 
                 <TitleSection sliderImages={bgImages.CrystalPromoter} className="Crystal-promoter" welcomeText="" titleName="Crystal Promoter" />
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

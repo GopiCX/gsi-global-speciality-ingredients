@@ -7,10 +7,21 @@ import EventGallery from './EventGallery';
 import './Responsibility.scss'
 import corporateResponsibility from "../../assets/images/responsibility/corporate-responsibility.jpg";
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet";
+
 class Responsibility extends React.Component {
   render() {
     return (
       <React.Fragment>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI Corporate social responsibility & activities</title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="GSI approach has a favorable impact on a business brand in addition to helping the environment and society"/> 
+          <meta name="keywords" content="Confectionary,Bakery,ShelfLife,Oil&Fats,Anti-Clouding Agents,Crystal Promoter,Dairy Analogue,Colour,Nutrition,Adsorbent,Flavour"/> 
+          <meta name="og:title" content="Global Specialty Ingredients and their Corporate social responsibility (CSR) as a a consumer demand brand "/>      
+          <meta name="og:description" content="GSI identifies the business model and level of responsibility that Businessess should follow in order to have a good impact on the world."/> 
+              </Helmet>
         <TitleSection sliderImages={bgImages.responsibility} className="responsibility" welcomeText="" titleName="Responsibility" />
 
         <section className="who-we-are pattern-1 py-5  p-mob">

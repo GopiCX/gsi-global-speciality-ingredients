@@ -9,11 +9,22 @@ import FatsolubleVitaminsCarrier from './FatsolubleVitaminsCarrier';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet"; 
 
 class NutritionSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
+                <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI - Nutrition Solutions</title> 
+          <meta name="title" content=""/> 
+<meta name="description" content="Global Specialty Ingredients Nutrition Solutions offers high-quality, value-added nutritional ingredients and customised comprehensive solutions."/> 
+          <meta name="keywords" content="Global Specialty Ingredients ,Adsorbents,frying oil filtration,feedstock oil,biodiesel purification,frying oil recovery solutions"/> 
+          <meta name="og:title" content="GSI - Nutrition Solutions"/>      
+          <meta name="og:description" content="Global Specialty Ingredients Nutrition Solutions offers high-quality, value-added nutritional ingredients and customised comprehensive solutions."/> 
+              </Helmet>
+
                 <TitleSection sliderImages={bgImages.nutrition} className="nutrition-solutions" welcomeText="" titleName="Nutrition Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">

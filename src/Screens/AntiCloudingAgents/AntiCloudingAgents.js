@@ -9,6 +9,7 @@ import Beverages from './Beverages';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet";
 
 class AntiCloudingAgents extends React.Component {
     constructor() {
@@ -20,6 +21,15 @@ class AntiCloudingAgents extends React.Component {
     render() {
         return (
             <React.Fragment>
+                <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI - Anti Clouding Agents </title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="GSI offers anti-clouding and clouding additives to serve your products designed."/> 
+          <meta name="keywords" content="Global Specialty Ingredients,oil,fats,anti crystallization"/> 
+          <meta name="og:title" content="GSI - Anti Clouding Agents"/>      
+          <meta name="og:description" content="GSI offers anti-clouding and clouding additives to serve your products designed."/> 
+              </Helmet>
                 <TitleSection sliderImages={bgImages.anitCloud} className="anti-clouding-agents" welcomeText="" titleName="Anti Clouding Agents" />
 
                 <section className="gsi-solutions py-5 p-mob">

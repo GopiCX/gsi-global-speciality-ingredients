@@ -17,10 +17,21 @@ import GlazingAgents from './GlazingAgents';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet";
 class ConfectionerySolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
+                   <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI - Confectionery Solutions</title> 
+          <meta name="title" content="GSI - Confectionery Solutions offers exiting and innovative products, from chocolate confectioneries to sugar confectioneries."/> 
+          <meta name="description" content=""/> 
+          <meta name="keywords" content="Confectionery Solutions,Coatings,baked stable fillings,shelf stable fillings,spread,Gum-Base,Bake stable Top fillings,candy,sugar confectioneries,chocolate confectioneriesglazing agents"/> 
+          <meta name="og:title" content="GSI - Confectionery Solutions offers exiting and innovative products, from chocolate confectioneries to sugar confectioneries."/>      
+          <meta name="og:description" content="GSI - Confectionery Solutions offers multi varient and varities of fillings,confectionery products "/> 
+              </Helmet>
+
                 <TitleSection sliderImages={bgImages.cs} className="confectionary-solutions" welcomeText="" titleName="Confectionery Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">

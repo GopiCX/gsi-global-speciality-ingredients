@@ -3,11 +3,22 @@ import { withRouter } from 'react-router';
 import { Row, Col } from 'antd';
 import TitleSection from '../../Components/TitleSection/TitleSection';
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet"; 
 
 class TermsandConditions extends React.Component {
     render() {
         return (
             <React.Fragment>
+             <Helmet>
+          <meta charSet="utf-8" />
+          <title>Global Specialty Ingredients Terms and Conditions</title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="The GSI Terms & conditions for fair use and practice are published on this website to provide transparency to those who use GSI's website."/> 
+          <meta name="keywords" content="Global Specialty Ingredients,GSI,Confectionary,Bakery,ShelfLife,Oil&Fats,Anti-Clouding Agents,Crystal Promoter,Dairy Analogue,Colour,Nutrition,Adsorbent,Flavour"/> 
+          <meta name="og:title" content="The GSI Terms & conditions for fair use and practice are published on this website to provide transparency to those who use GSI's website."/>      
+          <meta name="og:description" content=""/> 
+              </Helmet>
+
                 <TitleSection sliderImages={bgImages.tnc} className="terms-and-conditions" welcomeText="" titleName="Terms and Conditions" />
 
                 <section className="gsi-solutions py-5 p-mob">
