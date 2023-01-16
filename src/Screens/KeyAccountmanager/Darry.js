@@ -7,7 +7,7 @@ import malaysia from '../../assets/images/countries/malaysia.png';
 import australia from '../../assets/images/countries/australia.png';
 import Newzealand from '../../assets/images/countries/newzealand.png';
 import Indonesia from '../../assets/images/countries/Indonesia.png';
-import PapuaPewGuinea from '../../assets/images/countries/PapuaPewGuinea.png';
+import PapuaNewGuinea from '../../assets/images/countries/PapuaNewGuinea.png';
 import Philippines from '../../assets/images/countries/phillipines.png';
 
 class AccountManagerDarry extends React.Component {
@@ -67,7 +67,7 @@ class AccountManagerDarry extends React.Component {
                                         <ul>
                                              <li><img src={Newzealand} alt="New Zealand"/>New Zealand</li>
                                             <li><img src={australia} alt="Australia"/>Australia</li>
-                                            <li><img src={PapuaPewGuinea} alt="PapuaPewGuinea"/>PapuaPewGuinea</li>
+                                            <li><img src={PapuaNewGuinea} alt="PapuaNewGuinea"/>Papua New Guinea</li>
                                         </ul>
                                     </div>
                                 </Col>

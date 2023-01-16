@@ -42,12 +42,13 @@ class KeyAccountmanager extends React.Component {
                         </Row>
                         <div className="mt-4">
                             <Vijay />
-                            {/* <Kamen /> */}
-                            <Saravanan />
                             <Bathija />
+                            <Darry />
+                            <Saravanan />            
+                                                 
                             <RajeshJesuraj />
                             <RobertBasker />
-                            <Darry />
+                             {/* <Kamen /> */}
                         </div>
                     </div>
                 </section>
