@@ -10,7 +10,7 @@ class EventsList extends React.Component {
         return (
             <React.Fragment>
                 <Timeline mode="alternate">
-                    <Timeline.Item label="2023" >GULFOOD Dubai World Trading Center, UAE</Timeline.Item>
+                   
                     <Timeline.Item label="2022" >SupplySide West Las Vegas, USA</Timeline.Item>
                     <Timeline.Item label="2022" >GULFOOD MANUFACTURING Dubai, UAE</Timeline.Item>
                     <Timeline.Item label="2022" >Food Ingredients Asia Indonesia</Timeline.Item>
