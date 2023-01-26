@@ -453,8 +453,8 @@ export default class Home extends React.Component {
               <Row>
                 <Col xs={{ span: 24 }} md={{ span: 10 }}>
                   <div className="gsi-pillars__heading">
-                    <h1 className="text-center">5</h1>
-                    <h3 className="text-center">PILLARS OF GSI</h3>
+                    <h2 className="text-center">5</h2>
+                    <h2 className="text-center">PILLARS OF GSI</h2>
                   </div>
                 </Col>
                 <Col xs={{ span: 24 }} md={{ span: 10 }}>
