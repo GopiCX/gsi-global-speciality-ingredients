@@ -90,7 +90,7 @@ class HomeSlider extends React.Component {
               ref={(p) => (this.player = p)}
               containerWidth={this.state.windowWidth}
               containerHeight={this.state.windowHeight}
-              src={posterVideo}
+              src="https://gsi-worldwide.s3.ap-southeast-1.amazonaws.com/gsi-hero-page.a431af6c4229f56c421e.mp4"
               poster={posterImg}
               onPlay={this.handleOnPlay}
               onPause={this.handleOnPause}
@@ -105,12 +105,12 @@ class HomeSlider extends React.Component {
                 <div className=" middle-content ">
                   <div className="container mx-auto slider-caption">
                     <Fade>
-                      <h1 className="text-white text-center mb-3">
-                        
-                      </h1>
+                      <h1 className="text-white text-center mb-3"></h1>
                     </Fade>
                     <Fade>
-                      <p className="text-center text-white home-headline">{this.state.headline}</p>
+                      <p className="text-center text-white home-headline">
+                        {this.state.headline}
+                      </p>
                     </Fade>
                     {/* <Slider {...HomeSliderSettings}>
                       {headlineData.map((data, i) => (
