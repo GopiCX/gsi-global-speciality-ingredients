@@ -30,8 +30,7 @@ class Cake extends React.Component {
                                             <li>GLOMUL MGD 95</li>
                                             <li>GLOMUL SSL 208</li>
                                             <li>GLOMUL PS 60</li>
-                                            <li>GLOMARG</li>
-                                            <li>GLOGEL</li>
+                                            <li>GLOMUL 2209</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -49,7 +48,7 @@ class Cake extends React.Component {
                                             <li>High fat cakes</li>
                                             <li>Swiss rolls</li>
                                             <li>Eggless cakes</li>
-                                            <li>Bakery cake margarines &amp; shortening</li>
+                                            <li>Bakery cake margarine's &amp; shortening</li>
                                             <li>Low fat cakes</li>
                                         </ul>
                                     </div>

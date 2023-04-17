@@ -28,6 +28,7 @@ class PastaNoodles extends React.Component {
                                         <ul>
                                             <li>GLOMUL SSL 208</li>
                                             <li>GLOMUL DS 8020</li>
+                                            <li>GLOMUL DS 6040</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -48,7 +49,7 @@ class PastaNoodles extends React.Component {
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
                                             <li>Increased firmness</li>
-                                            <li>Rreduced stickiness through starch complexing</li>
+                                            <li>Reduced stickiness through starch complexing</li>
                                             <li>Reduced cooking loss and provide resistance to overcooking</li>
                                             <li>Shiny appearance</li>
                                             <li>Improved texture</li>

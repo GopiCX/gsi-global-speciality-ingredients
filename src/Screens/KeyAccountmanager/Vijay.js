@@ -19,7 +19,7 @@ class AccountManagerVijay extends React.Component {
                 <div className="key-account-manager globe-bg card p-3 p-sm-4 p-md-4 p-lg-4 mb-3">
                     <Row gutter={[20, 20]} align="center">
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 6 }} lg={{ span: 6 }} >
-                            <img src={VijayQrCode} alt="Vijay QR code to scan" className="w-100" />
+                            <img src={VijayQrCode} alt="Vijay QR code to scan" className="w-100 qr-contact" />
                         </Col>
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 18 }} lg={{ span: 18 }} >
                             <h3 className="text-blue">Mr. Vijay</h3>
@@ -34,7 +34,7 @@ class AccountManagerVijay extends React.Component {
                                         <div className="details">
                                             <span>Whatsapp</span>
                                             <p>
-                                                <a href="https://wa.me/60143612525" target="_blank" rel="noopener noreferrer">+6014 3612 525</a>
+                                                <a href="https://wa.me/60193327324" target="_blank" rel="noopener noreferrer">+6019 332 7324</a>
                                             </p>
                                         </div>
                                     </div>
@@ -62,11 +62,14 @@ class AccountManagerVijay extends React.Component {
                                     <div className="supported-region">
                                         <ul>
                                             <li><img src={malaysia} alt="North Malaysia" />North Malaysia</li>
+                                            <li><img src={malaysia} alt="Central Malaysia" />Central Malaysia</li>
+                                            <li><img src={malaysia} alt="East Malaysia" />East Malaysia</li>
                                             <li><img src={france} alt="France" />France</li>
                                             <li><img src={germany} alt="Germany" />Germany</li>
-                                            <li><img src={japan} alt="Japan" />Japan</li>
+                                            
                                         </ul>
                                         <ul>
+                                            <li><img src={japan} alt="Japan" />Japan</li>
                                             <li><img src={thailand} alt="Thailand" />Thailand</li>
                                             <li><img src={vietnam} alt="Vietnam" />Vietnam</li>
                                             <li><img src={korea} alt="Korea" />Korea</li>

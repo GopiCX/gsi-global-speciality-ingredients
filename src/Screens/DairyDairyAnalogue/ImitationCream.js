@@ -49,7 +49,7 @@ class ImitationCream extends React.Component {
                                         <ul>
                                             <li>α-tending emulsifiers strengthen the foam skeleton due to increase foam agglomeration</li>
                                             <li>Long shelf life</li>
-                                            <li>Improved the foam stiffiness, overrun, freeze-thaw stability, whippability & mouthfeel</li>
+                                            <li>Improved the foam stiffness, overrun, freeze-thaw stability, whippability & mouthfeel</li>
                                             <li>Prevents drainage in the</li>
                                             <li>whipping cream</li>
                                             <li>Good piping definition but different body &amp; mouth feel can be produced</li>

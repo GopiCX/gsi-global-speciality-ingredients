@@ -7,7 +7,7 @@ import malaysia from '../../assets/images/countries/malaysia.png';
 import china from '../../assets/images/countries/china.png';
 import phillipines from '../../assets/images/countries/phillipines.png';
 import australia from '../../assets/images/countries/australia.png';
-import newZealand from '../../assets/images/countries/new-zealand.png';
+import newZealand from '../../assets/images/countries/newzealand.png';
 import portugal from '../../assets/images/countries/portugal.png';
 import spain from '../../assets/images/countries/spain.png';
 import italy from '../../assets/images/countries/italy.png';
@@ -19,7 +19,7 @@ class AccountManagerKamen extends React.Component {
                 <div className="key-account-manager globe-bg card p-3 p-sm-4 p-md-4 p-lg-4 mb-3">
                     <Row gutter={[20, 20]} align="center">
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 6 }} lg={{ span: 6 }} >
-                            <img src={KamenQrCode} alt="Kamen QR code to scan" className="w-100" />
+                            <img src={KamenQrCode} alt="Kamen QR code to scan" className="w-100 qr-contact" />
                         </Col>
                         <Col xs={{ span: 24 }} sm={{ span: 224 }} md={{ span: 18 }} lg={{ span: 18 }} >
                             <h3 className="text-blue">Mr. Kamen Tham</h3>
@@ -65,7 +65,7 @@ class AccountManagerKamen extends React.Component {
                                         <ul>
                                             <li><img src={malaysia} alt="North Malaysia" />Central Malaysia</li>
                                             <li><img src={china} alt="China" />China</li>
-                                            <li><img src={phillipines} alt="Phillipines" />Phillipines</li>
+                                            <li><img src={phillipines} alt="Philippines" />Philippines</li>
                                             <li><img src={australia} alt="Australia" />Australia</li>
                                         </ul>
                                         <ul>

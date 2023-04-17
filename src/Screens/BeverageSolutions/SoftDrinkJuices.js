@@ -26,7 +26,8 @@ class SoftDrinkJuices extends React.Component {
                                     <div className="details">
                                         <h5 className="text-red">Products</h5>
                                         <ul>
-                                            <li>GLOBEV</li>
+                                            <li>GLOBEV 3020</li>
+                                            <li>GLOBEV CT10</li>
                                         </ul>
                                     </div>
                                 </Col>

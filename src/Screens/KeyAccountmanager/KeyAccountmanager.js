@@ -10,13 +10,24 @@ import Saravanan from './Saravanan';
 import Bathija from './Bathija';
 import RajeshJesuraj from './RajeshJesuraj';
 import RobertBasker from './RobertBasker';
+import Darry from './Darry';
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet";
 
 class KeyAccountmanager extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.kam} className="key-account-manager" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Meet Your Key Account Manager" />
+             <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI Meet Your Key Account Manager</title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="GSI key-account-manager are there to help you with our product with extensive expertise and experience"/> 
+          <meta name="keywords" content="Confectionary,Bakery,ShelfLife,Oil&Fats,Anti-Clouding Agents,Crystal Promoter,Dairy Analogue,Colour,Nutrition,Adsorbent,Flavour"/> 
+          <meta name="og:title" content="GSI key-account-manager are there to help you with our product with extensive expertise and experience"/>      
+          <meta name="og:description" content="GSI Key account manager are there to assist you will our various products and service as per your requirements"/> 
+              </Helmet>
+                <TitleSection sliderImages={bgImages.kam} className="key-account-manager" welcomeText="" titleName="Meet Your Key Account Manager" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">
@@ -31,11 +42,13 @@ class KeyAccountmanager extends React.Component {
                         </Row>
                         <div className="mt-4">
                             <Vijay />
-                            <Kamen />
-                            <Saravanan />
                             <Bathija />
+                            <Darry />
+                            <Saravanan />            
+                                                 
                             <RajeshJesuraj />
                             <RobertBasker />
+                             {/* <Kamen /> */}
                         </div>
                     </div>
                 </section>

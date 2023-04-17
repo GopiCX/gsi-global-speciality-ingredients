@@ -7,12 +7,24 @@ import TitleSection from '../../Components/TitleSection/TitleSection';
 import './ContactUs.scss';
 import ContactForm from './ContactForm';
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet";
 
 class ContactUs extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.contact} className="contactus" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Contact Us" />
+               <Helmet>
+          <meta charSet="utf-8" />
+          <title>Global Specialty Ingredients | Contact Us to know more </title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="Kindly drop your contact details we will get back to assist your value-added Ingredients in your consumer industry"/> 
+          <meta name="keywords" content="Confectionary,Bakery,ShelfLife,Oil&Fats,Anti-Clouding Agents,Crystal Promoter,Dairy Analogue,Colour,Nutrition,Adsorbent,Flavour"/> 
+          <meta name="og:title" content="Global Specialty Ingredients | Contact Us to meet your key account Manager"/>      
+          <meta name="og:description" content="Kindly drop your contact details we will get back to assist your value-added Ingredients in your consumer industry"/> 
+              </Helmet>
+
+                
+                <TitleSection sliderImages={bgImages.contact} className="contactus" welcomeText="" titleName="Contact Us" />
 
                 <section className="gsi-location bg-blue">
                     <div className="container-fluid mx-auto">
@@ -42,7 +54,7 @@ class ContactUs extends React.Component {
                                         </div>
                                     </Fade>
                                     <Fade>
-                                        <Link to="/key-account-manager" className="btn bg-red-gradient text-white mt-4">Make Your Key Account Manager</Link>
+                                        <Link to="/key-account-manager" className="btn bg-red-gradient text-white mt-4">Meet Your Key Account Manager</Link>
                                     </Fade>
                                 </div>
                             </Col>

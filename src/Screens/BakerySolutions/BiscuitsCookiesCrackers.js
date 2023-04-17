@@ -29,6 +29,7 @@ class BiscuitsCookiesCrackers extends React.Component {
                                         <ul>
                                             <li>GLOMUL DS6040</li>
                                             <li>GLOMUL SSL 208</li>
+                                            <li>GLOMUL SSL 302</li>
                                         </ul>
                                     </div>
                                 </Col>

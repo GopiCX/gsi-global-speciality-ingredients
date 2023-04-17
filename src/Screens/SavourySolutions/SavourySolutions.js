@@ -10,12 +10,23 @@ import MeatProducts from './MeatProducts';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet"; 
 
 class SavourySolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.savoury} className="savoury-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Savoury Solutions" />
+                    <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI - Savoury Solutions</title> 
+          <meta name="title" content=""/> 
+<meta name="description" content=" Global Specialty Ingredients Savoury Solutions offers easy, cost-effective and reliable products are flavourful, safe and efficient."/> 
+          <meta name="keywords" content="Global Specialty Ingredients ,Adsorbents,frying oil filtration,feedstock oil,biodiesel purification,frying oil recovery solutions"/> 
+          <meta name="og:title" content="GSI - Savoury Solutions - Savoury Solutions"/>      
+          <meta name="og:description" content="Global Specialty Ingredients Savoury Solutions offers easy, cost-effective and reliable products are flavourful, safe and efficient."/> 
+              </Helmet>
+
+                <TitleSection sliderImages={bgImages.savoury} className="savoury-solutions" welcomeText="" titleName="Savoury Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

@@ -12,11 +12,22 @@ import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Bounce from 'react-reveal/Bounce';
 import { bgImages } from '../../Util/data';
 import Beverage from './Beverage';
+import { Helmet } from "react-helmet";
+
 class BeverageSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.beverage} className="beverage-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Beverage Solutions" />
+                <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI - Beverage Solutions</title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="Global Specialty Ingredients provide you with the right solutions for your hot- and cold-beverage projects, whether you are looking to create the perfect mocktail or beverage concept."/> 
+          <meta name="keywords" content="Global Specialty Ingredients,Beverage Solutions,coffee,chocolate,soft drink,juices"/> 
+          <meta name="og:title" content="GSI - Beverage Solutions"/>      
+          <meta name="og:description" content="Global Specialty Ingredients provide you with the right solutions for your hot- and cold-beverage projects, whether you are looking to create the perfect mocktail or beverage concept."/> 
+              </Helmet>
+                <TitleSection sliderImages={bgImages.beverage} className="beverage-solutions" welcomeText="" titleName="Beverage Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

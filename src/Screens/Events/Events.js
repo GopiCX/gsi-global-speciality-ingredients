@@ -6,12 +6,22 @@ import Fade from 'react-reveal/Fade';
 import './Events.scss';
 import EventsList from './EventsList';
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet";
 
 class Events extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.events} className="events" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Events" />
+                  <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI Events | Local & International presence </title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="GSI’s active participation in exhibitions, trade shows, commercial events, conferences, and economic forums drop your contact details we will get back to assist your value-added Ingredients in your consumer industry"/> 
+          <meta name="keywords" content="Confectionary,Bakery,ShelfLife,Oil&Fats,Anti-Clouding Agents,Crystal Promoter,Dairy Analogue,Colour,Nutrition,Adsorbent,Flavour"/> 
+          <meta name="og:title" content="Global Specialty Ingredients |participation in Exhibitions and Trade Shows "/>      
+          <meta name="og:description" content="Global Specialty Ingredients Journey in various local and International meetups"/> 
+              </Helmet>
+                <TitleSection sliderImages={bgImages.events} className="events" welcomeText="" titleName="Events" />
 
                 <section className="gsi-solutions py-5  p-mob">
                     <div className="container mx-auto">

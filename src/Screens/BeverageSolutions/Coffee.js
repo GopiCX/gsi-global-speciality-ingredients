@@ -28,6 +28,9 @@ class Coffee extends React.Component {
                                             <li>GLOMUL SSL 208</li>
                                             <li>GLOMUL DS 8020</li>
                                             <li>GLOBEV 8530</li>
+                                            <li>GLOBEV 3020</li>
+                                            <li>GLOBEV CT10</li>
+                                            <li>GLOMUL MGD932-NH</li>
                                         </ul>
                                     </div>
                                 </Col>

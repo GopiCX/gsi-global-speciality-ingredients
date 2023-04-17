@@ -17,7 +17,7 @@ class NaturalAntioxidants extends React.Component {
                 <div className="solutions-grids  less-content  card mb-3">
                     <Row align="center">
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 6 }} lg={{ span: 6 }} >
-                            <SliderBox solutionImages={solutionImg.NaturalSyntheticColour} />
+                            <SliderBox solutionImages={solutionImg.NaturalAntioxidants} />
                         </Col>
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 18 }} lg={{ span: 18 }} className="p-3 p-sm-4 p-md-4 p-lg-4 " >
                             <h3 className="text-blue">Natural Antioxidants</h3>

@@ -29,7 +29,7 @@ class FeedstockOilBiodieselPurification extends React.Component {
                                         <ul>
                                             <li>D-SOL® D60</li>
                                         </ul>
-                                        <p>D-SOL® is a registered trademark of The DallasGroup of America, Inc. for a magnesium silicate baseproducts.</p>
+                                        <p>D-SOL® is a registered trademark of The DallasGroup of America, Inc. for a magnesium silicate base products.</p>
                                     </div>
                                 </Col>
                                 <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }} lg={{ span: 8 }} className="border-right">

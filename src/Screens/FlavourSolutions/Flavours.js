@@ -82,7 +82,7 @@ class Flavours extends React.Component {
                                             <li>Confectionery products</li>
                                             <li>Savory products</li>
                                             <li>Dairy &amp; dairy analogue products</li>
-                                            <li>Beverage prodcuts</li>
+                                            <li>Beverage products</li>
                                         </ul>
                                     </div>
                                 </Col>

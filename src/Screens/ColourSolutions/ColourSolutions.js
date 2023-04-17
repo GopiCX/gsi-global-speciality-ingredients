@@ -7,12 +7,22 @@ import { SearchOutlined } from '@ant-design/icons';
 import Fade from 'react-reveal/Fade';
 import SolubilityofColour from "./SolubilityofColour";
 import NaturalSyntheticColour from "./NaturalSyntheticColour";
+import { Helmet } from "react-helmet";
 
 class ColourSolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.colourSolutions}  welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Colour Solutions" />
+                <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI - Colour Solutions</title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="At Global Specialty Ingredients we offer custom-made solutions for your requirements using our extensive and ever growing ingredients, flavors and flavor systems."/> 
+          <meta name="keywords" content="Global Specialty Ingredients ,Colour Solutions,Solubility,natural,synthetic"/> 
+          <meta name="og:title" content="GSI - Colour Solutions"/>      
+          <meta name="og:description" content="At Global Specialty Ingredients we offer custom-made solutions for your requirements using our extensive and ever growing ingredients, flavors and flavor systems."/> 
+          </Helmet>
+                <TitleSection sliderImages={bgImages.colourSolutions}  welcomeText="" titleName="Colour Solutions" />
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">
                         <Row gutter={[20, 20]} align="center" className="mb-4">

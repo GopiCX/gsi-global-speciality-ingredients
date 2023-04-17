@@ -4,8 +4,8 @@ import { withRouter } from 'react-router';
 import Slider from "react-slick";
 import { Row, Col } from 'antd';
 import './ConfectionerySolutions.scss'
-import slide1 from '../../assets/images/confectionary-solutions/shelf-stable-filling/1.jpg';
-import slide2 from '../../assets/images/confectionary-solutions/shelf-stable-filling/2.jpg';
+import slide1 from '../../assets/images/confectionary-solutions/shelf-stable-filling/4.jpg';
+import slide2 from '../../assets/images/confectionary-solutions/shelf-stable-filling/3.jpg';
 
 const bakeStableGallery = {
     arrows: false,

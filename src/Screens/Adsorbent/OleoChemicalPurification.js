@@ -49,7 +49,7 @@ class FeedstockOilBiodieselPurification extends React.Component {
                                             <li>Reduction in Color Bodies</li>
                                             <li>Reduction in Pro oxidants</li>
                                             <li>Reduction in Soaps</li>
-                                            <li>Reduction in Heavy Metals/ Catalists</li>
+                                            <li>Reduction in Heavy Metals/ Catalyst</li>
                                             <li>Reduction in Phosphorous &amp; Sulfur</li>
                                             <li>Reduction in Free Fatty Acids (FFA)</li>
                                         </ul>

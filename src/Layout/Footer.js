@@ -44,7 +44,8 @@ export default class Footer extends React.Component {
                                         </div>
                                         <div className="details">
                                             <span>Whatsapp</span>
-                                            <p><a href="https://wa.me/60189551105" target="_blank" rel="noopener noreferrer">+6018 955 1105</a></p>
+                                            {/* <p><a href="https://wa.me/60189551105" target="_blank" rel="noopener noreferrer">+6018 955 1105</a></p> */}
+                                              <p><a href="https://wa.me/60126363709" target="_blank" rel="noopener noreferrer">+6012 636 3709</a></p>
                                         </div>
                                     </div>
                                     <div className="contact-item">

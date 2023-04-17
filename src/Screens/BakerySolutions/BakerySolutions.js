@@ -12,12 +12,24 @@ import CerealsSnacks from './CerealsSnacks';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
 import { bgImages } from '../../Util/data';
+import LubricationReleasingAgents from './LubricationReleasingAgents';
+import { Helmet } from "react-helmet";
 
 class BakerySolutions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.bs} className="bakery-solutions" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Bakery Solutions" />
+                   <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI - Bakery Solutions</title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="GSI offers extensive product portfolio of ingredients, flavours and integrated systems for your Bakery Solutions"/> 
+          <meta name="keywords" content="Bakery Solutions,bread,roll pastry,cake,premix,Biscuits Cookies Crackers,cereal snacks,lubrications,release agents"/> 
+          <meta name="og:title" content="GSI offers extensive product portfolio of ingredients, flavours and integrated systems for your Bakery Solutions"/>      
+          <meta name="og:description" content="GSI is there to share our expertise and support across the entire bakery industry from market intelligence to product development."/> 
+              </Helmet>
+
+                <TitleSection sliderImages={bgImages.bs} className="bakery-solutions" welcomeText="" titleName="Bakery Solutions" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">
@@ -37,6 +49,7 @@ class BakerySolutions extends React.Component {
                                 <CakePremix />
                                 <BiscuitsCookiesCrackers />
                                 <CerealsSnacks />
+                                <LubricationReleasingAgents />
                             </Fade>
                         </div>
                     </div>

@@ -106,7 +106,7 @@ class HomeSlider extends React.Component {
                   <div className="container mx-auto slider-caption">
                     <Fade>
                       <h1 className="text-white text-center mb-3">
-                        WELCOME TO GLOBAL SPECIALTY INGREDIENTS
+                        
                       </h1>
                     </Fade>
                     <Fade>

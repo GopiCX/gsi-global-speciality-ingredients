@@ -1,6 +1,5 @@
 import React from 'react';
 import { withRouter } from 'react-router';
-import Slider from "react-slick";
 import { Row, Col } from 'antd';
 import SliderBox from "../../Components/SliderBox/SliderBox";
 import { solutionImg } from '../../Util/solutionData';

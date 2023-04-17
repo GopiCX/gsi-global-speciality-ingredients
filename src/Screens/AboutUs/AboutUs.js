@@ -28,11 +28,22 @@ import logo7 from "../../assets/images/group-companies/logo-7.png";
 import logo8 from "../../assets/images/group-companies/logo-8.png";
 import logo9 from "../../assets/images/group-companies/logo-9.png";
 import { bgImages } from '../../Util/data';
+import { Helmet } from 'react-helmet';
 class AboutUs extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <TitleSection sliderImages={bgImages.about} className="aboutus" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Who We are" />
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title></title> 
+          <meta name="title"   content=""/> 
+          <meta name="keywords"content="Confectionary,Bakery,ShelfLife,Oil&Fats,Anti-Clouding Agents,Crystal Promoter,Dairy Analogue,Colour,Nutrition,Adsorbent,Flavour,"/>
+          <meta name="description" content=""/>
+          <meta name="og:title" content="Global Specialty Ingredients | Offer extensive range of natural ingredients & products"/>      
+          <meta name="og:description" content="Global Specialty Ingredients | Where to Find High-Quality Food Ingredients Supplier in Malaysia"/> 
+          <meta name="og:image" content=""/>
+        </Helmet>
+        <TitleSection sliderImages={bgImages.about} className="aboutus" welcomeText="" titleName="Who We are" />
 
         <section className="who-we-are py-5  p-mob">
           <div className="container mx-auto">
@@ -43,7 +54,7 @@ class AboutUs extends React.Component {
               <Col xs={{ span: 24, order: 2 }} sm={{ span: 16, order: 2 }} md={{ span: 16, order: 1 }} lg={{ span: 16, order: 1 }} >
                 <div className="pr-lg-4">
                   <Fade>
-                    <p className="mt-4">GSI is a leading global ingredients solutions company manufactured, and supplier of value-added Functional Ingredients, <span className="text-red">TAILORED</span> <span className="text-blue">TO YOUR NEEDS</span>, we offer an extensive range of natural food ingredients, functional food ingredients, specialty ingredients, ingredients through products, and consumer’s products like vegetable oils and fats, baking, beverages, snacks, meat processing, confectionery, dairy, biodiesel, oleochemical, and personal care.</p>
+                    <p className="mt-4">GSI is a leading global ingredients solutions company manufactured, and supplier of value-added Functional Ingredients, <span className="text-red">TAILORED</span> <span className="text-blue">TO YOUR NEEDS</span>, we offer an extensive range of natural food ingredients, functional food ingredients, specialty ingredients, ingredients through products, and consumer’s products like vegetable oils and fats, baking, beverages, snacks, meat processing, confectionery, dairy, bio-diesel, oleochemical, and personal care.</p>
                     <p className="mt-4">The cornerstone of our business is our profound knowledge of specialty ingredients which we tailored according to manufacturers and industries requirements, locally and abroad. GSI developed innovative specialty ingredients whereby our customers can count on us for a reliable supply of high quality and value-added ingredients, leveraging our ingredients expertise, solutions, and collective experience – together with our customers – we find ingredients solutions that work. GSI is committed to providing outstanding service by being receptive so that we can provide the best solutions for our customers at the same time ensuring the right quality with the right approach.</p>
                     <p className="mt-4">GSI innovation studio supports our value creation partner by providing product and application knowledge no matter where you are base.</p>
                   </Fade>
@@ -164,7 +175,7 @@ class AboutUs extends React.Component {
                       </Col>
                       <Col xs={{ span: 16 }} sm={{ span: 16 }} md={{ span: 12 }} lg={{ span: 12 }} >
                         <div className="details p-3 p-lg-4">
-                          <h5 className="border-left-3 border-danger pl-3 text-blue">Our Vission</h5>
+                          <h5 className="border-left-3 border-danger pl-3 text-blue">Our Vision</h5>
                           <p>To be a value creation partner in global food supply chain</p>
                         </div>
                       </Col>
@@ -180,7 +191,7 @@ class AboutUs extends React.Component {
           <div className="container mx-auto">
             <Fade>
               <h2 className="border-left-3 border-blue text-white pl-3 mb-4">Strategic Intent</h2>
-              <p className="text-white">GSI’s strategic intent by 2025 is to be a value creation partner in the global food supply chain by differentiating, reengineering, innovative, specialty ingredients by having great people with imagination, committed to being different & bringing revolutionary ideas and solutions of tomorrow to the world.</p>
+              <p className="text-white">GSI’s strategic intent by 2025 is to be a value creation partner in the global food supply chain by differentiating, re-engineering, innovative, specialty ingredients by having great people with imagination, committed to being different & bringing revolutionary ideas and solutions of tomorrow to the world.</p>
             </Fade>
           </div>
         </section>
@@ -203,7 +214,7 @@ class AboutUs extends React.Component {
         <section className="core-value py-5 bg-blue-gradient p-mob">
           <div className="container mx-auto">
             <Fade>
-              <h2 className="border-left-3 border-danger text-white pl-3 mb-4">Core value of Gsi</h2>
+              <h2 className="border-left-3 border-danger text-white pl-3 mb-4">Core value of GSI</h2>
             </Fade>
             <Row gutter={[20, 20]} justify="space-between" >
               <Col xs={{ span: 12 }} sm={{ span: 12 }} md={{ span: 6 }} lg={{ span: 4 }} >

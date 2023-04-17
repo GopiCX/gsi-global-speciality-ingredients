@@ -12,7 +12,7 @@ class AccountManagerRajeshJesuraj extends React.Component {
                 <div className="key-account-manager globe-bg card p-3 p-sm-4 p-md-4 p-lg-4 mb-3">
                     <Row gutter={[20, 20]} align="center">
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 6 }} lg={{ span: 6 }} >
-                            <img src={rajeshJesurajQrCode} alt="Rajesh Jesuraj QR code to scan" className="w-100" />
+                            <img src={rajeshJesurajQrCode} alt="Rajesh Jesuraj QR code to scan" className="w-100 qr-contact" />
                         </Col>
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 18 }} lg={{ span: 18 }} >
                             <h3 className="text-blue">Mr. Rajesh Jesuraj</h3>

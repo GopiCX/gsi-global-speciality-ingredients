@@ -1,70 +1,91 @@
 .contact-form {
-    width:700px;
-    margin: 0 auto;
-    .input-box {
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      display: inline-block;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
+  width: 700px;
+  margin: 0 auto;
+  .input-box {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
   }
-  input[type=submit] {
-      color: white;
-      font-size: 16px;
-      padding: 10px 50px;
-      margin: 8px 0;
-      border: none;
-      cursor: pointer;
-      border-radius: 50px;
-    }
-    input[type=submit]:hover {
-      letter-spacing: 1px;
-      background-image: linear-gradient(to right, #282561, #631f6d, #9b0067, #c8004f, #e31e28);
-    }
+  input[type="submit"] {
+    color: white;
+    font-size: 16px;
+    padding: 10px 50px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  input[type="submit"]:hover {
+    letter-spacing: 1px;
+    background-image: linear-gradient(
+      to right,
+      #282561,
+      #631f6d,
+      #9b0067,
+      #c8004f,
+      #e31e28
+    );
+  }
 }
 
-  .map{
-    iframe {
-      width: 100%;
-      border: none;
-      min-height: 450px;
-      margin-bottom: -9px;
-    }
+.map {
+  iframe {
+    width: 100%;
+    border: none;
+    min-height: 450px;
+    margin-bottom: -9px;
   }
-  .address {
-    ul {
-      margin: 0px;
-      padding: 0px 30px 0px 0px;
-    }
-    .bg-red-gradient{
-      background-image: linear-gradient(to right, #e31e28, #c8004f, #9b0067, #631f6d, #2d2885);
-    }
+}
+.address {
+  ul {
+    margin: 0px;
+    padding: 0px 30px 0px 0px;
   }
+  .bg-red-gradient {
+    background-image: linear-gradient(
+      to right,
+      #e31e28,
+      #c8004f,
+      #9b0067,
+      #631f6d,
+      #2d2885
+    );
+  }
+}
 
-  .get-in-touch{
+.get-in-touch {
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 30px;
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  input[type="date"],
+  .ant-picker,
+  select,
+  textarea {
+    color: var(--black);
+    font-weight: 300;
+    font-size: 16px;
+    padding: 11px 20px;
     background-color: var(--white);
-    border-radius: 10px;
-    padding: 30px;
-    input[type="text"], 
-    input[type="password"], 
-    input[type="number"], 
-    input[type="date"], 
-    .ant-picker,
-    select,
-    textarea{
-      color: var(--black);
-        font-weight: 300;
-        font-size: 16px;
-        padding: 11px 20px;
-        background-color: var(--white);
-        border-radius: 5px;
-    }
-    textarea{
-      min-height: 100px;
-    }
-    .form-fields{
-        margin-bottom: 16px;
-    }
+    border-radius: 5px;
   }
+  textarea {
+    min-height: 100px;
+  }
+  .form-fields {
+    margin-bottom: 16px;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

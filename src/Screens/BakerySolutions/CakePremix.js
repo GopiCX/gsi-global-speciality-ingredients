@@ -27,8 +27,11 @@ import { solutionImg } from '../../Util/solutionData';
                                         <h5 className="text-red">Products</h5>
                                         <ul>
                                             <li>GLORISE 2213</li>
-                                            <li>GLOMUL 2209</li>
-                                            <li>GLOGEL</li>
+                                            <li>GLOMUL MGD 95</li>
+                                            <li>GLOMUL PGE 507</li>
+                                            <li>GLOMUL PGMS 95</li>
+                                            <li>GLOMUL SSL 302</li>
+                                            <li>GLOMUL SSL 208</li>
                                         </ul>
                                     </div>
                                 </Col>

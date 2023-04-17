@@ -11,12 +11,22 @@ import ProcessedCheeseCheeseAnalogue from './ProcessedCheeseCheeseAnalogue';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Bounce from 'react-reveal/Bounce';
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet";
 
 class DairyDairyAnalogue extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.diary} className="dairy-dairy-analogue" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Dairy & Dairy Analogue" />
+                <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI - Dairy & Dairy Analogue</title> 
+          <meta name="title" content=""/> 
+          <meta name="description" content="Global Specialty Ingredients presents a wide range of solutions for the food & beverage sector including ice cream and frozen desserts."/> 
+          <meta name="keywords" content="Global Specialty Ingredients,Dairy & Dairy Analogue,ice cream,frozen desserts,imitation cream,cheese"/> 
+          <meta name="og:title" content="GSI - Dairy & Dairy Analogue"/>      
+          <meta name="og:description" content="Global Specialty Ingredients presents a wide range of solutions for the food & beverage sector including ice cream and frozen desserts."/> 
+              </Helmet>
+                <TitleSection sliderImages={bgImages.diary} className="dairy-dairy-analogue" welcomeText="" titleName="Dairy & Dairy Analogue" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

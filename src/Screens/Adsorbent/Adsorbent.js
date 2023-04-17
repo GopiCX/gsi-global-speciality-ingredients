@@ -10,12 +10,25 @@ import OleoChemicalPurification from './OleoChemicalPurification';
 import FurtherEnquiry from '../KeyAccountmanager/FurtherEnquiry'
 import Fade from 'react-reveal/Fade';
 import { bgImages } from '../../Util/data';
+import { Helmet } from "react-helmet"; 
 
 class Adsorbent extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <TitleSection sliderImages={bgImages.adsorbent} className="adsorbent" welcomeText="WELCOME TO GLOBAL SPECIALTY INGREDIENTS" titleName="Adsorbent" />
+ <Helmet>
+          <meta charSet="utf-8" />
+          <title>GSI- Adsorbent</title> 
+          <meta name="title" content=""/> 
+<meta name="description" content=" Global Specialty Ingredients, Inc. has created a specialty line of adsorbents for the filtration and purification industries, many of which are used in frying oils and oil-based foods
+"/> 
+          <meta name="keywords" content="Global Specialty Ingredients ,Adsorbents,frying oil filtration,feedstock oil,bio-diesel purification,frying oil recovery solutions"/> 
+          <meta name="og:title" content="GSI- Adsorbent"/>      
+          <meta name="og:description" content="Global Specialty Ingredients, Inc. has created a specialty line of adsorbents for the filtration and purification industries, many of which are used in frying oils and oil-based foods
+"/> 
+              </Helmet>
+
+                <TitleSection sliderImages={bgImages.adsorbent} className="adsorbent" welcomeText="" titleName="Adsorbent" />
 
                 <section className="gsi-solutions py-5 p-mob">
                     <div className="container mx-auto">

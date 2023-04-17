@@ -26,7 +26,10 @@ class LiquidShortening extends React.Component {
                                     <div className="details">
                                         <h5 className="text-red">Products</h5>
                                         <ul>
-                                            <li>GLOMUL 2210</li>
+                                            <li>GLOMUL DS60</li>
+                                            <li>GLOMUL 12RBE</li>
+                                            <li>GLOMUL STS 22</li>
+                                            <li>GLOMUL STS 52</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -43,7 +46,7 @@ class LiquidShortening extends React.Component {
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
                                             <li>Prevents oil phase separation</li>
-                                            <li>Improved flowablility of shortening</li>
+                                            <li>Improved flowability of shortening</li>
                                         </ul>
                                     </div>
                                 </Col>

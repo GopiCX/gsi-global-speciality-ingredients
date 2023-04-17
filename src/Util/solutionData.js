@@ -24,6 +24,10 @@ import CerealsSnacks1 from '../assets/images/bakery-solutions/cereals-snacks/1.j
 import CerealsSnacks2 from '../assets/images/bakery-solutions/cereals-snacks/2.jpg';
 import CerealsSnacks3 from '../assets/images/bakery-solutions/cereals-snacks/3.jpg';
 
+import LubricationReleasingAgents1 from "../assets/images/bakery-solutions/lube-releasing-agents/1.jpg";
+import LubricationReleasingAgents2 from "../assets/images/bakery-solutions/lube-releasing-agents/2.jpg";
+import LubricationReleasingAgents3 from "../assets/images/bakery-solutions/lube-releasing-agents/3.jpg";
+
 // Self Life Solution
 import Preservatives1 from "../assets/images/shelf-life-solutions/preservatives/1.jpg";
 import Preservatives2 from "../assets/images/shelf-life-solutions/preservatives/2.jpg";
@@ -38,7 +42,6 @@ import antioxidants4 from "../assets/images/frying-solutions/antioxidants/4.jpg"
 import NaturalAntioxidants1 from "../assets/images/frying-solutions/natural-antioxidants/1.jpg";
 import NaturalAntioxidants2 from "../assets/images/frying-solutions/natural-antioxidants/2.jpg";
 import NaturalAntioxidants3 from "../assets/images/frying-solutions/natural-antioxidants/3.jpg";
-import NaturalAntioxidants4 from "../assets/images/frying-solutions/natural-antioxidants/4.jpg";
 
 
 // Oil & Fat Solutions
@@ -63,6 +66,10 @@ import Ghee3 from '../assets/images/oil-fat-solutions/ghee/3.jpg';
 
 import LiquidShortening1 from '../assets/images/oil-fat-solutions/liquid-shortening/1.jpg';
 import LiquidShortening2 from '../assets/images/oil-fat-solutions/liquid-shortening/2.jpg';
+
+import SpecialtyFat1 from "../assets/images/oil-fat-solutions/specialty-fat/1.jpg";
+import SpecialtyFat2 from "../assets/images/oil-fat-solutions/specialty-fat/2.jpg";
+import SpecialtyFat3 from "../assets/images/oil-fat-solutions/specialty-fat/3.jpg";
 
 
 // Anti Clouding Agents
@@ -178,13 +185,14 @@ export const solutionImg = {
     CakePremix: [CakePremix1],
     BiscuitCookies: [BiscuitCookies4, BiscuitCookies1, BiscuitCookies2, BiscuitCookies3],
     CerealsSnacks: [CerealsSnacks1, CerealsSnacks2, CerealsSnacks3],
+    LubricationReleasingAgents: [LubricationReleasingAgents1, LubricationReleasingAgents2, LubricationReleasingAgents3],
 
     // Self Life Solution
     preservatives: [Preservatives1, Preservatives2, Preservatives3],
 
     // Frying Solution
     antioxidants: [antioxidants1, antioxidants2, antioxidants3, antioxidants4],
-    NaturalAntioxidants: [NaturalAntioxidants1, NaturalAntioxidants2, NaturalAntioxidants3, NaturalAntioxidants4],
+    NaturalAntioxidants: [NaturalAntioxidants1, NaturalAntioxidants2, NaturalAntioxidants3],
 
     // Oil & Fat Solutions
     MargarineSpread: [MargarineSpread1],
@@ -193,6 +201,7 @@ export const solutionImg = {
     VegetableCeam: [VegetableCeam1, VegetableCeam2, VegetableCeam3],
     Ghee: [Ghee3, Ghee1, Ghee2],
     LiquidShortening: [LiquidShortening2, LiquidShortening1],
+    SpecialtyFat: [SpecialtyFat1, SpecialtyFat2, SpecialtyFat3],
 
     // Anti Clouding Agents    
     OilsFatsCrystalEnhancer: [OilsFatsCrystalEnhancer1],
