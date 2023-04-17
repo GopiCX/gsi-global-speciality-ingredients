@@ -91,7 +91,7 @@ class ExpertPartners extends React.Component {
                                                 </div>
                                                 <div className="desc">
                                                     <h3 className="text-blue">Ethical</h3>
-                                                    <p>It's critical that we conduct ourselves ethically in all parts of our organisation. Our Code of Ethics serves as a guide for us and helps us stay focused on our goals.</p>
+                                                    <p>It's critical that we conduct ourselves ethically in all parts of our organization. Our Code of Ethics serves as a guide for us and helps us stay focused on our goals.</p>
                                                 </div>
                                             </div>
                                         </div>

@@ -49,7 +49,7 @@ class PastaNoodles extends React.Component {
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
                                             <li>Increased firmness</li>
-                                            <li>Rreduced stickiness through starch complexing</li>
+                                            <li>Reduced stickiness through starch complexing</li>
                                             <li>Reduced cooking loss and provide resistance to overcooking</li>
                                             <li>Shiny appearance</li>
                                             <li>Improved texture</li>

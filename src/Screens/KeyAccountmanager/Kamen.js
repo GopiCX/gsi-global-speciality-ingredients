@@ -65,7 +65,7 @@ class AccountManagerKamen extends React.Component {
                                         <ul>
                                             <li><img src={malaysia} alt="North Malaysia" />Central Malaysia</li>
                                             <li><img src={china} alt="China" />China</li>
-                                            <li><img src={phillipines} alt="Phillipines" />Phillipines</li>
+                                            <li><img src={phillipines} alt="Philippines" />Philippines</li>
                                             <li><img src={australia} alt="Australia" />Australia</li>
                                         </ul>
                                         <ul>

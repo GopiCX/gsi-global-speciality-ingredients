@@ -45,7 +45,7 @@ class OilsFatsCrystalEnhancer extends React.Component {
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
                                             <li>Crystal enhancer</li>
-                                            <li>Enhance grainy stucture</li>
+                                            <li>Enhance grainy structure</li>
                                         </ul>
                                     </div>
                                 </Col>

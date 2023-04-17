@@ -23,7 +23,7 @@ class BeverageSolutions extends React.Component {
           <title>GSI - Beverage Solutions</title> 
           <meta name="title" content=""/> 
           <meta name="description" content="Global Specialty Ingredients provide you with the right solutions for your hot- and cold-beverage projects, whether you are looking to create the perfect mocktail or beverage concept."/> 
-          <meta name="keywords" content="Global Specialty Ingredients,Beverage Solutions,cofee,chocolate,soft drink,juices"/> 
+          <meta name="keywords" content="Global Specialty Ingredients,Beverage Solutions,coffee,chocolate,soft drink,juices"/> 
           <meta name="og:title" content="GSI - Beverage Solutions"/>      
           <meta name="og:description" content="Global Specialty Ingredients provide you with the right solutions for your hot- and cold-beverage projects, whether you are looking to create the perfect mocktail or beverage concept."/> 
               </Helmet>

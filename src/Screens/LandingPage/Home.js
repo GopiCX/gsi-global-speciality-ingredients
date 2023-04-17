@@ -34,6 +34,7 @@ export default class Home extends React.Component {
     return (
       <React.Fragment>
         <Helmet>
+          
           <meta charSet="utf-8" />
           <title>
             Global Specialty Ingredients | Offer extensive range of natural
@@ -46,13 +47,15 @@ export default class Home extends React.Component {
           />
           <meta
             name="keywords"
-            content="Confectionary,Bakery,ShelfLife,Oil&Fats,Anti-Clouding Agents,Crystal Promoter,Dairy Analogue,Colour,Nutrition,Adsorbent,Flavour"
+            content="Confectionary,Bakery,ShelfLife,Oil&Fats,Anti-Clouding Agents,Crystal Promoter,Dairy Analogue,Colour,Nutrition,Adsorbent,Flavour,"
           />
+
           <meta
             name="og:title"
             content="Global Specialty Ingredients | Offer extensive range of natural ingredients & products"
           />
           <meta name="og:description" content="" />
+          
         </Helmet>
         {/* main slider starts */}
         <HomeSlider />

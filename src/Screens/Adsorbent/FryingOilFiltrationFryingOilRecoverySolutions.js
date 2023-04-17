@@ -81,7 +81,7 @@ class FryingOilFiltrationFryingOilRecoverySolutions extends React.Component {
                     <ul>
                       <li>
                         DALSORB® removes degradation compounds before they can
-                        buildupand destroy oil. Extends the frying life of the
+                        buildup and destroy oil. Extends the frying life of the
                         frying oil. Improve the quality of the frying oil during
                         it frying life. Ensure consistent high quality fried
                         foods

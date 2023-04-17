@@ -52,7 +52,7 @@ class PuffPastryMargarine extends React.Component {
                                             <li>Promotes through crystallization for improved handling properties</li>
                                             <li>Leading to good plasticity</li>
                                             <li>Layer separation &amp; excellent expansion</li>
-                                            <li>Good mouth-feel and cripiness</li>
+                                            <li>Good mouth-feel and crispiness</li>
                                             <li>Sugar protector</li>
                                         </ul>
                                     </div>

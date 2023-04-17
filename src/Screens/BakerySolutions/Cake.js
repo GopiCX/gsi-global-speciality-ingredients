@@ -48,7 +48,7 @@ class Cake extends React.Component {
                                             <li>High fat cakes</li>
                                             <li>Swiss rolls</li>
                                             <li>Eggless cakes</li>
-                                            <li>Bakery cake margarines &amp; shortening</li>
+                                            <li>Bakery cake margarine's &amp; shortening</li>
                                             <li>Low fat cakes</li>
                                         </ul>
                                     </div>

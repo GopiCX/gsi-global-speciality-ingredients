@@ -46,7 +46,7 @@ class LiquidShortening extends React.Component {
                                         <h5 className="text-red">Key Benefits</h5>
                                         <ul>
                                             <li>Prevents oil phase separation</li>
-                                            <li>Improved flowablility of shortening</li>
+                                            <li>Improved flowability of shortening</li>
                                         </ul>
                                     </div>
                                 </Col>

@@ -30,7 +30,7 @@ class FlavourSolutions extends React.Component {
                         <Row gutter={[20, 20]} align="center" className="mb-4">
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 16 }} lg={{ span: 16 }} >
                                 <h2 className="border-left-3 text-blue  border-danger pl-3 mb-3">Please find our product line.</h2>
-                                <p className="text-left mt-3">Experience the dramatic growth of food aesthethics, GSI offers colours and flavours which suitable to all kinds of your food products.</p>
+                                <p className="text-left mt-3">Experience the dramatic growth of food aesthetics, GSI offers colours and flavours which suitable to all kinds of your food products.</p>
                             </Col>
                             <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 8 }} lg={{ span: 8 }} >
                                 <Input size="large" placeholder="Search..." prefix={<SearchOutlined />} />

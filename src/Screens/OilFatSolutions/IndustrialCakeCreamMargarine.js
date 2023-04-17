@@ -35,7 +35,7 @@ class IndustrialCakeCreamMargarine extends React.Component {
                                     <div className="details">
                                         <h5 className="text-red">Primary Applications</h5>
                                         <ul>
-                                            <li>Bakery margarines</li>
+                                            <li>Bakery margarine's</li>
                                             <li>Bakery shortenings</li>
                                             <li>Bread shortenings</li>
                                         </ul>

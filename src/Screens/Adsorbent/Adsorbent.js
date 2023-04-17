@@ -22,7 +22,7 @@ class Adsorbent extends React.Component {
           <meta name="title" content=""/> 
 <meta name="description" content=" Global Specialty Ingredients, Inc. has created a specialty line of adsorbents for the filtration and purification industries, many of which are used in frying oils and oil-based foods
 "/> 
-          <meta name="keywords" content="Global Specialty Ingredients ,Adsorbents,frying oil filtration,feedstock oil,biodiesel purification,frying oil recovery solutions"/> 
+          <meta name="keywords" content="Global Specialty Ingredients ,Adsorbents,frying oil filtration,feedstock oil,bio-diesel purification,frying oil recovery solutions"/> 
           <meta name="og:title" content="GSI- Adsorbent"/>      
           <meta name="og:description" content="Global Specialty Ingredients, Inc. has created a specialty line of adsorbents for the filtration and purification industries, many of which are used in frying oils and oil-based foods
 "/> 

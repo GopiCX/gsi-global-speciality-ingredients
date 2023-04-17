@@ -30,7 +30,7 @@ class Career extends React.Component {
           <meta name="title" content=""/> 
           <meta name="description" content="The GSI team will guide our employees to progress professionally and contribute to our company objective & our goal."/> 
           <meta name="keywords" content="Confectionary,Bakery,ShelfLife,Oil&Fats,Anti-Clouding Agents,Crystal Promoter,Dairy Analogue,Colour,Nutrition,Adsorbent,Flavour"/> 
-          <meta name="og:title" content="Global Specialty Ingredients path to your career progess "/>      
+          <meta name="og:title" content="Global Specialty Ingredients path to your career progress "/>      
           <meta name="og:description" content="GSI offers attractive benefit plans to all of our employees, as well as keeping track of new industry developments and enhancing our programmes "/> 
               </Helmet>
         <TitleSection sliderImages={bgImages.career} className="career" welcomeText="" titleName="Why Work With Us" />
@@ -97,7 +97,7 @@ class Career extends React.Component {
                   <div className="details">
                     <img src={balancedScorecard} alt="Balanced Scorecard" className="mb-2" />
                     <h5 className="text-blue mt-3">Balanced Scorecard</h5>
-                    <p>The scorecard prioritises strategy and vision over control. It establishes objectives but expects that people will adopt whatever attitudes and actions are required to achieve those objectives. The goals of the measures are to entice people to support the overarching objective.</p>
+                    <p>The scorecard prioritizes strategy and vision over control. It establishes objectives but expects that people will adopt whatever attitudes and actions are required to achieve those objectives. The goals of the measures are to entice people to support the overarching objective.</p>
                   </div>
                 </Fade>
               </Col>
@@ -115,7 +115,7 @@ class Career extends React.Component {
                   <div className="details">
                     <img src={KeyresultAreas} alt="Key Result Areas (KRA)" className="mb-2" />
                     <h5 className="text-blue mt-3">Key Result Areas (KRA)</h5>
-                    <p>A short list of overall goals that influence how a person executes their job, or general performance and growth goals for an organisation or one of its divisions, are referred to as Key Result Areas (KRAs).</p>
+                    <p>A short list of overall goals that influence how a person executes their job, or general performance and growth goals for an organization or one of its divisions, are referred to as Key Result Areas (KRAs).</p>
                   </div>
                 </Fade>
               </Col>
@@ -187,7 +187,7 @@ class Career extends React.Component {
                         <li>Medical insurance for outpatient &amp; inpatient</li>
                       </ul>
                     </Panel>
-                    <Panel header="Sick leave and hospitalisation leave" key="5">
+                    <Panel header="Sick leave and hospitalization leave" key="5">
                       <p>All employees is entitled to sick leave days that are approved by a registered medical practitioner:</p>
                       <ul>
                         <li>14 days every year if they have been employed for less than two years.</li>
@@ -213,7 +213,7 @@ class Career extends React.Component {
 
                 </Col>
               </Row>
-            </Fade>
+            </Fade> 
           </div>
         </section>
 
