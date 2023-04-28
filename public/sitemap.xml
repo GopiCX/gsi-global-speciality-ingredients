@@ -1,25 +1,134 @@
-<?xml version='1.0' encoding='UTF-8'?><urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
-<url><loc>https://gsi-worldwide.com/</loc></url>
-<url><loc>https://gsi-worldwide.com/about-us</loc></url>
-<url><loc>https://gsi-worldwide.com/adsorbent</loc></url>
-<url><loc>https://gsi-worldwide.com/anti-clouding-agents</loc></url>
-<url><loc>https://gsi-worldwide.com/bakery-solutions</loc></url>
-<url><loc>https://gsi-worldwide.com/beverage-solutions</loc></url>
-<url><loc>https://gsi-worldwide.com/career</loc></url>
-<url><loc>https://gsi-worldwide.com/colour-solutions</loc></url>
-<url><loc>https://gsi-worldwide.com/confectionery-solutions</loc></url>
-<url><loc>https://gsi-worldwide.com/contact-us</loc></url>
-<url><loc>https://gsi-worldwide.com/crystal-promoter</loc></url>
-<url><loc>https://gsi-worldwide.com/dairy-dairy-analogue</loc></url>
-<url><loc>https://gsi-worldwide.com/events</loc></url>
-<url><loc>https://gsi-worldwide.com/flavour-solutions</loc></url>
-<url><loc>https://gsi-worldwide.com/frying-solution</loc></url>
-<url><loc>https://gsi-worldwide.com/key-account-manager</loc></url>
-<url><loc>https://gsi-worldwide.com/nutrition-solutions</loc></url>
-<url><loc>https://gsi-worldwide.com/oil-fat-solutions</loc></url>
-<url><loc>https://gsi-worldwide.com/our-solution</loc></url>
-<url><loc>https://gsi-worldwide.com/our-solutions</loc></url>
-<url><loc>https://gsi-worldwide.com/responsibility</loc></url>
-<url><loc>https://gsi-worldwide.com/savoury-solutions</loc></url>
-<url><loc>https://gsi-worldwide.com/shelf-life-solutions</loc></url>
-<url><loc>https://gsi-worldwide.com/terms-and-conditions</loc></url></urlset>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://www.gsi-worldwide.com/</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/about-us</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/contact-us</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/events</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/career</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/our-solutions</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/responsibility</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/key-account-manager</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/confectionery-solutions</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/bakery-solutions</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/shelf-life-solutions</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/oil-fat-solutions</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/anti-clouding-agents</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/beverage-solutions</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/chocolate-solutions</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/dairy-dairy-analogue</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/flavour-solutions</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/nutrition-solutions</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/savoury-solutions</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/adsorbent</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/crystal-promoter</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/frying-solution</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/colour-solutions</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/terms-and-conditions</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/gsi-introduction</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.gsi-worldwide.com/solutions-handbook</loc>
+	<lastmod>2023-04-28T06:52:27+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>
