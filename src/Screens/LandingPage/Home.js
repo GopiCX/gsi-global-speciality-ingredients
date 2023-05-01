@@ -40,7 +40,8 @@ export default class Home extends React.Component {
             Global Specialty Ingredients | Offer extensive range of natural
             ingredients & products
           </title>
-          <meta name="title" content="" />
+          <meta name="title" content="Global Specialty Ingredients | Offer extensive range of natural
+            ingredients & products" />
           <meta
             name="description"
             content="GSI is a leading global ingredients solutions company manufactured, and supplier of value-added Functional Ingredients"
@@ -54,7 +55,7 @@ export default class Home extends React.Component {
             name="og:title"
             content="Global Specialty Ingredients | Offer extensive range of natural ingredients & products"
           />
-          <meta name="og:description" content="" />
+          <meta name="og:description" content="Global Specialty Ingredients | Offer extensive range of natural ingredients & products" />
           
         </Helmet>
         {/* main slider starts */}
