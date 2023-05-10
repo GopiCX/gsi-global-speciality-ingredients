@@ -27,7 +27,7 @@ class AccountManagerRajeshJesuraj extends React.Component {
                                         <div className="details">
                                             <span>Whatsapp</span>
                                             <p>
-                                                <a href="https://wa.me/60192411997" target="_blank" rel="noopener noreferrer">+6019 241 1997</a>
+                                                <a href="https://wa.me/60193166363" target="_blank" rel="noopener noreferrer">+6019 316 6363</a>
                                             </p>
                                         </div>
                                     </div>
