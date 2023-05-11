@@ -27,6 +27,7 @@ import logo6 from "../../assets/images/group-companies/logo-6.png";
 import logo7 from "../../assets/images/group-companies/logo-7.png";
 import logo8 from "../../assets/images/group-companies/logo-8.png";
 import logo9 from "../../assets/images/group-companies/logo-9.png";
+import logo10 from "../../assets/images/group-companies/logo-10.png";
 import { bgImages } from '../../Util/data';
 import { Helmet } from 'react-helmet';
 class AboutUs extends React.Component {
@@ -378,6 +379,11 @@ class AboutUs extends React.Component {
                 <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
                   <div className="overflow-hidden border-radius">
                     <img src={logo9} alt="Ceramic Compound" className="animation-grow card w-100 p-3" />
+                  </div>
+                </Col>
+                <Col xs={{ span: 12 }} sm={{ span: 8 }} md={{ span: 4 }} lg={{ span: 4 }}>
+                  <div className="overflow-hidden border-radius">
+                    <img src={logo10} alt="Ceramic Compound" className="animation-grow card w-100 p-3" />
                   </div>
                 </Col>
               </Row>
