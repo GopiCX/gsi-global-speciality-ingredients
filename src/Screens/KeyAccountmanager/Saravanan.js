@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router';
 import { Row, Col,  } from 'antd';
-import SaravananQrCode from '../../assets/images/key-account-manager/saravanan.webp'
+import SaravananQrCode from '../../assets/images/key-account-manager/Mr-Saravanan.png'
 import './KeyAccountmanager.scss'
 import malaysia from '../../assets/images/countries/malaysia.png';
 import singapore from '../../assets/images/countries/singapore.png';

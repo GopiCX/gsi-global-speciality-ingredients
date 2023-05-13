@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router';
 import { Row, Col } from 'antd';
-import rajeshJesurajQrCode from '../../assets/images/key-account-manager/rajesh-jesuraj.webp'
+import rajeshJesurajQrCode from '../../assets/images/key-account-manager/Mr-Rajesh-Jesuraj.png'
 import './KeyAccountmanager.scss';
 import global from '../../assets/images/globe-blue-flag.svg';
 
