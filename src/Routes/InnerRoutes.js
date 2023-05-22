@@ -66,8 +66,6 @@ class InnerRoutes extends React.Component {
                     <Route path="/terms-and-conditions" component={TermsandConditions} />
                     <Route path="/gsi-introduction" component={GsiIntroduction} />
                     <Route path="/solutions-handbook" component={SolutionsHandbook} />
-                    <Route path="/gsi-introduction/" component={GsiIntroduction} />
-                    <Route path="/solutions-handbook/" component={SolutionsHandbook} />
                 </Switch>
             </Layout>
         );
