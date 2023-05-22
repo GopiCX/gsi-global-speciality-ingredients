@@ -27,21 +27,24 @@ import baker from "../../assets/images/baker.svg";
 import quoteTop from "../../assets/images/icons/quote-1.svg";
 import quoteBottom from "../../assets/images/icons/quote-2.svg";
 import { Helmet } from "react-helmet";
-import GsiPillars from "../../assets/images/5-pillars-of-gsi.svg";
+import GsiPillars from "./GsiPillars/GsiPillars";
+// import GsiPillars from "../../assets/images/5-pillars-of-gsi.svg";
 
 export default class Home extends React.Component {
   render() {
     return (
       <React.Fragment>
         <Helmet>
-          
           <meta charSet="utf-8" />
           <title>
             Global Specialty Ingredients | Offer extensive range of natural
             ingredients & products
           </title>
-          <meta name="title" content="Global Specialty Ingredients | Offer extensive range of natural
-            ingredients & products" />
+          <meta
+            name="title"
+            content="Global Specialty Ingredients | Offer extensive range of natural
+            ingredients & products"
+          />
           <meta
             name="description"
             content="GSI is a leading global ingredients solutions company manufactured, and supplier of value-added Functional Ingredients"
@@ -55,8 +58,10 @@ export default class Home extends React.Component {
             name="og:title"
             content="Global Specialty Ingredients | Offer extensive range of natural ingredients & products"
           />
-          <meta name="og:description" content="Global Specialty Ingredients | Offer extensive range of natural ingredients & products" />
-          
+          <meta
+            name="og:description"
+            content="Global Specialty Ingredients | Offer extensive range of natural ingredients & products"
+          />
         </Helmet>
         {/* main slider starts */}
         <HomeSlider />
@@ -451,102 +456,26 @@ export default class Home extends React.Component {
           </div>
         </section>
 
-        <section className="gsi-pillars  p-mob">
-          <div className="container mx-auto lg-py-5">
-            <Fade>
-              <Row>
-                <Col xs={{ span: 24 }} md={{ span: 10 }}>
-                  <div className="gsi-pillars__heading">
-                    <h2 className="text-center">5</h2>
-                    <h2 className="text-center">PILLARS OF GSI</h2>
-                  </div>
-                </Col>
-                <Col xs={{ span: 24 }} md={{ span: 10 }}>
-                  <img src={GsiPillars} className="gsi-pillars__image" alt="" />
-                </Col>
-              </Row>
-              <Row justify="space-between" gutter={[12, 12]}>
-                <Col xs={{ span: 24 }}>
-                  <h5 className="text-center mt-5 text-red">
-                    Creating Distinctive Value
-                  </h5>
-                  <p className="text-center">
-                    Creating distinctive value for our customers is important to
-                    us. By doing this, we win their loyalty and retain their
-                    business. There are many ways to achieve success in GSI, and
-                    it takes a mix of five key pillar.
-                  </p>
-                </Col>
-                <Col xs={{ span: 24 }} md={{ span: 12 }} lg={{ span: 4 }}>
-                  <p>
-                    The{" "}
-                    <span className="text-blue">
-                      <b>collaboration</b>
-                    </span>{" "}
-                    pillar is a key part of GSI strategy for fostering
-                    collaboration among its employees. It helps promote a
-                    collaborative environment where employees are able to work
-                    together to achieve common goals.
-                  </p>
-                </Col>
-                <Col xs={{ span: 24 }} md={{ span: 12 }} lg={{ span: 4 }}>
-                  <p>
-                    The{" "}
-                    <span className="text-blue">
-                      <b>innovation</b>
-                    </span>{" "}
-                    pillar is a key part of our strategy to keep our business at
-                    the forefront of the latest trends and technologies. We are
-                    constantly exploring new ways to improve our products and
-                    services, and to stay ahead of the competition.
-                  </p>
-                </Col>
-                <Col xs={{ span: 24 }} md={{ span: 12 }} lg={{ span: 4 }}>
-                  <p>
-                    The{" "}
-                    <span className="text-blue">
-                      <b>sustainability</b>
-                    </span>{" "}
-                    pillar promotes the responsible use of natural resources,
-                    promotes environmentally friendly practices, and encourages
-                    the development of green technologies.
-                  </p>
-                </Col>
-                <Col xs={{ span: 24 }} md={{ span: 12 }} lg={{ span: 4 }}>
-                  <p>
-                    The{" "}
-                    <span className="text-blue">
-                      <b>transformation</b>
-                    </span>{" "}
-                    pillar can help businesses transform their operations and
-                    achieve their goals. By providing guidance and support,
-                    therefor businesses can turn around their performance
-                    quickly and achieve success.
-                  </p>
-                </Col>
-                <Col xs={{ span: 24 }} md={{ span: 12 }} lg={{ span: 4 }}>
-                  <p>
-                    The{" "}
-                    <span className="text-blue">
-                      <b>strategic intent</b>
-                    </span>{" "}
-                    pillar is to achieve a specific and long-term goal. This
-                    might include developing a plan to achieve a certain
-                    objective, determining the most important factors to
-                    consider when making a decision, or setting priorities.
-                  </p>
-                </Col>
-                <Col xs={{ span: 24 }}>
-                  <h5 className="mt-5 text-center text-red">Leadership</h5>
-                  <p className="text-center">
-                    GSI strength to lead a team to achieve a common goal. With
-                    ability to communicate effectively with our team, stay
-                    organized and keep them motivated. By providing guidance and
-                    direction.
-                  </p>
-                </Col>
-              </Row>
-            </Fade>
+        <section className="pillars-section">
+          <div className="container mx-auto py-3 p-mob">
+            <h2 className="border-left-3 text-blue d-inline border-danger pl-3">
+              5 Pillars of GSI
+            </h2>
+            <p className="mb-5">
+              <span className="text-red">Creating Distinctive Value</span> for
+              our customers is important to us. By doing this, we win their
+              loyalty and retain their business. There are many ways to achieve
+              success in GSI, and it takes a mix of five key pillar.
+            </p>
+          </div>
+          <GsiPillars />
+          <div className="container mx-auto">
+            <p className="mt-5">
+              <span className="text-red">Leadership</span> GSI strength to lead
+              a team to achieve a common goal. With ability to communicate
+              effectively with our team, stay organized and keep them motivated.
+              By providing guidance and direction.
+            </p>
           </div>
         </section>
 
