@@ -33,6 +33,11 @@ import SolutionsHandbook from '../Screens/PdfPages/SolutionsHandbook';
 
 import Layout from '../Layout/Layout';
 class InnerRoutes extends React.Component {
+    componentDidMount() {
+        if (window.location.pathname.endsWith('/')) {
+          window.history.replaceState({}, '', window.location.pathname.slice(0, -1));
+        }
+      }
     render() {
         const {
             match: { url },
