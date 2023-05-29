@@ -61,11 +61,11 @@ class OurSolutions extends React.Component {
                             <SolutionList solutionTitle="Crystal Promoter" solutionPageLink="/crystal-promoter" solutionImg={CrystalPromoter} />
                             <SolutionList solutionTitle="Beverage Solutions" solutionPageLink="/beverage-solutions" solutionImg={beverageSolutions} />
                             <SolutionList solutionTitle="Dairy & Dairy Analogue Solution" solutionPageLink="/dairy-dairy-analogue" solutionImg={dairyAnalogue} />
-                            <SolutionList solutionTitle="Colour Solutions" solutionPageLink="/colour-solutions" solutionImg={colourSolutions} />
+                            {/* <SolutionList solutionTitle="Colour Solutions" solutionPageLink="/colour-solutions" solutionImg={colourSolutions} /> */}
                             <SolutionList solutionTitle="Nutrition Solutions" solutionPageLink="/nutrition-solutions" solutionImg={nutritionSolutions} />
-                            <SolutionList solutionTitle="Savoury Solutions" solutionPageLink="/savoury-solutions" solutionImg={savourySolutions} />
+                            {/* <SolutionList solutionTitle="Savoury Solutions" solutionPageLink="/savoury-solutions" solutionImg={savourySolutions} /> */}
                             <SolutionList solutionTitle="Adsorbent" solutionPageLink="/adsorbent" solutionImg={Adsorbent} />
-                            <SolutionList solutionTitle="Flavour Solutions" solutionPageLink="/flavour-solutions" solutionImg={flavourSolutions} />
+                            {/* <SolutionList solutionTitle="Flavour Solutions" solutionPageLink="/flavour-solutions" solutionImg={flavourSolutions} /> */}
                             {/* <SolutionList solutionTitle="Chocolate Solutions" solutionPageLink="/chocolate-solutions" solutionImg={chocolateSolutions} /> */}
                         </Row>
                     </div>
