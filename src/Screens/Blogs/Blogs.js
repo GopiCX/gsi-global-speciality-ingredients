@@ -2,8 +2,12 @@ import React from 'react'
 import { Helmet } from 'react-helmet';
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
-import { withRouter } from "react-router"
-import GlorichImg5050 from "../../assets/images/blogs/glorich.png"
+import { withRouter } from "react-router";
+import GlorichImg5050 from "../../assets/images/blogs/glorich.png";
+import Glorich7155 from "../../assets/images/blogs/glorich-7155.png";
+import Globalance from "../../assets/images/blogs/globalance-93.png";
+import Glorise from "../../assets/images/blogs/glorise.png";
+// import Glorich6363 from "../../assets/images/blogs/glorich-6363.png";
 
 class Blogs extends React.Component {
     render() {
@@ -40,13 +44,11 @@ class Blogs extends React.Component {
                                         </Link>
                                     </div>
                                 </Fade>
-                            </div>
-                            <div className='card-holder'>
                                 <Fade>
                                     <div className="card-box">
                                         <Link to="/glorich-7155">
                                             <div className="details overflow-hidden border-radius">
-                                                <img src={GlorichImg5050} alt="" />
+                                                <img src={Glorich7155} alt="" />
                                                 <div className="title">
                                                     <h6>
                                                         Glorich 7155
@@ -56,13 +58,11 @@ class Blogs extends React.Component {
                                         </Link>
                                     </div>
                                 </Fade>
-                            </div>
-                            <div className='card-holder'>
                                 <Fade>
                                     <div className="card-box">
                                         <Link to="/globalance-93">
                                             <div className="details overflow-hidden border-radius">
-                                                <img src={GlorichImg5050} alt="" />
+                                                <img src={Globalance} alt="" />
                                                 <div className="title">
                                                     <h6>
                                                         Globalance 93
@@ -72,13 +72,11 @@ class Blogs extends React.Component {
                                         </Link>
                                     </div>
                                 </Fade>
-                            </div>
-                            <div className='card-holder'>
                                 <Fade>
                                     <div className="card-box">
                                         <Link to="/glorise-5410">
                                             <div className="details overflow-hidden border-radius">
-                                                <img src={GlorichImg5050} alt="" />
+                                                <img src={Glorise} alt="" />
                                                 <div className="title">
                                                     <h6>
                                                         Glorise 5410
@@ -88,13 +86,11 @@ class Blogs extends React.Component {
                                         </Link>
                                     </div>
                                 </Fade>
-                            </div>
-                            <div className='card-holder'>
                                 <Fade>
                                     <div className="card-box">
                                         <Link to="/glorich-6363">
                                             <div className="details overflow-hidden border-radius">
-                                                <img src={GlorichImg5050} alt="" />
+                                                <img src="" alt="" />
                                                 <div className="title">
                                                     <h6>
                                                         Glorich 6363

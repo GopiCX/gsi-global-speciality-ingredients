@@ -19,6 +19,7 @@
     padding: 25px;
     margin: 0 auto;
     border: 2px solid;
+    border-radius: 4px;
 }
 
 .breadcrumb {
@@ -69,7 +70,7 @@
         width: 100%;
         padding: 20px;
         border: 2px solid var(--primary);
-
+        border-radius: 4px;
     }
 }
 
@@ -118,17 +119,18 @@
             place-items: center;
             cursor: pointer;
             border-right: 1px solid var(--primary);
+            color: var(--primary);
 
             &:last-child {
                 border-right: none;
             }
 
             &:hover {
-                background-color: #eeeeee;
+                background-color: rgba($color: #ec2027, $alpha: 0.2);
             }
 
             &.active {
-                background-color: #cccccc;
+                background-color: rgba($color: #ec2027, $alpha: 0.5);
             }
         }
     }
