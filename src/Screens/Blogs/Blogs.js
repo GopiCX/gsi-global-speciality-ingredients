@@ -1,7 +1,8 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
 import Fade from "react-reveal/Fade";
-import { Link, withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { withRouter } from "react-router"
 import GlorichImg from "../../assets/images/blogs/glorich.png"
 
 class Blogs extends React.Component {
@@ -20,7 +21,7 @@ class Blogs extends React.Component {
 
                 <section className='blogs-container'>
                     <h1 className='text-center'>Blogs</h1>
-                    <p className='blogs-desc'>Creating Distinctive Value for our customers is important to us. By doing this, we win their loyalty and retain their business. There are many ways to achieve success in GSI, and it takes a mix of five key pillar.</p>
+                    <p className='blogs-desc'>Delivering unique value to our customers stands as a paramount objective. By accomplishing this, we cultivate unwavering loyalty and ensure the continuity of their patronage. Success in the realm of GSI is multifaceted and relies on a strategic blend of five essential pillars.</p>
 
                     <div className='cutting-edge-solution py-5 p-mob'>
                         <div className="container mx-auto py-lg-3">
