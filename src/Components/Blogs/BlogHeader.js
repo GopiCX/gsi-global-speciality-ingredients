@@ -23,7 +23,7 @@ class BlogHeader extends React.Component {
                             ))
                         }
                     </div>
-                    <h2 className="blog-title">{this.title}</h2>
+                    <h2 className="border-left-3 text-blue  border-danger pl-3 mb-3">{this.title}</h2>
                     <div className="blog-featured-image">
                         <img src={this.featuredImage} alt="" />
                     </div>

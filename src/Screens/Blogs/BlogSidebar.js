@@ -1,5 +1,8 @@
 import React from "react";
-import RecentBlogOne from "../../assets/images/blogs/glorich.png"
+import RecentBlogOne from "../../assets/images/blogs/glorich.png";
+import RecentBlogTwo from "../../assets/images/blogs/glorich-7155.png";
+import RecentBlogThree from "../../assets/images/blogs/globalance-93.png";
+import RecentBlogFour from "../../assets/images/blogs/glorise.png";
 
 export default class BlogSideBar extends React.Component {
     constructor() {
@@ -47,26 +50,26 @@ export default class BlogSideBar extends React.Component {
                                     </div>
                                     <div className="post-container">
                                         <div className="post-img">
-                                            <img src={RecentBlogOne} alt="" />
+                                            <img src={RecentBlogTwo} alt="" />
                                         </div>
                                         <div className="post-info">
-                                            <p>Glorich 5050 & Glotella 6373 S</p>
+                                            <p>Glorich 7155</p>
                                         </div>
                                     </div>
                                     <div className="post-container">
                                         <div className="post-img">
-                                            <img src={RecentBlogOne} alt="" />
+                                            <img src={RecentBlogThree} alt="" />
                                         </div>
                                         <div className="post-info">
-                                            <p>Glorich 5050 & Glotella 6373 S</p>
+                                            <p>Globalance 93</p>
                                         </div>
                                     </div>
                                     <div className="post-container">
                                         <div className="post-img">
-                                            <img src={RecentBlogOne} alt="" />
+                                            <img src={RecentBlogFour} alt="" />
                                         </div>
                                         <div className="post-info">
-                                            <p>Glorich 5050 & Glotella 6373 S</p>
+                                            <p>Glorise 5410</p>
                                         </div>
                                     </div>
                                 </div>
@@ -80,6 +83,14 @@ export default class BlogSideBar extends React.Component {
                                         </div>
                                         <div className="post-info">
                                             <p>Glorich 5050 & Glotella 6373 S</p>
+                                        </div>
+                                    </div>
+                                    <div className="post-container">
+                                        <div className="post-img">
+                                            <img src={RecentBlogFour} alt="" />
+                                        </div>
+                                        <div className="post-info">
+                                            <p>Glorise 5410</p>
                                         </div>
                                     </div>
                                 </div>
