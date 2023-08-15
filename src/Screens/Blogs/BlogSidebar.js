@@ -1,6 +1,15 @@
 import React from "react";
+import RecentBlogOne from "../../assets/images/blogs/glorich.png"
 
 export default class BlogSideBar extends React.Component {
+    constructor() {
+        super()
+        this.activeTab = "1";
+    }
+    tabChange = (activeIndex) => {
+        this.activeTab = activeIndex;
+        this.forceUpdate();
+    }
     render() {
         return (
             <React.Fragment>
@@ -19,9 +28,58 @@ export default class BlogSideBar extends React.Component {
                     <div className="blog-sidebar__item p-0">
                         <div className="sidebar-tabs-container">
                             <div className="tabs">
-                                <div className="tab active">Recent</div>
-                                <div className="tab">Popular</div>
+                                <div className={`tab ${this.activeTab === "1" ? "active" : ""}`} onClick={() => this.tabChange("1")}>Recent</div>
+                                <div className={`tab ${this.activeTab === "2" ? "active" : ""}`} onClick={() => this.tabChange("2")}>Popular</div>
                             </div>
+                            {
+                                this.activeTab === "1" && <div className="tab-body">
+                                    <div className="post-container">
+                                        <div className="post-img">
+                                            <img src={RecentBlogOne} alt="" />
+                                        </div>
+                                        <div className="post-info">
+                                            <p>Glorich 5050 & Glotella 6373 S</p>
+                                        </div>
+                                    </div>
+                                    <div className="post-container">
+                                        <div className="post-img">
+                                            <img src={RecentBlogOne} alt="" />
+                                        </div>
+                                        <div className="post-info">
+                                            <p>Glorich 5050 & Glotella 6373 S</p>
+                                        </div>
+                                    </div>
+                                    <div className="post-container">
+                                        <div className="post-img">
+                                            <img src={RecentBlogOne} alt="" />
+                                        </div>
+                                        <div className="post-info">
+                                            <p>Glorich 5050 & Glotella 6373 S</p>
+                                        </div>
+                                    </div>
+                                    <div className="post-container">
+                                        <div className="post-img">
+                                            <img src={RecentBlogOne} alt="" />
+                                        </div>
+                                        <div className="post-info">
+                                            <p>Glorich 5050 & Glotella 6373 S</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+
+                            {
+                                this.activeTab === "2" && <div className="tab-body">
+                                    <div className="post-container">
+                                        <div className="post-img">
+                                            <img src={RecentBlogOne} alt="" />
+                                        </div>
+                                        <div className="post-info">
+                                            <p>Glorich 5050 & Glotella 6373 S</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
                         </div>
                     </div>
                     <div className="blog-sidebar__item">
