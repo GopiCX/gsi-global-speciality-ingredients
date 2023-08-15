@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.scss";
-import { Link, NavLink  } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import mainlogo from "../assets/images/gsi-logo.svg";
 import functionalIngredients from "../assets/images/Functional-Ingredients-Tailored-to-your-needs.svg"
 export let setHeader = false;
@@ -30,7 +30,7 @@ export default class Header extends React.Component {
     //Onscroll sticky Header function ends here
   }
 
-  
+
   render() {
     return (
       <React.Fragment>
@@ -62,6 +62,9 @@ export default class Header extends React.Component {
                     </li>
                     <li>
                       <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/career">Careers</NavLink>
+                    </li>
+                    <li>
+                      <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/blogs">Blogs</NavLink>
                     </li>
                     <li>
                       <NavLink onClick={() => this.setState({ openMenu: false })} activeClassName="active" to="/contact-us">Contact</NavLink>
