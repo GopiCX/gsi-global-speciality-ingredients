@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 import { withRouter } from "react-router"
-import GlorichImg from "../../assets/images/blogs/glorich.png"
+import GlorichImg5050 from "../../assets/images/blogs/glorich.png"
 
 class Blogs extends React.Component {
     render() {
@@ -30,7 +30,7 @@ class Blogs extends React.Component {
                                     <div className="card-box">
                                         <Link to="/glorich-5050">
                                             <div className="details overflow-hidden border-radius">
-                                                <img src={GlorichImg} alt="" />
+                                                <img src={GlorichImg5050} alt="" />
                                                 <div className="title">
                                                     <h6>
                                                         Glorich 5050 & Glotella 6373 S
@@ -46,7 +46,7 @@ class Blogs extends React.Component {
                                     <div className="card-box">
                                         <Link to="/glorich-7155">
                                             <div className="details overflow-hidden border-radius">
-                                                <img src={GlorichImg} alt="" />
+                                                <img src={GlorichImg5050} alt="" />
                                                 <div className="title">
                                                     <h6>
                                                         Glorich 7155
@@ -62,10 +62,42 @@ class Blogs extends React.Component {
                                     <div className="card-box">
                                         <Link to="/globalance-93">
                                             <div className="details overflow-hidden border-radius">
-                                                <img src={GlorichImg} alt="" />
+                                                <img src={GlorichImg5050} alt="" />
                                                 <div className="title">
                                                     <h6>
                                                         Globalance 93
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </Fade>
+                            </div>
+                            <div className='card-holder'>
+                                <Fade>
+                                    <div className="card-box">
+                                        <Link to="/glorise-5410">
+                                            <div className="details overflow-hidden border-radius">
+                                                <img src={GlorichImg5050} alt="" />
+                                                <div className="title">
+                                                    <h6>
+                                                        Glorise 5410
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </Fade>
+                            </div>
+                            <div className='card-holder'>
+                                <Fade>
+                                    <div className="card-box">
+                                        <Link to="/glorich-6363">
+                                            <div className="details overflow-hidden border-radius">
+                                                <img src={GlorichImg5050} alt="" />
+                                                <div className="title">
+                                                    <h6>
+                                                        Glorich 6363
                                                     </h6>
                                                 </div>
                                             </div>
