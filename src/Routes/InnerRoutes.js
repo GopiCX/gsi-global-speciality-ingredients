@@ -34,6 +34,7 @@ import SolutionsHandbook from "../Screens/PdfPages/SolutionsHandbook";
 
 import Layout from "../Layout/Layout";
 import Glorich5050 from "../Screens/Blogs/Glorich5050";
+import Blogs from "../Screens/Blogs/Blogs";
 class InnerRoutes extends React.Component {
   componentDidMount() {
     this.handleTrailingSlash();
@@ -93,6 +94,7 @@ class InnerRoutes extends React.Component {
           <Route path="/terms-and-conditions" component={TermsandConditions} />
           <Route path="/gsi-introduction" component={GsiIntroduction} />
           <Route path="/solutions-handbook" component={SolutionsHandbook} />
+          <Route path="/blogs" exact component={Blogs} />
           <Route path="/blogs/glorich-5050" component={Glorich5050} />
           <Route
             path="/:url*"
