@@ -69,14 +69,6 @@ class InnerRoutes extends React.Component {
     return (
       <Layout {...this.props}>
         <Switch>
-          <Route
-            path="/:url*"
-            exact
-            strict
-            render={({ location }) => (
-              <Redirect to={location.pathname.replace(/\/+$/, "")} />
-            )}
-          />
           <Route exact path={`/`} component={Home} />
           <Route path="/about-us" component={AboutUs} />
           <Route path="/contact-us" component={ContactUs} />
@@ -113,6 +105,14 @@ class InnerRoutes extends React.Component {
           <Route path="/globalance-93" component={Globalance93} />
           <Route path="/glorise-5410" component={Glorise5410} />
           <Route path="/glorich-6363" component={Glorich6363} />
+          <Route
+            path="/:url*"
+            exact
+            strict
+            render={({ location }) => (
+              <Redirect to={location.pathname.replace(/\/+$/, "")} />
+            )}
+          />
         </Switch>
       </Layout>
     );
