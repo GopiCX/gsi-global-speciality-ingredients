@@ -1,7 +1,14 @@
 import React from "react";
-import Glorich from "../../assets/images/blogs/glorich.png"
 
 class BlogHeader extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.chips = props.chips ? props.chips : [];
+        this.title = props.title ? props.title : "";
+        this.featuredImage = props.featuredImage ? props.featuredImage : "";
+    }
+
     render() {
         return (
             <React.Fragment>
@@ -10,12 +17,15 @@ class BlogHeader extends React.Component {
                         <a href="/">Home</a> / <a href="/blogs">Blog</a> / Glorich 5050 & Glotella 6373 S
                     </div>
                     <div className="blog-tags">
-                        <span className="blog-tag-chip">Glorich</span>
-                        <span className="blog-tag-chip">Glotella</span>
+                        {
+                            this.chips.map((chip, i) => (
+                                <span className="blog-tag-chip" key={i}>{chip}</span>
+                            ))
+                        }
                     </div>
-                    <h2 className="blog-title">Glorich 5050 & Glotella 6373 S</h2>
+                    <h2 className="blog-title">{this.title}</h2>
                     <div className="blog-featured-image">
-                        <img src={Glorich} alt="" />
+                        <img src={this.featuredImage} alt="" />
                     </div>
                 </div>
             </React.Fragment>

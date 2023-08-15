@@ -18,10 +18,14 @@ export default class BlogSideBar extends React.Component {
                         <div className="sidebar-tags-container">
                             <h3>Tags</h3>
                             <div className="sidebar-tags">
-                                <span className="blog-tag-chip">Glorich</span>
-                                <span className="blog-tag-chip">Glotella</span>
-                                <span className="blog-tag-chip">GSI</span>
-                                <span className="blog-tag-chip">Blog</span>
+                                <span className="blog-tag-chip">Confectionery Solutions</span>
+                                <span className="blog-tag-chip">Bake stable fillings</span>
+                                <span className="blog-tag-chip">Confectionery Solution</span>
+                                <span className="blog-tag-chip">Coating</span>
+                                <span className="blog-tag-chip">Spreads</span>
+                                <span className="blog-tag-chip">Preservatives</span>
+                                <span className="blog-tag-chip">Margarine</span>
+                                <span className="blog-tag-chip">Shelf Life Solutions</span>
                             </div>
                         </div>
                     </div>
