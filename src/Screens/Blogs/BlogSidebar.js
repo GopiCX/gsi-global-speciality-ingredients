@@ -3,6 +3,7 @@ import RecentBlogOne from "../../assets/images/blogs/glorich.png";
 import RecentBlogTwo from "../../assets/images/blogs/glorich-7155.png";
 import RecentBlogThree from "../../assets/images/blogs/globalance-93.png";
 import RecentBlogFour from "../../assets/images/blogs/glorise.png";
+import { Link } from "react-router-dom";
 
 export default class BlogSideBar extends React.Component {
     constructor() {
@@ -40,59 +41,71 @@ export default class BlogSideBar extends React.Component {
                             </div>
                             {
                                 this.activeTab === "1" && <div className="tab-body">
-                                    <div className="post-container">
-                                        <div className="post-img">
-                                            <img src={RecentBlogOne} alt="" />
+                                    <Link to="/glorich-5050">
+                                        <div className="post-container">
+                                            <div className="post-img">
+                                                <img src={RecentBlogOne} alt="" />
+                                            </div>
+                                            <div className="post-info">
+                                                <p>Glorich 5050 & Glotella 6373 S</p>
+                                            </div>
                                         </div>
-                                        <div className="post-info">
-                                            <p>Glorich 5050 & Glotella 6373 S</p>
+                                    </Link>
+                                    <Link to="/glorich-7155">
+                                        <div className="post-container">
+                                            <div className="post-img">
+                                                <img src={RecentBlogTwo} alt="" />
+                                            </div>
+                                            <div className="post-info">
+                                                <p>Glorich 7155</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="post-container">
-                                        <div className="post-img">
-                                            <img src={RecentBlogTwo} alt="" />
+                                    </Link>
+                                    <Link to="/globalance-93">
+                                        <div className="post-container">
+                                            <div className="post-img">
+                                                <img src={RecentBlogThree} alt="" />
+                                            </div>
+                                            <div className="post-info">
+                                                <p>Globalance 93</p>
+                                            </div>
                                         </div>
-                                        <div className="post-info">
-                                            <p>Glorich 7155</p>
+                                    </Link>
+                                    <Link to="/glorise-5410">
+                                        <div className="post-container">
+                                            <div className="post-img">
+                                                <img src={RecentBlogFour} alt="" />
+                                            </div>
+                                            <div className="post-info">
+                                                <p>Glorise 5410</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="post-container">
-                                        <div className="post-img">
-                                            <img src={RecentBlogThree} alt="" />
-                                        </div>
-                                        <div className="post-info">
-                                            <p>Globalance 93</p>
-                                        </div>
-                                    </div>
-                                    <div className="post-container">
-                                        <div className="post-img">
-                                            <img src={RecentBlogFour} alt="" />
-                                        </div>
-                                        <div className="post-info">
-                                            <p>Glorise 5410</p>
-                                        </div>
-                                    </div>
+                                    </Link>
                                 </div>
                             }
 
                             {
                                 this.activeTab === "2" && <div className="tab-body">
-                                    <div className="post-container">
-                                        <div className="post-img">
-                                            <img src={RecentBlogOne} alt="" />
+                                    <Link to="/glorich-5050">
+                                        <div className="post-container">
+                                            <div className="post-img">
+                                                <img src={RecentBlogOne} alt="" />
+                                            </div>
+                                            <div className="post-info">
+                                                <p>Glorich 5050 & Glotella 6373 S</p>
+                                            </div>
                                         </div>
-                                        <div className="post-info">
-                                            <p>Glorich 5050 & Glotella 6373 S</p>
+                                    </Link>
+                                    <Link to="/glorise-5410">
+                                        <div className="post-container">
+                                            <div className="post-img">
+                                                <img src={RecentBlogFour} alt="" />
+                                            </div>
+                                            <div className="post-info">
+                                                <p>Glorise 5410</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="post-container">
-                                        <div className="post-img">
-                                            <img src={RecentBlogFour} alt="" />
-                                        </div>
-                                        <div className="post-info">
-                                            <p>Glorise 5410</p>
-                                        </div>
-                                    </div>
+                                    </Link>
                                 </div>
                             }
                         </div>
