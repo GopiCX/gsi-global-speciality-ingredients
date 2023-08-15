@@ -5,6 +5,7 @@ import "./Blogs.scss"
 import BlogHeader from "../../Components/Blogs/BlogHeader";
 import { Col, Row } from "antd";
 import BlogSideBar from "./BlogSidebar";
+import Glorich from "../../assets/images/blogs/glorich.png"
 
 class Glorich5050 extends React.Component {
     render() {
@@ -24,7 +25,7 @@ class Glorich5050 extends React.Component {
                     <Row gutter={[10, 10]}>
                         <Col xs={{ span: 24 }} lg={{ span: 16 }}>
                             <section className="blog-container border-danger ptb-100">
-                                <BlogHeader />
+                                <BlogHeader chips={["Confectionery Solutions", "Spreads"]} title="Glorich 5050 & GLOTELLA 6373 S" featuredImage={Glorich} />
 
                                 <div className="blog-body">
                                     <h3>The smoothest spread you'll ever taste!</h3>

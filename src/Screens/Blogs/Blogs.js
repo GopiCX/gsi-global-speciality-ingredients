@@ -44,6 +44,25 @@ class Blogs extends React.Component {
                                     </div>
                                 </Fade>
                             </div>
+                            <div className='card-holder'>
+                                <Fade>
+                                    <div className="card-box">
+                                        <Link to="/glorich-7155">
+                                            <div className="details overflow-hidden border-radius">
+                                                <img
+                                                    src={GlorichImg}
+                                                    alt="Process Development & Improvement​"
+                                                />
+                                                <div className="title">
+                                                    <h6>
+                                                        Glorich 7155
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </Fade>
+                            </div>
                         </div>
                     </div>
                 </section>
