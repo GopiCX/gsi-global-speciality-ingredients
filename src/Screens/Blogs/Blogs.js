@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
 import Fade from "react-reveal/Fade";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import GlorichImg from "../../assets/images/blogs/glorich.png"
 
 class Blogs extends React.Component {
@@ -27,7 +27,7 @@ class Blogs extends React.Component {
                             <div className='card-holder'>
                                 <Fade>
                                     <div className="card-box">
-                                        <Link to="/blogs/glorich-5050">
+                                        <Link to="/glorich-5050">
                                             <div className="details overflow-hidden border-radius">
                                                 <img
                                                     src={GlorichImg}
@@ -50,4 +50,4 @@ class Blogs extends React.Component {
         )
     }
 }
-export default Blogs;
+export default withRouter(Blogs);
