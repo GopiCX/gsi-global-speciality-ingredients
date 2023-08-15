@@ -1,3 +1,15 @@
+.blogs-container {
+    max-width: 1140px;
+    padding: 0 25px;
+    margin: 0 auto;
+    margin-top: 150px;
+
+    .blogs-desc {
+        margin: 15px 0;
+        font-size: 16px;
+    }
+}
+
 .blog-container {
     width: 100%;
     max-width: 750px;
