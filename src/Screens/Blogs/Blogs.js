@@ -30,10 +30,7 @@ class Blogs extends React.Component {
                                     <div className="card-box">
                                         <Link to="/glorich-5050">
                                             <div className="details overflow-hidden border-radius">
-                                                <img
-                                                    src={GlorichImg}
-                                                    alt="Process Development & Improvement​"
-                                                />
+                                                <img src={GlorichImg} alt="" />
                                                 <div className="title">
                                                     <h6>
                                                         Glorich 5050 & Glotella 6373 S
@@ -49,10 +46,7 @@ class Blogs extends React.Component {
                                     <div className="card-box">
                                         <Link to="/glorich-7155">
                                             <div className="details overflow-hidden border-radius">
-                                                <img
-                                                    src={GlorichImg}
-                                                    alt="Process Development & Improvement​"
-                                                />
+                                                <img src={GlorichImg} alt="" />
                                                 <div className="title">
                                                     <h6>
                                                         Glorich 7155
@@ -63,10 +57,26 @@ class Blogs extends React.Component {
                                     </div>
                                 </Fade>
                             </div>
+                            <div className='card-holder'>
+                                <Fade>
+                                    <div className="card-box">
+                                        <Link to="/globalance-93">
+                                            <div className="details overflow-hidden border-radius">
+                                                <img src={GlorichImg} alt="" />
+                                                <div className="title">
+                                                    <h6>
+                                                        Globalance 93
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </Fade>
+                            </div>
                         </div>
                     </div>
-                </section>
-            </React.Fragment>
+                </section >
+            </React.Fragment >
         )
     }
 }

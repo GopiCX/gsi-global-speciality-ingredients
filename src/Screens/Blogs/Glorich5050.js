@@ -15,10 +15,10 @@ class Glorich5050 extends React.Component {
                     <meta charSet="utf-8" />
                     <title>Glorich 5050 & GLOTELLA 6373 S | Blog | GSI Worldwide</title>
                     <meta name="title" content="Glorich 5050 & GLOTELLA 6373 S" />
-                    <meta name="description" content="our revolutionary product, GLORICH 5050 &amp; GLOTELLA 6373S! Enhance your spread experience like never before with this fantastic addition. GLORICH 5050 &amp; GLOTELLA 6373S is specially designed to elevate the flavour, texture, prevent oil separation and overall enjoyment of your favorite choice of spread" />
+                    <meta name="description" content="" />
                     <meta name="keywords" content="Confectionary,Bakery,ShelfLife,Oil&Fats,Anti-Clouding Agents,Crystal Promoter,Dairy Analogue,Colour,Nutrition,Adsorbent,Flavour" />
                     <meta name="og:title" content="Glorich 5050 & GLOTELLA 6373 S | Blog | GSI Worldwide" />
-                    <meta name="og:description" content="our revolutionary product, GLORICH 5050 &amp; GLOTELLA 6373S! Enhance your spread experience like never before with this fantastic addition. GLORICH 5050 &amp; GLOTELLA 6373S is specially designed to elevate the flavour, texture, prevent oil separation and overall enjoyment of your favorite choice of spread" />
+                    <meta name="og:description" content="" />
                 </Helmet>
 
                 <div className="blog-main container mx-auto">
