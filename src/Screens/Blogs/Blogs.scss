@@ -109,6 +109,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        border-bottom: 1px solid var(--primary);
 
         .tab {
             flex: 1;
@@ -116,12 +117,53 @@
             display: grid;
             place-items: center;
             cursor: pointer;
-            &:hover {
-                background-color: #cccccc;
+            border-right: 1px solid var(--primary);
+
+            &:last-child {
+                border-right: none;
             }
-            &.active {
+
+            &:hover {
                 background-color: #eeeeee;
             }
+
+            &.active {
+                background-color: #cccccc;
+            }
+        }
+    }
+
+    .tab-body {
+        width: 100%;
+    }
+}
+
+.post-container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 15px;
+    margin: 5px 0;
+
+
+    .post-img {
+        flex: 1;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .post-info {
+        flex: 2;
+
+        p {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 1;
         }
     }
 }
