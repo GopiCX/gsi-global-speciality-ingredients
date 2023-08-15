@@ -37,6 +37,8 @@ import Glorich5050 from "../Screens/Blogs/Glorich5050";
 import Blogs from "../Screens/Blogs/Blogs";
 import Glorich7155 from "../Screens/Blogs/Glorich7155";
 import Globalance93 from "../Screens/Blogs/Globalance93";
+import Glorise5410 from "../Screens/Blogs/Glorise5410";
+import Glorich6363 from "../Screens/Blogs/Glorich6363";
 class InnerRoutes extends React.Component {
   componentDidMount() {
     this.handleTrailingSlash();
@@ -101,6 +103,8 @@ class InnerRoutes extends React.Component {
           <Route path="/glorich-7155" component={Glorich7155} />
           <Route path="/glorich-7155" component={Glorich7155} />
           <Route path="/globalance-93" component={Globalance93} />
+          <Route path="/glorise-5410" component={Glorise5410} />
+          <Route path="/glorich-6363" component={Glorich6363} />
           <Route
             path="/:url*"
             exact
