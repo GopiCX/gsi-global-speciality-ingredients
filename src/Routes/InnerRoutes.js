@@ -96,8 +96,8 @@ class InnerRoutes extends React.Component {
           <Route path="/frying-solution" component={FryingSolution} />
           <Route path="/colour-solutions" component={ColourSolutions} />
           <Route path="/terms-and-conditions" component={TermsandConditions} />
-          <Route path="/gsi-introduction" component={GsiIntroduction} />
-          <Route path="/solutions-handbook" component={SolutionsHandbook} />
+          {/* <Route path="/gsi-introduction" component={GsiIntroduction} />
+          <Route path="/solutions-handbook" component={SolutionsHandbook} /> */}
           <Route path="/blogs" exact component={Blogs} />
           <Route path="/glorich-5050" component={Glorich5050} />
           <Route path="/glorich-7155" component={Glorich7155} />

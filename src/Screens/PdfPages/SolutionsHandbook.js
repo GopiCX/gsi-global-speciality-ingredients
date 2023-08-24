@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import "./PdfPages.scss";
-import SolutionsHandbookPdf from "../../assets/pdf/Solutions-Handbook.pdf";
+// import SolutionsHandbookPdf from "../../assets/pdf/Solutions-Handbook.pdf";
 import { Helmet } from "react-helmet";
 
 export class SolutionsHandbook extends Component {
@@ -18,7 +18,7 @@ export class SolutionsHandbook extends Component {
           <meta name="og:description" content="GSI Solutions’ handbook is a one-stop guide for tailor your needs helps to navigate, comprehensive and contains summaries of all the information in each topic area."/> 
               </Helmet>
 
-        <div className="pdf-preview">
+        {/* <div className="pdf-preview">
           <object data={SolutionsHandbookPdf} type="application/pdf">
             <iframe
               src={SolutionsHandbookPdf}
@@ -34,7 +34,7 @@ export class SolutionsHandbook extends Component {
               mirror link
             </a>
           </p>
-        </div>
+        </div> */}
       </React.Fragment>
     );
   }

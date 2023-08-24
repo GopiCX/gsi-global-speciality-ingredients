@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router";
 import "./PdfPages.scss";
-import GsiIntroPdf from "../../assets/pdf/GSI-Introduction.pdf";
+// import GsiIntroPdf from "../../assets/pdf/GSI-Introduction.pdf";
 import { Helmet } from "react-helmet";
 
 export class GsiIntroduction extends Component {
@@ -18,7 +18,7 @@ export class GsiIntroduction extends Component {
           <meta name="og:description" content="Global Specialty Ingredients (GSI) is a leading global formulations company with an extensive range of natural food ingredients, specialty ingredients and functional food ingredients."/> 
               </Helmet>
 
-        <div className="pdf-preview">
+        {/* <div className="pdf-preview">
           <object data={GsiIntroPdf} type="application/pdf">
             <iframe
               src={GsiIntroPdf}
@@ -34,7 +34,7 @@ export class GsiIntroduction extends Component {
               mirror link
             </a>
           </p>
-        </div>
+        </div> */}
       </React.Fragment>
     );
   }
