@@ -15,7 +15,7 @@ class AccountManagerRajeshJesuraj extends React.Component {
                             <img src={robertBaskerQrCode} alt="robert Basker QR code to scan" className="w-100 qr-contact" />
                         </Col>
                         <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 18 }} lg={{ span: 18 }} >
-                            <h3 className="text-blue">Dr. Robert Basker</h3>
+                            <h3 className="text-blue">Datuk Dr. Robert Basker</h3>
                             <h6>Technical Director</h6>
 
                             <Row gutter={[20, 20]} className="mb-4">

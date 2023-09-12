@@ -307,14 +307,14 @@ class AboutUs extends React.Component {
               <Col xs={{ span: 24, order: 2 }} sm={{ span: 24, order: 2 }} md={{ span: 12, order: 2 }} lg={{ span: 12, order: 2 }} >
                 <div className="border border-3 border-danger border-bottom-0 p-xs-3 p-3 p-lg-5">
                   <Fade>
-                    <h2 className="border-left-3 border-danger text-blue pl-3 mb-4">Dr.Robert Basker <span className="role text-black">Doctor of Philosophy, Ph.D. Chemistry</span> <span className="d-block font-weight-light">CEO & Technical Director</span></h2>
-                    <p>Dr Robert Basker provides great leadership on all aspects of the company’s operation by emphasizing on mission and vision</p>
+                    <h2 className="border-left-3 border-danger text-blue pl-3 mb-4">Datuk Dr. Robert Basker<span className="role text-black">Doctor of Philosophy, Ph.D. Chemistry</span> <span className="d-block font-weight-light">CEO & Technical Director</span></h2>
+                    <p>Datuk Dr. Robert Basker provides great leadership on all aspects of the company’s operation by emphasizing on mission and vision</p>
                   </Fade>
                 </div>
                 <div className="bg-red-gradient p-xs-3 p-3 p-lg-5">
                   <Fade>
-                    <h2 className="border-left-3 border-blue text-white pl-3 mb-4">Samantha Basker, <span className="d-block font-weight-light">CFO & Managing Director</span></h2>
-                    <p className="text-white">Samantha Basker who’s known for high degree of ability in planning, implementing, managing and running all aspects of a company</p>
+                    <h2 className="border-left-3 border-blue text-white pl-3 mb-4">Datin Shelah Basker, <span className="d-block font-weight-light">CFO & Managing Director</span></h2>
+                    <p className="text-white">Datin Shelah Basker who’s known for high degree of ability in planning, implementing, managing and running all aspects of a company</p>
                   </Fade>
                 </div>
               </Col>
