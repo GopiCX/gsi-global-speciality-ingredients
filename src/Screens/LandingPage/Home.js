@@ -28,10 +28,50 @@ import quoteTop from "../../assets/images/icons/quote-1.svg";
 import quoteBottom from "../../assets/images/icons/quote-2.svg";
 import { Helmet } from "react-helmet";
 import GsiPillars from "./GsiPillars/GsiPillars";
+import PopupOne from "../../assets/images/popup/home-1.png";
+import PopupTwo from "../../assets/images/popup/home-2.png";
 // import GsiPillars from "../../assets/images/5-pillars-of-gsi.svg";
 
 export default class Home extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      isOpen: false,
+      currentImageIndex: 0,
+      images: [PopupOne, PopupTwo],
+    };
+  }
+
+  openModal = () => {
+    this.setState({ isOpen: true });
+    this.intervalId = setInterval(this.nextSlide, 2500);
+  };
+
+  closeModal = () => {
+    this.setState({ isOpen: false });
+    clearInterval(this.intervalId);
+  };
+
+  nextSlide = () => {
+    this.setState((prevState) => ({
+      currentImageIndex:
+        (prevState.currentImageIndex + 1) % prevState.images.length,
+    }));
+  };
+
+  prevSlide = () => {
+    this.setState((prevState) => ({
+      currentImageIndex:
+        (prevState.currentImageIndex - 1 + prevState.images.length) %
+        prevState.images.length,
+    }));
+  };
+
+  componentDidMount() {
+    this.openModal();
+  }
   render() {
+    const { isOpen, currentImageIndex, images } = this.state;
     return (
       <React.Fragment>
         <Helmet>
@@ -66,6 +106,27 @@ export default class Home extends React.Component {
         {/* main slider starts */}
         <HomeSlider />
         {/* main slider ends */}
+
+        {isOpen && (
+          <div className="popup-container">
+            <div className="popup-content">
+              <button onClick={this.closeModal} className="close-button">
+                &times;
+              </button>
+              <button onClick={this.prevSlide} className="prev-button">
+                &#8249;
+              </button>
+              <img
+                src={images[currentImageIndex]}
+                alt={`${currentImageIndex + 1}`}
+                className="popup-slider"
+              />
+              <button onClick={this.nextSlide} className="next-button">
+                &#8250;
+              </button>
+            </div>
+          </div>
+        )}
 
         <section className="your-innovation pattern-1 py-5 p-mob">
           <div className="container mx-auto py-3">

@@ -53,9 +53,9 @@ class ContactUs extends React.Component {
                                             </ul>
                                         </div>
                                     </Fade>
-                                    <Fade>
+                                    {/* <Fade>
                                         <Link to="/key-account-manager" className="btn bg-red-gradient text-white mt-4">Meet Your Key Account Manager</Link>
-                                    </Fade>
+                                    </Fade> */}
                                 </div>
                             </Col>
                         </Row>

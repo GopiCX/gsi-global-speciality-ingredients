@@ -42,11 +42,11 @@ export default class Footer extends React.Component {
                                         <div className="icon">
                                             <i className="fa fa-whatsapp" aria-hidden="true" />
                                         </div>
-                                        <div className="details">
+                                        {/* <div className="details">
                                             <span>Whatsapp</span>
-                                            {/* <p><a href="https://wa.me/60189551105" target="_blank" rel="noopener noreferrer">+6018 955 1105</a></p> */}
+                                            <p><a href="https://wa.me/60189551105" target="_blank" rel="noopener noreferrer">+6018 955 1105</a></p>
                                               <p><a href="https://wa.me/60126363709" target="_blank" rel="noopener noreferrer">+6012 636 3709</a></p>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="contact-item">
                                         <div className="icon">

@@ -79,7 +79,7 @@ class InnerRoutes extends React.Component {
           <Route path="/career" component={Career} />
           <Route path="/our-solutions" component={OurSolutions} />
           <Route path="/responsibility" component={Responsibility} />
-          <Route path="/key-account-manager" component={KeyAccountmanager} />
+          {/* <Route path="/key-account-manager" component={KeyAccountmanager} /> */}
           <Route
             path="/confectionery-solutions"
             component={ConfectionerySolutions}
