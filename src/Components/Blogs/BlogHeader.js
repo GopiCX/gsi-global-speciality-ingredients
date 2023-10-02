@@ -14,7 +14,7 @@ class BlogHeader extends React.Component {
             <React.Fragment>
                 <div className="blog-header">
                     <div className="breadcrumb">
-                        <a href="/">Home</a> / <a href="/blogs">Blog</a> / Glorich 5050 & Glotella 6373 S
+                        <a href="/">Home</a> / <a href="/blogs">Blog</a> / {this.title}
                     </div>
                     <div className="blog-tags">
                         {
