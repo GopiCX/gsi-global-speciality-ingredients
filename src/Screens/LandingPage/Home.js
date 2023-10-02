@@ -38,40 +38,40 @@ export default class Home extends React.Component {
     this.state = {
       isOpen: false,
       currentImageIndex: 0,
-      images: [PopupOne, PopupTwo],
+      images: PopupTwo,
     };
   }
 
   openModal = () => {
     this.setState({ isOpen: true });
-    this.intervalId = setInterval(this.nextSlide, 2500);
+    // this.intervalId = setInterval(this.nextSlide, 2500);
   };
 
   closeModal = () => {
     this.setState({ isOpen: false });
-    clearInterval(this.intervalId);
+    // clearInterval(this.intervalId);
   };
 
-  nextSlide = () => {
-    this.setState((prevState) => ({
-      currentImageIndex:
-        (prevState.currentImageIndex + 1) % prevState.images.length,
-    }));
-  };
+  // nextSlide = () => {
+  //   this.setState((prevState) => ({
+  //     currentImageIndex:
+  //       (prevState.currentImageIndex + 1) % prevState.images.length,
+  //   }));
+  // };
 
-  prevSlide = () => {
-    this.setState((prevState) => ({
-      currentImageIndex:
-        (prevState.currentImageIndex - 1 + prevState.images.length) %
-        prevState.images.length,
-    }));
-  };
+  // prevSlide = () => {
+  //   this.setState((prevState) => ({
+  //     currentImageIndex:
+  //       (prevState.currentImageIndex - 1 + prevState.images.length) %
+  //       prevState.images.length,
+  //   }));
+  // };
 
   componentDidMount() {
     this.openModal();
   }
   render() {
-    const { isOpen, currentImageIndex, images } = this.state;
+    const { isOpen, images } = this.state;
     return (
       <React.Fragment>
         <Helmet>
@@ -113,17 +113,13 @@ export default class Home extends React.Component {
               <button onClick={this.closeModal} className="close-button">
                 &times;
               </button>
-              <button onClick={this.prevSlide} className="prev-button">
+              {/* <button onClick={this.prevSlide} className="prev-button">
                 &#8249;
-              </button>
-              <img
-                src={images[currentImageIndex]}
-                alt={`${currentImageIndex + 1}`}
-                className="popup-slider"
-              />
-              <button onClick={this.nextSlide} className="next-button">
+              </button> */}
+              <img src={images} alt="" className="popup-slider" />
+              {/* <button onClick={this.nextSlide} className="next-button">
                 &#8250;
-              </button>
+              </button> */}
             </div>
           </div>
         )}
