@@ -11,6 +11,8 @@ import Glorich6363 from "../../assets/images/blogs/glorich-6363.png";
 import Glocoat from "../../assets/images/blogs/glocoat-95-l.png";
 import Glofry from "../../assets/images/blogs/glofry.png";
 import Glomul from "../../assets/images/blogs/glomul-series.png";
+import ACAgent from "../../assets/images/blogs/anti-clouding-agent.png";
+import GAgent from "../../assets/images/blogs/glazing-agent.png";
 
 class Blogs extends React.Component {
   render() {
@@ -135,6 +137,30 @@ class Blogs extends React.Component {
                         <img src={Glomul} alt="" />
                         <div className="title">
                           <h6 className="uppercase">Glomul Series</h6>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                </Fade>
+                <Fade>
+                  <div className="card-box">
+                    <Link to="/anti-clouding-agent">
+                      <div className="details overflow-hidden border-radius">
+                        <img src={ACAgent} alt="" />
+                        <div className="title">
+                          <h6 className="uppercase">Anti-Clouding Agent</h6>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                </Fade>
+                <Fade>
+                  <div className="card-box">
+                    <Link to="/glazing-agent">
+                      <div className="details overflow-hidden border-radius">
+                        <img src={GAgent} alt="" />
+                        <div className="title">
+                          <h6 className="uppercase">Glazing Agent</h6>
                         </div>
                       </div>
                     </Link>

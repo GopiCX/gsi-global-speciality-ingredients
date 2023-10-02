@@ -23,12 +23,12 @@ import competence from "../../assets/images/04-competence.png";
 import customerSatisfactionSurvey from "../../assets/images/04-customer-satisfaction-survey.png";
 import innovation from "../../assets/images/04-innovation.png";
 import productPerformance from "../../assets/images/04-product-performance.png";
-import baker from "../../assets/images/baker.svg";
+// import baker from "../../assets/images/baker.svg";
 import quoteTop from "../../assets/images/icons/quote-1.svg";
 import quoteBottom from "../../assets/images/icons/quote-2.svg";
 import { Helmet } from "react-helmet";
 import GsiPillars from "./GsiPillars/GsiPillars";
-import PopupOne from "../../assets/images/popup/home-1.png";
+// import PopupOne from "../../assets/images/popup/home-1.png";
 import PopupTwo from "../../assets/images/popup/home-2.png";
 // import GsiPillars from "../../assets/images/5-pillars-of-gsi.svg";
 
