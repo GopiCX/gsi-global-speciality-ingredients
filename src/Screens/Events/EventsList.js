@@ -10,11 +10,12 @@ class EventsList extends React.Component {
         return (
             <React.Fragment>
                 <Timeline mode="alternate">
-                   
-                    <Timeline.Item label="2022" >SupplySide West Las Vegas, USA</Timeline.Item>
-                    <Timeline.Item label="2022" >GULFOOD MANUFACTURING Dubai, UAE</Timeline.Item>
-                    <Timeline.Item label="2022" >Food Ingredients Asia Indonesia</Timeline.Item>
-                    <Timeline.Item label="2019" >Vitafoods Asia, Singapore</Timeline.Item>
+                    <Timeline.Item label="2023">International Palm Oil Congress & Exhibition</Timeline.Item>
+                    <Timeline.Item label="2023">Food Ingredients Asia, Thailand</Timeline.Item>
+                    <Timeline.Item label="2022">SupplySide West Las Vegas, USA</Timeline.Item>
+                    <Timeline.Item label="2022">GULFOOD MANUFACTURING Dubai, UAE</Timeline.Item>
+                    <Timeline.Item label="2022">Food Ingredients Asia Indonesia</Timeline.Item>
+                    <Timeline.Item label="2019">Vitafoods Asia, Singapore</Timeline.Item>
                     <Timeline.Item label="2019">GULFOOD Dubai, UAE</Timeline.Item>
                     <Timeline.Item label="2019">Food Ingredients Asia</Timeline.Item>
                     <Timeline.Item label="2019">Africa’s Big 7, South Africa</Timeline.Item>
