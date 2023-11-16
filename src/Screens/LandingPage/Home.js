@@ -68,7 +68,7 @@ export default class Home extends React.Component {
   // };
 
   componentDidMount() {
-    this.openModal();
+    // this.openModal();
   }
   render() {
     const { isOpen, images } = this.state;
