@@ -20,7 +20,7 @@ import robertSmanantha from "../../assets/images/about/robert-samantha.png"
 // group-companies
 import logo1 from "../../assets/images/group-companies/logo-1.png";
 import logo2 from "../../assets/images/group-companies/logo-2.png";
-import logo3 from "../../assets/images/group-companies/logo-3.png";
+import logo3 from "../../assets/images/group-companies/logo-11.png";
 import logo4 from "../../assets/images/group-companies/logo-4.png";
 import logo5 from "../../assets/images/group-companies/logo-5.png";
 import logo6 from "../../assets/images/group-companies/logo-6.png";
