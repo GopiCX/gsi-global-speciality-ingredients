@@ -90,7 +90,7 @@ class HomeSlider extends React.Component {
               ref={(p) => (this.player = p)}
               containerWidth={this.state.windowWidth}
               containerHeight={this.state.windowHeight}
-              src="https://gsi-worldwide.s3.ap-southeast-1.amazonaws.com/gsi-hero-page.a431af6c4229f56c421e.mp4"
+              src="https://gsi-static-assets.s3.ap-southeast-1.amazonaws.com/gsi-hero-page.mp4"
               poster={posterImg}
               onPlay={this.handleOnPlay}
               onPause={this.handleOnPause}
