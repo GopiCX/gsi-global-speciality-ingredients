@@ -13,6 +13,7 @@ import Glofry from "../../assets/images/blogs/glofry.png";
 import Glomul from "../../assets/images/blogs/glomul-series.png";
 import ACAgent from "../../assets/images/blogs/anti-clouding-agent.png";
 import GAgent from "../../assets/images/blogs/glazing-agent.png";
+import GlorinaPopcornOil from "../../assets/images/blogs/glorina-popcorn-oil.png";
 
 class Blogs extends React.Component {
   render() {
@@ -161,6 +162,18 @@ class Blogs extends React.Component {
                         <img src={GAgent} alt="" />
                         <div className="title">
                           <h6 className="uppercase">Glazing Agent</h6>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                </Fade>
+                <Fade>
+                  <div className="card-box">
+                    <Link to="/glorina-popcorn-oil">
+                      <div className="details overflow-hidden border-radius">
+                        <img src={GlorinaPopcornOil} alt="" />
+                        <div className="title">
+                          <h6 className="uppercase">Glorina Popcorn Oil</h6>
                         </div>
                       </div>
                     </Link>

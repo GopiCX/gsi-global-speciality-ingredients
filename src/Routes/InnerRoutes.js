@@ -44,6 +44,7 @@ import GlofrySeries from "../Screens/Blogs/GlofrySeries";
 import GlomulSeries from "../Screens/Blogs/GlomulSeries";
 import AntiCloudingAgent from "../Screens/Blogs/AntiCloudingAgent";
 import GlazingAgent from "../Screens/Blogs/GlazingAgent";
+import GlorinaPopcornOil from "../Screens/Blogs/GlorinaPopcornOil";
 class InnerRoutes extends React.Component {
   componentDidMount() {
     this.handleTrailingSlash();
@@ -115,6 +116,7 @@ class InnerRoutes extends React.Component {
           <Route path="/glomul-series" component={GlomulSeries} />
           <Route path="/anti-clouding-agent" component={AntiCloudingAgent} />
           <Route path="/glazing-agent" component={GlazingAgent} />
+          <Route path="/glorina-popcorn-oil" component={GlorinaPopcornOil} />
           <Route
             path="/:url*"
             exact
